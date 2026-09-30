@@ -1,0 +1,7784 @@
+{
+ "meta": {
+  "competencia": "06/2026",
+  "fonte": "TCE-ES / CidadES – arquivo Vínculo 2026, 2º trimestre",
+  "censo": "Censo Escolar 2025 (Inep), Sinopse Estatística – docentes em regência, rede municipal"
+ },
+ "municipios": {
+  "3200102": {
+   "total": {
+    "pessoas": 480,
+    "vinculos": 546,
+    "efetivo": 285,
+    "dt": 224,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 399,
+    "vinculos": 464,
+    "efetivo": 241,
+    "dt": 186,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 362,
+    "vinculos": 426,
+    "efetivo": 212,
+    "dt": 179,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 131.9,
+     "efetivo": 75.9,
+     "dt": 67.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 131.9
+    },
+    "AI": {
+     "pessoas": 93.3,
+     "efetivo": 53.7,
+     "dt": 47.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 93.3
+    },
+    "AF": {
+     "pessoas": 143.8,
+     "efetivo": 86.4,
+     "dt": 64.6,
+     "outro": 0.0,
+     "identificado": 58.0,
+     "estimado": 85.8
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 38,
+    "vinculos": 38,
+    "efetivo": 30,
+    "dt": 7,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 82,
+    "vinculos": 82,
+    "efetivo": 44,
+    "dt": 38,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 48,
+     "vinculos": 48,
+     "efetivo": 17,
+     "dt": 31,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 34,
+     "vinculos": 34,
+     "efetivo": 27,
+     "dt": 7,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 311,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 311
+   },
+   "censo": {
+    "total": 240,
+    "EI": 123,
+    "AI": 87,
+    "AF": 80,
+    "efetivo": 123,
+    "temporario": 136
+   },
+   "tier": "200 a 500"
+  },
+  "3200169": {
+   "total": {
+    "pessoas": 208,
+    "vinculos": 210,
+    "efetivo": 70,
+    "dt": 139,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 157,
+    "vinculos": 159,
+    "efetivo": 65,
+    "dt": 93,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 156,
+    "vinculos": 158,
+    "efetivo": 65,
+    "dt": 93,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 49.7,
+     "efetivo": 22.8,
+     "dt": 27.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 49.7
+    },
+    "AI": {
+     "pessoas": 74.5,
+     "efetivo": 34.2,
+     "dt": 40.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 74.5
+    },
+    "AF": {
+     "pessoas": 32.8,
+     "efetivo": 8.1,
+     "dt": 25.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 32.8
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 1,
+    "vinculos": 1,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 51,
+    "vinculos": 51,
+    "efetivo": 5,
+    "dt": 46,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 40,
+     "vinculos": 40,
+     "efetivo": 0,
+     "dt": 40,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 11,
+     "vinculos": 11,
+     "efetivo": 5,
+     "dt": 6,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 157,
+   "sem_etapa_grupos": {
+    "EI_AI": 35,
+    "EI_AI_AF": 122
+   },
+   "censo": {
+    "total": 106,
+    "EI": 38,
+    "AI": 57,
+    "AF": 35,
+    "efetivo": 25,
+    "temporario": 81
+   },
+   "tier": "Menos de 200"
+  },
+  "3200136": {
+   "total": {
+    "pessoas": 237,
+    "vinculos": 258,
+    "efetivo": 111,
+    "dt": 115,
+    "outro": 21
+   },
+   "magisterio": {
+    "pessoas": 198,
+    "vinculos": 219,
+    "efetivo": 103,
+    "dt": 84,
+    "outro": 21
+   },
+   "professores": {
+    "pessoas": 164,
+    "vinculos": 180,
+    "efetivo": 91,
+    "dt": 80,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 56.1,
+     "efetivo": 34.6,
+     "dt": 23.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 56.1
+    },
+    "AI": {
+     "pessoas": 58.9,
+     "efetivo": 36.4,
+     "dt": 24.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 58.9
+    },
+    "AF": {
+     "pessoas": 52.0,
+     "efetivo": 20.0,
+     "dt": 34.0,
+     "outro": 0.0,
+     "identificado": 52.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 38,
+    "vinculos": 39,
+    "efetivo": 14,
+    "dt": 4,
+    "outro": 21
+   },
+   "outros": {
+    "pessoas": 39,
+    "vinculos": 39,
+    "efetivo": 8,
+    "dt": 31,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 29,
+     "vinculos": 29,
+     "efetivo": 0,
+     "dt": 29,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 10,
+     "vinculos": 10,
+     "efetivo": 8,
+     "dt": 2,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 115,
+   "sem_etapa_grupos": {
+    "EI_AI": 115
+   },
+   "censo": {
+    "total": 140,
+    "EI": 60,
+    "AI": 63,
+    "AF": 46,
+    "efetivo": 66,
+    "temporario": 80
+   },
+   "tier": "200 a 500"
+  },
+  "3200201": {
+   "total": {
+    "pessoas": 313,
+    "vinculos": 327,
+    "efetivo": 129,
+    "dt": 179,
+    "outro": 7
+   },
+   "magisterio": {
+    "pessoas": 254,
+    "vinculos": 267,
+    "efetivo": 129,
+    "dt": 120,
+    "outro": 7
+   },
+   "professores": {
+    "pessoas": 247,
+    "vinculos": 260,
+    "efetivo": 129,
+    "dt": 120,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 152.4,
+     "efetivo": 77.0,
+     "dt": 76.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 152.4
+    },
+    "AI": {
+     "pessoas": 86.4,
+     "efetivo": 43.7,
+     "dt": 43.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 86.4
+    },
+    "AF": {
+     "pessoas": 9.3,
+     "efetivo": 9.3,
+     "dt": 0.0,
+     "outro": 0.0,
+     "identificado": 9.0,
+     "estimado": 0.3
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 7,
+    "vinculos": 7,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 7
+   },
+   "outros": {
+    "pessoas": 59,
+    "vinculos": 60,
+    "efetivo": 0,
+    "dt": 59,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 59,
+     "vinculos": 60,
+     "efetivo": 0,
+     "dt": 59,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 239,
+   "sem_etapa_grupos": {
+    "EI_AI": 232,
+    "EI_AI_AF": 7
+   },
+   "censo": {
+    "total": 179,
+    "EI": 127,
+    "AI": 72,
+    "AF": 8,
+    "efetivo": 90,
+    "temporario": 94
+   },
+   "tier": "200 a 500"
+  },
+  "3200300": {
+   "total": {
+    "pessoas": 380,
+    "vinculos": 404,
+    "efetivo": 166,
+    "dt": 197,
+    "outro": 26
+   },
+   "magisterio": {
+    "pessoas": 271,
+    "vinculos": 292,
+    "efetivo": 131,
+    "dt": 122,
+    "outro": 26
+   },
+   "professores": {
+    "pessoas": 226,
+    "vinculos": 242,
+    "efetivo": 116,
+    "dt": 116,
+    "outro": 1
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 70.2,
+     "efetivo": 40.0,
+     "dt": 32.2,
+     "outro": 0.5,
+     "identificado": 0.0,
+     "estimado": 70.2
+    },
+    "AI": {
+     "pessoas": 64.8,
+     "efetivo": 37.0,
+     "dt": 29.8,
+     "outro": 0.5,
+     "identificado": 0.0,
+     "estimado": 64.8
+    },
+    "AF": {
+     "pessoas": 95.0,
+     "efetivo": 42.0,
+     "dt": 54.0,
+     "outro": 0.0,
+     "identificado": 95.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 48,
+    "vinculos": 50,
+    "efetivo": 16,
+    "dt": 7,
+    "outro": 25
+   },
+   "outros": {
+    "pessoas": 112,
+    "vinculos": 112,
+    "efetivo": 35,
+    "dt": 77,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 94,
+     "vinculos": 94,
+     "efetivo": 23,
+     "dt": 71,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 18,
+     "vinculos": 18,
+     "efetivo": 12,
+     "dt": 6,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 135,
+   "sem_etapa_grupos": {
+    "EI_AI": 135
+   },
+   "censo": {
+    "total": 164,
+    "EI": 66,
+    "AI": 61,
+    "AF": 77,
+    "efetivo": 77,
+    "temporario": 95
+   },
+   "tier": "200 a 500"
+  },
+  "3200359": {
+   "total": {
+    "pessoas": 144,
+    "vinculos": 153,
+    "efetivo": 53,
+    "dt": 91,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 100,
+    "vinculos": 109,
+    "efetivo": 43,
+    "dt": 58,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 93,
+    "vinculos": 97,
+    "efetivo": 36,
+    "dt": 58,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 37.8,
+     "efetivo": 14.6,
+     "dt": 23.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 37.8
+    },
+    "AI": {
+     "pessoas": 50.4,
+     "efetivo": 19.5,
+     "dt": 31.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 50.4
+    },
+    "AF": {
+     "pessoas": 4.7,
+     "efetivo": 1.8,
+     "dt": 2.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 4.7
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 12,
+    "vinculos": 12,
+    "efetivo": 12,
+    "dt": 0,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 44,
+    "vinculos": 44,
+    "efetivo": 10,
+    "dt": 33,
+    "outro": 1
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 37,
+     "vinculos": 37,
+     "efetivo": 4,
+     "dt": 33,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 7,
+     "vinculos": 7,
+     "efetivo": 6,
+     "dt": 0,
+     "outro": 1
+    }
+   },
+   "sem_etapa_pessoas": 93,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 93
+   },
+   "censo": {
+    "total": 56,
+    "EI": 24,
+    "AI": 32,
+    "AF": 3,
+    "efetivo": 18,
+    "temporario": 38
+   },
+   "tier": "Menos de 200"
+  },
+  "3200409": {
+   "total": {
+    "pessoas": 1177,
+    "vinculos": 1259,
+    "efetivo": 311,
+    "dt": 827,
+    "outro": 71
+   },
+   "magisterio": {
+    "pessoas": 777,
+    "vinculos": 856,
+    "efetivo": 286,
+    "dt": 452,
+    "outro": 71
+   },
+   "professores": {
+    "pessoas": 676,
+    "vinculos": 732,
+    "efetivo": 283,
+    "dt": 402,
+    "outro": 2
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 275.0,
+     "efetivo": 114.9,
+     "dt": 163.8,
+     "outro": 0.8,
+     "identificado": 0.0,
+     "estimado": 275.0
+    },
+    "AI": {
+     "pessoas": 216.0,
+     "efetivo": 90.2,
+     "dt": 128.6,
+     "outro": 0.6,
+     "identificado": 0.0,
+     "estimado": 216.0
+    },
+    "AF": {
+     "pessoas": 186.1,
+     "efetivo": 78.9,
+     "dt": 109.6,
+     "outro": 0.5,
+     "identificado": 2.0,
+     "estimado": 184.1
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 121,
+    "vinculos": 124,
+    "efetivo": 4,
+    "dt": 50,
+    "outro": 69
+   },
+   "outros": {
+    "pessoas": 402,
+    "vinculos": 403,
+    "efetivo": 25,
+    "dt": 377,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 356,
+     "vinculos": 357,
+     "efetivo": 0,
+     "dt": 356,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 46,
+     "vinculos": 46,
+     "efetivo": 25,
+     "dt": 21,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 675,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 675
+   },
+   "censo": {
+    "total": 501,
+    "EI": 233,
+    "AI": 183,
+    "AF": 156,
+    "efetivo": 178,
+    "temporario": 337
+   },
+   "tier": "Mais de 500"
+  },
+  "3200508": {
+   "total": {
+    "pessoas": 164,
+    "vinculos": 172,
+    "efetivo": 84,
+    "dt": 62,
+    "outro": 22
+   },
+   "magisterio": {
+    "pessoas": 122,
+    "vinculos": 130,
+    "efetivo": 84,
+    "dt": 25,
+    "outro": 17
+   },
+   "professores": {
+    "pessoas": 103,
+    "vinculos": 108,
+    "efetivo": 80,
+    "dt": 25,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 32.1,
+     "efetivo": 21.3,
+     "dt": 10.8,
+     "outro": 0.0,
+     "identificado": 24.0,
+     "estimado": 8.1
+    },
+    "AI": {
+     "pessoas": 40.6,
+     "efetivo": 34.4,
+     "dt": 7.2,
+     "outro": 0.0,
+     "identificado": 30.0,
+     "estimado": 10.6
+    },
+    "AF": {
+     "pessoas": 34.4,
+     "efetivo": 27.3,
+     "dt": 7.0,
+     "outro": 0.0,
+     "identificado": 25.0,
+     "estimado": 9.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 22,
+    "vinculos": 22,
+    "efetivo": 5,
+    "dt": 0,
+    "outro": 17
+   },
+   "outros": {
+    "pessoas": 42,
+    "vinculos": 42,
+    "efetivo": 0,
+    "dt": 37,
+    "outro": 5
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 37,
+     "vinculos": 37,
+     "efetivo": 0,
+     "dt": 37,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 5,
+     "vinculos": 5,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 5
+    }
+   },
+   "sem_etapa_pessoas": 28,
+   "sem_etapa_grupos": {
+    "EI_AI": 1,
+    "AI_AF": 1,
+    "EI_AI_AF": 26
+   },
+   "censo": {
+    "total": 76,
+    "EI": 25,
+    "AI": 31,
+    "AF": 29,
+    "efetivo": 65,
+    "temporario": 14
+   },
+   "tier": "Menos de 200"
+  },
+  "3200607": {
+   "total": {
+    "pessoas": 2037,
+    "vinculos": 2249,
+    "efetivo": 1275,
+    "dt": 760,
+    "outro": 53
+   },
+   "magisterio": {
+    "pessoas": 1355,
+    "vinculos": 1557,
+    "efetivo": 828,
+    "dt": 525,
+    "outro": 50
+   },
+   "professores": {
+    "pessoas": 1199,
+    "vinculos": 1348,
+    "efetivo": 764,
+    "dt": 468,
+    "outro": 1
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 418.4,
+     "efetivo": 297.0,
+     "dt": 133.3,
+     "outro": 0.4,
+     "identificado": 341.0,
+     "estimado": 77.4
+    },
+    "AI": {
+     "pessoas": 478.9,
+     "efetivo": 302.0,
+     "dt": 186.0,
+     "outro": 0.4,
+     "identificado": 387.0,
+     "estimado": 91.9
+    },
+    "AF": {
+     "pessoas": 256.6,
+     "efetivo": 155.0,
+     "dt": 103.7,
+     "outro": 0.2,
+     "identificado": 218.0,
+     "estimado": 38.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 94,
+    "vinculos": 101,
+    "efetivo": 50,
+    "dt": 46,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 207,
+    "vinculos": 209,
+    "efetivo": 98,
+    "dt": 62,
+    "outro": 49
+   },
+   "outros": {
+    "pessoas": 692,
+    "vinculos": 692,
+    "efetivo": 452,
+    "dt": 237,
+    "outro": 3
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 651,
+     "vinculos": 651,
+     "efetivo": 424,
+     "dt": 224,
+     "outro": 3
+    },
+    "secretaria": {
+     "pessoas": 41,
+     "vinculos": 41,
+     "efetivo": 28,
+     "dt": 13,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 208,
+   "sem_etapa_grupos": {
+    "EI_AI": 28,
+    "EI_AI_AF": 180
+   },
+   "censo": {
+    "total": 882,
+    "EI": 348,
+    "AI": 413,
+    "AF": 208,
+    "efetivo": 463,
+    "temporario": 459
+   },
+   "tier": "Mais de 500"
+  },
+  "3200706": {
+   "total": {
+    "pessoas": 251,
+    "vinculos": 271,
+    "efetivo": 101,
+    "dt": 147,
+    "outro": 7
+   },
+   "magisterio": {
+    "pessoas": 194,
+    "vinculos": 214,
+    "efetivo": 94,
+    "dt": 97,
+    "outro": 7
+   },
+   "professores": {
+    "pessoas": 172,
+    "vinculos": 187,
+    "efetivo": 88,
+    "dt": 86,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 66.9,
+     "efetivo": 36.7,
+     "dt": 30.2,
+     "outro": 0.0,
+     "identificado": 54.0,
+     "estimado": 12.9
+    },
+    "AI": {
+     "pessoas": 62.6,
+     "efetivo": 26.8,
+     "dt": 35.8,
+     "outro": 0.0,
+     "identificado": 53.0,
+     "estimado": 9.6
+    },
+    "AF": {
+     "pessoas": 54.5,
+     "efetivo": 30.5,
+     "dt": 24.0,
+     "outro": 0.0,
+     "identificado": 49.0,
+     "estimado": 5.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 27,
+    "vinculos": 27,
+    "efetivo": 8,
+    "dt": 12,
+    "outro": 7
+   },
+   "outros": {
+    "pessoas": 57,
+    "vinculos": 57,
+    "efetivo": 7,
+    "dt": 50,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 57,
+     "vinculos": 57,
+     "efetivo": 7,
+     "dt": 50,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 28,
+   "sem_etapa_grupos": {
+    "EI_AI": 6,
+    "EI_AI_AF": 22
+   },
+   "censo": {
+    "total": 129,
+    "EI": 66,
+    "AI": 49,
+    "AF": 38,
+    "efetivo": 51,
+    "temporario": 79
+   },
+   "tier": "200 a 500"
+  },
+  "3200805": {
+   "total": {
+    "pessoas": 528,
+    "vinculos": 590,
+    "efetivo": 349,
+    "dt": 152,
+    "outro": 40
+   },
+   "magisterio": {
+    "pessoas": 424,
+    "vinculos": 485,
+    "efetivo": 300,
+    "dt": 97,
+    "outro": 40
+   },
+   "professores": {
+    "pessoas": 369,
+    "vinculos": 412,
+    "efetivo": 285,
+    "dt": 96,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 147.8,
+     "efetivo": 114.2,
+     "dt": 38.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 147.8
+    },
+    "AI": {
+     "pessoas": 139.8,
+     "efetivo": 108.2,
+     "dt": 36.1,
+     "outro": 0.0,
+     "identificado": 1.0,
+     "estimado": 138.8
+    },
+    "AF": {
+     "pessoas": 82.4,
+     "efetivo": 63.7,
+     "dt": 21.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 82.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 71,
+    "vinculos": 73,
+    "efetivo": 31,
+    "dt": 1,
+    "outro": 40
+   },
+   "outros": {
+    "pessoas": 105,
+    "vinculos": 105,
+    "efetivo": 49,
+    "dt": 56,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 92,
+     "vinculos": 92,
+     "efetivo": 36,
+     "dt": 56,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 13,
+     "vinculos": 13,
+     "efetivo": 13,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 369,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 369
+   },
+   "censo": {
+    "total": 302,
+    "EI": 147,
+    "AI": 138,
+    "AF": 82,
+    "efetivo": 237,
+    "temporario": 95
+   },
+   "tier": "200 a 500"
+  },
+  "3200904": {
+   "total": {
+    "pessoas": 694,
+    "vinculos": 735,
+    "efetivo": 279,
+    "dt": 420,
+    "outro": 8
+   },
+   "magisterio": {
+    "pessoas": 515,
+    "vinculos": 555,
+    "efetivo": 252,
+    "dt": 268,
+    "outro": 8
+   },
+   "professores": {
+    "pessoas": 342,
+    "vinculos": 365,
+    "efetivo": 158,
+    "dt": 185,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 124.4,
+     "efetivo": 57.5,
+     "dt": 67.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 124.4
+    },
+    "AI": {
+     "pessoas": 142.0,
+     "efetivo": 65.6,
+     "dt": 76.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 142.0
+    },
+    "AF": {
+     "pessoas": 75.6,
+     "efetivo": 34.9,
+     "dt": 40.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 75.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 184,
+    "vinculos": 190,
+    "efetivo": 95,
+    "dt": 86,
+    "outro": 8
+   },
+   "outros": {
+    "pessoas": 180,
+    "vinculos": 180,
+    "efetivo": 27,
+    "dt": 153,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 168,
+     "vinculos": 168,
+     "efetivo": 27,
+     "dt": 141,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 12,
+     "vinculos": 12,
+     "efetivo": 0,
+     "dt": 12,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 342,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 342
+   },
+   "censo": {
+    "total": 339,
+    "EI": 148,
+    "AI": 169,
+    "AF": 90,
+    "efetivo": 174,
+    "temporario": 149
+   },
+   "tier": "Mais de 500"
+  },
+  "3201001": {
+   "total": {
+    "pessoas": 392,
+    "vinculos": 443,
+    "efetivo": 133,
+    "dt": 270,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 334,
+    "vinculos": 383,
+    "efetivo": 123,
+    "dt": 222,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 305,
+    "vinculos": 344,
+    "efetivo": 108,
+    "dt": 205,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 98.6,
+     "efetivo": 36.6,
+     "dt": 64.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 98.6
+    },
+    "AI": {
+     "pessoas": 107.4,
+     "efetivo": 39.9,
+     "dt": 70.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 107.4
+    },
+    "AF": {
+     "pessoas": 92.0,
+     "efetivo": 31.6,
+     "dt": 61.8,
+     "outro": 0.0,
+     "identificado": 42.0,
+     "estimado": 50.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 17,
+    "vinculos": 17,
+    "efetivo": 0,
+    "dt": 17,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 36,
+    "vinculos": 39,
+    "efetivo": 19,
+    "dt": 17,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 60,
+    "vinculos": 60,
+    "efetivo": 10,
+    "dt": 50,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 47,
+     "vinculos": 47,
+     "efetivo": 0,
+     "dt": 47,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 13,
+     "vinculos": 13,
+     "efetivo": 10,
+     "dt": 3,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 256,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 256
+   },
+   "censo": {
+    "total": 158,
+    "EI": 67,
+    "AI": 73,
+    "AF": 34,
+    "efetivo": 56,
+    "temporario": 110
+   },
+   "tier": "200 a 500"
+  },
+  "3201100": {
+   "total": {
+    "pessoas": 140,
+    "vinculos": 148,
+    "efetivo": 74,
+    "dt": 67,
+    "outro": 3
+   },
+   "magisterio": {
+    "pessoas": 129,
+    "vinculos": 137,
+    "efetivo": 74,
+    "dt": 58,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 106,
+    "vinculos": 114,
+    "efetivo": 73,
+    "dt": 37,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 42.7,
+     "efetivo": 23.5,
+     "dt": 21.2,
+     "outro": 0.0,
+     "identificado": 39.0,
+     "estimado": 3.7
+    },
+    "AI": {
+     "pessoas": 56.3,
+     "efetivo": 40.5,
+     "dt": 17.8,
+     "outro": 0.0,
+     "identificado": 15.0,
+     "estimado": 41.3
+    },
+    "AF": {
+     "pessoas": 11.0,
+     "efetivo": 11.0,
+     "dt": 0.0,
+     "outro": 0.0,
+     "identificado": 11.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 23,
+    "vinculos": 23,
+    "efetivo": 1,
+    "dt": 21,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 11,
+    "vinculos": 11,
+    "efetivo": 0,
+    "dt": 9,
+    "outro": 2
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 8,
+     "vinculos": 8,
+     "efetivo": 0,
+     "dt": 8,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 3,
+     "vinculos": 3,
+     "efetivo": 0,
+     "dt": 1,
+     "outro": 2
+    }
+   },
+   "sem_etapa_pessoas": 45,
+   "sem_etapa_grupos": {
+    "AI_AF": 36,
+    "EI_AI_AF": 9
+   },
+   "censo": {
+    "total": 69,
+    "EI": 29,
+    "AI": 41,
+    "AF": 0,
+    "efetivo": 41,
+    "temporario": 30
+   },
+   "tier": "Menos de 200"
+  },
+  "3201159": {
+   "total": {
+    "pessoas": 221,
+    "vinculos": 245,
+    "efetivo": 73,
+    "dt": 154,
+    "outro": 3
+   },
+   "magisterio": {
+    "pessoas": 169,
+    "vinculos": 193,
+    "efetivo": 68,
+    "dt": 108,
+    "outro": 2
+   },
+   "professores": {
+    "pessoas": 157,
+    "vinculos": 177,
+    "efetivo": 62,
+    "dt": 101,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 68.3,
+     "efetivo": 28.5,
+     "dt": 42.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 68.3
+    },
+    "AI": {
+     "pessoas": 65.7,
+     "efetivo": 27.5,
+     "dt": 41.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 65.7
+    },
+    "AF": {
+     "pessoas": 25.0,
+     "efetivo": 7.0,
+     "dt": 18.0,
+     "outro": 0.0,
+     "identificado": 25.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 16,
+    "vinculos": 16,
+    "efetivo": 6,
+    "dt": 8,
+    "outro": 2
+   },
+   "outros": {
+    "pessoas": 52,
+    "vinculos": 52,
+    "efetivo": 5,
+    "dt": 46,
+    "outro": 1
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 44,
+     "vinculos": 44,
+     "efetivo": 0,
+     "dt": 44,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 8,
+     "vinculos": 8,
+     "efetivo": 5,
+     "dt": 2,
+     "outro": 1
+    }
+   },
+   "sem_etapa_pessoas": 134,
+   "sem_etapa_grupos": {
+    "EI_AI": 134
+   },
+   "censo": {
+    "total": 100,
+    "EI": 52,
+    "AI": 50,
+    "AF": 23,
+    "efetivo": 39,
+    "temporario": 61
+   },
+   "tier": "Menos de 200"
+  },
+  "3201209": {
+   "total": {
+    "pessoas": 3393,
+    "vinculos": 3681,
+    "efetivo": 1334,
+    "dt": 2118,
+    "outro": 10
+   },
+   "magisterio": {
+    "pessoas": 2366,
+    "vinculos": 2638,
+    "efetivo": 1089,
+    "dt": 1338,
+    "outro": 7
+   },
+   "professores": {
+    "pessoas": 2322,
+    "vinculos": 2586,
+    "efetivo": 1089,
+    "dt": 1296,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 697.0,
+     "efetivo": 320.8,
+     "dt": 396.1,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 697.0
+    },
+    "AI": {
+     "pessoas": 671.8,
+     "efetivo": 309.2,
+     "dt": 381.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 671.8
+    },
+    "AF": {
+     "pessoas": 976.2,
+     "efetivo": 466.1,
+     "dt": 531.1,
+     "outro": 0.0,
+     "identificado": 624.0,
+     "estimado": 352.2
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 8,
+    "vinculos": 8,
+    "efetivo": 1,
+    "dt": 7,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 52,
+    "vinculos": 52,
+    "efetivo": 3,
+    "dt": 42,
+    "outro": 7
+   },
+   "outros": {
+    "pessoas": 1043,
+    "vinculos": 1043,
+    "efetivo": 257,
+    "dt": 783,
+    "outro": 3
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 1014,
+     "vinculos": 1014,
+     "efetivo": 228,
+     "dt": 783,
+     "outro": 3
+    },
+    "secretaria": {
+     "pessoas": 29,
+     "vinculos": 29,
+     "efetivo": 29,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 1721,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 1721
+   },
+   "censo": {
+    "total": 1466,
+    "EI": 663,
+    "AI": 639,
+    "AF": 335,
+    "efetivo": 614,
+    "temporario": 913
+   },
+   "tier": "Mais de 500"
+  },
+  "3201308": {
+   "total": {
+    "pessoas": 5166,
+    "vinculos": 5604,
+    "efetivo": 2921,
+    "dt": 2364,
+    "outro": 20
+   },
+   "magisterio": {
+    "pessoas": 4802,
+    "vinculos": 5240,
+    "efetivo": 2710,
+    "dt": 2216,
+    "outro": 15
+   },
+   "professores": {
+    "pessoas": 4448,
+    "vinculos": 4761,
+    "efetivo": 2521,
+    "dt": 2048,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 939.0,
+     "efetivo": 617.1,
+     "dt": 355.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 939.0
+    },
+    "AI": {
+     "pessoas": 1373.7,
+     "efetivo": 902.7,
+     "dt": 520.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 1373.7
+    },
+    "AF": {
+     "pessoas": 1722.3,
+     "efetivo": 820.3,
+     "dt": 918.0,
+     "outro": 0.0,
+     "identificado": 1722.0,
+     "estimado": 0.3
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 505,
+    "vinculos": 518,
+    "efetivo": 247,
+    "dt": 268,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 469,
+    "vinculos": 479,
+    "efetivo": 277,
+    "dt": 182,
+    "outro": 15
+   },
+   "outros": {
+    "pessoas": 364,
+    "vinculos": 364,
+    "efetivo": 211,
+    "dt": 148,
+    "outro": 5
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 330,
+     "vinculos": 330,
+     "efetivo": 186,
+     "dt": 139,
+     "outro": 5
+    },
+    "secretaria": {
+     "pessoas": 34,
+     "vinculos": 34,
+     "efetivo": 25,
+     "dt": 9,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 2313,
+   "sem_etapa_grupos": {
+    "EI_AI": 2312,
+    "EI_AI_AF": 1
+   },
+   "censo": {
+    "total": 3066,
+    "EI": 983,
+    "AI": 1438,
+    "AF": 842,
+    "efetivo": 1388,
+    "temporario": 1704
+   },
+   "tier": "Mais de 500"
+  },
+  "3201407": {
+   "total": {
+    "pessoas": 894,
+    "vinculos": 989,
+    "efetivo": 256,
+    "dt": 611,
+    "outro": 51
+   },
+   "magisterio": {
+    "pessoas": 587,
+    "vinculos": 674,
+    "efetivo": 191,
+    "dt": 363,
+    "outro": 50
+   },
+   "professores": {
+    "pessoas": 499,
+    "vinculos": 561,
+    "efetivo": 179,
+    "dt": 327,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 112.5,
+     "efetivo": 46.4,
+     "dt": 66.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 112.5
+    },
+    "AI": {
+     "pessoas": 152.0,
+     "efetivo": 62.7,
+     "dt": 90.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 152.0
+    },
+    "AF": {
+     "pessoas": 232.6,
+     "efetivo": 85.8,
+     "dt": 149.4,
+     "outro": 0.0,
+     "identificado": 135.0,
+     "estimado": 97.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 26,
+    "vinculos": 26,
+    "efetivo": 0,
+    "dt": 26,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 112,
+    "vinculos": 113,
+    "efetivo": 22,
+    "dt": 41,
+    "outro": 50
+   },
+   "outros": {
+    "pessoas": 314,
+    "vinculos": 315,
+    "efetivo": 65,
+    "dt": 249,
+    "outro": 1
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 276,
+     "vinculos": 277,
+     "efetivo": 51,
+     "dt": 225,
+     "outro": 1
+    },
+    "secretaria": {
+     "pessoas": 38,
+     "vinculos": 38,
+     "efetivo": 14,
+     "dt": 24,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 362,
+   "sem_etapa_grupos": {
+    "EI_AI": 67,
+    "EI_AI_AF": 295
+   },
+   "censo": {
+    "total": 382,
+    "EI": 148,
+    "AI": 200,
+    "AF": 172,
+    "efetivo": 134,
+    "temporario": 257
+   },
+   "tier": "Mais de 500"
+  },
+  "3201506": {
+   "total": {
+    "pessoas": 1799,
+    "vinculos": 1920,
+    "efetivo": 940,
+    "dt": 859,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 1536,
+    "vinculos": 1655,
+    "efetivo": 850,
+    "dt": 686,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 1506,
+    "vinculos": 1593,
+    "efetivo": 821,
+    "dt": 686,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 507.0,
+     "efetivo": 298.2,
+     "dt": 209.3,
+     "outro": 0.0,
+     "identificado": 263.0,
+     "estimado": 244.0
+    },
+    "AI": {
+     "pessoas": 519.2,
+     "efetivo": 345.1,
+     "dt": 174.6,
+     "outro": 0.0,
+     "identificado": 263.0,
+     "estimado": 256.2
+    },
+    "AF": {
+     "pessoas": 392.8,
+     "efetivo": 215.7,
+     "dt": 177.2,
+     "outro": 0.0,
+     "identificado": 306.0,
+     "estimado": 86.8
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 126,
+    "vinculos": 126,
+    "efetivo": 0,
+    "dt": 126,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 61,
+    "vinculos": 62,
+    "efetivo": 60,
+    "dt": 0,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 265,
+    "vinculos": 265,
+    "efetivo": 90,
+    "dt": 175,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 218,
+     "vinculos": 218,
+     "efetivo": 57,
+     "dt": 161,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 47,
+     "vinculos": 47,
+     "efetivo": 33,
+     "dt": 14,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 587,
+   "sem_etapa_grupos": {
+    "EI_AI": 263,
+    "EI_AI_AF": 324
+   },
+   "censo": {
+    "total": 943,
+    "EI": 381,
+    "AI": 400,
+    "AF": 286,
+    "efetivo": 536,
+    "temporario": 441
+   },
+   "tier": "Mais de 500"
+  },
+  "3201605": {
+   "total": {
+    "pessoas": 756,
+    "vinculos": 774,
+    "efetivo": 226,
+    "dt": 480,
+    "outro": 52
+   },
+   "magisterio": {
+    "pessoas": 623,
+    "vinculos": 637,
+    "efetivo": 195,
+    "dt": 376,
+    "outro": 52
+   },
+   "professores": {
+    "pessoas": 527,
+    "vinculos": 533,
+    "efetivo": 169,
+    "dt": 358,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 150.7,
+     "efetivo": 44.1,
+     "dt": 106.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 150.7
+    },
+    "AI": {
+     "pessoas": 190.8,
+     "efetivo": 55.8,
+     "dt": 135.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 190.8
+    },
+    "AF": {
+     "pessoas": 187.5,
+     "efetivo": 71.1,
+     "dt": 116.4,
+     "outro": 0.0,
+     "identificado": 23.0,
+     "estimado": 164.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 104,
+    "vinculos": 104,
+    "efetivo": 34,
+    "dt": 18,
+    "outro": 52
+   },
+   "outros": {
+    "pessoas": 137,
+    "vinculos": 137,
+    "efetivo": 31,
+    "dt": 106,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 84,
+     "vinculos": 84,
+     "efetivo": 10,
+     "dt": 74,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 53,
+     "vinculos": 53,
+     "efetivo": 21,
+     "dt": 32,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 506,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 506
+   },
+   "censo": {
+    "total": 351,
+    "EI": 120,
+    "AI": 152,
+    "AF": 131,
+    "efetivo": 81,
+    "temporario": 270
+   },
+   "tier": "Mais de 500"
+  },
+  "3201704": {
+   "total": {
+    "pessoas": 247,
+    "vinculos": 249,
+    "efetivo": 64,
+    "dt": 184,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 192,
+    "vinculos": 194,
+    "efetivo": 59,
+    "dt": 134,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 181,
+    "vinculos": 182,
+    "efetivo": 54,
+    "dt": 128,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 71.4,
+     "efetivo": 19.9,
+     "dt": 52.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 71.4
+    },
+    "AI": {
+     "pessoas": 79.6,
+     "efetivo": 22.1,
+     "dt": 58.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 79.6
+    },
+    "AF": {
+     "pessoas": 30.0,
+     "efetivo": 12.0,
+     "dt": 18.0,
+     "outro": 0.0,
+     "identificado": 30.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 12,
+    "vinculos": 12,
+    "efetivo": 6,
+    "dt": 6,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 55,
+    "vinculos": 55,
+    "efetivo": 5,
+    "dt": 50,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 55,
+     "vinculos": 55,
+     "efetivo": 5,
+     "dt": 50,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 151,
+   "sem_etapa_grupos": {
+    "EI_AI": 151
+   },
+   "censo": {
+    "total": 129,
+    "EI": 70,
+    "AI": 78,
+    "AF": 14,
+    "efetivo": 26,
+    "temporario": 104
+   },
+   "tier": "Menos de 200"
+  },
+  "3201803": {
+   "total": {
+    "pessoas": 72,
+    "vinculos": 78,
+    "efetivo": 12,
+    "dt": 47,
+    "outro": 13
+   },
+   "magisterio": {
+    "pessoas": 57,
+    "vinculos": 62,
+    "efetivo": 11,
+    "dt": 33,
+    "outro": 13
+   },
+   "professores": {
+    "pessoas": 41,
+    "vinculos": 45,
+    "efetivo": 11,
+    "dt": 30,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 14.2,
+     "efetivo": 0.7,
+     "dt": 13.5,
+     "outro": 0.0,
+     "identificado": 5.0,
+     "estimado": 9.2
+    },
+    "AI": {
+     "pessoas": 21.8,
+     "efetivo": 7.3,
+     "dt": 14.5,
+     "outro": 0.0,
+     "identificado": 6.0,
+     "estimado": 15.8
+    },
+    "AF": {
+     "pessoas": 6.0,
+     "efetivo": 4.0,
+     "dt": 2.0,
+     "outro": 0.0,
+     "identificado": 6.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 17,
+    "vinculos": 17,
+    "efetivo": 1,
+    "dt": 3,
+    "outro": 13
+   },
+   "outros": {
+    "pessoas": 16,
+    "vinculos": 16,
+    "efetivo": 1,
+    "dt": 15,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 12,
+     "vinculos": 12,
+     "efetivo": 0,
+     "dt": 12,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 4,
+     "vinculos": 4,
+     "efetivo": 1,
+     "dt": 3,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 25,
+   "sem_etapa_grupos": {
+    "EI_AI": 18,
+    "EI_AI_AF": 7
+   },
+   "censo": {
+    "total": 30,
+    "EI": 14,
+    "AI": 24,
+    "AF": 0,
+    "efetivo": 2,
+    "temporario": 28
+   },
+   "tier": "Menos de 200"
+  },
+  "3201902": {
+   "total": {
+    "pessoas": 741,
+    "vinculos": 772,
+    "efetivo": 283,
+    "dt": 467,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 520,
+    "vinculos": 550,
+    "efetivo": 216,
+    "dt": 313,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 491,
+    "vinculos": 506,
+    "efetivo": 202,
+    "dt": 297,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 181.9,
+     "efetivo": 85.1,
+     "dt": 99.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 181.9
+    },
+    "AI": {
+     "pessoas": 162.1,
+     "efetivo": 75.9,
+     "dt": 88.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 162.1
+    },
+    "AF": {
+     "pessoas": 150.0,
+     "efetivo": 42.0,
+     "dt": 109.0,
+     "outro": 0.0,
+     "identificado": 150.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 42,
+    "vinculos": 44,
+    "efetivo": 26,
+    "dt": 16,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 222,
+    "vinculos": 222,
+    "efetivo": 67,
+    "dt": 155,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 186,
+     "vinculos": 186,
+     "efetivo": 51,
+     "dt": 135,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 36,
+     "vinculos": 36,
+     "efetivo": 16,
+     "dt": 20,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 344,
+   "sem_etapa_grupos": {
+    "EI_AI": 344
+   },
+   "censo": {
+    "total": 368,
+    "EI": 156,
+    "AI": 139,
+    "AF": 186,
+    "efetivo": 114,
+    "temporario": 262
+   },
+   "tier": "Mais de 500"
+  },
+  "3202009": {
+   "total": {
+    "pessoas": 165,
+    "vinculos": 174,
+    "efetivo": 53,
+    "dt": 112,
+    "outro": 5
+   },
+   "magisterio": {
+    "pessoas": 120,
+    "vinculos": 128,
+    "efetivo": 51,
+    "dt": 69,
+    "outro": 5
+   },
+   "professores": {
+    "pessoas": 108,
+    "vinculos": 111,
+    "efetivo": 45,
+    "dt": 64,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 38.6,
+     "efetivo": 16.3,
+     "dt": 22.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 38.6
+    },
+    "AI": {
+     "pessoas": 39.4,
+     "efetivo": 16.7,
+     "dt": 23.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 39.4
+    },
+    "AF": {
+     "pessoas": 30.0,
+     "efetivo": 12.0,
+     "dt": 18.0,
+     "outro": 0.0,
+     "identificado": 30.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 16,
+    "vinculos": 17,
+    "efetivo": 7,
+    "dt": 5,
+    "outro": 5
+   },
+   "outros": {
+    "pessoas": 46,
+    "vinculos": 46,
+    "efetivo": 2,
+    "dt": 44,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 43,
+     "vinculos": 43,
+     "efetivo": 0,
+     "dt": 43,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 3,
+     "vinculos": 3,
+     "efetivo": 2,
+     "dt": 1,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 78,
+   "sem_etapa_grupos": {
+    "EI_AI": 78
+   },
+   "censo": {
+    "total": 79,
+    "EI": 44,
+    "AI": 45,
+    "AF": 4,
+    "efetivo": 32,
+    "temporario": 44
+   },
+   "tier": "Menos de 200"
+  },
+  "3202108": {
+   "total": {
+    "pessoas": 417,
+    "vinculos": 452,
+    "efetivo": 196,
+    "dt": 195,
+    "outro": 42
+   },
+   "magisterio": {
+    "pessoas": 282,
+    "vinculos": 315,
+    "efetivo": 157,
+    "dt": 99,
+    "outro": 41
+   },
+   "professores": {
+    "pessoas": 233,
+    "vinculos": 245,
+    "efetivo": 143,
+    "dt": 93,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 114.4,
+     "efetivo": 85.2,
+     "dt": 29.2,
+     "outro": 0.0,
+     "identificado": 22.0,
+     "estimado": 92.4
+    },
+    "AI": {
+     "pessoas": 103.8,
+     "efetivo": 57.8,
+     "dt": 46.0,
+     "outro": 0.0,
+     "identificado": 1.0,
+     "estimado": 102.8
+    },
+    "AF": {
+     "pessoas": 10.8,
+     "efetivo": 0.9,
+     "dt": 9.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 10.8
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 8,
+    "vinculos": 8,
+    "efetivo": 0,
+    "dt": 8,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 66,
+    "vinculos": 70,
+    "efetivo": 22,
+    "dt": 6,
+    "outro": 41
+   },
+   "outros": {
+    "pessoas": 137,
+    "vinculos": 137,
+    "efetivo": 39,
+    "dt": 97,
+    "outro": 1
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 133,
+     "vinculos": 133,
+     "efetivo": 35,
+     "dt": 97,
+     "outro": 1
+    },
+    "secretaria": {
+     "pessoas": 4,
+     "vinculos": 4,
+     "efetivo": 4,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 206,
+   "sem_etapa_grupos": {
+    "EI_AI": 131,
+    "AI_AF": 50,
+    "EI_AI_AF": 25
+   },
+   "censo": {
+    "total": 143,
+    "EI": 84,
+    "AI": 56,
+    "AF": 12,
+    "efetivo": 98,
+    "temporario": 49
+   },
+   "tier": "200 a 500"
+  },
+  "3202207": {
+   "total": {
+    "pessoas": 430,
+    "vinculos": 458,
+    "efetivo": 160,
+    "dt": 267,
+    "outro": 6
+   },
+   "magisterio": {
+    "pessoas": 276,
+    "vinculos": 301,
+    "efetivo": 130,
+    "dt": 141,
+    "outro": 6
+   },
+   "professores": {
+    "pessoas": 262,
+    "vinculos": 285,
+    "efetivo": 122,
+    "dt": 141,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 96.2,
+     "efetivo": 46.4,
+     "dt": 50.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 96.2
+    },
+    "AI": {
+     "pessoas": 77.8,
+     "efetivo": 37.6,
+     "dt": 40.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 77.8
+    },
+    "AF": {
+     "pessoas": 89.0,
+     "efetivo": 39.0,
+     "dt": 50.0,
+     "outro": 0.0,
+     "identificado": 89.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 16,
+    "vinculos": 16,
+    "efetivo": 10,
+    "dt": 0,
+    "outro": 6
+   },
+   "outros": {
+    "pessoas": 156,
+    "vinculos": 157,
+    "efetivo": 30,
+    "dt": 126,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 139,
+     "vinculos": 139,
+     "efetivo": 20,
+     "dt": 119,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 18,
+     "vinculos": 18,
+     "efetivo": 10,
+     "dt": 8,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 174,
+   "sem_etapa_grupos": {
+    "EI_AI": 174
+   },
+   "censo": {
+    "total": 178,
+    "EI": 89,
+    "AI": 72,
+    "AF": 42,
+    "efetivo": 71,
+    "temporario": 108
+   },
+   "tier": "200 a 500"
+  },
+  "3202256": {
+   "total": {
+    "pessoas": 252,
+    "vinculos": 280,
+    "efetivo": 45,
+    "dt": 210,
+    "outro": 6
+   },
+   "magisterio": {
+    "pessoas": 167,
+    "vinculos": 195,
+    "efetivo": 45,
+    "dt": 125,
+    "outro": 6
+   },
+   "professores": {
+    "pessoas": 150,
+    "vinculos": 170,
+    "efetivo": 45,
+    "dt": 108,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 72.3,
+     "efetivo": 23.6,
+     "dt": 49.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 72.3
+    },
+    "AI": {
+     "pessoas": 64.3,
+     "efetivo": 21.0,
+     "dt": 44.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 64.3
+    },
+    "AF": {
+     "pessoas": 16.4,
+     "efetivo": 1.4,
+     "dt": 15.0,
+     "outro": 0.0,
+     "identificado": 16.0,
+     "estimado": 0.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 25,
+    "vinculos": 25,
+    "efetivo": 1,
+    "dt": 18,
+    "outro": 6
+   },
+   "outros": {
+    "pessoas": 85,
+    "vinculos": 85,
+    "efetivo": 0,
+    "dt": 85,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 85,
+     "vinculos": 85,
+     "efetivo": 0,
+     "dt": 85,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 137,
+   "sem_etapa_grupos": {
+    "EI_AI": 134,
+    "EI_AI_AF": 3
+   },
+   "censo": {
+    "total": 109,
+    "EI": 54,
+    "AI": 48,
+    "AF": 17,
+    "efetivo": 22,
+    "temporario": 88
+   },
+   "tier": "Menos de 200"
+  },
+  "3202306": {
+   "total": {
+    "pessoas": 503,
+    "vinculos": 541,
+    "efetivo": 170,
+    "dt": 337,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 447,
+    "vinculos": 485,
+    "efetivo": 160,
+    "dt": 291,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 422,
+    "vinculos": 455,
+    "efetivo": 145,
+    "dt": 281,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 235.0,
+     "efetivo": 81.4,
+     "dt": 157.2,
+     "outro": 0.0,
+     "identificado": 110.0,
+     "estimado": 125.0
+    },
+    "AI": {
+     "pessoas": 93.7,
+     "efetivo": 28.8,
+     "dt": 65.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 93.7
+    },
+    "AF": {
+     "pessoas": 78.3,
+     "efetivo": 31.8,
+     "dt": 46.5,
+     "outro": 0.0,
+     "identificado": 73.0,
+     "estimado": 5.3
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 25,
+    "vinculos": 25,
+    "efetivo": 5,
+    "dt": 20,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 29,
+    "vinculos": 30,
+    "efetivo": 16,
+    "dt": 13,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 56,
+    "vinculos": 56,
+    "efetivo": 10,
+    "dt": 46,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 32,
+     "vinculos": 32,
+     "efetivo": 0,
+     "dt": 32,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 24,
+     "vinculos": 24,
+     "efetivo": 10,
+     "dt": 14,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 224,
+   "sem_etapa_grupos": {
+    "EI_AI": 192,
+    "EI_AI_AF": 32
+   },
+   "censo": {
+    "total": 284,
+    "EI": 156,
+    "AI": 117,
+    "AF": 54,
+    "efetivo": 80,
+    "temporario": 203
+   },
+   "tier": "200 a 500"
+  },
+  "3202405": {
+   "total": {
+    "pessoas": 2030,
+    "vinculos": 2331,
+    "efetivo": 899,
+    "dt": 1173,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 2030,
+    "vinculos": 2331,
+    "efetivo": 899,
+    "dt": 1173,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 1877,
+    "vinculos": 2134,
+    "efetivo": 807,
+    "dt": 1109,
+    "outro": 1
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 627.2,
+     "efetivo": 286.1,
+     "dt": 353.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 627.2
+    },
+    "AI": {
+     "pessoas": 650.2,
+     "efetivo": 296.6,
+     "dt": 366.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 650.2
+    },
+    "AF": {
+     "pessoas": 624.6,
+     "efetivo": 239.4,
+     "dt": 395.2,
+     "outro": 1.0,
+     "identificado": 618.0,
+     "estimado": 6.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 1,
+    "vinculos": 1,
+    "efetivo": 1,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 197,
+    "vinculos": 197,
+    "efetivo": 131,
+    "dt": 66,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 1284,
+   "sem_etapa_grupos": {
+    "EI_AI": 1259,
+    "EI_AI_AF": 25
+   },
+   "censo": {
+    "total": 1105,
+    "EI": 436,
+    "AI": 452,
+    "AF": 318,
+    "efetivo": 513,
+    "temporario": 623
+   },
+   "tier": "Mais de 500"
+  },
+  "3202454": {
+   "total": {
+    "pessoas": 544,
+    "vinculos": 565,
+    "efetivo": 131,
+    "dt": 395,
+    "outro": 30
+   },
+   "magisterio": {
+    "pessoas": 380,
+    "vinculos": 400,
+    "efetivo": 111,
+    "dt": 251,
+    "outro": 30
+   },
+   "professores": {
+    "pessoas": 332,
+    "vinculos": 348,
+    "efetivo": 98,
+    "dt": 244,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 0.0,
+     "efetivo": 0.0,
+     "dt": 0.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 0.0
+    },
+    "AI": {
+     "pessoas": 233.0,
+     "efetivo": 78.0,
+     "dt": 162.0,
+     "outro": 0.0,
+     "identificado": 233.0,
+     "estimado": 0.0
+    },
+    "AF": {
+     "pessoas": 102.0,
+     "efetivo": 20.0,
+     "dt": 83.0,
+     "outro": 0.0,
+     "identificado": 102.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 50,
+    "vinculos": 52,
+    "efetivo": 14,
+    "dt": 7,
+    "outro": 30
+   },
+   "outros": {
+    "pessoas": 165,
+    "vinculos": 165,
+    "efetivo": 20,
+    "dt": 145,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 143,
+     "vinculos": 143,
+     "efetivo": 8,
+     "dt": 135,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 22,
+     "vinculos": 22,
+     "efetivo": 12,
+     "dt": 10,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 0,
+   "sem_etapa_grupos": {},
+   "censo": {
+    "total": 263,
+    "EI": 87,
+    "AI": 131,
+    "AF": 76,
+    "efetivo": 68,
+    "temporario": 204
+   },
+   "tier": "200 a 500"
+  },
+  "3202504": {
+   "total": {
+    "pessoas": 253,
+    "vinculos": 266,
+    "efetivo": 98,
+    "dt": 160,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 179,
+    "vinculos": 192,
+    "efetivo": 88,
+    "dt": 96,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 157,
+    "vinculos": 163,
+    "efetivo": 78,
+    "dt": 83,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 67.9,
+     "efetivo": 34.8,
+     "dt": 34.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 67.9
+    },
+    "AI": {
+     "pessoas": 75.6,
+     "efetivo": 38.8,
+     "dt": 38.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 75.6
+    },
+    "AF": {
+     "pessoas": 14.6,
+     "efetivo": 5.4,
+     "dt": 9.3,
+     "outro": 0.0,
+     "identificado": 13.0,
+     "estimado": 1.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 28,
+    "vinculos": 29,
+    "efetivo": 13,
+    "dt": 15,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 74,
+    "vinculos": 74,
+    "efetivo": 10,
+    "dt": 64,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 65,
+     "vinculos": 65,
+     "efetivo": 9,
+     "dt": 56,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 9,
+     "vinculos": 9,
+     "efetivo": 1,
+     "dt": 8,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 145,
+   "sem_etapa_grupos": {
+    "EI_AI": 130,
+    "EI_AI_AF": 15
+   },
+   "censo": {
+    "total": 91,
+    "EI": 44,
+    "AI": 49,
+    "AF": 11,
+    "efetivo": 41,
+    "temporario": 52
+   },
+   "tier": "Menos de 200"
+  },
+  "3202553": {
+   "total": {
+    "pessoas": 246,
+    "vinculos": 252,
+    "efetivo": 103,
+    "dt": 128,
+    "outro": 16
+   },
+   "magisterio": {
+    "pessoas": 213,
+    "vinculos": 219,
+    "efetivo": 88,
+    "dt": 110,
+    "outro": 16
+   },
+   "professores": {
+    "pessoas": 188,
+    "vinculos": 193,
+    "efetivo": 85,
+    "dt": 104,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 71.6,
+     "efetivo": 32.0,
+     "dt": 40.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 71.6
+    },
+    "AI": {
+     "pessoas": 98.3,
+     "efetivo": 44.0,
+     "dt": 54.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 98.3
+    },
+    "AF": {
+     "pessoas": 18.1,
+     "efetivo": 9.0,
+     "dt": 9.1,
+     "outro": 0.0,
+     "identificado": 18.0,
+     "estimado": 0.1
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 26,
+    "vinculos": 26,
+    "efetivo": 3,
+    "dt": 7,
+    "outro": 16
+   },
+   "outros": {
+    "pessoas": 33,
+    "vinculos": 33,
+    "efetivo": 15,
+    "dt": 18,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 29,
+     "vinculos": 29,
+     "efetivo": 12,
+     "dt": 17,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 4,
+     "vinculos": 4,
+     "efetivo": 3,
+     "dt": 1,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 170,
+   "sem_etapa_grupos": {
+    "EI_AI": 161,
+    "EI_AI_AF": 9
+   },
+   "censo": {
+    "total": 121,
+    "EI": 51,
+    "AI": 70,
+    "AF": 2,
+    "efetivo": 30,
+    "temporario": 91
+   },
+   "tier": "200 a 500"
+  },
+  "3202603": {
+   "total": {
+    "pessoas": 217,
+    "vinculos": 227,
+    "efetivo": 41,
+    "dt": 171,
+    "outro": 10
+   },
+   "magisterio": {
+    "pessoas": 154,
+    "vinculos": 164,
+    "efetivo": 37,
+    "dt": 112,
+    "outro": 10
+   },
+   "professores": {
+    "pessoas": 133,
+    "vinculos": 137,
+    "efetivo": 32,
+    "dt": 101,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 56.1,
+     "efetivo": 13.9,
+     "dt": 42.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 56.1
+    },
+    "AI": {
+     "pessoas": 48.9,
+     "efetivo": 12.1,
+     "dt": 36.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 48.9
+    },
+    "AF": {
+     "pessoas": 29.0,
+     "efetivo": 7.0,
+     "dt": 22.0,
+     "outro": 0.0,
+     "identificado": 29.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 26,
+    "vinculos": 27,
+    "efetivo": 5,
+    "dt": 11,
+    "outro": 10
+   },
+   "outros": {
+    "pessoas": 63,
+    "vinculos": 63,
+    "efetivo": 4,
+    "dt": 59,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 59,
+     "vinculos": 59,
+     "efetivo": 0,
+     "dt": 59,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 4,
+     "vinculos": 4,
+     "efetivo": 4,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 105,
+   "sem_etapa_grupos": {
+    "EI_AI": 105
+   },
+   "censo": {
+    "total": 105,
+    "EI": 54,
+    "AI": 47,
+    "AF": 15,
+    "efetivo": 19,
+    "temporario": 86
+   },
+   "tier": "Menos de 200"
+  },
+  "3202652": {
+   "total": {
+    "pessoas": 258,
+    "vinculos": 294,
+    "efetivo": 88,
+    "dt": 156,
+    "outro": 19
+   },
+   "magisterio": {
+    "pessoas": 194,
+    "vinculos": 230,
+    "efetivo": 77,
+    "dt": 103,
+    "outro": 19
+   },
+   "professores": {
+    "pessoas": 169,
+    "vinculos": 197,
+    "efetivo": 72,
+    "dt": 97,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 87.2,
+     "efetivo": 34.1,
+     "dt": 53.1,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 87.2
+    },
+    "AI": {
+     "pessoas": 63.8,
+     "efetivo": 24.9,
+     "dt": 38.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 63.8
+    },
+    "AF": {
+     "pessoas": 21.0,
+     "efetivo": 13.0,
+     "dt": 8.0,
+     "outro": 0.0,
+     "identificado": 21.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 32,
+    "vinculos": 33,
+    "efetivo": 7,
+    "dt": 6,
+    "outro": 19
+   },
+   "outros": {
+    "pessoas": 64,
+    "vinculos": 64,
+    "efetivo": 11,
+    "dt": 53,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 52,
+     "vinculos": 52,
+     "efetivo": 3,
+     "dt": 49,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 12,
+     "vinculos": 12,
+     "efetivo": 8,
+     "dt": 4,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 151,
+   "sem_etapa_grupos": {
+    "EI_AI": 151
+   },
+   "censo": {
+    "total": 123,
+    "EI": 71,
+    "AI": 52,
+    "AF": 21,
+    "efetivo": 52,
+    "temporario": 56
+   },
+   "tier": "200 a 500"
+  },
+  "3202702": {
+   "total": {
+    "pessoas": 218,
+    "vinculos": 231,
+    "efetivo": 39,
+    "dt": 180,
+    "outro": 9
+   },
+   "magisterio": {
+    "pessoas": 199,
+    "vinculos": 212,
+    "efetivo": 39,
+    "dt": 161,
+    "outro": 9
+   },
+   "professores": {
+    "pessoas": 185,
+    "vinculos": 192,
+    "efetivo": 38,
+    "dt": 151,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 90.2,
+     "efetivo": 17.9,
+     "dt": 74.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 90.2
+    },
+    "AI": {
+     "pessoas": 70.8,
+     "efetivo": 14.1,
+     "dt": 58.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 70.8
+    },
+    "AF": {
+     "pessoas": 24.0,
+     "efetivo": 6.0,
+     "dt": 18.0,
+     "outro": 0.0,
+     "identificado": 24.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 19,
+    "vinculos": 20,
+    "efetivo": 1,
+    "dt": 10,
+    "outro": 9
+   },
+   "outros": {
+    "pessoas": 19,
+    "vinculos": 19,
+    "efetivo": 0,
+    "dt": 19,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 19,
+     "vinculos": 19,
+     "efetivo": 0,
+     "dt": 19,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 161,
+   "sem_etapa_grupos": {
+    "EI_AI": 161
+   },
+   "censo": {
+    "total": 149,
+    "EI": 88,
+    "AI": 69,
+    "AF": 0,
+    "efetivo": 20,
+    "temporario": 89
+   },
+   "tier": "200 a 500"
+  },
+  "3202801": {
+   "total": {
+    "pessoas": 1031,
+    "vinculos": 1233,
+    "efetivo": 335,
+    "dt": 707,
+    "outro": 68
+   },
+   "magisterio": {
+    "pessoas": 761,
+    "vinculos": 951,
+    "efetivo": 300,
+    "dt": 473,
+    "outro": 66
+   },
+   "professores": {
+    "pessoas": 688,
+    "vinculos": 803,
+    "efetivo": 276,
+    "dt": 432,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 258.3,
+     "efetivo": 104.6,
+     "dt": 161.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 258.3
+    },
+    "AI": {
+     "pessoas": 226.9,
+     "efetivo": 91.9,
+     "dt": 141.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 226.9
+    },
+    "AF": {
+     "pessoas": 212.7,
+     "efetivo": 89.5,
+     "dt": 129.2,
+     "outro": 0.0,
+     "identificado": 9.0,
+     "estimado": 203.7
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 142,
+    "vinculos": 148,
+    "efetivo": 40,
+    "dt": 41,
+    "outro": 66
+   },
+   "outros": {
+    "pessoas": 279,
+    "vinculos": 282,
+    "efetivo": 35,
+    "dt": 242,
+    "outro": 2
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 279,
+     "vinculos": 282,
+     "efetivo": 35,
+     "dt": 242,
+     "outro": 2
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 689,
+   "sem_etapa_grupos": {
+    "EI_AI": 8,
+    "EI_AI_AF": 681
+   },
+   "censo": {
+    "total": 517,
+    "EI": 222,
+    "AI": 195,
+    "AF": 178,
+    "efetivo": 229,
+    "temporario": 364
+   },
+   "tier": "Mais de 500"
+  },
+  "3202900": {
+   "total": {
+    "pessoas": 205,
+    "vinculos": 207,
+    "efetivo": 23,
+    "dt": 181,
+    "outro": 2
+   },
+   "magisterio": {
+    "pessoas": 152,
+    "vinculos": 154,
+    "efetivo": 23,
+    "dt": 128,
+    "outro": 2
+   },
+   "professores": {
+    "pessoas": 130,
+    "vinculos": 131,
+    "efetivo": 17,
+    "dt": 113,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 72.4,
+     "efetivo": 10.0,
+     "dt": 62.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 72.4
+    },
+    "AI": {
+     "pessoas": 49.3,
+     "efetivo": 6.8,
+     "dt": 42.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 49.3
+    },
+    "AF": {
+     "pessoas": 8.3,
+     "efetivo": 0.3,
+     "dt": 8.0,
+     "outro": 0.0,
+     "identificado": 8.0,
+     "estimado": 0.3
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 22,
+    "vinculos": 23,
+    "efetivo": 6,
+    "dt": 15,
+    "outro": 2
+   },
+   "outros": {
+    "pessoas": 53,
+    "vinculos": 53,
+    "efetivo": 0,
+    "dt": 53,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 53,
+     "vinculos": 53,
+     "efetivo": 0,
+     "dt": 53,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 122,
+   "sem_etapa_grupos": {
+    "EI_AI": 120,
+    "EI_AI_AF": 2
+   },
+   "censo": {
+    "total": 112,
+    "EI": 69,
+    "AI": 47,
+    "AF": 18,
+    "efetivo": 11,
+    "temporario": 100
+   },
+   "tier": "Menos de 200"
+  },
+  "3203007": {
+   "total": {
+    "pessoas": 373,
+    "vinculos": 399,
+    "efetivo": 198,
+    "dt": 172,
+    "outro": 22
+   },
+   "magisterio": {
+    "pessoas": 290,
+    "vinculos": 316,
+    "efetivo": 180,
+    "dt": 107,
+    "outro": 22
+   },
+   "professores": {
+    "pessoas": 265,
+    "vinculos": 270,
+    "efetivo": 165,
+    "dt": 100,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 111.9,
+     "efetivo": 67.7,
+     "dt": 44.2,
+     "outro": 0.0,
+     "identificado": 63.0,
+     "estimado": 48.9
+    },
+    "AI": {
+     "pessoas": 119.7,
+     "efetivo": 73.9,
+     "dt": 45.8,
+     "outro": 0.0,
+     "identificado": 69.0,
+     "estimado": 50.7
+    },
+    "AF": {
+     "pessoas": 35.4,
+     "efetivo": 25.4,
+     "dt": 10.0,
+     "outro": 0.0,
+     "identificado": 34.0,
+     "estimado": 1.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 43,
+    "vinculos": 46,
+    "efetivo": 16,
+    "dt": 8,
+    "outro": 22
+   },
+   "outros": {
+    "pessoas": 83,
+    "vinculos": 83,
+    "efetivo": 18,
+    "dt": 65,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 78,
+     "vinculos": 78,
+     "efetivo": 13,
+     "dt": 65,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 5,
+     "vinculos": 5,
+     "efetivo": 5,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 101,
+   "sem_etapa_grupos": {
+    "EI_AI": 90,
+    "EI_AI_AF": 11
+   },
+   "censo": {
+    "total": 183,
+    "EI": 83,
+    "AI": 86,
+    "AF": 25,
+    "efetivo": 118,
+    "temporario": 74
+   },
+   "tier": "200 a 500"
+  },
+  "3203056": {
+   "total": {
+    "pessoas": 712,
+    "vinculos": 753,
+    "efetivo": 193,
+    "dt": 476,
+    "outro": 53
+   },
+   "magisterio": {
+    "pessoas": 534,
+    "vinculos": 574,
+    "efetivo": 188,
+    "dt": 310,
+    "outro": 46
+   },
+   "professores": {
+    "pessoas": 463,
+    "vinculos": 489,
+    "efetivo": 179,
+    "dt": 288,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 137.7,
+     "efetivo": 61.6,
+     "dt": 77.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 137.7
+    },
+    "AI": {
+     "pessoas": 166.3,
+     "efetivo": 74.4,
+     "dt": 93.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 166.3
+    },
+    "AF": {
+     "pessoas": 164.0,
+     "efetivo": 43.0,
+     "dt": 121.0,
+     "outro": 0.0,
+     "identificado": 164.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 85,
+    "vinculos": 85,
+    "efetivo": 16,
+    "dt": 23,
+    "outro": 46
+   },
+   "outros": {
+    "pessoas": 179,
+    "vinculos": 179,
+    "efetivo": 5,
+    "dt": 167,
+    "outro": 7
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 142,
+     "vinculos": 142,
+     "efetivo": 0,
+     "dt": 135,
+     "outro": 7
+    },
+    "secretaria": {
+     "pessoas": 37,
+     "vinculos": 37,
+     "efetivo": 5,
+     "dt": 32,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 304,
+   "sem_etapa_grupos": {
+    "EI_AI": 304
+   },
+   "censo": {
+    "total": 334,
+    "EI": 120,
+    "AI": 145,
+    "AF": 124,
+    "efetivo": 122,
+    "temporario": 221
+   },
+   "tier": "Mais de 500"
+  },
+  "3203106": {
+   "total": {
+    "pessoas": 206,
+    "vinculos": 240,
+    "efetivo": 53,
+    "dt": 135,
+    "outro": 23
+   },
+   "magisterio": {
+    "pessoas": 146,
+    "vinculos": 180,
+    "efetivo": 44,
+    "dt": 84,
+    "outro": 23
+   },
+   "professores": {
+    "pessoas": 115,
+    "vinculos": 146,
+    "efetivo": 37,
+    "dt": 80,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 50.8,
+     "efetivo": 16.4,
+     "dt": 35.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 50.8
+    },
+    "AI": {
+     "pessoas": 61.7,
+     "efetivo": 19.9,
+     "dt": 42.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 61.7
+    },
+    "AF": {
+     "pessoas": 2.4,
+     "efetivo": 0.8,
+     "dt": 1.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 2.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 34,
+    "vinculos": 34,
+    "efetivo": 7,
+    "dt": 4,
+    "outro": 23
+   },
+   "outros": {
+    "pessoas": 60,
+    "vinculos": 60,
+    "efetivo": 9,
+    "dt": 51,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 56,
+     "vinculos": 56,
+     "efetivo": 5,
+     "dt": 51,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 4,
+     "vinculos": 4,
+     "efetivo": 4,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 115,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 115
+   },
+   "censo": {
+    "total": 89,
+    "EI": 42,
+    "AI": 51,
+    "AF": 2,
+    "efetivo": 26,
+    "temporario": 65
+   },
+   "tier": "Menos de 200"
+  },
+  "3203130": {
+   "total": {
+    "pessoas": 308,
+    "vinculos": 326,
+    "efetivo": 141,
+    "dt": 171,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 218,
+    "vinculos": 234,
+    "efetivo": 126,
+    "dt": 96,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 194,
+    "vinculos": 207,
+    "efetivo": 105,
+    "dt": 92,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 78.1,
+     "efetivo": 44.4,
+     "dt": 34.3,
+     "outro": 0.0,
+     "identificado": 3.0,
+     "estimado": 75.1
+    },
+    "AI": {
+     "pessoas": 63.6,
+     "efetivo": 35.8,
+     "dt": 28.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 63.6
+    },
+    "AF": {
+     "pessoas": 57.3,
+     "efetivo": 28.8,
+     "dt": 28.4,
+     "outro": 0.0,
+     "identificado": 45.0,
+     "estimado": 12.3
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 2,
+    "vinculos": 2,
+    "efetivo": 0,
+    "dt": 2,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 26,
+    "vinculos": 27,
+    "efetivo": 22,
+    "dt": 4,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 90,
+    "vinculos": 92,
+    "efetivo": 15,
+    "dt": 75,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 75,
+     "vinculos": 76,
+     "efetivo": 10,
+     "dt": 65,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 16,
+     "vinculos": 16,
+     "efetivo": 5,
+     "dt": 11,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 151,
+   "sem_etapa_grupos": {
+    "EI_AI": 110,
+    "AI_AF": 3,
+    "EI_AI_AF": 38
+   },
+   "censo": {
+    "total": 137,
+    "EI": 63,
+    "AI": 52,
+    "AF": 46,
+    "efetivo": 59,
+    "temporario": 78
+   },
+   "tier": "200 a 500"
+  },
+  "3203163": {
+   "total": {
+    "pessoas": 195,
+    "vinculos": 206,
+    "efetivo": 62,
+    "dt": 134,
+    "outro": 4
+   },
+   "magisterio": {
+    "pessoas": 147,
+    "vinculos": 158,
+    "efetivo": 57,
+    "dt": 91,
+    "outro": 4
+   },
+   "professores": {
+    "pessoas": 137,
+    "vinculos": 148,
+    "efetivo": 51,
+    "dt": 91,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 42.1,
+     "efetivo": 15.5,
+     "dt": 27.2,
+     "outro": 0.0,
+     "identificado": 34.0,
+     "estimado": 8.1
+    },
+    "AI": {
+     "pessoas": 56.9,
+     "efetivo": 29.3,
+     "dt": 28.1,
+     "outro": 0.0,
+     "identificado": 50.0,
+     "estimado": 6.9
+    },
+    "AF": {
+     "pessoas": 36.1,
+     "efetivo": 7.3,
+     "dt": 29.7,
+     "outro": 0.0,
+     "identificado": 26.0,
+     "estimado": 10.1
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 11,
+    "vinculos": 11,
+    "efetivo": 0,
+    "dt": 11,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 10,
+    "vinculos": 10,
+    "efetivo": 6,
+    "dt": 0,
+    "outro": 4
+   },
+   "outros": {
+    "pessoas": 48,
+    "vinculos": 48,
+    "efetivo": 5,
+    "dt": 43,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 47,
+     "vinculos": 47,
+     "efetivo": 4,
+     "dt": 43,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 1,
+     "vinculos": 1,
+     "efetivo": 1,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 25,
+   "sem_etapa_grupos": {
+    "EI_AI": 1,
+    "EI_AI_AF": 24
+   },
+   "censo": {
+    "total": 104,
+    "EI": 41,
+    "AI": 35,
+    "AF": 55,
+    "efetivo": 34,
+    "temporario": 70
+   },
+   "tier": "Menos de 200"
+  },
+  "3203205": {
+   "total": {
+    "pessoas": 3254,
+    "vinculos": 3731,
+    "efetivo": 1671,
+    "dt": 1535,
+    "outro": 232
+   },
+   "magisterio": {
+    "pessoas": 2415,
+    "vinculos": 2854,
+    "efetivo": 1470,
+    "dt": 883,
+    "outro": 231
+   },
+   "professores": {
+    "pessoas": 2130,
+    "vinculos": 2342,
+    "efetivo": 1391,
+    "dt": 791,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 946.6,
+     "efetivo": 620.6,
+     "dt": 349.0,
+     "outro": 0.0,
+     "identificado": 7.0,
+     "estimado": 939.6
+    },
+    "AI": {
+     "pessoas": 751.5,
+     "efetivo": 490.7,
+     "dt": 279.1,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 751.5
+    },
+    "AF": {
+     "pessoas": 438.9,
+     "efetivo": 286.7,
+     "dt": 162.9,
+     "outro": 0.0,
+     "identificado": 1.0,
+     "estimado": 437.9
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 458,
+    "vinculos": 512,
+    "efetivo": 148,
+    "dt": 99,
+    "outro": 231
+   },
+   "outros": {
+    "pessoas": 871,
+    "vinculos": 877,
+    "efetivo": 215,
+    "dt": 655,
+    "outro": 1
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 784,
+     "vinculos": 789,
+     "efetivo": 128,
+     "dt": 655,
+     "outro": 1
+    },
+    "secretaria": {
+     "pessoas": 87,
+     "vinculos": 88,
+     "efetivo": 87,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 2129,
+   "sem_etapa_grupos": {
+    "EI_AI": 3,
+    "EI_AI_AF": 2126
+   },
+   "censo": {
+    "total": 1703,
+    "EI": 799,
+    "AI": 639,
+    "AF": 373,
+    "efetivo": 1208,
+    "temporario": 578
+   },
+   "tier": "Mais de 500"
+  },
+  "3203304": {
+   "total": {
+    "pessoas": 223,
+    "vinculos": 233,
+    "efetivo": 127,
+    "dt": 96,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 171,
+    "vinculos": 181,
+    "efetivo": 121,
+    "dt": 50,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 171,
+    "vinculos": 181,
+    "efetivo": 121,
+    "dt": 50,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 48.2,
+     "efetivo": 34.1,
+     "dt": 14.1,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 48.2
+    },
+    "AI": {
+     "pessoas": 103.5,
+     "efetivo": 73.3,
+     "dt": 30.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 103.5
+    },
+    "AF": {
+     "pessoas": 19.4,
+     "efetivo": 13.6,
+     "dt": 5.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 19.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 52,
+    "vinculos": 52,
+    "efetivo": 6,
+    "dt": 46,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 52,
+     "vinculos": 52,
+     "efetivo": 6,
+     "dt": 46,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 171,
+   "sem_etapa_grupos": {
+    "EI_AI": 2,
+    "EI_AI_AF": 169
+   },
+   "censo": {
+    "total": 79,
+    "EI": 27,
+    "AI": 58,
+    "AF": 11,
+    "efetivo": 40,
+    "temporario": 33
+   },
+   "tier": "Menos de 200"
+  },
+  "3203320": {
+   "total": {
+    "pessoas": 1313,
+    "vinculos": 1407,
+    "efetivo": 655,
+    "dt": 659,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 954,
+    "vinculos": 1046,
+    "efetivo": 576,
+    "dt": 379,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 882,
+    "vinculos": 950,
+    "efetivo": 537,
+    "dt": 346,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 195.5,
+     "efetivo": 149.3,
+     "dt": 46.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 195.5
+    },
+    "AI": {
+     "pessoas": 223.0,
+     "efetivo": 170.3,
+     "dt": 52.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 223.0
+    },
+    "AF": {
+     "pessoas": 241.4,
+     "efetivo": 148.4,
+     "dt": 93.0,
+     "outro": 0.0,
+     "identificado": 239.0,
+     "estimado": 2.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 243,
+    "vinculos": 243,
+    "efetivo": 88,
+    "dt": 155,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 96,
+    "vinculos": 96,
+    "efetivo": 60,
+    "dt": 36,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 361,
+    "vinculos": 361,
+    "efetivo": 79,
+    "dt": 282,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 320,
+     "vinculos": 320,
+     "efetivo": 55,
+     "dt": 265,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 41,
+     "vinculos": 41,
+     "efetivo": 24,
+     "dt": 17,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 421,
+   "sem_etapa_grupos": {
+    "EI_AI": 410,
+    "EI_AI_AF": 11
+   },
+   "censo": {
+    "total": 760,
+    "EI": 299,
+    "AI": 341,
+    "AF": 183,
+    "efetivo": 332,
+    "temporario": 451
+   },
+   "tier": "Mais de 500"
+  },
+  "3203346": {
+   "total": {
+    "pessoas": 385,
+    "vinculos": 412,
+    "efetivo": 79,
+    "dt": 307,
+    "outro": 3
+   },
+   "magisterio": {
+    "pessoas": 265,
+    "vinculos": 291,
+    "efetivo": 67,
+    "dt": 198,
+    "outro": 3
+   },
+   "professores": {
+    "pessoas": 243,
+    "vinculos": 264,
+    "efetivo": 57,
+    "dt": 187,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 68.2,
+     "efetivo": 17.2,
+     "dt": 50.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 68.2
+    },
+    "AI": {
+     "pessoas": 72.0,
+     "efetivo": 18.2,
+     "dt": 53.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 72.0
+    },
+    "AF": {
+     "pessoas": 106.8,
+     "efetivo": 23.6,
+     "dt": 83.3,
+     "outro": 0.0,
+     "identificado": 58.0,
+     "estimado": 48.8
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 24,
+    "vinculos": 27,
+    "efetivo": 11,
+    "dt": 12,
+    "outro": 3
+   },
+   "outros": {
+    "pessoas": 121,
+    "vinculos": 121,
+    "efetivo": 12,
+    "dt": 109,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 95,
+     "vinculos": 95,
+     "efetivo": 3,
+     "dt": 92,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 26,
+     "vinculos": 26,
+     "efetivo": 9,
+     "dt": 17,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 189,
+   "sem_etapa_grupos": {
+    "EI_AI": 3,
+    "EI_AI_AF": 186
+   },
+   "censo": {
+    "total": 167,
+    "EI": 71,
+    "AI": 75,
+    "AF": 52,
+    "efetivo": 17,
+    "temporario": 151
+   },
+   "tier": "200 a 500"
+  },
+  "3203353": {
+   "total": {
+    "pessoas": 251,
+    "vinculos": 260,
+    "efetivo": 93,
+    "dt": 157,
+    "outro": 2
+   },
+   "magisterio": {
+    "pessoas": 233,
+    "vinculos": 242,
+    "efetivo": 90,
+    "dt": 142,
+    "outro": 2
+   },
+   "professores": {
+    "pessoas": 228,
+    "vinculos": 235,
+    "efetivo": 87,
+    "dt": 142,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 119.8,
+     "efetivo": 48.2,
+     "dt": 72.2,
+     "outro": 0.0,
+     "identificado": 9.0,
+     "estimado": 110.8
+    },
+    "AI": {
+     "pessoas": 79.9,
+     "efetivo": 31.5,
+     "dt": 48.8,
+     "outro": 0.0,
+     "identificado": 5.0,
+     "estimado": 74.9
+    },
+    "AF": {
+     "pessoas": 33.2,
+     "efetivo": 12.2,
+     "dt": 21.0,
+     "outro": 0.0,
+     "identificado": 33.0,
+     "estimado": 0.2
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 7,
+    "vinculos": 7,
+    "efetivo": 5,
+    "dt": 0,
+    "outro": 2
+   },
+   "outros": {
+    "pessoas": 18,
+    "vinculos": 18,
+    "efetivo": 3,
+    "dt": 15,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 15,
+     "vinculos": 15,
+     "efetivo": 0,
+     "dt": 15,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 3,
+     "vinculos": 3,
+     "efetivo": 3,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 186,
+   "sem_etapa_grupos": {
+    "EI_AI": 185,
+    "EI_AI_AF": 1
+   },
+   "censo": {
+    "total": 130,
+    "EI": 71,
+    "AI": 48,
+    "AF": 35,
+    "efetivo": 42,
+    "temporario": 90
+   },
+   "tier": "200 a 500"
+  },
+  "3203403": {
+   "total": {
+    "pessoas": 377,
+    "vinculos": 457,
+    "efetivo": 191,
+    "dt": 234,
+    "outro": 3
+   },
+   "magisterio": {
+    "pessoas": 285,
+    "vinculos": 353,
+    "efetivo": 168,
+    "dt": 153,
+    "outro": 3
+   },
+   "professores": {
+    "pessoas": 254,
+    "vinculos": 311,
+    "efetivo": 145,
+    "dt": 141,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 85.7,
+     "efetivo": 35.4,
+     "dt": 51.4,
+     "outro": 0.0,
+     "identificado": 5.0,
+     "estimado": 80.7
+    },
+    "AI": {
+     "pessoas": 139.2,
+     "efetivo": 79.2,
+     "dt": 61.3,
+     "outro": 0.0,
+     "identificado": 43.0,
+     "estimado": 96.2
+    },
+    "AF": {
+     "pessoas": 67.2,
+     "efetivo": 39.5,
+     "dt": 28.3,
+     "outro": 0.0,
+     "identificado": 27.0,
+     "estimado": 40.2
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 36,
+    "vinculos": 42,
+    "efetivo": 26,
+    "dt": 12,
+    "outro": 3
+   },
+   "outros": {
+    "pessoas": 92,
+    "vinculos": 104,
+    "efetivo": 23,
+    "dt": 81,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 80,
+     "vinculos": 92,
+     "efetivo": 17,
+     "dt": 75,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 12,
+     "vinculos": 12,
+     "efetivo": 6,
+     "dt": 6,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 217,
+   "sem_etapa_grupos": {
+    "EI_AI": 17,
+    "EI_AI_AF": 200
+   },
+   "censo": {
+    "total": 174,
+    "EI": 78,
+    "AI": 93,
+    "AF": 43,
+    "efetivo": 61,
+    "temporario": 121
+   },
+   "tier": "200 a 500"
+  },
+  "3203502": {
+   "total": {
+    "pessoas": 565,
+    "vinculos": 596,
+    "efetivo": 73,
+    "dt": 275,
+    "outro": 233
+   },
+   "magisterio": {
+    "pessoas": 344,
+    "vinculos": 375,
+    "efetivo": 73,
+    "dt": 273,
+    "outro": 14
+   },
+   "professores": {
+    "pessoas": 301,
+    "vinculos": 323,
+    "efetivo": 62,
+    "dt": 249,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 92.7,
+     "efetivo": 23.7,
+     "dt": 73.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 92.7
+    },
+    "AI": {
+     "pessoas": 89.9,
+     "efetivo": 23.0,
+     "dt": 71.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 89.9
+    },
+    "AF": {
+     "pessoas": 125.3,
+     "efetivo": 15.3,
+     "dt": 110.0,
+     "outro": 0.0,
+     "identificado": 124.0,
+     "estimado": 1.3
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 50,
+    "vinculos": 52,
+    "efetivo": 12,
+    "dt": 26,
+    "outro": 14
+   },
+   "outros": {
+    "pessoas": 221,
+    "vinculos": 221,
+    "efetivo": 0,
+    "dt": 2,
+    "outro": 219
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 220,
+     "vinculos": 220,
+     "efetivo": 0,
+     "dt": 2,
+     "outro": 218
+    },
+    "secretaria": {
+     "pessoas": 1,
+     "vinculos": 1,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 1
+    }
+   },
+   "sem_etapa_pessoas": 184,
+   "sem_etapa_grupos": {
+    "EI_AI": 177,
+    "EI_AI_AF": 7
+   },
+   "censo": {
+    "total": 213,
+    "EI": 98,
+    "AI": 95,
+    "AF": 46,
+    "efetivo": 27,
+    "temporario": 196
+   },
+   "tier": "200 a 500"
+  },
+  "3203601": {
+   "total": {
+    "pessoas": 181,
+    "vinculos": 184,
+    "efetivo": 15,
+    "dt": 41,
+    "outro": 126
+   },
+   "magisterio": {
+    "pessoas": 126,
+    "vinculos": 129,
+    "efetivo": 15,
+    "dt": 41,
+    "outro": 71
+   },
+   "professores": {
+    "pessoas": 119,
+    "vinculos": 122,
+    "efetivo": 15,
+    "dt": 41,
+    "outro": 64
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 57.9,
+     "efetivo": 8.1,
+     "dt": 23.5,
+     "outro": 26.3,
+     "identificado": 31.0,
+     "estimado": 26.9
+    },
+    "AI": {
+     "pessoas": 44.4,
+     "efetivo": 6.9,
+     "dt": 10.3,
+     "outro": 27.3,
+     "identificado": 0.0,
+     "estimado": 44.4
+    },
+    "AF": {
+     "pessoas": 18.7,
+     "efetivo": 0.0,
+     "dt": 7.2,
+     "outro": 11.4,
+     "identificado": 0.0,
+     "estimado": 18.7
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 7,
+    "vinculos": 7,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 7
+   },
+   "outros": {
+    "pessoas": 55,
+    "vinculos": 55,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 55
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 55,
+     "vinculos": 55,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 55
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 90,
+   "sem_etapa_grupos": {
+    "EI_AI": 39,
+    "AI_AF": 37,
+    "EI_AI_AF": 14
+   },
+   "censo": {
+    "total": 71,
+    "EI": 32,
+    "AI": 27,
+    "AF": 19,
+    "efetivo": 11,
+    "temporario": 62
+   },
+   "tier": "Menos de 200"
+  },
+  "3203700": {
+   "total": {
+    "pessoas": 360,
+    "vinculos": 422,
+    "efetivo": 101,
+    "dt": 263,
+    "outro": 10
+   },
+   "magisterio": {
+    "pessoas": 283,
+    "vinculos": 345,
+    "efetivo": 99,
+    "dt": 188,
+    "outro": 10
+   },
+   "professores": {
+    "pessoas": 264,
+    "vinculos": 310,
+    "efetivo": 93,
+    "dt": 175,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 88.0,
+     "efetivo": 30.4,
+     "dt": 59.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 88.0
+    },
+    "AI": {
+     "pessoas": 86.2,
+     "efetivo": 29.8,
+     "dt": 58.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 86.2
+    },
+    "AF": {
+     "pessoas": 96.8,
+     "efetivo": 33.8,
+     "dt": 63.0,
+     "outro": 0.0,
+     "identificado": 94.0,
+     "estimado": 2.8
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 32,
+    "vinculos": 35,
+    "efetivo": 10,
+    "dt": 14,
+    "outro": 10
+   },
+   "outros": {
+    "pessoas": 77,
+    "vinculos": 77,
+    "efetivo": 2,
+    "dt": 75,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 61,
+     "vinculos": 61,
+     "efetivo": 0,
+     "dt": 61,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 16,
+     "vinculos": 16,
+     "efetivo": 2,
+     "dt": 14,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 177,
+   "sem_etapa_grupos": {
+    "EI_AI": 167,
+    "EI_AI_AF": 10
+   },
+   "censo": {
+    "total": 208,
+    "EI": 98,
+    "AI": 96,
+    "AF": 75,
+    "efetivo": 40,
+    "temporario": 169
+   },
+   "tier": "200 a 500"
+  },
+  "3203809": {
+   "total": {
+    "pessoas": 210,
+    "vinculos": 251,
+    "efetivo": 172,
+    "dt": 5,
+    "outro": 49
+   },
+   "magisterio": {
+    "pessoas": 172,
+    "vinculos": 213,
+    "efetivo": 135,
+    "dt": 4,
+    "outro": 49
+   },
+   "professores": {
+    "pessoas": 154,
+    "vinculos": 186,
+    "efetivo": 121,
+    "dt": 1,
+    "outro": 42
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 63.7,
+     "efetivo": 49.3,
+     "dt": 0.0,
+     "outro": 16.2,
+     "identificado": 14.0,
+     "estimado": 49.7
+    },
+    "AI": {
+     "pessoas": 75.8,
+     "efetivo": 55.5,
+     "dt": 0.0,
+     "outro": 21.4,
+     "identificado": 0.0,
+     "estimado": 75.8
+    },
+    "AF": {
+     "pessoas": 30.5,
+     "efetivo": 24.2,
+     "dt": 1.0,
+     "outro": 5.4,
+     "identificado": 21.0,
+     "estimado": 9.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 25,
+    "vinculos": 27,
+    "efetivo": 14,
+    "dt": 3,
+    "outro": 10
+   },
+   "outros": {
+    "pessoas": 38,
+    "vinculos": 38,
+    "efetivo": 37,
+    "dt": 1,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 38,
+     "vinculos": 38,
+     "efetivo": 37,
+     "dt": 1,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 135,
+   "sem_etapa_grupos": {
+    "EI_AI": 92,
+    "AI_AF": 15,
+    "EI_AI_AF": 28
+   },
+   "censo": {
+    "total": 107,
+    "EI": 42,
+    "AI": 55,
+    "AF": 22,
+    "efetivo": 42,
+    "temporario": 69
+   },
+   "tier": "200 a 500"
+  },
+  "3203908": {
+   "total": {
+    "pessoas": 1020,
+    "vinculos": 1116,
+    "efetivo": 433,
+    "dt": 573,
+    "outro": 67
+   },
+   "magisterio": {
+    "pessoas": 868,
+    "vinculos": 961,
+    "efetivo": 408,
+    "dt": 460,
+    "outro": 52
+   },
+   "professores": {
+    "pessoas": 777,
+    "vinculos": 848,
+    "efetivo": 376,
+    "dt": 436,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 258.2,
+     "efetivo": 125.3,
+     "dt": 144.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 258.2
+    },
+    "AI": {
+     "pessoas": 250.2,
+     "efetivo": 121.4,
+     "dt": 140.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 250.2
+    },
+    "AF": {
+     "pessoas": 271.6,
+     "efetivo": 132.3,
+     "dt": 151.5,
+     "outro": 0.0,
+     "identificado": 2.0,
+     "estimado": 269.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 110,
+    "vinculos": 113,
+    "efetivo": 36,
+    "dt": 24,
+    "outro": 52
+   },
+   "outros": {
+    "pessoas": 153,
+    "vinculos": 155,
+    "efetivo": 26,
+    "dt": 113,
+    "outro": 15
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 123,
+     "vinculos": 124,
+     "efetivo": 4,
+     "dt": 108,
+     "outro": 11
+    },
+    "secretaria": {
+     "pessoas": 30,
+     "vinculos": 31,
+     "efetivo": 22,
+     "dt": 5,
+     "outro": 4
+    }
+   },
+   "sem_etapa_pessoas": 778,
+   "sem_etapa_grupos": {
+    "EI_AI": 2,
+    "EI_AI_AF": 776
+   },
+   "censo": {
+    "total": 614,
+    "EI": 227,
+    "AI": 220,
+    "AF": 238,
+    "efetivo": 243,
+    "temporario": 403
+   },
+   "tier": "Mais de 500"
+  },
+  "3204005": {
+   "total": {
+    "pessoas": 327,
+    "vinculos": 342,
+    "efetivo": 76,
+    "dt": 247,
+    "outro": 10
+   },
+   "magisterio": {
+    "pessoas": 234,
+    "vinculos": 249,
+    "efetivo": 72,
+    "dt": 158,
+    "outro": 10
+   },
+   "professores": {
+    "pessoas": 209,
+    "vinculos": 218,
+    "efetivo": 66,
+    "dt": 144,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 61.6,
+     "efetivo": 16.9,
+     "dt": 44.7,
+     "outro": 0.0,
+     "identificado": 55.0,
+     "estimado": 6.6
+    },
+    "AI": {
+     "pessoas": 56.5,
+     "efetivo": 23.1,
+     "dt": 33.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 56.5
+    },
+    "AF": {
+     "pessoas": 93.0,
+     "efetivo": 27.0,
+     "dt": 66.4,
+     "outro": 0.0,
+     "identificado": 44.0,
+     "estimado": 49.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 31,
+    "vinculos": 31,
+    "efetivo": 7,
+    "dt": 14,
+    "outro": 10
+   },
+   "outros": {
+    "pessoas": 93,
+    "vinculos": 93,
+    "efetivo": 4,
+    "dt": 89,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 89,
+     "vinculos": 89,
+     "efetivo": 0,
+     "dt": 89,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 4,
+     "vinculos": 4,
+     "efetivo": 4,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 112,
+   "sem_etapa_grupos": {
+    "AI_AF": 90,
+    "EI_AI_AF": 22
+   },
+   "censo": {
+    "total": 160,
+    "EI": 54,
+    "AI": 68,
+    "AF": 59,
+    "efetivo": 31,
+    "temporario": 131
+   },
+   "tier": "200 a 500"
+  },
+  "3204054": {
+   "total": {
+    "pessoas": 423,
+    "vinculos": 447,
+    "efetivo": 140,
+    "dt": 252,
+    "outro": 42
+   },
+   "magisterio": {
+    "pessoas": 284,
+    "vinculos": 306,
+    "efetivo": 108,
+    "dt": 143,
+    "outro": 42
+   },
+   "professores": {
+    "pessoas": 225,
+    "vinculos": 236,
+    "efetivo": 104,
+    "dt": 126,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 111.9,
+     "efetivo": 51.7,
+     "dt": 62.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 111.9
+    },
+    "AI": {
+     "pessoas": 113.1,
+     "efetivo": 52.3,
+     "dt": 63.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 113.1
+    },
+    "AF": {
+     "pessoas": 0.0,
+     "efetivo": 0.0,
+     "dt": 0.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 67,
+    "vinculos": 70,
+    "efetivo": 9,
+    "dt": 17,
+    "outro": 42
+   },
+   "outros": {
+    "pessoas": 139,
+    "vinculos": 141,
+    "efetivo": 32,
+    "dt": 109,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 139,
+     "vinculos": 141,
+     "efetivo": 32,
+     "dt": 109,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 225,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 225
+   },
+   "censo": {
+    "total": 175,
+    "EI": 89,
+    "AI": 90,
+    "AF": 0,
+    "efetivo": 55,
+    "temporario": 139
+   },
+   "tier": "200 a 500"
+  },
+  "3204104": {
+   "total": {
+    "pessoas": 490,
+    "vinculos": 540,
+    "efetivo": 197,
+    "dt": 315,
+    "outro": 1
+   },
+   "magisterio": {
+    "pessoas": 335,
+    "vinculos": 385,
+    "efetivo": 172,
+    "dt": 185,
+    "outro": 1
+   },
+   "professores": {
+    "pessoas": 321,
+    "vinculos": 364,
+    "efetivo": 159,
+    "dt": 184,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 125.5,
+     "efetivo": 65.0,
+     "dt": 61.2,
+     "outro": 0.0,
+     "identificado": 42.0,
+     "estimado": 83.5
+    },
+    "AI": {
+     "pessoas": 96.2,
+     "efetivo": 53.6,
+     "dt": 43.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 96.2
+    },
+    "AF": {
+     "pessoas": 118.4,
+     "efetivo": 40.4,
+     "dt": 78.5,
+     "outro": 0.0,
+     "identificado": 46.0,
+     "estimado": 72.4
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 4,
+    "vinculos": 4,
+    "efetivo": 0,
+    "dt": 4,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 21,
+    "vinculos": 21,
+    "efetivo": 19,
+    "dt": 1,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 155,
+    "vinculos": 155,
+    "efetivo": 25,
+    "dt": 130,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 118,
+     "vinculos": 118,
+     "efetivo": 0,
+     "dt": 118,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 37,
+     "vinculos": 37,
+     "efetivo": 25,
+     "dt": 12,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 252,
+   "sem_etapa_grupos": {
+    "AI_AF": 48,
+    "EI_AI_AF": 204
+   },
+   "censo": {
+    "total": 241,
+    "EI": 108,
+    "AI": 89,
+    "AF": 67,
+    "efetivo": 114,
+    "temporario": 151
+   },
+   "tier": "200 a 500"
+  },
+  "3204203": {
+   "total": {
+    "pessoas": 464,
+    "vinculos": 502,
+    "efetivo": 266,
+    "dt": 188,
+    "outro": 17
+   },
+   "magisterio": {
+    "pessoas": 354,
+    "vinculos": 392,
+    "efetivo": 244,
+    "dt": 100,
+    "outro": 17
+   },
+   "professores": {
+    "pessoas": 288,
+    "vinculos": 307,
+    "efetivo": 222,
+    "dt": 66,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 67.9,
+     "efetivo": 60.2,
+     "dt": 7.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 67.9
+    },
+    "AI": {
+     "pessoas": 87.8,
+     "efetivo": 77.8,
+     "dt": 10.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 87.8
+    },
+    "AF": {
+     "pessoas": 119.2,
+     "efetivo": 86.0,
+     "dt": 33.2,
+     "outro": 0.0,
+     "identificado": 117.0,
+     "estimado": 2.2
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 15,
+    "vinculos": 15,
+    "efetivo": 0,
+    "dt": 15,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 78,
+    "vinculos": 85,
+    "efetivo": 28,
+    "dt": 35,
+    "outro": 17
+   },
+   "outros": {
+    "pessoas": 110,
+    "vinculos": 110,
+    "efetivo": 22,
+    "dt": 88,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 88,
+     "vinculos": 88,
+     "efetivo": 0,
+     "dt": 88,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 22,
+     "vinculos": 22,
+     "efetivo": 22,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 158,
+   "sem_etapa_grupos": {
+    "EI_AI": 149,
+    "EI_AI_AF": 9
+   },
+   "censo": {
+    "total": 234,
+    "EI": 92,
+    "AI": 119,
+    "AF": 70,
+    "efetivo": 165,
+    "temporario": 71
+   },
+   "tier": "200 a 500"
+  },
+  "3204252": {
+   "total": {
+    "pessoas": 129,
+    "vinculos": 146,
+    "efetivo": 57,
+    "dt": 84,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 108,
+    "vinculos": 125,
+    "efetivo": 52,
+    "dt": 68,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 103,
+    "vinculos": 118,
+    "efetivo": 50,
+    "dt": 64,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 37.3,
+     "efetivo": 24.3,
+     "dt": 22.0,
+     "outro": 0.0,
+     "identificado": 36.0,
+     "estimado": 1.3
+    },
+    "AI": {
+     "pessoas": 57.8,
+     "efetivo": 28.4,
+     "dt": 30.4,
+     "outro": 0.0,
+     "identificado": 50.0,
+     "estimado": 7.8
+    },
+    "AF": {
+     "pessoas": 9.9,
+     "efetivo": 0.3,
+     "dt": 9.6,
+     "outro": 0.0,
+     "identificado": 8.0,
+     "estimado": 1.9
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 2,
+    "vinculos": 2,
+    "efetivo": 0,
+    "dt": 2,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 7,
+    "vinculos": 7,
+    "efetivo": 3,
+    "dt": 4,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 21,
+    "vinculos": 21,
+    "efetivo": 5,
+    "dt": 16,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 21,
+     "vinculos": 21,
+     "efetivo": 5,
+     "dt": 16,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 11,
+   "sem_etapa_grupos": {
+    "AI_AF": 8,
+    "EI_AI_AF": 3
+   },
+   "censo": {
+    "total": 72,
+    "EI": 34,
+    "AI": 36,
+    "AF": 9,
+    "efetivo": 24,
+    "temporario": 54
+   },
+   "tier": "Menos de 200"
+  },
+  "3204302": {
+   "total": {
+    "pessoas": 453,
+    "vinculos": 487,
+    "efetivo": 128,
+    "dt": 292,
+    "outro": 47
+   },
+   "magisterio": {
+    "pessoas": 423,
+    "vinculos": 457,
+    "efetivo": 128,
+    "dt": 262,
+    "outro": 47
+   },
+   "professores": {
+    "pessoas": 363,
+    "vinculos": 384,
+    "efetivo": 119,
+    "dt": 248,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 90.9,
+     "efetivo": 34.2,
+     "dt": 57.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 90.9
+    },
+    "AI": {
+     "pessoas": 84.6,
+     "efetivo": 31.9,
+     "dt": 53.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 84.6
+    },
+    "AF": {
+     "pessoas": 189.5,
+     "efetivo": 53.9,
+     "dt": 137.4,
+     "outro": 0.0,
+     "identificado": 126.0,
+     "estimado": 63.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 73,
+    "vinculos": 73,
+    "efetivo": 12,
+    "dt": 14,
+    "outro": 47
+   },
+   "outros": {
+    "pessoas": 30,
+    "vinculos": 30,
+    "efetivo": 0,
+    "dt": 30,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 30,
+     "vinculos": 30,
+     "efetivo": 0,
+     "dt": 30,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 239,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 239
+   },
+   "censo": {
+    "total": 314,
+    "EI": 129,
+    "AI": 120,
+    "AF": 90,
+    "efetivo": 42,
+    "temporario": 274
+   },
+   "tier": "200 a 500"
+  },
+  "3204351": {
+   "total": {
+    "pessoas": 458,
+    "vinculos": 516,
+    "efetivo": 145,
+    "dt": 296,
+    "outro": 32
+   },
+   "magisterio": {
+    "pessoas": 405,
+    "vinculos": 458,
+    "efetivo": 145,
+    "dt": 244,
+    "outro": 31
+   },
+   "professores": {
+    "pessoas": 376,
+    "vinculos": 407,
+    "efetivo": 140,
+    "dt": 240,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 129.8,
+     "efetivo": 48.7,
+     "dt": 82.2,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 129.8
+    },
+    "AI": {
+     "pessoas": 118.2,
+     "efetivo": 44.3,
+     "dt": 74.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 118.2
+    },
+    "AF": {
+     "pessoas": 130.9,
+     "efetivo": 49.0,
+     "dt": 82.9,
+     "outro": 0.0,
+     "identificado": 1.0,
+     "estimado": 129.9
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 48,
+    "vinculos": 51,
+    "efetivo": 9,
+    "dt": 11,
+    "outro": 31
+   },
+   "outros": {
+    "pessoas": 56,
+    "vinculos": 58,
+    "efetivo": 0,
+    "dt": 55,
+    "outro": 1
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 56,
+     "vinculos": 58,
+     "efetivo": 0,
+     "dt": 55,
+     "outro": 1
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 378,
+   "sem_etapa_grupos": {
+    "EI_AI": 2,
+    "EI_AI_AF": 376
+   },
+   "censo": {
+    "total": 301,
+    "EI": 112,
+    "AI": 102,
+    "AF": 113,
+    "efetivo": 82,
+    "temporario": 220
+   },
+   "tier": "200 a 500"
+  },
+  "3204401": {
+   "total": {
+    "pessoas": 179,
+    "vinculos": 185,
+    "efetivo": 80,
+    "dt": 99,
+    "outro": 0
+   },
+   "magisterio": {
+    "pessoas": 118,
+    "vinculos": 124,
+    "efetivo": 67,
+    "dt": 51,
+    "outro": 0
+   },
+   "professores": {
+    "pessoas": 112,
+    "vinculos": 118,
+    "efetivo": 62,
+    "dt": 50,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 54.9,
+     "efetivo": 29.9,
+     "dt": 25.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 54.9
+    },
+    "AI": {
+     "pessoas": 46.1,
+     "efetivo": 25.1,
+     "dt": 21.0,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 46.1
+    },
+    "AF": {
+     "pessoas": 11.0,
+     "efetivo": 7.0,
+     "dt": 4.0,
+     "outro": 0.0,
+     "identificado": 11.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 6,
+    "vinculos": 6,
+    "efetivo": 5,
+    "dt": 1,
+    "outro": 0
+   },
+   "outros": {
+    "pessoas": 61,
+    "vinculos": 61,
+    "efetivo": 13,
+    "dt": 48,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 61,
+     "vinculos": 61,
+     "efetivo": 13,
+     "dt": 48,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 0,
+     "vinculos": 0,
+     "efetivo": 0,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 101,
+   "sem_etapa_grupos": {
+    "EI_AI": 101
+   },
+   "censo": {
+    "total": 94,
+    "EI": 50,
+    "AI": 42,
+    "AF": 15,
+    "efetivo": 40,
+    "temporario": 55
+   },
+   "tier": "Menos de 200"
+  },
+  "3204500": {
+   "total": {
+    "pessoas": 195,
+    "vinculos": 224,
+    "efetivo": 141,
+    "dt": 57,
+    "outro": 11
+   },
+   "magisterio": {
+    "pessoas": 149,
+    "vinculos": 178,
+    "efetivo": 105,
+    "dt": 52,
+    "outro": 6
+   },
+   "professores": {
+    "pessoas": 140,
+    "vinculos": 159,
+    "efetivo": 96,
+    "dt": 52,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 57.5,
+     "efetivo": 39.6,
+     "dt": 21.6,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 57.5
+    },
+    "AI": {
+     "pessoas": 51.5,
+     "efetivo": 35.4,
+     "dt": 19.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 51.5
+    },
+    "AF": {
+     "pessoas": 31.0,
+     "efetivo": 21.0,
+     "dt": 11.0,
+     "outro": 0.0,
+     "identificado": 31.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 18,
+    "vinculos": 19,
+    "efetivo": 13,
+    "dt": 0,
+    "outro": 6
+   },
+   "outros": {
+    "pessoas": 46,
+    "vinculos": 46,
+    "efetivo": 36,
+    "dt": 5,
+    "outro": 5
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 37,
+     "vinculos": 37,
+     "efetivo": 32,
+     "dt": 5,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 9,
+     "vinculos": 9,
+     "efetivo": 4,
+     "dt": 0,
+     "outro": 5
+    }
+   },
+   "sem_etapa_pessoas": 109,
+   "sem_etapa_grupos": {
+    "EI_AI": 109
+   },
+   "censo": {
+    "total": 103,
+    "EI": 48,
+    "AI": 43,
+    "AF": 40,
+    "efetivo": 73,
+    "temporario": 38
+   },
+   "tier": "Menos de 200"
+  },
+  "3204559": {
+   "total": {
+    "pessoas": 738,
+    "vinculos": 821,
+    "efetivo": 375,
+    "dt": 387,
+    "outro": 23
+   },
+   "magisterio": {
+    "pessoas": 523,
+    "vinculos": 603,
+    "efetivo": 302,
+    "dt": 243,
+    "outro": 23
+   },
+   "professores": {
+    "pessoas": 484,
+    "vinculos": 524,
+    "efetivo": 278,
+    "dt": 223,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 251.2,
+     "efetivo": 155.8,
+     "dt": 104.1,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 251.2
+    },
+    "AI": {
+     "pessoas": 136.8,
+     "efetivo": 84.9,
+     "dt": 56.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 136.8
+    },
+    "AF": {
+     "pessoas": 68.9,
+     "efetivo": 37.3,
+     "dt": 32.2,
+     "outro": 0.0,
+     "identificado": 52.0,
+     "estimado": 16.9
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 32,
+    "vinculos": 33,
+    "efetivo": 0,
+    "dt": 32,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 74,
+    "vinculos": 79,
+    "efetivo": 34,
+    "dt": 21,
+    "outro": 23
+   },
+   "outros": {
+    "pessoas": 218,
+    "vinculos": 218,
+    "efetivo": 74,
+    "dt": 144,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 184,
+     "vinculos": 184,
+     "efetivo": 48,
+     "dt": 136,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 34,
+     "vinculos": 34,
+     "efetivo": 26,
+     "dt": 8,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 405,
+   "sem_etapa_grupos": {
+    "EI_AI": 348,
+    "EI_AI_AF": 57
+   },
+   "censo": {
+    "total": 349,
+    "EI": 213,
+    "AI": 116,
+    "AF": 139,
+    "efetivo": 171,
+    "temporario": 205
+   },
+   "tier": "Mais de 500"
+  },
+  "3204609": {
+   "total": {
+    "pessoas": 387,
+    "vinculos": 427,
+    "efetivo": 138,
+    "dt": 250,
+    "outro": 6
+   },
+   "magisterio": {
+    "pessoas": 306,
+    "vinculos": 346,
+    "efetivo": 129,
+    "dt": 179,
+    "outro": 5
+   },
+   "professores": {
+    "pessoas": 287,
+    "vinculos": 317,
+    "efetivo": 119,
+    "dt": 172,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 103.8,
+     "efetivo": 44.4,
+     "dt": 60.4,
+     "outro": 0.0,
+     "identificado": 103.0,
+     "estimado": 0.8
+    },
+    "AI": {
+     "pessoas": 112.6,
+     "efetivo": 47.1,
+     "dt": 67.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 112.6
+    },
+    "AF": {
+     "pessoas": 82.6,
+     "efetivo": 34.5,
+     "dt": 49.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 82.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 29,
+    "vinculos": 29,
+    "efetivo": 17,
+    "dt": 7,
+    "outro": 5
+   },
+   "outros": {
+    "pessoas": 81,
+    "vinculos": 81,
+    "efetivo": 9,
+    "dt": 71,
+    "outro": 1
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 68,
+     "vinculos": 68,
+     "efetivo": 0,
+     "dt": 67,
+     "outro": 1
+    },
+    "secretaria": {
+     "pessoas": 13,
+     "vinculos": 13,
+     "efetivo": 9,
+     "dt": 4,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 196,
+   "sem_etapa_grupos": {
+    "AI_AF": 194,
+    "EI_AI_AF": 2
+   },
+   "censo": {
+    "total": 206,
+    "EI": 98,
+    "AI": 90,
+    "AF": 66,
+    "efetivo": 28,
+    "temporario": 179
+   },
+   "tier": "200 a 500"
+  },
+  "3204658": {
+   "total": {
+    "pessoas": 193,
+    "vinculos": 214,
+    "efetivo": 30,
+    "dt": 158,
+    "outro": 7
+   },
+   "magisterio": {
+    "pessoas": 165,
+    "vinculos": 186,
+    "efetivo": 27,
+    "dt": 133,
+    "outro": 7
+   },
+   "professores": {
+    "pessoas": 146,
+    "vinculos": 164,
+    "efetivo": 26,
+    "dt": 120,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 40.6,
+     "efetivo": 8.1,
+     "dt": 32.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 40.6
+    },
+    "AI": {
+     "pessoas": 55.9,
+     "efetivo": 11.1,
+     "dt": 44.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 55.9
+    },
+    "AF": {
+     "pessoas": 50.5,
+     "efetivo": 6.8,
+     "dt": 43.8,
+     "outro": 0.0,
+     "identificado": 49.0,
+     "estimado": 1.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 22,
+    "vinculos": 22,
+    "efetivo": 1,
+    "dt": 14,
+    "outro": 7
+   },
+   "outros": {
+    "pessoas": 28,
+    "vinculos": 28,
+    "efetivo": 3,
+    "dt": 25,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 17,
+     "vinculos": 17,
+     "efetivo": 0,
+     "dt": 17,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 11,
+     "vinculos": 11,
+     "efetivo": 3,
+     "dt": 8,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 98,
+   "sem_etapa_grupos": {
+    "EI_AI": 94,
+    "EI_AI_AF": 4
+   },
+   "censo": {
+    "total": 107,
+    "EI": 37,
+    "AI": 51,
+    "AF": 55,
+    "efetivo": 11,
+    "temporario": 94
+   },
+   "tier": "Menos de 200"
+  },
+  "3204708": {
+   "total": {
+    "pessoas": 484,
+    "vinculos": 548,
+    "efetivo": 313,
+    "dt": 179,
+    "outro": 2
+   },
+   "magisterio": {
+    "pessoas": 348,
+    "vinculos": 408,
+    "efetivo": 207,
+    "dt": 148,
+    "outro": 2
+   },
+   "professores": {
+    "pessoas": 320,
+    "vinculos": 372,
+    "efetivo": 192,
+    "dt": 136,
+    "outro": 1
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 144.0,
+     "efetivo": 66.9,
+     "dt": 82.1,
+     "outro": 0.4,
+     "identificado": 121.0,
+     "estimado": 23.0
+    },
+    "AI": {
+     "pessoas": 95.7,
+     "efetivo": 58.6,
+     "dt": 37.1,
+     "outro": 0.4,
+     "identificado": 0.0,
+     "estimado": 95.7
+    },
+    "AF": {
+     "pessoas": 83.3,
+     "efetivo": 57.5,
+     "dt": 26.8,
+     "outro": 0.2,
+     "identificado": 40.0,
+     "estimado": 43.3
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 24,
+    "vinculos": 25,
+    "efetivo": 21,
+    "dt": 3,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 33,
+    "vinculos": 36,
+    "efetivo": 20,
+    "dt": 12,
+    "outro": 1
+   },
+   "outros": {
+    "pessoas": 138,
+    "vinculos": 140,
+    "efetivo": 106,
+    "dt": 32,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 108,
+     "vinculos": 110,
+     "efetivo": 76,
+     "dt": 32,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 30,
+     "vinculos": 30,
+     "efetivo": 30,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 162,
+   "sem_etapa_grupos": {
+    "EI_AI": 10,
+    "AI_AF": 104,
+    "EI_AI_AF": 48
+   },
+   "censo": {
+    "total": 234,
+    "EI": 106,
+    "AI": 117,
+    "AF": 56,
+    "efetivo": 135,
+    "temporario": 109
+   },
+   "tier": "200 a 500"
+  },
+  "3204807": {
+   "total": {
+    "pessoas": 311,
+    "vinculos": 392,
+    "efetivo": 51,
+    "dt": 258,
+    "outro": 2
+   },
+   "magisterio": {
+    "pessoas": 202,
+    "vinculos": 265,
+    "efetivo": 51,
+    "dt": 149,
+    "outro": 2
+   },
+   "professores": {
+    "pessoas": 183,
+    "vinculos": 241,
+    "efetivo": 44,
+    "dt": 139,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 48.3,
+     "efetivo": 15.3,
+     "dt": 32.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 48.3
+    },
+    "AI": {
+     "pessoas": 77.7,
+     "efetivo": 24.7,
+     "dt": 53.1,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 77.7
+    },
+    "AF": {
+     "pessoas": 61.0,
+     "efetivo": 4.0,
+     "dt": 57.0,
+     "outro": 0.0,
+     "identificado": 61.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 20,
+    "vinculos": 24,
+    "efetivo": 7,
+    "dt": 11,
+    "outro": 2
+   },
+   "outros": {
+    "pessoas": 109,
+    "vinculos": 127,
+    "efetivo": 0,
+    "dt": 109,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 68,
+     "vinculos": 77,
+     "efetivo": 0,
+     "dt": 68,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 47,
+     "vinculos": 50,
+     "efetivo": 0,
+     "dt": 47,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 126,
+   "sem_etapa_grupos": {
+    "EI_AI": 126
+   },
+   "censo": {
+    "total": 125,
+    "EI": 36,
+    "AI": 58,
+    "AF": 39,
+    "efetivo": 11,
+    "temporario": 112
+   },
+   "tier": "200 a 500"
+  },
+  "3204906": {
+   "total": {
+    "pessoas": 2050,
+    "vinculos": 2239,
+    "efetivo": 618,
+    "dt": 1425,
+    "outro": 80
+   },
+   "magisterio": {
+    "pessoas": 1741,
+    "vinculos": 1927,
+    "efetivo": 583,
+    "dt": 1150,
+    "outro": 80
+   },
+   "professores": {
+    "pessoas": 1474,
+    "vinculos": 1601,
+    "efetivo": 537,
+    "dt": 970,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 547.6,
+     "efetivo": 180.7,
+     "dt": 381.4,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 547.6
+    },
+    "AI": {
+     "pessoas": 585.5,
+     "efetivo": 193.2,
+     "dt": 407.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 585.5
+    },
+    "AF": {
+     "pessoas": 344.9,
+     "efetivo": 165.1,
+     "dt": 179.8,
+     "outro": 0.0,
+     "identificado": 296.0,
+     "estimado": 48.9
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 1,
+    "vinculos": 1,
+    "efetivo": 0,
+    "dt": 1,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 313,
+    "vinculos": 326,
+    "efetivo": 63,
+    "dt": 181,
+    "outro": 80
+   },
+   "outros": {
+    "pessoas": 312,
+    "vinculos": 312,
+    "efetivo": 35,
+    "dt": 277,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 244,
+     "vinculos": 244,
+     "efetivo": 15,
+     "dt": 229,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 68,
+     "vinculos": 68,
+     "efetivo": 20,
+     "dt": 48,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 1182,
+   "sem_etapa_grupos": {
+    "EI_AI": 975,
+    "EI_AI_AF": 207
+   },
+   "censo": {
+    "total": 1106,
+    "EI": 463,
+    "AI": 495,
+    "AF": 296,
+    "efetivo": 385,
+    "temporario": 739
+   },
+   "tier": "Mais de 500"
+  },
+  "3204955": {
+   "total": {
+    "pessoas": 179,
+    "vinculos": 194,
+    "efetivo": 66,
+    "dt": 108,
+    "outro": 9
+   },
+   "magisterio": {
+    "pessoas": 152,
+    "vinculos": 167,
+    "efetivo": 64,
+    "dt": 83,
+    "outro": 9
+   },
+   "professores": {
+    "pessoas": 133,
+    "vinculos": 148,
+    "efetivo": 58,
+    "dt": 78,
+    "outro": 1
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 29.2,
+     "efetivo": 13.8,
+     "dt": 16.1,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 29.2
+    },
+    "AI": {
+     "pessoas": 34.3,
+     "efetivo": 16.2,
+     "dt": 18.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 34.3
+    },
+    "AF": {
+     "pessoas": 55.5,
+     "efetivo": 24.0,
+     "dt": 32.1,
+     "outro": 1.0,
+     "identificado": 30.0,
+     "estimado": 25.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 17,
+    "vinculos": 17,
+    "efetivo": 5,
+    "dt": 12,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 19,
+    "vinculos": 19,
+    "efetivo": 6,
+    "dt": 5,
+    "outro": 8
+   },
+   "outros": {
+    "pessoas": 27,
+    "vinculos": 27,
+    "efetivo": 2,
+    "dt": 25,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 26,
+     "vinculos": 26,
+     "efetivo": 1,
+     "dt": 25,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 1,
+     "vinculos": 1,
+     "efetivo": 1,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 89,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 89
+   },
+   "censo": {
+    "total": 97,
+    "EI": 40,
+    "AI": 47,
+    "AF": 35,
+    "efetivo": 40,
+    "temporario": 61
+   },
+   "tier": "Menos de 200"
+  },
+  "3205002": {
+   "total": {
+    "pessoas": 7853,
+    "vinculos": 9504,
+    "efetivo": 3429,
+    "dt": 4643,
+    "outro": 210
+   },
+   "magisterio": {
+    "pessoas": 6448,
+    "vinculos": 7978,
+    "efetivo": 3338,
+    "dt": 3340,
+    "outro": 173
+   },
+   "professores": {
+    "pessoas": 6068,
+    "vinculos": 7238,
+    "efetivo": 3126,
+    "dt": 3161,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 2037.4,
+     "efetivo": 1173.4,
+     "dt": 912.4,
+     "outro": 0.0,
+     "identificado": 1543.0,
+     "estimado": 494.4
+    },
+    "AI": {
+     "pessoas": 2437.1,
+     "efetivo": 1572.3,
+     "dt": 935.8,
+     "outro": 0.0,
+     "identificado": 1847.0,
+     "estimado": 590.1
+    },
+    "AF": {
+     "pessoas": 1246.5,
+     "efetivo": 603.3,
+     "dt": 662.8,
+     "outro": 0.0,
+     "identificado": 999.0,
+     "estimado": 247.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 986,
+    "vinculos": 1072,
+    "efetivo": 111,
+    "dt": 880,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 696,
+    "vinculos": 740,
+    "efetivo": 321,
+    "dt": 229,
+    "outro": 173
+   },
+   "outros": {
+    "pessoas": 1412,
+    "vinculos": 1526,
+    "efetivo": 91,
+    "dt": 1309,
+    "outro": 37
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 1247,
+     "vinculos": 1335,
+     "efetivo": 3,
+     "dt": 1242,
+     "outro": 2
+    },
+    "secretaria": {
+     "pessoas": 166,
+     "vinculos": 191,
+     "efetivo": 88,
+     "dt": 68,
+     "outro": 35
+    }
+   },
+   "sem_etapa_pessoas": 1332,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 1332
+   },
+   "censo": {
+    "total": 3991,
+    "EI": 1664,
+    "AI": 1986,
+    "AF": 833,
+    "efetivo": 1605,
+    "temporario": 2627
+   },
+   "tier": "Mais de 500"
+  },
+  "3205010": {
+   "total": {
+    "pessoas": 770,
+    "vinculos": 840,
+    "efetivo": 303,
+    "dt": 471,
+    "outro": 20
+   },
+   "magisterio": {
+    "pessoas": 624,
+    "vinculos": 684,
+    "efetivo": 278,
+    "dt": 350,
+    "outro": 20
+   },
+   "professores": {
+    "pessoas": 539,
+    "vinculos": 564,
+    "efetivo": 257,
+    "dt": 290,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 218.1,
+     "efetivo": 104.6,
+     "dt": 116.8,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 218.1
+    },
+    "AI": {
+     "pessoas": 207.8,
+     "efetivo": 98.2,
+     "dt": 112.7,
+     "outro": 0.0,
+     "identificado": 3.0,
+     "estimado": 204.8
+    },
+    "AF": {
+     "pessoas": 113.1,
+     "efetivo": 54.2,
+     "dt": 60.5,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 113.1
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 119,
+    "vinculos": 120,
+    "efetivo": 34,
+    "dt": 66,
+    "outro": 20
+   },
+   "outros": {
+    "pessoas": 156,
+    "vinculos": 156,
+    "efetivo": 25,
+    "dt": 131,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 103,
+     "vinculos": 103,
+     "efetivo": 3,
+     "dt": 100,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 53,
+     "vinculos": 53,
+     "efetivo": 22,
+     "dt": 31,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 536,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 536
+   },
+   "censo": {
+    "total": 386,
+    "EI": 164,
+    "AI": 154,
+    "AF": 85,
+    "efetivo": 174,
+    "temporario": 235
+   },
+   "tier": "Mais de 500"
+  },
+  "3205036": {
+   "total": {
+    "pessoas": 311,
+    "vinculos": 330,
+    "efetivo": 218,
+    "dt": 94,
+    "outro": 2
+   },
+   "magisterio": {
+    "pessoas": 230,
+    "vinculos": 249,
+    "efetivo": 174,
+    "dt": 57,
+    "outro": 2
+   },
+   "professores": {
+    "pessoas": 223,
+    "vinculos": 241,
+    "efetivo": 173,
+    "dt": 53,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 82.7,
+     "efetivo": 64.2,
+     "dt": 19.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 82.7
+    },
+    "AI": {
+     "pessoas": 92.3,
+     "efetivo": 71.6,
+     "dt": 21.9,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 92.3
+    },
+    "AF": {
+     "pessoas": 49.0,
+     "efetivo": 38.2,
+     "dt": 11.4,
+     "outro": 0.0,
+     "identificado": 1.0,
+     "estimado": 48.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 8,
+    "vinculos": 8,
+    "efetivo": 1,
+    "dt": 5,
+    "outro": 2
+   },
+   "outros": {
+    "pessoas": 81,
+    "vinculos": 81,
+    "efetivo": 44,
+    "dt": 37,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 80,
+     "vinculos": 80,
+     "efetivo": 43,
+     "dt": 37,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 1,
+     "vinculos": 1,
+     "efetivo": 1,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 223,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 223
+   },
+   "censo": {
+    "total": 150,
+    "EI": 69,
+    "AI": 77,
+    "AF": 40,
+    "efetivo": 104,
+    "temporario": 54
+   },
+   "tier": "200 a 500"
+  },
+  "3205069": {
+   "total": {
+    "pessoas": 549,
+    "vinculos": 568,
+    "efetivo": 146,
+    "dt": 405,
+    "outro": 3
+   },
+   "magisterio": {
+    "pessoas": 305,
+    "vinculos": 321,
+    "efetivo": 124,
+    "dt": 183,
+    "outro": 3
+   },
+   "professores": {
+    "pessoas": 274,
+    "vinculos": 284,
+    "efetivo": 109,
+    "dt": 169,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 127.8,
+     "efetivo": 47.7,
+     "dt": 81.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 127.8
+    },
+    "AI": {
+     "pessoas": 89.1,
+     "efetivo": 33.2,
+     "dt": 56.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 89.1
+    },
+    "AF": {
+     "pessoas": 59.1,
+     "efetivo": 28.1,
+     "dt": 32.0,
+     "outro": 0.0,
+     "identificado": 59.0,
+     "estimado": 0.1
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 36,
+    "vinculos": 37,
+    "efetivo": 15,
+    "dt": 18,
+    "outro": 3
+   },
+   "outros": {
+    "pessoas": 246,
+    "vinculos": 247,
+    "efetivo": 22,
+    "dt": 224,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 244,
+     "vinculos": 245,
+     "efetivo": 20,
+     "dt": 224,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 2,
+     "vinculos": 2,
+     "efetivo": 2,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 217,
+   "sem_etapa_grupos": {
+    "EI_AI": 216,
+    "EI_AI_AF": 1
+   },
+   "censo": {
+    "total": 221,
+    "EI": 122,
+    "AI": 85,
+    "AF": 32,
+    "efetivo": 59,
+    "temporario": 165
+   },
+   "tier": "200 a 500"
+  },
+  "3205101": {
+   "total": {
+    "pessoas": 2045,
+    "vinculos": 2175,
+    "efetivo": 500,
+    "dt": 1564,
+    "outro": 21
+   },
+   "magisterio": {
+    "pessoas": 1448,
+    "vinculos": 1574,
+    "efetivo": 481,
+    "dt": 985,
+    "outro": 21
+   },
+   "professores": {
+    "pessoas": 1298,
+    "vinculos": 1387,
+    "efetivo": 427,
+    "dt": 907,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 293.1,
+     "efetivo": 141.1,
+     "dt": 167.0,
+     "outro": 0.0,
+     "identificado": 290.0,
+     "estimado": 3.1
+    },
+    "AI": {
+     "pessoas": 398.2,
+     "efetivo": 154.2,
+     "dt": 258.0,
+     "outro": 0.0,
+     "identificado": 394.0,
+     "estimado": 4.2
+    },
+    "AF": {
+     "pessoas": 434.6,
+     "efetivo": 119.6,
+     "dt": 320.0,
+     "outro": 0.0,
+     "identificado": 433.0,
+     "estimado": 1.6
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 204,
+    "vinculos": 207,
+    "efetivo": 24,
+    "dt": 180,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 184,
+    "vinculos": 187,
+    "efetivo": 71,
+    "dt": 92,
+    "outro": 21
+   },
+   "outros": {
+    "pessoas": 601,
+    "vinculos": 601,
+    "efetivo": 19,
+    "dt": 582,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 597,
+     "vinculos": 597,
+     "efetivo": 15,
+     "dt": 582,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 4,
+     "vinculos": 4,
+     "efetivo": 4,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 9,
+   "sem_etapa_grupos": {
+    "EI_AI": 3,
+    "AI_AF": 1,
+    "EI_AI_AF": 5
+   },
+   "censo": {
+    "total": 865,
+    "EI": 311,
+    "AI": 360,
+    "AF": 226,
+    "efetivo": 223,
+    "temporario": 683
+   },
+   "tier": "Mais de 500"
+  },
+  "3205150": {
+   "total": {
+    "pessoas": 211,
+    "vinculos": 217,
+    "efetivo": 105,
+    "dt": 102,
+    "outro": 5
+   },
+   "magisterio": {
+    "pessoas": 169,
+    "vinculos": 175,
+    "efetivo": 89,
+    "dt": 76,
+    "outro": 5
+   },
+   "professores": {
+    "pessoas": 145,
+    "vinculos": 148,
+    "efetivo": 72,
+    "dt": 73,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 30.6,
+     "efetivo": 16.8,
+     "dt": 13.8,
+     "outro": 0.0,
+     "identificado": 15.0,
+     "estimado": 15.6
+    },
+    "AI": {
+     "pessoas": 56.0,
+     "efetivo": 31.7,
+     "dt": 24.2,
+     "outro": 0.0,
+     "identificado": 35.0,
+     "estimado": 21.0
+    },
+    "AF": {
+     "pessoas": 49.5,
+     "efetivo": 24.5,
+     "dt": 25.0,
+     "outro": 0.0,
+     "identificado": 46.0,
+     "estimado": 3.5
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 11,
+    "vinculos": 11,
+    "efetivo": 1,
+    "dt": 10,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 27,
+    "vinculos": 27,
+    "efetivo": 19,
+    "dt": 3,
+    "outro": 5
+   },
+   "outros": {
+    "pessoas": 42,
+    "vinculos": 42,
+    "efetivo": 16,
+    "dt": 26,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 36,
+     "vinculos": 36,
+     "efetivo": 10,
+     "dt": 26,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 6,
+     "vinculos": 6,
+     "efetivo": 6,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 40,
+   "sem_etapa_grupos": {
+    "EI_AI": 33,
+    "AI_AF": 1,
+    "EI_AI_AF": 6
+   },
+   "censo": {
+    "total": 104,
+    "EI": 28,
+    "AI": 37,
+    "AF": 59,
+    "efetivo": 48,
+    "temporario": 56
+   },
+   "tier": "Menos de 200"
+  },
+  "3205176": {
+   "total": {
+    "pessoas": 269,
+    "vinculos": 286,
+    "efetivo": 80,
+    "dt": 180,
+    "outro": 12
+   },
+   "magisterio": {
+    "pessoas": 218,
+    "vinculos": 235,
+    "efetivo": 79,
+    "dt": 130,
+    "outro": 12
+   },
+   "professores": {
+    "pessoas": 194,
+    "vinculos": 206,
+    "efetivo": 73,
+    "dt": 124,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 84.5,
+     "efetivo": 29.8,
+     "dt": 56.3,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 84.5
+    },
+    "AI": {
+     "pessoas": 71.5,
+     "efetivo": 25.2,
+     "dt": 47.7,
+     "outro": 0.0,
+     "identificado": 0.0,
+     "estimado": 71.5
+    },
+    "AF": {
+     "pessoas": 41.0,
+     "efetivo": 21.0,
+     "dt": 20.0,
+     "outro": 0.0,
+     "identificado": 41.0,
+     "estimado": 0.0
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 0,
+    "vinculos": 0,
+    "efetivo": 0,
+    "dt": 0,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 29,
+    "vinculos": 29,
+    "efetivo": 10,
+    "dt": 7,
+    "outro": 12
+   },
+   "outros": {
+    "pessoas": 51,
+    "vinculos": 51,
+    "efetivo": 1,
+    "dt": 50,
+    "outro": 0
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 50,
+     "vinculos": 50,
+     "efetivo": 0,
+     "dt": 50,
+     "outro": 0
+    },
+    "secretaria": {
+     "pessoas": 1,
+     "vinculos": 1,
+     "efetivo": 1,
+     "dt": 0,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 156,
+   "sem_etapa_grupos": {
+    "EI_AI": 156
+   },
+   "censo": {
+    "total": 153,
+    "EI": 72,
+    "AI": 61,
+    "AF": 41,
+    "efetivo": 42,
+    "temporario": 111
+   },
+   "tier": "200 a 500"
+  },
+  "3205200": {
+   "total": {
+    "pessoas": 6121,
+    "vinculos": 6892,
+    "efetivo": 3227,
+    "dt": 3074,
+    "outro": 4
+   },
+   "magisterio": {
+    "pessoas": 4695,
+    "vinculos": 5464,
+    "efetivo": 3019,
+    "dt": 1858,
+    "outro": 2
+   },
+   "professores": {
+    "pessoas": 4059,
+    "vinculos": 4599,
+    "efetivo": 2637,
+    "dt": 1575,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 976.3,
+     "efetivo": 654.2,
+     "dt": 351.8,
+     "outro": 0.0,
+     "identificado": 763.0,
+     "estimado": 213.3
+    },
+    "AI": {
+     "pessoas": 1464.6,
+     "efetivo": 1028.1,
+     "dt": 472.7,
+     "outro": 0.0,
+     "identificado": 1110.0,
+     "estimado": 354.6
+    },
+    "AF": {
+     "pessoas": 1064.1,
+     "efetivo": 682.6,
+     "dt": 396.5,
+     "outro": 0.0,
+     "identificado": 833.0,
+     "estimado": 231.1
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 730,
+    "vinculos": 849,
+    "efetivo": 371,
+    "dt": 411,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 859,
+    "vinculos": 865,
+    "efetivo": 519,
+    "dt": 339,
+    "outro": 2
+   },
+   "outros": {
+    "pessoas": 1427,
+    "vinculos": 1428,
+    "efetivo": 208,
+    "dt": 1217,
+    "outro": 2
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 1018,
+     "vinculos": 1019,
+     "efetivo": 1,
+     "dt": 1015,
+     "outro": 2
+    },
+    "secretaria": {
+     "pessoas": 409,
+     "vinculos": 409,
+     "efetivo": 207,
+     "dt": 202,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 799,
+   "sem_etapa_grupos": {
+    "EI_AI_AF": 799
+   },
+   "censo": {
+    "total": 3047,
+    "EI": 891,
+    "AI": 1481,
+    "AF": 965,
+    "efetivo": 2073,
+    "temporario": 1203
+   },
+   "tier": "Mais de 500"
+  },
+  "3205309": {
+   "total": {
+    "pessoas": 5858,
+    "vinculos": 6476,
+    "efetivo": 3120,
+    "dt": 2742,
+    "outro": 126
+   },
+   "magisterio": {
+    "pessoas": 4807,
+    "vinculos": 5423,
+    "efetivo": 2856,
+    "dt": 1964,
+    "outro": 117
+   },
+   "professores": {
+    "pessoas": 4104,
+    "vinculos": 4428,
+    "efetivo": 2436,
+    "dt": 1678,
+    "outro": 0
+   },
+   "etapas": {
+    "EI": {
+     "pessoas": 1208.5,
+     "efetivo": 757.4,
+     "dt": 451.5,
+     "outro": 0.0,
+     "identificado": 1031.0,
+     "estimado": 177.5
+    },
+    "AI": {
+     "pessoas": 1170.8,
+     "efetivo": 738.4,
+     "dt": 434.7,
+     "outro": 0.0,
+     "identificado": 1023.0,
+     "estimado": 147.8
+    },
+    "AF": {
+     "pessoas": 1843.7,
+     "efetivo": 1020.2,
+     "dt": 827.8,
+     "outro": 0.0,
+     "identificado": 1740.0,
+     "estimado": 103.7
+    }
+   },
+   "educacao_especial": {
+    "pessoas": 24,
+    "vinculos": 25,
+    "efetivo": 3,
+    "dt": 21,
+    "outro": 0
+   },
+   "gestores": {
+    "pessoas": 914,
+    "vinculos": 995,
+    "efetivo": 538,
+    "dt": 305,
+    "outro": 117
+   },
+   "outros": {
+    "pessoas": 1053,
+    "vinculos": 1053,
+    "efetivo": 265,
+    "dt": 779,
+    "outro": 9
+   },
+   "outros_detalhe": {
+    "apoio": {
+     "pessoas": 988,
+     "vinculos": 988,
+     "efetivo": 225,
+     "dt": 754,
+     "outro": 9
+    },
+    "secretaria": {
+     "pessoas": 65,
+     "vinculos": 65,
+     "efetivo": 40,
+     "dt": 25,
+     "outro": 0
+    }
+   },
+   "sem_etapa_pessoas": 429,
+   "sem_etapa_grupos": {
+    "EI_AI": 9,
+    "AI_AF": 1,
+    "EI_AI_AF": 419
+   },
+   "censo": {
+    "total": 2921,
+    "EI": 1313,
+    "AI": 1089,
+    "AF": 786,
+    "efetivo": 1651,
+    "temporario": 1268
+   },
+   "tier": "Mais de 500"
+  }
+ }
+}

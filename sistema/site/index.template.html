@@ -1,0 +1,1137 @@
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Sapion Data</title>
+<meta name="description" content="Dados educacionais por município para o time comercial da Sapion Nova Educação. Versão 1: Espírito Santo.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Sora:wght@500;600;700&display=swap">
+<style>
+/* Layout: barra de marca fixa no topo; ficha do município em coluna única de seções numeradas pelos 4 blocos da v1;
+   panorama como tabela operável; metodologia como documento. Tokens do Sapion Design System (cores da marca, Sora + Open Sans). */
+:root {
+  --bg: #F5F6FB;
+  --surface: #FFFFFF;
+  --sunken: #EEF0F8;
+  --ink: #22256F;
+  --ink-2: #464D5E;
+  --muted: #646975;
+  --line: #DEE1E8;
+  --line-strong: #C7CAD3;
+  --brand: #444DF2;
+  --brand-ink: #3139D6;
+  --brand-tint: #DAEBFC;
+  --series-a: #444DF2;
+  --series-b: #009E72;
+  --series-c: #B2B7C5;
+  --est-bg: #ECDFFF;
+  --est-ink: #6A2CC9;
+  --ok: #00825C;
+  --ok-bg: #D5F6EA;
+  --warn: #8A6200;
+  --warn-bg: #FFF1B3;
+  --bad: #C4323A;
+  --bad-bg: #FDE2E3;
+  --shadow: 0 1px 2px rgba(34,37,111,.06), 0 4px 16px rgba(34,37,111,.06);
+  --font-display: "Sora", system-ui, "Segoe UI", sans-serif;
+  --font-body: "Open Sans", system-ui, "Segoe UI", sans-serif;
+  --radius: 12px;
+  --radius-lg: 20px;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #0D0F2B; --surface: #151838; --sunken: #1C1F48; --ink: #EEF0FF; --ink-2: #BBC0E6; --muted: #8E94C4;
+    --line: #262A5C; --line-strong: #353A74; --brand: #7C83FF; --brand-ink: #9CA2FF; --brand-tint: #232873;
+    --series-a: #7C83FF; --series-b: #14AD7E; --series-c: #3A3F78; --est-bg: #34225C; --est-ink: #D2B6FF;
+    --ok: #3DD6A0; --ok-bg: #0F3A2E; --warn: #FFD95C; --warn-bg: #3D3200; --bad: #FF8288; --bad-bg: #45161C;
+    --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25); color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #0D0F2B; --surface: #151838; --sunken: #1C1F48; --ink: #EEF0FF; --ink-2: #BBC0E6; --muted: #8E94C4;
+  --line: #262A5C; --line-strong: #353A74; --brand: #7C83FF; --brand-ink: #9CA2FF; --brand-tint: #232873;
+  --series-a: #7C83FF; --series-b: #14AD7E; --series-c: #3A3F78; --est-bg: #34225C; --est-ink: #D2B6FF;
+  --ok: #3DD6A0; --ok-bg: #0F3A2E; --warn: #FFD95C; --warn-bg: #3D3200; --bad: #FF8288; --bad-bg: #45161C;
+  --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25); color-scheme: dark;
+}
+* { box-sizing: border-box; }
+body { background: var(--bg); color: var(--ink); font: 400 15px/1.55 var(--font-body); }
+h1, h2, h3, h4 { font-family: var(--font-display); text-wrap: balance; margin: 0; letter-spacing: -0.01em; }
+p { margin: 0; }
+button { font: inherit; color: inherit; }
+a { color: var(--brand-ink); }
+:focus-visible { outline: 2px solid var(--brand); outline-offset: 2px; border-radius: 4px; }
+.num { font-variant-numeric: tabular-nums; }
+.logo-dark { display: none; }
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) .logo-light { display: none; } :root:not([data-theme="light"]) .logo-dark { display: block; } }
+:root[data-theme="dark"] .logo-light { display: none; } :root[data-theme="dark"] .logo-dark { display: block; }
+
+/* ---------- barra superior ---------- */
+.topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--line); }
+.topbar-in { max-width: 1180px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
+.brand { display: flex; align-items: center; gap: 12px; }
+.brand img { height: 32px; width: auto; }
+.uf { font-weight: 600; color: var(--muted); }
+
+/* tela inicial: seleção de estado e município */
+.landing { padding-block: 32px 8px; max-width: 720px; }
+.landing .eyebrow { font: 600 12px/1 var(--font-body); letter-spacing: .08em; text-transform: uppercase; color: var(--brand-ink); margin-bottom: 12px; }
+.landing h1 { font-size: clamp(28px, 4.4vw, 44px); font-weight: 700; line-height: 1.1; }
+.landing .lead { margin-top: 12px; }
+.is-landing .picker { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 20px; box-shadow: var(--shadow); max-width: 760px; margin-top: 20px; }
+.is-landing .picker .stamp { display: none; }
+.stepn { display: inline-grid; place-items: center; width: 18px; height: 18px; border-radius: 50%; background: var(--brand); color: #fff; font: 700 11px/1 var(--font-display); margin-right: 6px; vertical-align: 1px; letter-spacing: 0; }
+.uf-field { flex: 0 1 240px; }
+.picker .uf-field select { width: 100%; padding: 11px 12px; font-size: 15px; border-radius: var(--radius); }
+.picker .uf-field label, .picker .combo label { display: flex; align-items: center; min-height: 18px; }
+.combo input:disabled { background: var(--sunken); color: var(--muted); cursor: not-allowed; }
+.empty { padding: 32px; text-align: center; color: var(--ink-2); background: var(--surface); border: 1px dashed var(--line-strong); border-radius: var(--radius-lg); }
+
+/* exportação */
+.png-btn { display: inline-flex; align-items: center; gap: 6px; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2); border-radius: 999px; padding: 5px 10px; font: 600 12px/1 var(--font-body); cursor: pointer; white-space: nowrap; }
+.png-btn:hover { border-color: var(--brand); color: var(--brand-ink); }
+.png-btn svg, .btn svg { width: 14px; height: 14px; flex: none; }
+.png-btn[disabled], .btn[disabled] { opacity: .6; cursor: progress; }
+.card-top .right { display: flex; gap: 6px; align-items: center; flex-wrap: wrap; justify-content: flex-end; }
+.quadro-head { display: flex; justify-content: space-between; align-items: center; gap: 8px; margin-bottom: 8px; flex-wrap: wrap; }
+.quadro-head h3 { font-size: 16px; font-weight: 600; }
+.export-head { display: flex; justify-content: space-between; align-items: center; gap: 16px; padding-bottom: 12px; margin-bottom: 14px; border-bottom: 2px solid var(--brand); }
+.export-head img { height: 26px; width: auto; }
+.export-head .who { text-align: right; font-size: 13px; color: var(--ink-2); line-height: 1.35; }
+.export-head .who b { display: block; font: 700 16px/1.2 var(--font-display); color: var(--ink); }
+.export-foot { margin-top: 14px; padding-top: 10px; border-top: 1px solid var(--line); font-size: 11.5px; color: var(--muted); display: flex; justify-content: space-between; gap: 12px; flex-wrap: wrap; }
+#toast { position: fixed; z-index: 70; left: 50%; bottom: calc(24px + env(safe-area-inset-bottom, 0px)); transform: translateX(-50%); background: var(--ink); color: var(--bg); padding: 10px 16px; border-radius: 999px; font-size: 14px; box-shadow: var(--shadow); max-width: calc(100vw - 32px); }
+h1 .uf { font-size: .6em; margin-left: .2em; }
+.tabs { display: flex; gap: 4px; margin-left: auto; flex-wrap: wrap; }
+.tab { border: 0; background: transparent; padding: 8px 12px; border-radius: 999px; cursor: pointer; font-weight: 600; font-size: 14px; color: var(--ink-2); }
+.tab:hover { background: var(--sunken); color: var(--ink); }
+.tab[aria-selected="true"] { background: var(--brand); color: #fff; }
+@media (max-width: 640px) { .topbar { position: static; } .tabs { margin-left: 0; } }
+
+/* ---------- estrutura ---------- */
+main { max-width: 1180px; margin: 0 auto; padding-inline: 16px; padding-block: 24px 64px; }
+.view[hidden] { display: none; }
+.picker { display: flex; gap: 12px; align-items: end; flex-wrap: wrap; margin-bottom: 20px; }
+.combo { position: relative; flex: 1 1 280px; max-width: 420px; }
+.combo label { display: block; font: 600 12px/1.2 var(--font-body); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.combo input { width: 100%; padding: 11px 14px; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink); font-size: 15px; }
+.combo ul { position: absolute; z-index: 30; left: 0; right: 0; top: 100%; margin: 4px 0 0; padding: 4px; list-style: none; background: var(--surface); border: 1px solid var(--line-strong); border-radius: var(--radius); box-shadow: var(--shadow); max-height: 320px; overflow: auto; }
+.combo li { padding: 8px 10px; border-radius: 8px; cursor: pointer; display: flex; justify-content: space-between; gap: 8px; }
+.combo li[aria-selected="true"], .combo li:hover { background: var(--brand-tint); }
+.combo li small { color: var(--muted); }
+.stamp { font-size: 12px; color: var(--muted); }
+
+.head { display: flex; justify-content: space-between; gap: 16px; flex-wrap: wrap; align-items: flex-end; padding-bottom: 16px; border-bottom: 1px solid var(--line); margin-bottom: 20px; }
+.head h1 { font-size: clamp(28px, 4vw, 40px); font-weight: 700; line-height: 1.1; }
+.head .sub { color: var(--ink-2); margin-top: 6px; display: flex; gap: 8px 14px; flex-wrap: wrap; align-items: center; font-size: 14px; }
+.btn { display: inline-flex; align-items: center; gap: 8px; border: 1px solid var(--line-strong); background: var(--surface); padding: 9px 14px; border-radius: 999px; cursor: pointer; font-weight: 600; font-size: 14px; }
+.btn:hover { border-color: var(--brand); color: var(--brand-ink); }
+
+/* resumo */
+.summary { display: grid; grid-template-columns: repeat(auto-fit, minmax(170px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: var(--radius-lg); overflow: hidden; margin-bottom: 16px; }
+.kpi { background: var(--surface); padding: 14px 16px; display: flex; flex-direction: column; gap: 4px; min-width: 0; }
+.kpi .lbl { font-size: 12px; font-weight: 600; letter-spacing: .03em; text-transform: uppercase; color: var(--muted); display: flex; align-items: center; gap: 6px; }
+.kpi .val { font: 600 22px/1.2 var(--font-display); font-variant-numeric: tabular-nums; }
+.kpi .note { font-size: 12.5px; color: var(--ink-2); }
+.signals { display: flex; flex-wrap: wrap; gap: 8px; margin-bottom: 28px; align-items: center; }
+.signals-title { font: 600 13px/1 var(--font-body); color: var(--ink-2); margin-right: 4px; }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 5px 10px; border-radius: 999px; font-size: 13px; font-weight: 600; border: 1px solid transparent; }
+.chip::before { content: ""; width: 7px; height: 7px; border-radius: 50%; background: currentColor; flex: none; }
+.chip.bad { background: var(--bad-bg); color: var(--bad); }
+.chip.warn { background: var(--warn-bg); color: var(--warn); }
+.chip.ok { background: var(--ok-bg); color: var(--ok); }
+.chip.info { background: var(--brand-tint); color: var(--brand-ink); }
+
+/* seções */
+.block { margin-top: 36px; }
+.block-h { display: flex; align-items: baseline; gap: 12px; margin-bottom: 14px; flex-wrap: wrap; }
+.block-h .idx { font: 700 13px/1 var(--font-display); color: var(--brand-ink); background: var(--brand-tint); border-radius: 8px; padding: 6px 8px; }
+.block-h h2 { font-size: 22px; font-weight: 600; }
+.block-h .src { margin-left: auto; font-size: 12.5px; color: var(--muted); }
+.grid { display: grid; gap: 16px; grid-template-columns: repeat(12, minmax(0, 1fr)); }
+.span-12 { grid-column: span 12; } .span-8 { grid-column: span 8; } .span-7 { grid-column: span 7; } .span-6 { grid-column: span 6; } .span-5 { grid-column: span 5; } .span-4 { grid-column: span 4; }
+@media (max-width: 900px) { .span-8, .span-7, .span-6, .span-5, .span-4 { grid-column: span 12; } }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius-lg); padding: 18px 20px; min-width: 0; }
+.card h3 { font-size: 16px; font-weight: 600; display: flex; align-items: center; gap: 8px; flex-wrap: wrap; }
+.card .card-top { display: flex; justify-content: space-between; gap: 8px; align-items: flex-start; flex-wrap: wrap; margin-bottom: 12px; }
+.muted { color: var(--muted); }
+.small { font-size: 13px; }
+.big { font: 700 32px/1.1 var(--font-display); font-variant-numeric: tabular-nums; }
+.mid { font: 600 20px/1.2 var(--font-display); font-variant-numeric: tabular-nums; }
+
+/* selos */
+.tag { display: inline-flex; align-items: center; gap: 4px; font: 600 11px/1 var(--font-body); letter-spacing: .03em; text-transform: uppercase; padding: 4px 7px; border-radius: 6px; white-space: nowrap; }
+.tag.oficial { background: var(--sunken); color: var(--ink-2); }
+.tag.estimado { background: var(--est-bg); color: var(--est-ink); }
+.pill { display: inline-flex; align-items: center; gap: 6px; font-weight: 700; font-size: 13px; padding: 4px 10px; border-radius: 999px; }
+.pill.ok { background: var(--ok-bg); color: var(--ok); }
+.pill.bad { background: var(--bad-bg); color: var(--bad); }
+.pill.warn { background: var(--warn-bg); color: var(--warn); }
+
+/* botão de ajuda */
+.help { width: 18px; height: 18px; border-radius: 50%; border: 1px solid var(--line-strong); background: var(--surface); color: var(--ink-2); font: 700 11px/1 var(--font-body); cursor: help; display: inline-grid; place-items: center; padding: 0; flex: none; text-transform: none; letter-spacing: 0; }
+.help:hover, .help[aria-expanded="true"] { background: var(--brand); border-color: var(--brand); color: #fff; }
+#pop { position: fixed; z-index: 50; max-width: min(340px, calc(100vw - 32px)); background: var(--ink); color: var(--bg); padding: 12px 14px; border-radius: var(--radius); font-size: 13.5px; line-height: 1.5; box-shadow: var(--shadow); }
+#pop b { font-family: var(--font-display); font-weight: 600; display: block; margin-bottom: 4px; }
+
+/* linhas de dado */
+.dl { display: grid; grid-template-columns: 1fr auto; gap: 8px 16px; font-size: 14px; }
+.dl dt { color: var(--ink-2); display: flex; align-items: center; gap: 6px; min-width: 0; }
+.dl dd { margin: 0; text-align: right; font-weight: 600; font-variant-numeric: tabular-nums; }
+.dl .sep { grid-column: 1 / -1; border-top: 1px solid var(--line); }
+
+/* barras empilhadas (profissionais) */
+.stack-legend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); margin-bottom: 10px; }
+.sw { display: inline-block; width: 10px; height: 10px; border-radius: 3px; margin-right: 6px; vertical-align: -1px; }
+.srow { display: grid; grid-template-columns: minmax(120px, 190px) minmax(0, 1fr) 64px; gap: 10px; align-items: center; padding: 7px 0; border-top: 1px solid var(--line); }
+.srow:first-of-type { border-top: 0; }
+.srow .name { font-size: 14px; font-weight: 600; display: flex; gap: 6px; align-items: center; min-width: 0; }
+.srow .name small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+.srow .total { text-align: right; font: 600 16px/1 var(--font-display); font-variant-numeric: tabular-nums; }
+.bar { display: flex; height: 22px; gap: 2px; min-width: 0; }
+.bar span { height: 100%; border-radius: 3px; min-width: 2px; position: relative; display: grid; place-items: center; font-size: 11px; font-weight: 700; color: #fff; overflow: hidden; white-space: nowrap; }
+.bar .a { background: var(--series-a); } .bar .b { background: var(--series-b); } .bar .c { background: var(--series-c); color: var(--ink); }
+@media (max-width: 560px) { .srow { grid-template-columns: 1fr 56px; } .srow .bar { grid-column: 1 / -1; grid-row: 2; } }
+
+/* gráficos svg */
+.chart { width: 100%; height: auto; max-height: 260px; display: block; overflow: visible; }
+.chart-note { display: flex; gap: 14px; flex-wrap: wrap; font-size: 12.5px; color: var(--ink-2); margin-top: 4px; }
+.chart-note .dash { display: inline-block; width: 18px; border-top: 2px dashed var(--ink-2); vertical-align: middle; margin-right: 6px; }
+.chart text { fill: var(--ink-2); font-family: var(--font-body); font-size: 12px; }
+.chart .v { fill: var(--ink); font-weight: 700; font-family: var(--font-display); paint-order: stroke; stroke: var(--surface); stroke-width: 4px; stroke-linejoin: round; }
+.chart .grid-l { stroke: var(--line); stroke-width: 1; }
+.chart .base { stroke: var(--line-strong); stroke-width: 1; }
+.chart .ref { stroke: var(--ink-2); stroke-width: 1.5; stroke-dasharray: 4 3; }
+.chart .hit { fill: transparent; cursor: default; }
+.chart .hit:hover + .m, .chart .m:hover { opacity: .85; }
+#tip { position: fixed; z-index: 60; pointer-events: none; background: var(--surface); color: var(--ink); border: 1px solid var(--line-strong); box-shadow: var(--shadow); border-radius: 10px; padding: 8px 10px; font-size: 13px; }
+
+/* condicionalidades */
+.conds { display: grid; grid-template-columns: repeat(5, minmax(0, 1fr)); gap: 6px; margin: 10px 0 14px; }
+.cond { border-radius: 10px; padding: 8px; text-align: center; border: 1px solid var(--line); }
+.cond b { display: block; font: 700 15px/1.2 var(--font-display); }
+.cond span { font-size: 11px; line-height: 1.25; display: block; color: var(--ink-2); }
+.cond.ok { background: var(--ok-bg); border-color: transparent; } .cond.ok b { color: var(--ok); }
+.cond.bad { background: var(--bad-bg); border-color: transparent; } .cond.bad b { color: var(--bad); }
+@media (max-width: 560px) { .conds { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
+
+/* saldo x perda */
+.ledger { display: grid; grid-template-columns: 1fr 1fr; gap: 1px; background: var(--line); border-radius: var(--radius); overflow: hidden; border: 1px solid var(--line); }
+.ledger > div { background: var(--surface); padding: 14px 16px; min-width: 0; }
+.ledger .hd { font: 600 12px/1.2 var(--font-body); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); display: flex; gap: 6px; align-items: center; margin-bottom: 6px; }
+.ledger .lost .big { color: var(--bad); }
+.ledger ul { list-style: none; margin: 10px 0 0; padding: 0; display: grid; gap: 4px; font-size: 13.5px; }
+.ledger li { display: flex; justify-content: space-between; gap: 8px; }
+.ledger li span:last-child { font-weight: 600; font-variant-numeric: tabular-nums; }
+@media (max-width: 640px) { .ledger { grid-template-columns: 1fr; } }
+.howto { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; margin-top: 16px; }
+.howto > div { background: var(--sunken); border-radius: var(--radius); padding: 14px 16px; min-width: 0; display: flex; flex-direction: column; gap: 8px; font-size: 14px; color: var(--ink-2); }
+.howto h4 { font: 600 14px/1.3 var(--font-display); color: var(--ink); }
+.howto b { color: var(--ink); font-variant-numeric: tabular-nums; }
+.steps { list-style: none; counter-reset: s; margin: 0; padding: 0; display: grid; gap: 8px; }
+.steps li { position: relative; padding-left: 32px; min-height: 22px; }
+.steps .n { position: absolute; left: 0; top: 0; width: 22px; height: 22px; border-radius: 50%; background: var(--surface); color: var(--brand-ink); font: 700 12px/22px var(--font-display); text-align: center; }
+.steps li.calc { background: var(--surface); border-radius: 10px; padding: 8px 10px 8px 40px; color: var(--ink); font-variant-numeric: tabular-nums; }
+.steps li.calc .n { background: var(--brand); color: #fff; left: 8px; top: 8px; }
+@media (max-width: 760px) { .howto { grid-template-columns: 1fr; } }
+.progress { height: 10px; background: var(--sunken); border-radius: 999px; overflow: hidden; display: flex; gap: 2px; }
+.progress i { display: block; height: 100%; background: var(--series-a); border-radius: 999px; }
+.progress i.b { background: var(--series-b); }
+.flag { display: flex; gap: 8px; font-size: 13px; color: var(--ink-2); padding: 8px 10px; background: var(--sunken); border-radius: 10px; margin-top: 8px; }
+.flag::before { content: "!"; flex: none; width: 18px; height: 18px; border-radius: 50%; background: var(--warn-bg); color: var(--warn); font-weight: 700; display: grid; place-items: center; font-size: 12px; }
+
+/* tabelas */
+.tbl-wrap { overflow-x: auto; border: 1px solid var(--line); border-radius: var(--radius-lg); background: var(--surface); }
+table { border-collapse: collapse; width: 100%; font-size: 14px; }
+th, td { padding: 9px 12px; text-align: left; border-bottom: 1px solid var(--line); white-space: nowrap; }
+th { font: 600 12px/1.2 var(--font-body); letter-spacing: .03em; text-transform: uppercase; color: var(--muted); background: var(--sunken); position: sticky; top: 0; }
+td.r, th.r { text-align: right; font-variant-numeric: tabular-nums; }
+tbody tr:hover { background: var(--sunken); }
+.pano tbody tr { cursor: pointer; }
+th button { background: none; border: 0; padding: 0; cursor: pointer; font: inherit; color: inherit; letter-spacing: inherit; text-transform: inherit; }
+th button[data-dir]::after { content: attr(data-dir); margin-left: 4px; color: var(--brand-ink); }
+.filters { display: flex; gap: 12px; flex-wrap: wrap; margin-bottom: 14px; align-items: end; }
+.field label { display: block; font: 600 12px/1.2 var(--font-body); letter-spacing: .04em; text-transform: uppercase; color: var(--muted); margin-bottom: 6px; }
+.field input, .field select { padding: 9px 12px; border: 1px solid var(--line-strong); border-radius: var(--radius); background: var(--surface); color: var(--ink); font-size: 14px; }
+.dot { display: inline-block; width: 8px; height: 8px; border-radius: 50%; margin-right: 6px; }
+.dot.ok { background: var(--ok); } .dot.bad { background: var(--bad); } .dot.warn { background: var(--warn); }
+
+/* metodologia */
+.doc { max-width: 780px; }
+.doc h2 { font-size: 24px; margin: 36px 0 10px; }
+.doc h3 { font-size: 17px; margin: 22px 0 8px; }
+.doc p, .doc li { color: var(--ink-2); max-width: 68ch; }
+.doc p + p { margin-top: 10px; }
+.doc ul { padding-left: 20px; display: grid; gap: 6px; }
+.doc code { font-size: 13px; background: var(--sunken); padding: 2px 6px; border-radius: 6px; color: var(--ink); }
+.doc .doc-steps { padding: 0; margin: 10px 0; }
+.doc .doc-steps li { max-width: 68ch; }
+.doc .doc-steps .n { background: var(--brand-tint); }
+.doc b { color: var(--ink); }
+.doc .example { background: var(--surface); border: 1px solid var(--line); border-radius: var(--radius); padding: 12px 14px; margin: 12px 0; }
+.doc .formula { background: var(--sunken); border-radius: var(--radius); padding: 12px 14px; font: 500 13.5px/1.6 ui-monospace, "Cascadia Mono", Consolas, monospace; color: var(--ink); overflow-x: auto; margin: 10px 0; }
+.lead { font-size: 17px; color: var(--ink-2); max-width: 64ch; }
+footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px; font-size: 12.5px; color: var(--muted); display: flex; gap: 16px; flex-wrap: wrap; justify-content: space-between; }
+@media (prefers-reduced-motion: no-preference) { .view { animation: fade .25s ease-out; } @keyframes fade { from { opacity: .4; } to { opacity: 1; } } }
+</style>
+
+<header class="topbar">
+  <div class="topbar-in">
+    <div class="brand">
+      <img class="logo-light" src="__LOGO_LIGHT__" alt="Sapion Data">
+      <img class="logo-dark" src="__LOGO_DARK__" alt="Sapion Data">
+    </div>
+    <nav class="tabs" role="tablist" aria-label="Seções">
+      <button class="tab" role="tab" id="t-ficha" data-view="ficha" aria-selected="true">Ficha do município</button>
+      <button class="tab" role="tab" id="t-panorama" data-view="panorama" aria-selected="false">Panorama do estado</button>
+      <button class="tab" role="tab" id="t-metodo" data-view="metodologia" aria-selected="false">Metodologia e fontes</button>
+    </nav>
+  </div>
+</header>
+
+<main>
+  <section class="view is-landing" id="v-ficha">
+    <div id="landing" class="landing">
+      <p class="eyebrow">Sapion Data</p>
+      <h1>Selecione o estado e o município</h1>
+      <p class="lead">Para abrir a ficha, escolha primeiro o estado e depois o município. A ficha reúne profissionais da educação, IDEB, alfabetização e financiamento da rede municipal.</p>
+    </div>
+    <div class="picker" id="picker">
+      <div class="field uf-field">
+        <label for="uf-select"><span class="stepn">1</span>Estado</label>
+        <select id="uf-select"></select>
+      </div>
+      <div class="combo">
+        <label for="mun-input"><span class="stepn">2</span>Município</label>
+        <input id="mun-input" type="text" autocomplete="off" role="combobox" aria-expanded="false" aria-controls="mun-list" placeholder="Selecione o estado primeiro" disabled>
+        <ul id="mun-list" role="listbox" hidden></ul>
+      </div>
+      <p class="stamp" id="stamp"></p>
+    </div>
+    <div id="ficha"></div>
+  </section>
+
+  <section class="view" id="v-panorama" hidden>
+    <div class="head" style="border:0;margin-bottom:8px">
+      <div>
+        <h1 id="pano-title">Panorama do estado</h1>
+        <p class="sub" id="pano-sub">Os municípios lado a lado. Clique em um município para abrir a ficha completa.</p>
+      </div>
+    </div>
+    <div class="filters">
+      <div class="field"><label for="f-uf">Estado</label><select id="f-uf"></select></div>
+      <div class="field"><label for="f-busca">Buscar</label><input id="f-busca" type="search" placeholder="Nome do município"></div>
+      <div class="field"><label for="f-tier">Porte da rede</label>
+        <select id="f-tier"><option value="">Todos</option><option>Mais de 500</option><option>200 a 500</option><option>Menos de 200</option></select></div>
+      <div class="field"><label for="f-vaar">VAAR 2026</label>
+        <select id="f-vaar"><option value="">Todos</option><option value="Recebe">Recebe</option><option value="Não recebe">Não recebe</option></select></div>
+      <div class="field"><label for="f-ica">Alfabetização 2025</label>
+        <select id="f-ica"><option value="">Todos</option><option value="abaixo">Abaixo da meta</option><option value="acima">Meta cumprida</option></select></div>
+      <p class="stamp" id="pano-count"></p>
+    </div>
+    <p class="empty" id="pano-empty" hidden>Selecione um estado para ver o panorama dos municípios.</p>
+    <div class="tbl-wrap" id="pano-wrap"><table class="pano" id="pano"></table></div>
+  </section>
+
+  <section class="view doc" id="v-metodologia" hidden></section>
+
+  <footer>
+    <span id="foot-gen"></span>
+    <span>Sapion Nova Educação · uso interno do time comercial</span>
+  </footer>
+</main>
+<div id="pop" role="tooltip" hidden></div>
+<div id="tip" hidden></div>
+<div id="toast" role="status" hidden></div>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script>
+const DATA = /*__DATA__*/null;
+const M = DATA.municipios;
+const byId = Object.fromEntries(M.map(m => [m.ibge, m]));
+const META = DATA.meta;
+/* estados: a v1 cobre só o ES; os demais aparecem no seletor como próximos da expansão */
+const ESTADOS = DATA.estados;
+let UF = null;  // a tela inicial começa sem estado nem município selecionados
+const EST = () => ESTADOS.find(e => e.uf === (UF || ESTADOS.find(x => x.ativo).uf));
+const MU = () => UF ? M.filter(m => m.uf === UF) : [];
+const nomeUF = m => `${m.nome}/${m.uf}`;
+const nomeUFh = m => `${esc(m.nome)}<span class="uf">/${m.uf}</span>`;
+const MESES = ['jan', 'fev', 'mar', 'abr', 'mai', 'jun', 'jul', 'ago', 'set', 'out', 'nov', 'dez'];
+
+/* ---------------- formatação ---------------- */
+const nf = (d = 0) => new Intl.NumberFormat('pt-BR', { minimumFractionDigits: d, maximumFractionDigits: d });
+const N = (v, d = 0) => v == null || isNaN(v) ? '—' : nf(d).format(v);
+const P = (v, d = 0) => v == null ? '—' : nf(d).format(v * 100) + '%';
+function R(v, full = false) {
+  if (v == null || isNaN(v)) return '—';
+  const a = Math.abs(v);
+  if (!full && a >= 1e9) return 'R$ ' + nf(2).format(v / 1e9) + ' bi';
+  if (!full && a >= 1e6) return 'R$ ' + nf(2).format(v / 1e6) + ' mi';
+  if (!full && a >= 1e4) return 'R$ ' + nf(0).format(v / 1e3) + ' mil';
+  return 'R$ ' + nf(2).format(v);
+}
+/* estimativas: arredondadas, nunca com centavos */
+function RE(v) {
+  if (v == null || isNaN(v)) return '—';
+  const a = Math.abs(v);
+  if (a >= 1e6) return '≈ R$ ' + nf(1).format(v / 1e6) + ' mi';
+  if (a >= 1e3) return '≈ R$ ' + nf(0).format(Math.round(v / 1e3)) + ' mil';
+  return '≈ R$ ' + nf(0).format(v);
+}
+const esc = s => String(s ?? '').replace(/[&<>"]/g, c => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c]));
+const ord = n => n == null ? '—' : n + 'º';
+
+/* ---------------- textos de ajuda ("?") ---------------- */
+const HELP = {
+  tier: ['Porte da rede', 'Faixa definida pelo número de vínculos de magistério (professores + gestão pedagógica) na folha do TCE-ES: menos de 200, 200 a 500 ou mais de 500.'],
+  pessoas: ['Profissionais (pessoas)', 'Pessoas únicas na folha de pagamento da rede municipal declarada ao TCE-ES, somando professores, gestores (pedagogos, coordenadores, diretores) e outros profissionais da educação (auxiliares, cuidadores, monitores, secretaria escolar). Quem tem dois cargos conta uma vez. Merendeiras, serviços gerais, motoristas e administrativos não entram.'],
+  vinculos: ['Vínculos', 'Linhas de contrato na folha. Quem tem dois cargos (duas matrículas) conta duas vezes. É o número que costuma aparecer quando a secretaria fala em "matrículas" de servidores.'],
+  efetivo: ['Efetivos', 'Concursados: vínculo "efetivo estatutário" ou "emprego público" na folha.'],
+  dt: ['DT (designação temporária)', 'Professores e profissionais contratados por tempo determinado ("contratação temporária" ou "processo seletivo" na folha). DTs entram e saem a cada ano letivo, o que afeta a continuidade de uma formação.'],
+  pdt: ['% de DTs', 'Parte dos professores (pessoas) com vínculo temporário. Acima de 50% significa que mais da metade do quadro docente pode mudar no próximo ano.'],
+  etapas: ['Professores por etapa', 'A etapa vem do nome do cargo na folha (ex.: "Professor MaPA – Educação Infantil"). Quando o cargo não diz a etapa (ex.: "Professor", "MaPA", "PEB B"), os professores foram repartidos entre as etapas possíveis na proporção dos docentes do Censo Escolar 2025 do município. Essa parte é uma estimativa e aparece destacada ao lado.'],
+  ee: ['Educação Especial', 'Professores com cargo específico de educação especial/AEE (deficiência intelectual, visual, surdez, Libras, sala de recursos). Não inclui cuidadores, que estão em "Outros profissionais".'],
+  gestores: ['Gestores educacionais', 'Pedagogos, coordenadores (pedagógicos e de turno), supervisores, orientadores, diretores escolares e funções técnico-pedagógicas.'],
+  outros: ['Outros profissionais da educação', 'Apoio pedagógico e inclusão (auxiliares de sala e de creche, assistentes de educação infantil, cuidadores, monitores, profissionais de apoio escolar) e secretaria escolar/biblioteca.'],
+  censo: ['Censo Escolar (regência)', 'Docentes que estavam dando aula em turma da rede municipal na data de referência do Censo 2025 (maio). Não conta pedagogos, diretores, afastados nem auxiliares. Por isso é menor que a folha. Serve para comparar redes e para repartir a etapa.'],
+  ideb: ['IDEB', 'Índice de Desenvolvimento da Educação Básica (Inep), de 0 a 10: combina a nota do Saeb (aprendizagem em Português e Matemática) com a taxa de aprovação. Calculado a cada dois anos. Aqui, rede municipal.'],
+  ideb_rank: ['Posição no estado', 'Posição do município entre os municípios do mesmo estado com IDEB divulgado para a rede municipal naquele ano (1º = maior IDEB). Empates dividem a mesma posição.'],
+  saeb: ['Nota Saeb padronizada', 'Média de Matemática e Língua Portuguesa convertida para escala de 0 a 10. É a parte de "aprendizagem" do IDEB.'],
+  rend: ['Indicador de rendimento', 'Taxa média de aprovação da etapa (0 a 1). É a parte de "fluxo" do IDEB.'],
+  ica: ['Indicador Criança Alfabetizada (ICA)', 'Percentual de alunos do 2º ano da rede pública que atingem o padrão nacional de alfabetização (743 pontos na escala Saeb). Fonte oficial Inep/MEC, anual. Meta nacional: 80% até 2030.'],
+  ica_meta: ['Meta do ICA', 'Meta pactuada pelo município no Compromisso Nacional Criança Alfabetizada para cada ano até 2030.'],
+  ica_nivel: ['Nível de alfabetização', 'Classificação do Inep de 1 a 5 conforme o percentual de alfabetizados (nível 5 = acima de 80%).'],
+  fundeb: ['Fundeb', 'Fundo que reúne 20% de vários impostos (ICMS, FPM, FPE, IPVA...) de estado e municípios e redistribui dentro do estado conforme as matrículas. A União complementa por três mecanismos: VAAF, VAAT e VAAR.'],
+  vaaf: ['VAAF – Valor Anual por Aluno Fundeb', 'Complementação da União aos estados cujo fundo fica abaixo do mínimo nacional (R$ 6.030,44 por aluno em 2026). O ES não está entre as 9 UFs que recebem. O que o município recebe é a redistribuição do próprio fundo estadual, mostrada aqui.'],
+  redist: ['Redistribuição do Fundeb', 'Soma das 7 origens do fundo estadual repassadas ao município (FPE, FPM, ICMS, IPI-Exportação, IPVA, ITCMD e ITR), proporcional às matrículas ponderadas. É a maior receita da educação municipal.'],
+  vaat: ['VAAT – Valor Anual Total por Aluno', 'Complementação da União a redes cujo investimento total por aluno fica abaixo do mínimo (R$ 10.192,38 em 2026). Exige habilitação: enviar dados ao Siope e Siconfi até 31/08. Não receber VAAT estando habilitado significa que a rede já está acima do mínimo, e não há perda.'],
+  vaar: ['VAAR – Valor Aluno Ano por Resultado', 'Complementação da União (2,5% do Fundeb em 2026, ≈ R$ 7,6 bi no país) paga a redes que cumprem as 5 condicionalidades e melhoram atendimento e aprendizagem. É a complementação mais "perdível" e a principal para a Sapion.'],
+  conds: ['Condicionalidades do VAAR', 'I – gestor escolar escolhido por critério técnico; II – 80% de participação no Saeb; III – redução das desigualdades socioeconômicas e raciais no Saeb; IV – regime de colaboração (ICMS Educacional); V – currículo alinhado à BNCC. Descumprir qualquer uma tira o município do VAAR. Fonte: lista FNDE VAAR 2026.'],
+  vaar_perda: ['Deixado na mesa (VAAR)', 'Quanto o município receberia de VAAR se cumprisse as condicionalidades. Olhamos os municípios do estado que recebem: o VAAR de cada um equivale a um percentual fixo do que ele recebe do Fundeb (≈ 12,2%). Aplicamos esse mesmo percentual ao Fundeb do município que não recebe. A conta completa, com os números do município, está no quadro "Saldo e perda".'],
+  vaar_prev: ['VAAR previsto 2026', 'Valor anual previsto pela Portaria Interministerial MEC/MF nº 11/2026 (13 parcelas, de jan/2026 a jan/2027).'],
+  icms_ipm: ['IPM – Índice de Participação dos Municípios', 'Percentual de cada município na cota-parte de 25% do ICMS estadual. No IPM 2026, 75% vem do valor adicionado (economia), 12% do IQE (educação) e o restante de outros critérios. Fonte: Decreto 6.276-R/2025.'],
+  icms_rec: ['ICMS recebido', 'Valor bruto da cota-parte do ICMS transferido pela Sefaz-ES a cada mês. Do bruto, 20% vai para o Fundeb; o restante é o valor líquido.'],
+  iqe: ['IQE – Índice de Qualidade Educacional', 'Nota de 0 a 1 que define a parte "educacional" do ICMS. 70% vem da aprendizagem nos anos iniciais (2º ano pesa 60% disso, 5º ano 40%, metade nível e metade evolução anual), 15% da aprovação e 15% da equidade. O repasse de 2026 usa o Paebes 2024. Valor reconstruído pela Sapion com a metodologia oficial da Sedu.'],
+  iqe_rank: ['Posição no IQE', 'Posição entre os municípios do estado (1º = maior IQE), calculada com o IQE reconstruído.'],
+  coef: ['Coeficiente do IQE', 'Fatia estimada do município nos 12% do ICMS distribuídos pela educação. A regra oficial de conversão não é publicada; usamos IQE do município ÷ soma dos IQE de todos os municípios do estado (hipótese proporcional, coerente com o IPM oficial).'],
+  icms_educ: ['ICMS Educacional recebido', 'Estimativa da parte do ICMS do município que vem do critério educacional: total bruto do mês × 12% × coeficiente do IQE.'],
+  dep: ['Peso do ICMS Educacional', 'Quanto do ICMS total do município vem do critério educacional. Em municípios pequenos pode passar de 50%; em grandes fica perto de 1%.'],
+  icms_med: ['Diferença para a mediana', 'Comparamos o ICMS Educacional do município com o que ele receberia se tivesse o IQE do município mediano do estado (o do meio do ranking). Valor negativo: o município recebe menos por ter desempenho educacional abaixo da mediana.'],
+  saldo: ['Saldo e perda', 'Recebeu: o que entrou no caixa do município em 2026 pelos mecanismos ligados à educação (VAAR, VAAT e ICMS Educacional). Deixou na mesa: o que ele deixou de receber por não cumprir as condicionalidades do VAAR e por ter IQE abaixo da mediana do estado. As perdas são estimativas da Sapion; a conta aparece logo abaixo, passo a passo.'],
+  estimado: ['Estimativa Sapion', 'Valor calculado pela Sapion a partir de dados oficiais, com premissas descritas na aba Metodologia. Não é dado oficial e não deve ser apresentado ao cliente como tal.'],
+  oficial: ['Dado oficial', 'Valor publicado por órgão público (Inep, FNDE, Tesouro, Sefaz-ES, TCE-ES), sem cálculo da Sapion além de soma ou formatação.'],
+};
+const help = k => `<button class="help" type="button" data-help="${k}" aria-label="O que é ${esc(HELP[k][0])}?">?</button>`;
+const TAG_OF = `<span class="tag oficial">Dado oficial</span>`;
+const TAG_EST = `<span class="tag estimado">Estimativa Sapion</span>`;
+const ICON_DL = '<svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M8 2v8M4.5 6.5 8 10l3.5-3.5M2.5 13.5h11"/></svg>';
+const pngBtn = () => `<button class="png-btn no-export" type="button" data-png>${ICON_DL}Baixar quadro em PNG</button>`;
+
+/* ---------------- popover de ajuda ---------------- */
+const pop = document.getElementById('pop');
+let popBtn = null, popPinned = false;
+function showPop(btn, pin) {
+  const h = HELP[btn.dataset.help]; if (!h) return;
+  if (popBtn && popBtn !== btn) popBtn.setAttribute('aria-expanded', 'false');
+  popBtn = btn; popPinned = pin; btn.setAttribute('aria-expanded', 'true');
+  pop.innerHTML = `<b>${esc(h[0])}</b>${esc(h[1])}`; pop.hidden = false;
+  const r = btn.getBoundingClientRect(), w = pop.offsetWidth, ph = pop.offsetHeight;
+  let x = Math.min(Math.max(16, r.left + r.width / 2 - w / 2), innerWidth - w - 16);
+  let y = r.bottom + 8; if (y + ph > innerHeight - 8) y = r.top - ph - 8;
+  pop.style.left = x + 'px'; pop.style.top = Math.max(8, y) + 'px';
+}
+function hidePop() { pop.hidden = true; if (popBtn) popBtn.setAttribute('aria-expanded', 'false'); popBtn = null; popPinned = false; }
+document.addEventListener('mouseover', e => { const b = e.target.closest('.help'); if (b && !popPinned) showPop(b, false); });
+document.addEventListener('mouseout', e => { const b = e.target.closest('.help'); if (b && !popPinned && b === popBtn) hidePop(); });
+document.addEventListener('focusin', e => { const b = e.target.closest('.help'); if (b) showPop(b, false); });
+document.addEventListener('click', e => {
+  const b = e.target.closest('.help');
+  if (b) { e.stopPropagation(); (popBtn === b && popPinned) ? hidePop() : showPop(b, true); return; }
+  if (!e.target.closest('#pop')) hidePop();
+});
+document.addEventListener('keydown', e => { if (e.key === 'Escape') { hidePop(); closeList(); } });
+addEventListener('scroll', () => { if (!popPinned) hidePop(); }, { passive: true });
+
+/* ---------------- tooltip dos gráficos ---------------- */
+const tip = document.getElementById('tip');
+document.addEventListener('mousemove', e => {
+  const t = e.target.closest('[data-tip]');
+  if (!t) { tip.hidden = true; return; }
+  tip.innerHTML = t.dataset.tip; tip.hidden = false;
+  const w = tip.offsetWidth;
+  tip.style.left = Math.min(e.clientX + 14, innerWidth - w - 12) + 'px';
+  tip.style.top = (e.clientY + 16) + 'px';
+});
+
+/* ---------------- gráficos ---------------- */
+/* colunas verticais de uma série, com rótulo de valor e linha de referência opcional */
+function columns(items, o = {}) {
+  const W = o.w || 360, H = o.h || 170, pad = { t: 22, r: 8, b: 26, l: 8 };
+  const vals = items.map(i => i.v).filter(v => v != null);
+  const refs = (o.ref || []).map(r => r.v);
+  const max = o.max ?? (Math.max(...vals, ...refs, 0) * 1.12 || 1);
+  const iw = W - pad.l - pad.r, ih = H - pad.t - pad.b, n = items.length;
+  const slot = iw / n, bw = Math.min(o.bw || 44, slot * 0.62);
+  const y = v => pad.t + ih - (v / max) * ih;
+  let s = `<svg class="chart" viewBox="0 0 ${W} ${H}" role="img" aria-label="${esc(o.label || '')}">`;
+  s += `<line class="base" x1="${pad.l}" x2="${W - pad.r}" y1="${pad.t + ih}" y2="${pad.t + ih}"/>`;
+  // linhas de referência primeiro: ficam por baixo das barras e dos rótulos
+  (o.ref || []).forEach(r => {
+    const yy = y(r.v);
+    s += `<line class="ref" x1="${pad.l}" x2="${W - pad.r}" y1="${yy}" y2="${yy}" data-tip="${esc(r.label)}"/>`;
+  });
+  items.forEach((it, i) => {
+    const cx = pad.l + slot * i + slot / 2;
+    if (it.v != null) {
+      const h = Math.max(1, (it.v / max) * ih), top = pad.t + ih - h, r = Math.min(4, bw / 2, h);
+      const fill = it.color || 'var(--series-a)';
+      s += `<path class="m" fill="${fill}" opacity="${it.dim ? .45 : 1}" d="M${cx - bw / 2},${pad.t + ih} V${top + r} Q${cx - bw / 2},${top} ${cx - bw / 2 + r},${top} H${cx + bw / 2 - r} Q${cx + bw / 2},${top} ${cx + bw / 2},${top + r} V${pad.t + ih} Z"/>`;
+      if (!o.noLabels || it.label) s += `<text class="v" x="${cx}" y="${top - 6}" text-anchor="middle">${esc(it.label ?? it.fmt)}</text>`;
+    } else {
+      s += `<text x="${cx}" y="${pad.t + ih - 6}" text-anchor="middle">s/ dado</text>`;
+    }
+    s += `<text x="${cx}" y="${H - 8}" text-anchor="middle">${esc(it.x)}</text>`;
+    s += `<rect class="hit" x="${cx - slot / 2}" y="${pad.t}" width="${slot}" height="${ih}" data-tip="${esc(it.tip || (it.x + ': ' + it.fmt))}"/>`;
+  });
+  s += '</svg>';
+  /* rótulos das linhas de referência ficam numa legenda abaixo, para não colidir com os valores */
+  if (o.ref?.length) s += `<p class="chart-note">${o.ref.map(r => `<span><i class="dash"></i>${esc(r.label)}</span>`).join('')}</p>`;
+  return s;
+}
+
+/* barra empilhada efetivo / DT / outros */
+function stackBar(parts, max) {
+  const tot = parts.reduce((a, p) => a + (p.v || 0), 0);
+  if (!tot) return `<div class="bar"><span class="c" style="width:4px"></span></div>`;
+  const wTot = Math.max(2, (tot / max) * 100);
+  return `<div class="bar" style="width:${wTot}%">` + parts.filter(p => p.v > 0).map(p => {
+    const w = (p.v / tot) * 100;
+    return `<span class="${p.cls}" style="flex:${w} 1 0" data-tip="${esc(p.name)}: ${N(p.v)}">${w > 14 && (p.v / max) > 0.06 ? N(p.v) : ''}</span>`;
+  }).join('') + '</div>';
+}
+
+/* ---------------- sinais para o comercial ---------------- */
+function signals(m) {
+  const s = [], f = m.fin, ica = m.ica, pr = m.prof;
+  if (f.vaar.situacao !== 'Recebe') {
+    const c = f.vaar.descumpridas || '';
+    s.push(['bad', `Fora do VAAR 2026 (cond. ${c})` + (c.includes('III') ? ' — argumento de equidade' : '')]);
+    if (f.vaar.recebeu_2025 === 'Sim') s.push(['bad', 'Recebeu VAAR em 2025 e perdeu em 2026']);
+  } else if (f.vaar.evoluiu_aprendizagem === 'Não') s.push(['warn', 'Recebe VAAR reduzido: aprendizagem não evoluiu']);
+  if (ica && ica.bateu_meta_2025 === false) s.push(['bad', `Alfabetização abaixo da meta 2025 (${N(ica.serie['2025'])}% × ${N(ica.metas['2025'])}%)`]);
+  if (ica && ica.serie['2025'] != null && ica.serie['2024'] != null && ica.serie['2025'] < ica.serie['2024']) s.push(['warn', 'Alfabetização caiu de 2024 para 2025']);
+  const d = f.icms.diferenca_mediana_estimada;
+  if (d != null && d < 0) s.push(['warn', 'IQE abaixo da mediana: perde ICMS Educacional']);
+  if ((f.icms.dependencia_estimada || 0) >= 0.4) s.push(['info', `ICMS Educacional ≈ ${P(f.icms.dependencia_estimada)} do ICMS do município`]);
+  const ai = m.ideb.AI.municipal, af = m.ideb.AF.municipal;
+  if (ai && ai['2025'].ideb != null && ai['2023'].ideb != null && ai['2025'].ideb < ai['2023'].ideb) s.push(['warn', 'IDEB anos iniciais caiu em 2025']);
+  if (af && af['2025'] && af['2025'].ideb != null && af['2023'].ideb != null && af['2025'].ideb < af['2023'].ideb) s.push(['warn', 'IDEB anos finais caiu em 2025']);
+  if (pr && pr.professores.pessoas && pr.professores.dt / pr.professores.pessoas >= 0.5) s.push(['info', `${P(pr.professores.dt / pr.professores.pessoas)} dos professores são DTs`]);
+  return s;
+}
+
+/* ---------------- ficha ---------------- */
+function fichaHTML(m) {
+  const pr = m.prof, f = m.fin, ica = m.ica, id = m.ideb;
+  const mp = META.profissionais, mf = META.fin;
+  const uf = m.uf, nMun = EST().n_municipios;
+  const pdt = pr.professores.pessoas ? pr.professores.dt / pr.professores.pessoas : null;
+  const ai25 = id.AI.municipal?.['2025']?.ideb, af25 = id.AF.municipal?.['2025']?.ideb;
+  const sig = signals(m);
+  const ultV = mf.fundeb.ultimo_mes_complementacao, mesesI = mf.icms.meses;
+  const perJanAgo = `jan–${MESES[ultV - 1]}/26`, perIcms = `jan–${MESES[mesesI[mesesI.length - 1] - 1]}/26`;
+
+  let h = `<div class="head"><div>
+      <h1>${nomeUFh(m)}</h1>
+      <div class="sub"><span>${esc(EST().nome)}</span><span>Código IBGE <span class="num">${m.ibge}</span></span><span>Rede municipal de ensino</span>
+      <span class="pill ${pr.tier === 'Mais de 500' ? 'ok' : pr.tier === '200 a 500' ? 'warn' : 'bad'}" style="font-weight:600">${esc(pr.tier)} vínculos de magistério</span>${help('tier')}</div>
+    </div>
+    <button class="btn no-export" id="pdf-btn" type="button">${ICON_DL}Baixar relatório completo em PDF</button></div>`;
+
+  // resumo (um quadro exportável: indicadores-chave + pontos de atenção)
+  h += `<div class="quadro" id="q-resumo" data-titulo="Resumo do município" data-fonte="TCE-ES, Inep, MEC, FNDE/Tesouro"><div class="quadro-head"><h3>Resumo do município</h3>${pngBtn()}</div>
+  <div class="summary">
+    <div class="kpi"><span class="lbl">Profissionais ${help('pessoas')}</span><span class="val">${N(pr.total.pessoas)}</span><span class="note">${N(pr.professores.pessoas)} professores · folha ${mp.competencia}</span></div>
+    <div class="kpi"><span class="lbl">DTs entre professores ${help('pdt')}</span><span class="val">${P(pdt)}</span><span class="note">${N(pr.professores.dt)} temporários</span></div>
+    <div class="kpi"><span class="lbl">IDEB anos iniciais ${help('ideb')}</span><span class="val">${ai25 == null ? '—' : N(ai25, 1)}</span><span class="note">${ai25 == null ? 'sem divulgação' : ord(id.AI.ranking['2025']) + ' de ' + id.AI.n_ranking['2025'] + ' no ' + uf + ' (2025)'}</span></div>
+    <div class="kpi"><span class="lbl">IDEB anos finais ${help('ideb')}</span><span class="val">${af25 == null ? '—' : N(af25, 1)}</span><span class="note">${af25 == null ? 'sem divulgação em 2025' : ord(id.AF.ranking['2025']) + ' de ' + id.AF.n_ranking['2025'] + ' no ' + uf + ' (2025)'}</span></div>
+    <div class="kpi"><span class="lbl">Alfabetização 2025 ${help('ica')}</span><span class="val">${ica ? N(ica.serie['2025']) + '%' : '—'}</span><span class="note">${ica ? 'meta ' + N(ica.metas['2025']) + '% · ' + (ica.bateu_meta_2025 ? 'cumprida' : 'não cumprida') : ''}</span></div>
+    <div class="kpi"><span class="lbl">VAAR 2026 ${help('vaar')}</span><span class="val" style="color:${f.vaar.situacao === 'Recebe' ? 'var(--ok)' : 'var(--bad)'}">${esc(f.vaar.situacao)}</span><span class="note">${f.vaar.situacao === 'Recebe' ? 'previsto ' + R(f.vaar.previsto_2026) : 'deixa na mesa ' + RE(f.vaar.perda_estimada_anual) + '/ano'}</span></div>
+  </div>`;
+  h += `<div class="signals"><span class="signals-title">Pontos de atenção para o comercial</span>${sig.length ? sig.map(([c, t]) => `<span class="chip ${c}">${esc(t)}</span>`).join('') : '<span class="chip ok">Nenhum ponto crítico nos indicadores da v1</span>'}</div></div>`;
+
+  /* ===== 1. Profissionais ===== */
+  const cats = [
+    ['Educação Infantil', pr.etapas.EI, 'etapas', true], ['Ensino Fundamental: Anos Iniciais', pr.etapas.AI, 'etapas', true],
+    ['Ensino Fundamental: Anos Finais', pr.etapas.AF, 'etapas', true], ['Educação Especial', pr.educacao_especial, 'ee'],
+    ['Gestores educacionais', pr.gestores, 'gestores'], ['Outros profissionais', pr.outros, 'outros'],
+  ];
+  const maxCat = Math.max(...cats.map(c => c[1].pessoas || 0), 1);
+  h += `<section class="block"><div class="block-h"><span class="idx">1</span><h2>Profissionais da educação</h2><span class="src">Folha TCE-ES · ${mp.competencia} · Censo Escolar 2025</span></div>
+  <div class="grid">
+  <div class="card span-8"><div class="card-top"><h3>Quadro por segmento ${help('etapas')}</h3><span>${TAG_OF} ${pr.sem_etapa_pessoas ? TAG_EST : ''}</span></div>
+    <div class="stack-legend"><span><i class="sw" style="background:var(--series-a)"></i>Efetivos</span><span><i class="sw" style="background:var(--series-b)"></i>DTs (temporários)</span><span><i class="sw" style="background:var(--series-c)"></i>Comissionados e outros</span></div>
+    ${cats.map(([nm, c, hk, isEt]) => {
+      const note = isEt && c.estimado > 0 ? `<small>${N(c.identificado)} pelo cargo + ${N(c.estimado)} estimados</small>` : '';
+      return `<div class="srow"><div class="name"><span>${nm}${note}</span>${help(hk)}</div>
+      ${stackBar([{ v: c.efetivo, cls: 'a', name: 'Efetivos' }, { v: c.dt, cls: 'b', name: 'DTs' }, { v: c.outro, cls: 'c', name: 'Comissionados/outros' }], maxCat)}
+      <div class="total">${N(c.pessoas)}</div></div>`;
+    }).join('')}
+    <p class="small muted" style="margin-top:10px">Pessoas por segmento. Quem atua em dois segmentos aparece nos dois. ${pr.sem_etapa_pessoas ? `${N(pr.sem_etapa_pessoas)} professores têm cargo sem etapa e foram repartidos pelo Censo (estimativa).` : ''}</p>
+  </div>
+  <div class="card span-4"><div class="card-top"><h3>Totais da rede</h3>${TAG_OF}</div>
+    <dl class="dl">
+      <dt>Pessoas ${help('pessoas')}</dt><dd>${N(pr.total.pessoas)}</dd>
+      <dt>Vínculos ${help('vinculos')}</dt><dd>${N(pr.total.vinculos)}</dd>
+      <dt>Efetivos ${help('efetivo')}</dt><dd>${N(pr.total.efetivo)}</dd>
+      <dt>DTs ${help('dt')}</dt><dd>${N(pr.total.dt)}</dd>
+      <dt>Comissionados e outros</dt><dd>${N(pr.total.outro)}</dd>
+      <div class="sep"></div>
+      <dt>Professores</dt><dd>${N(pr.professores.pessoas)}</dd>
+      <dt>Magistério (vínculos) ${help('tier')}</dt><dd>${N(pr.magisterio.vinculos)}</dd>
+      <div class="sep"></div>
+      <dt>Docentes em regência (Censo) ${help('censo')}</dt><dd>${N(pr.censo?.total)}</dd>
+      <dt class="small">EI · AI · AF no Censo</dt><dd class="small">${N(pr.censo?.EI)} · ${N(pr.censo?.AI)} · ${N(pr.censo?.AF)}</dd>
+    </dl>
+    ${(pr.flags || []).map(t => `<p class="flag">${esc(t)}</p>`).join('')}
+  </div></div></section>`;
+
+  /* ===== 2. IDEB ===== */
+  const idebCard = (et, nome) => {
+    const d = id[et], mu = d.municipal, st = META.ideb_stats[et];
+    const items = ['2021', '2023', '2025'].map(a => {
+      const v = mu?.[a]?.ideb;
+      return { x: a, v, fmt: v == null ? '—' : N(v, 1), tip: v == null ? `${a}: sem IDEB divulgado` : `<b>${a}: IDEB ${N(v, 1)}</b><br>Saeb ${N(mu[a].saeb, 2)} · rendimento ${N(mu[a].rend, 2)}<br>${ord(d.ranking[a])} de ${d.n_ranking[a]} no ${uf} · mediana ${uf} ${N(st[a].mediana, 1)}` };
+    });
+    const rk = ['2021', '2023', '2025'].map(a => `<dt>${a}</dt><dd>${d.ranking[a] ? ord(d.ranking[a]) + ' <span class="muted" style="font-weight:400">de ' + d.n_ranking[a] + '</span>' : '—'}</dd>`).join('');
+    return `<div class="card span-6"><div class="card-top"><h3>${nome} ${help('ideb')}</h3>${TAG_OF}</div>
+      ${mu ? columns(items, { w: 520, h: 190, max: 10, ref: [{ v: st['2025'].mediana, label: `mediana ${uf} 2025: ` + N(st['2025'].mediana, 1) }], label: 'IDEB ' + nome }) : '<p class="muted">A rede municipal não tem IDEB divulgado nesta etapa.</p>'}
+      <dl class="dl" style="margin-top:10px"><dt style="font-weight:600;color:var(--ink)">Posição no ${uf} ${help('ideb_rank')}</dt><dd></dd>${rk}
+      ${mu?.['2025']?.saeb != null ? `<div class="sep"></div><dt>Saeb 2025 (0–10) ${help('saeb')}</dt><dd>${N(mu['2025'].saeb, 2)}</dd><dt>Rendimento 2025 ${help('rend')}</dt><dd>${N(mu['2025'].rend, 2)}</dd>` : ''}</dl></div>`;
+  };
+  h += `<section class="block"><div class="block-h"><span class="idx">2</span><h2>IDEB</h2><span class="src">Inep · Ideb 2021, 2023 e 2025 · rede municipal</span></div>
+    <div class="grid">${idebCard('AI', 'Anos iniciais (1º ao 5º ano)')}${idebCard('AF', 'Anos finais (6º ao 9º ano)')}</div></section>`;
+
+  /* ===== 3. Alfabetização ===== */
+  if (ica) {
+    const it = ['2023', '2024', '2025'].map(a => ({ x: a, v: ica.serie[a], fmt: N(ica.serie[a]) + '%', tip: `<b>${a}: ${N(ica.serie[a])}% alfabetizados</b>` + (ica.metas[a] != null ? `<br>meta ${N(ica.metas[a])}%` : '') }));
+    const fut = ['2026', '2027', '2028', '2029', '2030'].map(a => ({ x: a, v: ica.metas[a], fmt: N(ica.metas[a]) + '%', color: 'var(--series-c)', tip: `Meta ${a}: ${N(ica.metas[a])}%` }));
+    const ref = META.ica.referencias;
+    h += `<section class="block"><div class="block-h"><span class="idx">3</span><h2>Alfabetização</h2><span class="src">Inep/MEC · Indicador Criança Alfabetizada</span></div>
+    <div class="grid"><div class="card span-8"><div class="card-top"><h3>Alunos alfabetizados no 2º ano ${help('ica')}</h3>${TAG_OF}</div>
+      ${columns([...it, ...fut], { w: 560, h: 190, max: 100, bw: 38, label: 'ICA e metas até 2030', ref: [{ v: 80, label: 'meta nacional 2030: 80%' }] })}
+      <p class="small muted" style="margin-top:6px">Barras azuis: resultado medido. Barras cinza: metas do município de 2026 a 2030.</p></div>
+    <div class="card span-4"><div class="card-top"><h3>Leitura rápida</h3>${TAG_OF}</div><dl class="dl">
+      <dt>ICA 2025</dt><dd>${N(ica.serie['2025'])}%</dd>
+      <dt>Meta 2025 ${help('ica_meta')}</dt><dd>${N(ica.metas['2025'])}%</dd>
+      <dt>Diferença para a meta</dt><dd style="color:${ica.gap_meta_2025 >= 0 ? 'var(--ok)' : 'var(--bad)'}">${ica.gap_meta_2025 > 0 ? '+' : ''}${N(ica.gap_meta_2025)} p.p.</dd>
+      <dt>Posição no ${uf} (2025)</dt><dd>${ord(ica.ranking_2025)} de ${nMun}</dd>
+      <dt>Nível ${help('ica_nivel')}</dt><dd>${N(ica.nivel)} de 5</dd>
+      <dt>Participação na avaliação</dt><dd>${N(ica.participacao)}%</dd>
+      <div class="sep"></div>
+      <dt>Média dos municípios do ${uf}</dt><dd>${N(META.ica.media_municipios_es_2025, 1)}%</dd>
+      <dt>${esc(EST().nome)} · Brasil (2025)</dt><dd>${ref.es['2025']}% · ${ref.brasil['2025']}%</dd>
+    </dl></div></div></section>`;
+  }
+
+  /* ===== 4. Financiamento ===== */
+  const s = f.saldo, v = f.vaar, t = f.vaat, a = f.vaaf, ic = f.icms;
+  h += `<section class="block"><div class="block-h"><span class="idx">4</span><h2>Financiamento da educação</h2><span class="src">FNDE/Tesouro · Portaria MEC/MF 11/2026 · Sefaz-${uf}</span></div><div class="grid">`;
+  // saldo x perda
+  h += `<div class="card span-12"><div class="card-top"><h3>Saldo e perda em 2026 ${help('saldo')}</h3><span>${TAG_OF} ${TAG_EST}</span></div>
+    <div class="ledger">
+      <div><div class="hd">Recebeu ${help('saldo')}</div><div class="big">${R(s.total_recebido)}</div>
+        <ul><li><span>VAAR (${perJanAgo})</span><span>${R(s.vaar_recebido)}</span></li>
+        <li><span>VAAT (${perJanAgo})</span><span>${R(s.vaat_recebido)}</span></li>
+        <li><span>ICMS Educacional (${perIcms}) <span class="tag estimado">est.</span></span><span>${RE(s.icms_educ_recebido)}</span></li></ul></div>
+      <div class="lost"><div class="hd">Deixou na mesa ${TAG_EST}</div><div class="big">${s.total_perda > 0 ? RE(s.total_perda) : 'R$ 0'}</div>
+        <ul><li><span>VAAR não recebido (${perJanAgo})</span><span>${s.vaar_perda ? RE(s.vaar_perda) : '—'}</span></li>
+        <li><span>ICMS Educ. abaixo da mediana (${perIcms})</span><span>${s.icms_educ_perda ? RE(s.icms_educ_perda) : '—'}</span></li>
+        <li><span>VAAT</span><span>${t.habilitado ? 'sem perda (habilitado)' : 'inabilitado'}</span></li></ul></div>
+    </div>
+    ${howTo(m, perJanAgo, perIcms)}
+  </div>`;
+  // VAAR
+  const condNames = { I: 'Gestor escolar', II: '80% no Saeb', III: 'Equidade no Saeb', IV: 'Regime de colaboração', V: 'Currículo BNCC' };
+  h += `<div class="card span-7"><div class="card-top"><h3>VAAR ${help('vaar')}</h3><span class="pill ${v.situacao === 'Recebe' ? (v.evoluiu_aprendizagem === 'Não' ? 'warn' : 'ok') : 'bad'}">${v.situacao === 'Recebe' ? (v.evoluiu_aprendizagem === 'Não' ? 'Recebe (valor reduzido)' : 'Recebe') : 'Não recebe'}</span></div>
+    <p class="small" style="display:flex;gap:6px;align-items:center">Condicionalidades ${help('conds')}</p>
+    <div class="conds">${Object.entries(v.condicionalidades).map(([k, x]) => `<div class="cond ${x === 'Sim' ? 'ok' : 'bad'}" data-tip="Cond. ${k} – ${condNames[k]}: ${x === 'Sim' ? 'cumpre' : 'não cumpre'}"><b>${k} ${x === 'Sim' ? '✓' : '✕'}</b><span>${condNames[k]}</span></div>`).join('')}</div>
+    <p class="small muted">${esc(v.motivo)}</p>
+    <dl class="dl" style="margin-top:12px">
+      <dt>Evoluiu em atendimento · aprendizagem</dt><dd>${esc(v.evoluiu_atendimento)} · ${esc(v.evoluiu_aprendizagem)}</dd>
+      <dt>Recebido em 2025</dt><dd>${R(v.recebido_2025)}</dd>
+      <dt>Recebido em 2026 (${perJanAgo})</dt><dd>${R(v.recebido_2026)}</dd>
+      <dt>Previsto para 2026 ${help('vaar_prev')}</dt><dd>${R(v.previsto_2026)}</dd>
+      ${v.situacao !== 'Recebe' ? `<div class="sep"></div><dt>Deixado na mesa em 2026 ${help('vaar_perda')} ${TAG_EST}</dt><dd style="color:var(--bad)">${RE(v.perda_estimada_anual)}</dd>
+      <dt class="small">Posição entre os que mais perdem</dt><dd class="small">${ord(f.rankings.perda_vaar)} de ${mf.vaar.n_nao_recebem}</dd>` : ''}
+    </dl></div>`;
+  // VAAT + VAAF
+  h += `<div class="card span-5"><div class="card-top"><h3>VAAT ${help('vaat')}</h3><span class="pill ${t.habilitado ? 'ok' : 'bad'}">${t.habilitado ? 'Habilitado' : 'Inabilitado'}</span></div>
+    <dl class="dl"><dt>Recebe complementação em 2026</dt><dd>${t.recebe ? 'Sim' : 'Não'}</dd>
+    <dt>Recebido em 2025</dt><dd>${R(t.recebido_2025)}</dd>
+    <dt>Recebido em 2026 (${perJanAgo})</dt><dd>${R(t.recebido_2026)}</dd>
+    <dt>Previsto para 2026</dt><dd>${R(t.previsto_2026)}</dd></dl>
+    ${!t.recebe && t.habilitado ? '<p class="flag">Habilitado e sem VAAT em 2026: a rede já investe acima do mínimo por aluno (R$ 10.192,38). Não é perda.</p>' : ''}
+    <div style="border-top:1px solid var(--line);margin-top:14px;padding-top:14px">
+    <div class="card-top" style="margin-bottom:8px"><h3>VAAF ${help('vaaf')}</h3><span class="pill warn">${uf} não recebe</span></div>
+    <dl class="dl"><dt>Redistribuição do Fundeb 2026 (jan–${MESES[mf.fundeb.meses_2026.at(-1) - 1]}) ${help('redist')}</dt><dd>${R(a.redistribuicao_2026)}</dd>
+    <dt>Redistribuição do Fundeb 2025</dt><dd>${R(a.redistribuicao_2025)}</dd></dl></div></div>`;
+  // Fundeb mensal
+  const fm = Object.entries(f.fundeb_mensal).map(([k, x]) => ({ x: MESES[k - 1], v: x.redistribuicao + x.VAAT + x.VAAR, fmt: R(x.redistribuicao + x.VAAT + x.VAAR),
+    tip: `<b>${MESES[k - 1]}/2026</b><br>Redistribuição ${R(x.redistribuicao)}<br>VAAT ${R(x.VAAT)} · VAAR ${R(x.VAAR)}` }));
+  h += `<div class="card span-6"><div class="card-top"><h3>Fundeb recebido por mês ${help('fundeb')}</h3>${TAG_OF}</div>
+    ${columns(fm, { w: 520, h: 180, noLabels: true, bw: 32, label: 'Fundeb por mês' })}
+    <p class="small muted">Redistribuição + VAAT + VAAR creditados pelo Tesouro. Passe o mouse para ver o detalhe. Setembro ainda sem complementações.</p></div>`;
+  // ICMS mensal
+  const im = mesesI.map(k => { const x = ic.mensal[k]; return { x: MESES[k - 1], v: x?.bruto, fmt: R(x?.bruto), tip: `<b>${MESES[k - 1]}/2026</b><br>Bruto ${R(x?.bruto)}<br>Líquido ${R(x?.liquido)}<br>ICMS Educ. estimado ${RE(ic.icms_educ_mensal_estimado?.[k])}` }; });
+  h += `<div class="card span-6"><div class="card-top"><h3>ICMS recebido por mês ${help('icms_rec')}</h3>${TAG_OF}</div>
+    ${columns(im, { w: 520, h: 180, noLabels: true, bw: 36, label: 'ICMS por mês' })}
+    <dl class="dl"><dt>Acumulado bruto (${perIcms})</dt><dd>${R(ic.bruto_acumulado)}</dd><dt>Acumulado líquido</dt><dd>${R(ic.liquido_acumulado)}</dd></dl></div>`;
+  // ICMS Educacional
+  h += `<div class="card span-12"><div class="card-top"><h3>ICMS Educacional</h3><span>${TAG_OF} ${TAG_EST}</span></div>
+    <div class="grid">
+      <div class="span-4"><p class="small muted" style="display:flex;gap:6px;align-items:center">IPM 2026 ${help('icms_ipm')} ${TAG_OF}</p><p class="big">${ic.ipm_2026 == null ? '—' : nf(3).format(ic.ipm_2026 * 100) + '%'}</p><p class="small muted">${ord(ic.ipm_posicao)} maior do ${uf}</p></div>
+      <div class="span-4"><p class="small muted" style="display:flex;gap:6px;align-items:center">IQE (0 a 1) ${help('iqe')} ${TAG_EST}</p><p class="big">${ic.iqe ? N(ic.iqe.iqe, 3) : '—'}</p><p class="small muted">${ic.iqe ? ord(ic.iqe.posicao) + ' de ' + nMun + ' ' : ''}${help('iqe_rank')}</p></div>
+      <div class="span-4"><p class="small muted" style="display:flex;gap:6px;align-items:center">ICMS Educ. recebido (${perIcms}) ${help('icms_educ')} ${TAG_EST}</p><p class="big">${RE(ic.icms_educ_acumulado_estimado)}</p><p class="small muted">≈ ${P(ic.dependencia_estimada)} do ICMS do município ${help('dep')}</p></div>
+    </div>
+    <dl class="dl" style="margin-top:16px">
+      <dt>Aprendizagem nos anos iniciais (IQEF, peso 70%)</dt><dd>${N(ic.iqe?.iqef, 3)}</dd>
+      <dt class="small">2º ano (IQ2) · 5º ano (IQ5)</dt><dd class="small">${N(ic.iqe?.iq2, 3)} · ${N(ic.iqe?.iq5, 3)}</dd>
+      <dt>Aprovação nos anos iniciais (peso 15%)</dt><dd>${N(ic.iqe?.p, 3)}</dd>
+      <dt>Equidade (IMEG, peso 15%)</dt><dd>${N(ic.iqe?.imeg, 3)}</dd>
+      <div class="sep"></div>
+      <dt>Coeficiente do IQE ${help('coef')}</dt><dd>${ic.coef_iqe_estimado == null ? '—' : nf(3).format(ic.coef_iqe_estimado * 100) + '%'}</dd>
+      <dt>Diferença para a mediana do ${uf} (${perIcms}) ${help('icms_med')}</dt><dd style="color:${(ic.diferenca_mediana_estimada || 0) < 0 ? 'var(--bad)' : 'var(--ok)'}">${ic.diferenca_mediana_estimada == null ? '—' : (ic.diferenca_mediana_estimada >= 0 ? '+ ' : '− ') + RE(Math.abs(ic.diferenca_mediana_estimada))}</dd>
+    </dl>
+    <p class="flag">O repasse de ICMS de 2026 reflete o Paebes de 2024. Uma formação de alfabetizadores feita em 2026 aparece no caixa do município em 2028. O 2º ano responde por 42% do IQE, e metade disso é evolução de um ano para o outro.</p>
+  </div>`;
+  h += `</div></section>`;
+  return h;
+}
+
+/* ---------------- "como calculamos" do quadro Saldo e perda ---------------- */
+function howTo(m, perV, perI) {
+  const f = m.fin, v = f.vaar, ic = f.icms, mv = META.fin.vaar, mi = META.fin.icms, uf = m.uf, nome = esc(nomeUF(m));
+  const pct = x => nf(1).format(x * 100) + '%';
+  // VAAR
+  let a;
+  if (v.situacao === 'Recebe') {
+    a = `<p>${nome} cumpre as 5 condicionalidades e recebe VAAR. Não há VAAR deixado na mesa.</p>` +
+      (v.evoluiu_aprendizagem === 'Não' ? `<p class="small muted" style="margin-top:6px">Recebe valor reduzido porque o indicador de aprendizagem não evoluiu.</p>` : '');
+  } else {
+    const grupo = v.indicadores_evoluidos === 2 ? 'que melhoraram atendimento e aprendizagem' : 'que melhoraram só um dos dois indicadores';
+    a = `<ol class="steps">
+      <li>O VAAR é dividido pelo tamanho da rede, do mesmo jeito que o Fundeb. Por isso o Fundeb serve de régua.</li>
+      <li>Entre os municípios do ${uf} que recebem VAAR e ${grupo}, como ${nome}, o VAAR de 2026 equivale a <b>${pct(v.k_aplicado)}</b> do Fundeb que cada um recebeu (${perV}).</li>
+      <li>${nome} recebeu <b>${R(v.base_fundeb)}</b> do Fundeb no mesmo período.</li>
+      <li class="calc">${R(v.base_fundeb)} × ${pct(v.k_aplicado)} ≈ <b>${RE(v.perda_estimada_anual).replace('≈ ', '')} por ano</b></li>
+      <li>Até agosto já foram pagos ${P(mv.fracao_ano_creditada)} do VAAR do ano. Então, no mesmo período em que comparamos o que foi recebido (${perV}), a perda é <b>${RE(v.perda_estimada_parcial)}</b>.</li>
+    </ol>
+    <p class="small muted">Margem do método: ±${P(mv.faixa)}. Testado nos ${mv.n_recebem} municípios que recebem, o erro médio foi de ${P(mv.validacao_loo.mae, 1)}.</p>`;
+  }
+  // ICMS Educacional
+  const d = ic.diferenca_mediana_estimada;
+  const b = ic.iqe == null ? '<p>Sem IQE calculado para este município.</p>' : `<ol class="steps">
+      <li>${P(mi.peso_iqe)} do ICMS repassado aos municípios é dividido pela nota educacional (IQE). No ${uf}, isso somou <b>${RE(mi.bolo_educ_periodo)}</b> (${perI}).</li>
+      <li>Com IQE <b>${N(ic.iqe.iqe, 3)}</b> (${ord(ic.iqe.posicao)} de ${EST().n_municipios}), ${nome} ficou com <b>${RE(ic.icms_educ_acumulado_estimado)}</b>.</li>
+      <li>Com o IQE do município do meio do ranking (<b>${N(mi.iqe_mediano, 3)}</b>), ficaria com <b>${RE(mi.icms_educ_mediano_periodo)}</b>.</li>
+      <li class="calc">${d < 0 ? `Deixou na mesa <b>${RE(-d)}</b>` : `Recebe <b>${RE(d)}</b> a mais que a mediana, sem perda`}</li>
+    </ol>`;
+  return `<div class="howto"><div><h4>Como calculamos o VAAR deixado na mesa</h4>${a}</div>
+    <div><h4>Como calculamos o ICMS Educacional deixado na mesa</h4>${b}</div></div>`;
+}
+
+/* ---------------- exportação: PNG por quadro e PDF completo ---------------- */
+/* No claude.ai, a página não pode baixar arquivos sozinha: o recurso "downloads" mostra ao usuário
+   uma confirmação e salva o arquivo. Fora do claude.ai (arquivo aberto localmente) o download é direto. */
+const dlCap = window.claude?.use ? window.claude.use('downloads') : Promise.resolve(null);
+const EXPORT_W = 1240;          // largura de layout usada nas exportações (sempre a versão de computador)
+const BG_LIGHT = '#F5F6FB';
+
+function toast(msg, ms = 3500) {
+  const t = document.getElementById('toast');
+  t.textContent = msg; t.hidden = false;
+  clearTimeout(toast._t); toast._t = setTimeout(() => { t.hidden = true; }, ms);
+}
+function agora() {
+  const d = new Date();
+  return d.toLocaleDateString('pt-BR') + ' às ' + d.toLocaleTimeString('pt-BR', { hour: '2-digit', minute: '2-digit' });
+}
+function hoje() { const d = new Date(), z = n => String(n).padStart(2, '0'); return `${d.getFullYear()}-${z(d.getMonth() + 1)}-${z(d.getDate())}`; }
+const arquivo = (m, titulo, ext) => `Sapion Data - ${m.nome}-${m.uf} - ${titulo.replace(/[\\/:*?"<>|]/g, '-')} - ${hoje()}.${ext}`;
+
+async function saveFile(filename, blob) {
+  const dl = await dlCap;
+  if (dl) {
+    try { await dl.save({ filename, data: blob }); toast('Arquivo salvo: ' + filename); }
+    catch (e) {
+      const c = e?.code;
+      toast(c === 'declined' ? 'Download cancelado.' : c === 'rate_limited' ? 'Já existe um download aguardando sua confirmação.'
+        : 'Não foi possível baixar o arquivo nesta visualização.');
+    }
+    return;
+  }
+  if (window.claude) { toast('Não foi possível baixar o arquivo nesta visualização.'); return; }
+  const a = document.createElement('a');
+  a.href = URL.createObjectURL(blob); a.download = filename; document.body.appendChild(a); a.click();
+  setTimeout(() => { URL.revokeObjectURL(a.href); a.remove(); }, 1500);
+  toast('Arquivo salvo: ' + filename);
+}
+
+/* no documento clonado para a captura: tema claro sempre e cores dos gráficos resolvidas
+   (o SVG é desenhado como imagem e perderia as variáveis de CSS) */
+function prepClone(doc) {
+  doc.documentElement.setAttribute('data-theme', 'light');
+  const win = doc.defaultView;
+  doc.querySelectorAll('svg.chart').forEach(svg => {
+    svg.querySelectorAll('*').forEach(el => {
+      const cs = win.getComputedStyle(el);
+      ['fill', 'stroke', 'stroke-width', 'stroke-dasharray', 'stroke-linejoin', 'paint-order', 'opacity'].forEach(p => el.setAttribute(p, cs.getPropertyValue(p)));
+      if (el.tagName === 'text') ['font-family', 'font-size', 'font-weight'].forEach(p => el.setAttribute(p, cs.getPropertyValue(p)));
+    });
+  });
+}
+const ignorar = n => n.classList && (n.classList.contains('no-export') || n.classList.contains('help'));
+const logoSrc = () => document.querySelector('.logo-light').src;
+const exportHead = (m, sub) => `<div class="export-head"><img src="${logoSrc()}" alt=""><div class="who"><b>${esc(nomeUF(m))}</b>${esc(EST().nome)} · ${esc(sub)}<br>Exportado em ${agora()}</div></div>`;
+const exportFoot = fonte => `<div class="export-foot"><span>Fonte: ${esc(fonte)}</span><span>Sapion Data ${DATA.versao} · "Estimativa Sapion" indica cálculo próprio da Sapion</span></div>`;
+
+async function exportPNG(btn) {
+  const el = btn.closest('.card, .quadro'), m = cur;
+  if (!el || !m || typeof html2canvas === 'undefined') { toast('A exportação ainda está carregando. Tente de novo em instantes.'); return; }
+  const titulo = el.dataset.titulo || el.querySelector('h3')?.textContent.replace('?', '').trim() || 'Quadro';
+  const fonte = el.dataset.fonte || el.closest('.block')?.querySelector('.block-h .src')?.textContent || '';
+  btn.disabled = true; const txt = btn.innerHTML; btn.innerHTML = ICON_DL + 'Gerando imagem…';
+  el.dataset.exporting = '1';
+  try {
+    const canvas = await html2canvas(el, {
+      scale: 2, backgroundColor: '#FFFFFF', windowWidth: EXPORT_W, logging: false, ignoreElements: ignorar,
+      onclone: doc => {
+        prepClone(doc);
+        const c = doc.querySelector('[data-exporting]');
+        c.style.background = '#FFFFFF'; c.style.padding = '20px 22px'; c.style.border = '0'; c.style.borderRadius = '0';
+        c.insertAdjacentHTML('afterbegin', exportHead(m, titulo));
+        c.insertAdjacentHTML('beforeend', exportFoot(fonte));
+      },
+    });
+    const blob = await new Promise(r => canvas.toBlob(r, 'image/png'));
+    await saveFile(arquivo(m, titulo, 'png'), blob);
+  } catch (e) { console.error(e); toast('Não foi possível gerar a imagem.'); }
+  finally { delete el.dataset.exporting; btn.disabled = false; btn.innerHTML = txt; }
+}
+
+/* captura um bloco de HTML avulso (cabeçalho das páginas, notas) fora da tela */
+async function snapHTML(html, width = 1100) {
+  const box = document.createElement('div');
+  box.style.cssText = `position:fixed;left:-20000px;top:0;width:${width}px;background:${BG_LIGHT};padding:0 0 4px`;
+  box.innerHTML = html; document.body.appendChild(box);
+  try { return await html2canvas(box, { scale: 2, backgroundColor: BG_LIGHT, logging: false, onclone: prepClone }); }
+  finally { box.remove(); }
+}
+
+async function exportPDF(btn) {
+  const m = cur;
+  if (!m || typeof html2canvas === 'undefined' || !window.jspdf) { toast('A exportação ainda está carregando. Tente de novo em instantes.'); return; }
+  btn.disabled = true; const txt = btn.innerHTML; btn.innerHTML = ICON_DL + 'Gerando PDF…';
+  try {
+    // 1. captura a ficha inteira e marca as faixas que não podem ser cortadas (cabeçalhos e linhas de quadros)
+    let bands = [];
+    const ficha = await html2canvas(document.getElementById('ficha'), {
+      scale: 2, backgroundColor: BG_LIGHT, windowWidth: EXPORT_W, logging: false, ignoreElements: ignorar,
+      onclone: doc => {
+        prepClone(doc);
+        const root = doc.getElementById('ficha'), r0 = root.getBoundingClientRect();
+        const add = rs => bands.push({ top: Math.min(...rs.map(r => r.top)) - r0.top, bottom: Math.max(...rs.map(r => r.bottom)) - r0.top });
+        root.querySelectorAll('.head, #q-resumo').forEach(u => add([u.getBoundingClientRect()]));
+        root.querySelectorAll('.block-h').forEach(u => { add([u.getBoundingClientRect()]); bands[bands.length - 1].title = true; });
+        root.querySelectorAll('.block > .grid').forEach(g => {
+          const rows = {};
+          [...g.children].forEach(c => { const r = c.getBoundingClientRect(); (rows[Math.round(r.top)] ||= []).push(r); });
+          Object.values(rows).forEach(add);
+        });
+      },
+    });
+    bands.sort((a, b) => a.top - b.top);
+    // 2. cabeçalho das páginas e página de notas
+    const head = await snapHTML(`<div style="padding:4px 2px 0">${exportHead(m, 'Relatório completo')}</div>`);
+    const mv = META.fin.vaar;
+    const notas = await snapHTML(`<div class="card" style="margin:4px 2px"><h3>Notas sobre os dados</h3>
+      <ul style="margin:10px 0 0;padding-left:18px;display:grid;gap:6px;color:var(--ink-2);font-size:14px">
+      <li><b>Dado oficial</b>: publicado por órgão público (TCE-ES, Inep, MEC, FNDE/Tesouro, Sefaz-${m.uf}), sem cálculo da Sapion além de soma ou formatação.</li>
+      <li><b>Estimativa Sapion</b>: cálculo próprio a partir de dados oficiais. Não deve ser apresentado ao município como dado oficial.</li>
+      <li>VAAR deixado na mesa: Fundeb recebido pelo município × percentual que o VAAR representa do Fundeb nos ${mv.n_recebem} municípios do ${m.uf} que recebem (${nf(1).format(mv.k_2_indicadores * 100)}% ou ${nf(1).format(mv.k_1_indicador * 100)}%, conforme a evolução dos indicadores). Erro médio do método: ${P(mv.validacao_loo.mae, 1)}.</li>
+      <li>ICMS Educacional: IQE reconstruído pela metodologia oficial da Sedu; perda = diferença para o que o município receberia com o IQE mediano do estado.</li>
+      <li>Professores sem etapa no cargo foram repartidos entre as etapas pela proporção do Censo Escolar 2025.</li>
+      <li>Dados processados em ${DATA.gerado_em}. Metodologia completa na aba "Metodologia e fontes" do Sapion Data.</li></ul></div>`);
+    // 3. monta o A4
+    const { jsPDF } = window.jspdf;
+    const pdf = new jsPDF({ unit: 'mm', format: 'a4', compress: true });
+    const PW = 210, PH = 297, MG = 10, CW = PW - 2 * MG;
+    const headH = head.height * CW / head.width, y0 = MG + headH + 3, yMax = PH - 12;
+    const k = CW / ficha.width;              // mm por pixel do canvas
+    const pages = [];
+    const newPage = () => { if (pages.length) pdf.addPage(); pdf.setFillColor(245, 246, 251); pdf.rect(0, 0, PW, PH, 'F');
+      pdf.addImage(head, 'PNG', MG, MG, CW, headH); pages.push(1); return y0; };
+    const place = (canvas, sy, sh) => {
+      const piece = document.createElement('canvas'); piece.width = canvas.width; piece.height = sh;
+      piece.getContext('2d').drawImage(canvas, 0, sy, canvas.width, sh, 0, 0, canvas.width, sh);
+      let w = CW, h = sh * CW / canvas.width;
+      if (h > yMax - y0) { const f = (yMax - y0) / h; w *= f; h *= f; }
+      if (y + h > yMax) y = newPage();
+      pdf.addImage(piece.toDataURL('image/jpeg', 0.92), 'JPEG', MG + (CW - w) / 2, y, w, h);
+      y += h + 2;
+    };
+    let y = newPage();
+    const S = 2, pad = 6;
+    const px = b => [Math.max(0, Math.round((b.top - pad) * S)), Math.min(ficha.height, Math.round((b.bottom + pad) * S))];
+    const mm = b => { const [t, u] = px(b); return Math.min((u - t) * k, yMax - y0) + 2; };
+    bands.forEach((b, i) => {
+      // título de seção nunca fica sozinho no fim da página: vai junto com o primeiro quadro da seção
+      if (b.title && bands[i + 1] && y + mm(b) + mm(bands[i + 1]) > yMax) y = newPage();
+      const [top, bot] = px(b);
+      if (bot > top) place(ficha, top, bot - top);
+    });
+    place(notas, 0, notas.height);
+    const n = pdf.getNumberOfPages();
+    for (let i = 1; i <= n; i++) {
+      pdf.setPage(i); pdf.setFontSize(8); pdf.setTextColor(100, 105, 117);
+      pdf.text(`Sapion Data ${DATA.versao} - ${nomeUF(m)} - exportado em ${agora()}`, MG, PH - 6);
+      pdf.text(`Página ${i} de ${n}`, PW - MG, PH - 6, { align: 'right' });
+    }
+    await saveFile(arquivo(m, 'Relatório completo', 'pdf'), pdf.output('blob'));
+  } catch (e) { console.error(e); toast('Não foi possível gerar o PDF.'); }
+  finally { btn.disabled = false; btn.innerHTML = txt; }
+}
+
+document.addEventListener('click', e => {
+  const b = e.target.closest('[data-png]'); if (b) { exportPNG(b); return; }
+  const p = e.target.closest('#pdf-btn'); if (p) exportPDF(p);
+});
+
+/* ---------------- seletor de município ---------------- */
+const inp = document.getElementById('mun-input'), list = document.getElementById('mun-list');
+let cur = null, active = -1, shown = [];
+const norm = s => s.normalize('NFD').replace(/[̀-ͯ]/g, '').toLowerCase();
+function openList(q) {
+  const nq = norm(q || '');
+  shown = MU().filter(m => norm(m.nome).includes(nq));
+  list.innerHTML = shown.map((m, i) => `<li role="option" id="opt-${m.ibge}" data-i="${i}" aria-selected="${i === active}"><span>${nomeUFh(m)}</span><small>${esc(m.prof.tier)}</small></li>`).join('') || '<li>Nenhum município encontrado</li>';
+  list.hidden = false; inp.setAttribute('aria-expanded', 'true');
+}
+function closeList() { list.hidden = true; inp.setAttribute('aria-expanded', 'false'); active = -1; }
+inp.addEventListener('focus', () => { inp.select(); openList(''); });
+inp.addEventListener('input', () => { active = 0; openList(inp.value); });
+inp.addEventListener('keydown', e => {
+  if (list.hidden) return;
+  if (e.key === 'ArrowDown') { active = Math.min(active + 1, shown.length - 1); openList(inp.value); e.preventDefault(); list.children[active]?.scrollIntoView({ block: 'nearest' }); }
+  if (e.key === 'ArrowUp') { active = Math.max(active - 1, 0); openList(inp.value); e.preventDefault(); list.children[active]?.scrollIntoView({ block: 'nearest' }); }
+  if (e.key === 'Enter' && shown[Math.max(active, 0)]) { select(shown[Math.max(active, 0)].ibge); e.preventDefault(); }
+});
+list.addEventListener('mousedown', e => { const li = e.target.closest('li[data-i]'); if (li) { select(shown[+li.dataset.i].ibge); e.preventDefault(); } });
+document.addEventListener('click', e => { if (!e.target.closest('.combo')) closeList(); });
+
+/* numera os passos (elementos reais, para aparecerem também nas exportações) */
+function numberSteps(root) {
+  root.querySelectorAll('ol.steps').forEach(ol => [...ol.children].forEach((li, i) => {
+    if (!li.querySelector(':scope > .n')) li.insertAdjacentHTML('afterbegin', `<span class="n">${i + 1}</span>`);
+  }));
+}
+/* botão "Baixar quadro em PNG" no topo de cada quadro */
+function addPngButtons(root) {
+  root.querySelectorAll('.card').forEach(card => {
+    const top = card.querySelector(':scope > .card-top'); if (!top || top.querySelector('[data-png]')) return;
+    const right = document.createElement('div'); right.className = 'right';
+    [...top.children].filter(c => c.tagName !== 'H3').forEach(c => right.appendChild(c));
+    right.insertAdjacentHTML('beforeend', pngBtn());
+    top.appendChild(right);
+  });
+}
+
+function select(ib) {
+  const m = byId[ib]; if (!m) return;
+  setUF(m.uf, false);
+  cur = m; inp.value = nomeUF(m); closeList(); inp.blur();
+  const f = document.getElementById('ficha');
+  f.innerHTML = fichaHTML(m);
+  numberSteps(f); addPngButtons(f);
+  document.getElementById('landing').hidden = true;
+  document.getElementById('v-ficha').classList.remove('is-landing');
+  show('ficha');
+}
+
+/* tela inicial: aviso para escolher estado e município */
+function goLanding() {
+  cur = null; inp.value = '';
+  document.getElementById('ficha').innerHTML = '';
+  document.getElementById('landing').hidden = false;
+  document.getElementById('v-ficha').classList.add('is-landing');
+}
+
+/* estado selecionado: sincroniza os dois seletores e libera a busca de município */
+function setUF(uf, fromUser = true) {
+  UF = uf || null;
+  ufSel.value = UF || ''; fUf.value = UF || '';
+  inp.disabled = !UF;
+  inp.placeholder = UF ? `Digite o nome do município (${UF})` : 'Selecione o estado primeiro';
+  if (fromUser) {
+    if (cur && cur.uf !== UF) goLanding();
+    if (!document.getElementById('v-panorama').hidden) renderPano();
+    if (UF && !document.getElementById('v-ficha').hidden && !cur) inp.focus();
+  }
+}
+
+/* ---------------- panorama ---------------- */
+const COLS = [
+  ['nome', 'Município', m => m.nome, m => `<b>${nomeUFh(m)}</b>`],
+  ['tier', 'Porte', m => ({ 'Mais de 500': 3, '200 a 500': 2, 'Menos de 200': 1 })[m.prof.tier], m => esc(m.prof.tier)],
+  ['prof', 'Profissionais', m => m.prof.total.pessoas, m => N(m.prof.total.pessoas), 'r'],
+  ['pdt', '% DT prof.', m => m.prof.professores.dt / (m.prof.professores.pessoas || 1), m => P(m.prof.professores.dt / (m.prof.professores.pessoas || 1)), 'r'],
+  ['ai', 'IDEB AI 25', m => m.ideb.AI.municipal?.['2025']?.ideb ?? -1, m => N(m.ideb.AI.municipal?.['2025']?.ideb, 1), 'r'],
+  ['af', 'IDEB AF 25', m => m.ideb.AF.municipal?.['2025']?.ideb ?? -1, m => N(m.ideb.AF.municipal?.['2025']?.ideb, 1), 'r'],
+  ['ica', 'ICA 25', m => m.ica?.serie['2025'] ?? -1, m => m.ica ? `<span class="dot ${m.ica.bateu_meta_2025 ? 'ok' : 'bad'}"></span>${N(m.ica.serie['2025'])}%` : '—', 'r'],
+  ['vaar', 'VAAR 2026', m => m.fin.vaar.situacao === 'Recebe' ? 1 : 0, m => `<span class="dot ${m.fin.vaar.situacao === 'Recebe' ? 'ok' : 'bad'}"></span>${esc(m.fin.vaar.situacao)}${m.fin.vaar.descumpridas ? ' <span class="muted">(' + esc(m.fin.vaar.descumpridas) + ')</span>' : ''}`],
+  ['perda', 'Deixado na mesa (VAAR/ano)*', m => m.fin.vaar.perda_estimada_anual || 0, m => m.fin.vaar.perda_estimada_anual ? RE(m.fin.vaar.perda_estimada_anual) : '—', 'r'],
+  ['vaat', 'VAAT 26 (jan–ago)', m => m.fin.vaat.recebido_2026 || 0, m => m.fin.vaat.recebido_2026 ? R(m.fin.vaat.recebido_2026) : '—', 'r'],
+  ['ipm', 'IPM 2026', m => m.fin.icms.ipm_2026 || 0, m => nf(3).format((m.fin.icms.ipm_2026 || 0) * 100) + '%', 'r'],
+  ['iqe', 'IQE*', m => m.fin.icms.iqe?.iqe || 0, m => `${N(m.fin.icms.iqe?.iqe, 3)} <span class="muted">(${ord(m.fin.icms.iqe?.posicao)})</span>`, 'r'],
+  ['dep', 'Peso ICMS Educ.*', m => m.fin.icms.dependencia_estimada || 0, m => P(m.fin.icms.dependencia_estimada), 'r'],
+];
+let sortKey = 'perda', sortDir = -1;
+function renderPano() {
+  const q = norm(document.getElementById('f-busca').value), ft = document.getElementById('f-tier').value,
+    fv = document.getElementById('f-vaar').value, fi = document.getElementById('f-ica').value;
+  const col = COLS.find(c => c[0] === sortKey);
+  document.getElementById('pano-empty').hidden = !!UF;
+  document.getElementById('pano-wrap').hidden = !UF;
+  if (!UF) {
+    document.getElementById('pano-title').textContent = 'Panorama do estado';
+    document.getElementById('pano-sub').textContent = 'Escolha um estado para comparar os municípios lado a lado.';
+    document.getElementById('pano-count').textContent = '';
+    return;
+  }
+  document.getElementById('pano-title').textContent = `Panorama: ${EST().nome}`;
+  document.getElementById('pano-sub').textContent = `Os ${EST().n_municipios} municípios do ${UF} lado a lado. Clique em um município para abrir a ficha completa.`;
+  const rows = MU().filter(m => norm(m.nome).includes(q) && (!ft || m.prof.tier === ft) && (!fv || m.fin.vaar.situacao === fv)
+    && (!fi || (fi === 'abaixo' ? m.ica?.bateu_meta_2025 === false : m.ica?.bateu_meta_2025 === true)))
+    .sort((a, b) => { const x = col[2](a), y = col[2](b); return (typeof x === 'string' ? x.localeCompare(y, 'pt') : x - y) * sortDir; });
+  document.getElementById('pano').innerHTML = `<thead><tr>${COLS.map(c => `<th class="${c[4] || ''}"><button type="button" data-k="${c[0]}" ${c[0] === sortKey ? `data-dir="${sortDir > 0 ? '↑' : '↓'}"` : ''}>${c[1]}</button></th>`).join('')}</tr></thead>
+    <tbody>${rows.map(m => `<tr data-ib="${m.ibge}" tabindex="0">${COLS.map(c => `<td class="${c[4] || ''}">${c[3](m)}</td>`).join('')}</tr>`).join('')}</tbody>`;
+  document.getElementById('pano-count').textContent = `${rows.length} de ${EST().n_municipios} municípios · * estimativa Sapion`;
+}
+document.getElementById('pano').addEventListener('click', e => {
+  const b = e.target.closest('th button');
+  if (b) { const k = b.dataset.k; sortDir = sortKey === k ? -sortDir : (k === 'nome' ? 1 : -1); sortKey = k; renderPano(); return; }
+  const tr = e.target.closest('tr[data-ib]'); if (tr) { select(tr.dataset.ib); scrollTo(0, 0); }
+});
+document.getElementById('pano').addEventListener('keydown', e => { const tr = e.target.closest('tr[data-ib]'); if (tr && e.key === 'Enter') select(tr.dataset.ib); });
+['f-busca', 'f-tier', 'f-vaar', 'f-ica'].forEach(id => document.getElementById(id).addEventListener('input', renderPano));
+
+/* ---------------- metodologia ---------------- */
+function renderMetodo() {
+  const mf = META.fin, loo = mf.vaar.validacao_loo;
+  document.getElementById('v-metodologia').innerHTML = `
+  <h1 style="font-size:36px">Metodologia e fontes</h1>
+  <p class="lead" style="margin-top:10px">Como cada número do Sapion Data foi obtido, o que é dado oficial e o que é estimativa da Sapion. Versão ${DATA.versao}, dados processados em ${DATA.gerado_em}.</p>
+
+  <h2>Cobertura e expansão</h2>
+  <p>A versão 1 cobre os ${EST().n_municipios} municípios do Espírito Santo. O Sapion Data foi estruturado por estado: cada município é identificado pelo código IBGE e pela sigla da UF, e as fontes estaduais (folha do tribunal de contas, repasses de ICMS, índice educacional do ICMS) são plugáveis. Próximos estados, na ordem do plano de expansão: ${ESTADOS.filter(e => !e.ativo).map(e => `${esc(e.nome)} (${e.uf})`).join(', ')}.</p>
+
+  <h2>Oficial × estimativa</h2>
+  <p>Todo número vem de uma fonte pública. Quando a Sapion faz um cálculo além de somar ou formatar, o valor leva o selo <span class="tag estimado">Estimativa Sapion</span>. Estimativas aparecem arredondadas, nunca com centavos, e não devem ser apresentadas ao cliente como dado oficial. Ao usar uma estimativa numa proposta, cite a premissa descrita abaixo.</p>
+
+  <h2>1. Profissionais da educação</h2>
+  <p><b>Fonte:</b> ${esc(META.profissionais.fonte)}, competência ${META.profissionais.competencia}. Folha de pagamento que cada prefeitura declara ao TCE-ES pelo sistema CidadES, publicada em dados.es.gov.br ("[TCEES] Área temática de Pessoal", arquivos Vínculo).</p>
+  <ul>
+    <li>Excluímos o Governo do Estado, institutos de previdência (aposentados e pensionistas aparecem lá com o cargo de origem), saúde, assistência social, câmara, SAAE e demais órgãos fora da educação.</li>
+    <li>Excluímos vínculos que não são quadro: estágio, função não remunerada, pensão e complementação de aposentadoria.</li>
+    <li>Cada cargo foi classificado por regras sobre o nome (ex.: MaPA/Professor A = Educação Infantil e Anos Iniciais; MaPB/Professor B = Anos Finais; MaPP, PEB IV e pedagogos = gestão pedagógica), com regras próprias para redes com nomenclatura particular (Vitória/ES, Colatina/ES, Cachoeiro de Itapemirim/ES, Viana/ES e Ibatiba/ES). O dicionário completo fica em <code>data/dicionario_cargos.csv</code>.</li>
+    <li>Efetivo = efetivo estatutário ou emprego público. DT = contratação temporária ou processo seletivo. Comissionados, função gratificada e eletivos entram no total, fora dessas duas colunas.</li>
+    <li>Pessoa = nome + CPF parcial (o arquivo mascara o CPF). Vínculo = linha de contrato.</li>
+    <li><b>Etapa estimada:</b> quando o cargo não indica a etapa (ex.: "Professor", "PEB B", "MARC"), os professores são repartidos entre as etapas possíveis na proporção dos docentes em regência do Censo Escolar 2025 do município. <span class="tag estimado">Estimativa Sapion</span></li>
+    <li>Porte da rede: vínculos de magistério (professores + gestão pedagógica). Menos de 200, 200 a 500, mais de 500.</li>
+  </ul>
+  <p>Limites: é dado declaratório (erros de remessa da prefeitura aparecem aqui); junho é meio do ano letivo e tem mais DTs que dezembro; cada ficha mostra alertas quando a folha do município tem particularidades.</p>
+
+  <h2>2. IDEB</h2>
+  <p><b>Fonte:</b> Inep, planilhas de divulgação do Ideb 2025 por município (anos iniciais e finais), que trazem 2021, 2023 e 2025. Mostramos a rede municipal. A posição no estado compara apenas os municípios com IDEB divulgado para a rede municipal no mesmo ano e etapa; municípios sem anos finais municipais ficam de fora do ranking dessa etapa.</p>
+
+  <h2>3. Alfabetização</h2>
+  <p><b>Fonte:</b> Inep/MEC, Indicador Criança Alfabetizada (resultados e metas por município, rede municipal). ICA = percentual de alunos do 2º ano com pelo menos 743 pontos na escala Saeb. Metas pactuadas por município até 2030. O Paebes Alfa (avaliação estadual) é outra régua: ele alimenta o IQE do ICMS e aparece no bloco de financiamento, nunca misturado ao ICA.</p>
+
+  <h2>4. Financiamento</h2>
+  <h3>Fundeb, VAAF e VAAT</h3>
+  <p><b>Fonte:</b> Tesouro Nacional/FNDE, Consultas Fundeb (transferências por município e origem), arquivos mensais de 2026 e o ano de 2025. Previstos 2026: Portaria Interministerial MEC/MF nº 11/2026. Habilitação ao VAAT: lista final do FNDE para 2026 (<a href="${esc(mf.vaat.url_habilitacao)}" target="_blank" rel="noopener">CSV oficial</a>). Os 78 municípios estão habilitados; quem não recebe VAAT está acima do mínimo por aluno e não tem perda.</p>
+  <p>O ES não recebe complementação VAAF da União. Mostramos a redistribuição do fundo estadual (FPE, FPM, ICMS, IPI-Exportação, IPVA, ITCMD e ITR) que chega ao município. A rubrica "FTI" do Tesouro não entra nessa soma, pois seu significado ainda não foi confirmado.</p>
+  <p><b>VAAR – situação e condicionalidades:</b> ${esc(mf.vaar.fonte_situacao)}. <b>Valores recebidos:</b> Tesouro.</p>
+  <h3>ICMS e ICMS Educacional</h3>
+  <p><b>Oficial:</b> IPM 2026 (${esc(mf.icms.fonte_ipm)}) e valores mensais transferidos (${esc(mf.icms.fonte)}, ${mf.icms.meses.map(k => MESES[k - 1]).join(', ')} de 2026).</p>
+  <p><b>Estimado</b> <span class="tag estimado">Estimativa Sapion</span>: ${esc(mf.icms.fonte_iqe)}. A Sedu não publica o IQE nem o coeficiente de cada município. Reconstruímos o IQE pelas fórmulas do Guia Técnico (Paebes/Paebes Alfa 2023 e 2024, aprovação 2024, proficiência por quartil de nível socioeconômico), validadas contra os exemplos numéricos do guia.</p>
+  <div class="formula">IQE = 0,70·IQEF + 0,15·Aprovação + 0,15·Equidade   (IQEF = 0,6·2º ano + 0,4·5º ano)<br>Coeficiente = IQE do município ÷ soma dos 78 IQE<br>ICMS Educacional (mês) = ICMS bruto total do mês × ${P(mf.icms.peso_iqe)} × coeficiente<br>Diferença para a mediana = (coeficiente − coeficiente mediano) × ${P(mf.icms.peso_iqe)} × ICMS bruto total do período</div>
+  <p>O peso do IQE no repasse de 2026 é 12% (Tabela 1 do Guia Técnico do IQE, Sedu). Passa a 12,5% a partir de 2027. Versão do método: ${esc(mf.icms.versao_metodo)}.</p>
+
+  <h2>Saldo e "deixou na mesa" <span class="tag estimado">Estimativa Sapion</span></h2>
+  <p><b>Recebeu</b> é o que entrou no caixa do município em 2026 pelos mecanismos ligados à educação: VAAR e VAAT (Tesouro, jan–ago) e ICMS Educacional (jan–jul). <b>Deixou na mesa</b> soma duas perdas, cada uma comparada no mesmo período do que foi recebido.</p>
+  <h3>Perda 1: VAAR não recebido</h3>
+  <p>A pergunta é: quanto o município receberia de VAAR se cumprisse as condicionalidades?</p>
+  <ol class="steps doc-steps">
+    <li>O VAAR é dividido pelo tamanho da rede (matrículas), do mesmo jeito que o Fundeb. Por isso o Fundeb recebido pelo município serve de régua para o VAAR que ele receberia.</li>
+    <li>Nos ${mf.vaar.n_recebem} municípios do ES que recebem VAAR, o valor previsto para 2026 equivale a <b>${nf(1).format(mf.vaar.k_2_indicadores * 100)}%</b> do Fundeb que cada um recebeu de janeiro a agosto. Para quem melhorou só um dos dois indicadores (atendimento ou aprendizagem), o percentual é <b>${nf(1).format(mf.vaar.k_1_indicador * 100)}%</b>.</li>
+    <li>Aplicamos o percentual correspondente ao Fundeb do município que não recebe. O resultado é o VAAR anual deixado na mesa.</li>
+    <li>Até agosto já foram pagos ${P(mf.vaar.fracao_ano_creditada)} do VAAR do ano. Para comparar com o que o município recebeu até agosto, usamos essa mesma fração.</li>
+  </ol>
+  ${(() => { const ex = byId['3201506'], v = ex.fin.vaar; return `<p class="example"><b>Exemplo – ${esc(nomeUF(ex))}:</b> recebeu ${R(v.base_fundeb)} do Fundeb de janeiro a agosto. ${R(v.base_fundeb)} × ${nf(1).format(v.k_aplicado * 100)}% ≈ <b>${RE(v.perda_estimada_anual).replace('≈ ', '')} por ano</b> de VAAR deixados na mesa (${RE(v.perda_estimada_parcial)} de janeiro a agosto).</p>`; })()}
+  <p><b>Confiabilidade:</b> aplicamos a mesma conta aos ${loo.n} municípios que recebem e comparamos com o valor oficial. O erro médio foi de ${P(loo.mae, 1)} e 9 em cada 10 ficaram abaixo de ${P(loo.p90, 0)}. Premissa: o município cumpriria as condicionalidades e manteria a evolução de indicadores que tem hoje.</p>
+  <h3>Perda 2: ICMS Educacional abaixo da mediana</h3>
+  <ol class="steps doc-steps">
+    <li>${P(mf.icms.peso_iqe)} do ICMS repassado aos municípios é dividido pela nota educacional de cada um (IQE). Quanto maior a nota, maior a fatia.</li>
+    <li>Calculamos quanto o município recebeu com a nota que tem e quanto receberia com a nota do município do meio do ranking do estado (a mediana).</li>
+    <li>Se estiver abaixo da mediana, a diferença é o que ele deixou na mesa. Se estiver acima, não há perda.</li>
+  </ol>
+  <p class="small muted">Para a equipe técnica: VAAR anual deixado na mesa = Fundeb (7 origens, jan–ago) × k, com k = soma do VAAR previsto ÷ soma do Fundeb dos beneficiários do mesmo grupo de evolução (${nf(4).format(mf.vaar.k_2_indicadores)} e ${nf(4).format(mf.vaar.k_1_indicador)}). ICMS: (coeficiente mediano − coeficiente do município) × ${P(mf.icms.peso_iqe)} × ICMS bruto total do período. Como o bolo nacional do VAAR é fixo, se todos entrassem cada um receberia cerca de 2% menos. Versões: ${esc(mf.vaar.versao_metodo)}; ${esc(mf.icms.versao_metodo)}.</p>
+
+  <h2>Calendário de atualização</h2>
+  <ul>
+    <li><b>Mensal:</b> transferências do Fundeb (Tesouro) e PDFs de repasse de ICMS (Sefaz-ES).</li>
+    <li><b>Trimestral:</b> arquivo Vínculo do TCE-ES (profissionais).</li>
+    <li><b>Março:</b> ICA do ano anterior (Inep/MEC).</li>
+    <li><b>Abril e agosto:</b> portarias de revisão do Fundeb (VAAR e VAAT previstos).</li>
+    <li><b>Agosto a dezembro:</b> IPM provisório (agosto) e definitivo (dezembro) do ano seguinte; listas de habilitação VAAT e VAAR do ciclo seguinte.</li>
+    <li><b>Anos pares:</b> IDEB do ciclo anterior (o próximo, IDEB 2027, sai em 2028).</li>
+  </ul>
+  <h2>Pendências conhecidas</h2>
+  <ul>
+    <li>Coeficiente oficial do IQE por município: não publicado; quando a Sefaz/Sedu fornecer, substitui a estimativa.</li>
+    <li>Significado da rubrica "FTI" no demonstrativo do Tesouro.</li>
+    <li>Execução da despesa em educação (Siconfi/SIOPE) fica para a próxima versão.</li>
+    <li>Dicionário de cargos: revisar com as secretarias os cargos genéricos dos municípios com mais professores sem etapa.</li>
+  </ul>`;
+}
+
+/* ---------------- navegação ---------------- */
+function show(view) {
+  document.querySelectorAll('.view').forEach(v => v.hidden = v.id !== 'v-' + view);
+  document.querySelectorAll('.tab').forEach(t => t.setAttribute('aria-selected', String(t.dataset.view === view)));
+  if (view === 'panorama') renderPano();
+  if (view === 'metodologia' && !document.getElementById('v-metodologia').innerHTML) { renderMetodo(); numberSteps(document.getElementById('v-metodologia')); }
+  hidePop();
+}
+document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => show(t.dataset.view)));
+
+document.getElementById('stamp').textContent = `Folha ${META.profissionais.competencia} · IDEB 2025 · ICA 2025 · Fundeb até ${MESES[META.fin.fundeb.ultimo_mes_complementacao - 1]}/2026 · ICMS até ${MESES[META.fin.icms.meses.at(-1) - 1]}/2026`;
+document.getElementById('foot-gen').textContent = `Sapion Data ${DATA.versao} · dados processados em ${DATA.gerado_em}`;
+
+/* seletores de estado (tela inicial e panorama): só estados com dados ficam habilitados; os demais indicam a expansão */
+const ufSel = document.getElementById('uf-select'), fUf = document.getElementById('f-uf');
+const ufOptions = `<option value="">Selecione o estado</option>` + ESTADOS.map(e =>
+  `<option value="${e.uf}"${e.ativo ? '' : ' disabled'}>${esc(e.nome)} (${e.uf})${e.ativo ? '' : ' · em breve'}</option>`).join('');
+ufSel.innerHTML = ufOptions; fUf.innerHTML = ufOptions;
+ufSel.addEventListener('change', () => setUF(ufSel.value));
+fUf.addEventListener('change', () => setUF(fUf.value));
+
+/* toda visita começa na tela de seleção: nada de município pré-selecionado */
+history.replaceState(null, '', location.pathname + location.search);
+setUF(null, false);
+goLanding();
+show('ficha');
+</script>

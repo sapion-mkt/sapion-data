@@ -1,0 +1,7214 @@
+{
+ "meta": {
+  "fonte": "Tesouro Nacional – Siconfi, RREO Anexo 2 (despesa por função/subfunção), API de dados abertos",
+  "nota": "Valores declarados pelo município. 2026 = acumulado até o último bimestre homologado; 2025 = ano fechado (6º bimestre)."
+ },
+ "municipios": {
+  "3200102": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 77547641,
+     "dotacao_atualizada": 89985706.35,
+     "empenhado": 52819354.74,
+     "liquidado": 43398314.45
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 45756051,
+      "dotacao_atualizada": 53714812.54,
+      "empenhado": 29486587.79,
+      "liquidado": 23600704.84
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 1638527,
+      "dotacao_atualizada": 1729783.94,
+      "empenhado": 1727780.59,
+      "liquidado": 904729.34
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 1,
+      "dotacao_atualizada": 1
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 127690,
+      "dotacao_atualizada": 118123.26,
+      "empenhado": 111435.51,
+      "liquidado": 79677.85
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 23212482,
+      "dotacao_atualizada": 26804190.44,
+      "empenhado": 17437084.36,
+      "liquidado": 15065594.58
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 1,
+      "dotacao_atualizada": 1
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 265006,
+      "dotacao_atualizada": 301678.6,
+      "empenhado": 253125.06,
+      "liquidado": 94255.13
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 6547883,
+      "dotacao_atualizada": 7317115.57,
+      "empenhado": 3803341.43,
+      "liquidado": 3653352.71
+     }
+    },
+    "pct_liquidado": 0.4823,
+    "pct_empenhado": 0.587
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 58887898.31,
+     "dotacao_atualizada": 86148570.89,
+     "empenhado": 67406559.57,
+     "liquidado": 64789150.69
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 35142790.53,
+      "dotacao_atualizada": 48975361.82,
+      "empenhado": 37941288.53,
+      "liquidado": 37012656.09
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 1500004,
+      "dotacao_atualizada": 1777055.18,
+      "empenhado": 1561514.54,
+      "liquidado": 1464280.58
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 9011,
+      "dotacao_atualizada": 11
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 128022,
+      "dotacao_atualizada": 124560.31,
+      "empenhado": 121207.86,
+      "liquidado": 117220.93
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16795484.58,
+      "dotacao_atualizada": 28237444.55,
+      "empenhado": 21022782.28,
+      "liquidado": 20635996.04
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 8,
+      "dotacao_atualizada": 8
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 327009,
+      "dotacao_atualizada": 831232.37,
+      "empenhado": 689475.12,
+      "liquidado": 503827.68
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4985569.2,
+      "dotacao_atualizada": 6202897.66,
+      "empenhado": 6070291.24,
+      "liquidado": 5055169.37
+     }
+    },
+    "pct_liquidado": 0.7521,
+    "pct_empenhado": 0.7824
+   }
+  },
+  "3200169": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 22247850,
+     "dotacao_atualizada": 25276256.39,
+     "empenhado": 16837265.04,
+     "liquidado": 13158680.31
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16635000,
+      "dotacao_atualizada": 18178957.32,
+      "empenhado": 12955993.81,
+      "liquidado": 9943433.48
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3977850,
+      "dotacao_atualizada": 5227789.58,
+      "empenhado": 2354115.46,
+      "liquidado": 2328303.32
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1075000,
+      "dotacao_atualizada": 1309509.49,
+      "empenhado": 1134239.72,
+      "liquidado": 625110.02
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 560000,
+      "dotacao_atualizada": 560000,
+      "empenhado": 392916.05,
+      "liquidado": 261833.49
+     }
+    },
+    "pct_liquidado": 0.5206,
+    "pct_empenhado": 0.6661
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 20048791.5,
+     "dotacao_atualizada": 30402316.79,
+     "empenhado": 29839101.12,
+     "liquidado": 29575834.32
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 14815244.08,
+      "dotacao_atualizada": 23974813.4,
+      "empenhado": 23495446.81,
+      "liquidado": 23241076.05
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3793216.7,
+      "dotacao_atualizada": 4861672.74,
+      "empenhado": 4790919.94,
+      "liquidado": 4790354.6
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 80415.72
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 789285,
+      "dotacao_atualizada": 953530.51,
+      "empenhado": 948310.52,
+      "liquidado": 939979.82
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 570630,
+      "dotacao_atualizada": 612300.14,
+      "empenhado": 604423.85,
+      "liquidado": 604423.85
+     }
+    },
+    "pct_liquidado": 0.9728,
+    "pct_empenhado": 0.9815
+   }
+  },
+  "3200136": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 25381434.35,
+     "dotacao_atualizada": 28045083.78,
+     "empenhado": 13636271.06,
+     "liquidado": 10735373.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16556894.35,
+      "dotacao_atualizada": 17107713.36,
+      "empenhado": 8195563.51,
+      "liquidado": 6939656.2
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 2803000,
+      "dotacao_atualizada": 2564895.5,
+      "empenhado": 1821350.58,
+      "liquidado": 1197325.43
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 300000,
+      "dotacao_atualizada": 450000,
+      "empenhado": 450000,
+      "liquidado": 180000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4811000,
+      "dotacao_atualizada": 6967362.08,
+      "empenhado": 2609656.04,
+      "liquidado": 1994282.42
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 910540,
+      "dotacao_atualizada": 955112.84,
+      "empenhado": 559700.93,
+      "liquidado": 424109.13
+     }
+    },
+    "pct_liquidado": 0.3828,
+    "pct_empenhado": 0.4862
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 22123040,
+     "dotacao_atualizada": 28689664.21,
+     "empenhado": 27567469.4,
+     "liquidado": 26920861.64
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 14767500,
+      "dotacao_atualizada": 19603618.64,
+      "empenhado": 19071296.51,
+      "liquidado": 18663206.64
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 2803000,
+      "dotacao_atualizada": 2911181.32,
+      "empenhado": 2821691.8,
+      "liquidado": 2650133.9
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 300000,
+      "dotacao_atualizada": 348876.26,
+      "empenhado": 348876.26,
+      "liquidado": 348876.26
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3162000,
+      "dotacao_atualizada": 4550541.86,
+      "empenhado": 4141627.32,
+      "liquidado": 4094320.24
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1090540,
+      "dotacao_atualizada": 1275446.13,
+      "empenhado": 1183977.51,
+      "liquidado": 1164324.6
+     }
+    },
+    "pct_liquidado": 0.9383,
+    "pct_empenhado": 0.9609
+   }
+  },
+  "3200201": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 32780694,
+     "dotacao_atualizada": 36231114.99,
+     "empenhado": 27777593.41,
+     "liquidado": 26273242.29
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 14382400,
+      "dotacao_atualizada": 14378472.21,
+      "empenhado": 11940026.53,
+      "liquidado": 11657076.47
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 3047600,
+      "dotacao_atualizada": 2956000,
+      "empenhado": 2511066.56,
+      "liquidado": 1671441.32
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3035800,
+      "dotacao_atualizada": 5518451.56,
+      "empenhado": 4719446.86,
+      "liquidado": 4687646.86
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 73200,
+      "dotacao_atualizada": 95.33,
+      "empenhado": 95.33,
+      "liquidado": 95.33
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 900
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 10783694,
+      "dotacao_atualizada": 12044404.7,
+      "empenhado": 7808147.36,
+      "liquidado": 7509476.4
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1457100,
+      "dotacao_atualizada": 1333691.19,
+      "empenhado": 798810.77,
+      "liquidado": 747505.91
+     }
+    },
+    "pct_liquidado": 0.7252,
+    "pct_empenhado": 0.7667
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 32064484.59,
+     "dotacao_atualizada": 45246056.05,
+     "empenhado": 44898285.44,
+     "liquidado": 44898285.44
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 25799451,
+      "dotacao_atualizada": 36713847.34,
+      "empenhado": 36713847.34,
+      "liquidado": 36713847.34
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 2625100,
+      "dotacao_atualizada": 2944036.19,
+      "empenhado": 2596265.58,
+      "liquidado": 2596265.58
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3573033.59,
+      "dotacao_atualizada": 5528783.14,
+      "empenhado": 5528783.14,
+      "liquidado": 5528783.14
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 66900,
+      "dotacao_atualizada": 59389.38,
+      "empenhado": 59389.38,
+      "liquidado": 59389.38
+     }
+    },
+    "pct_liquidado": 0.9923,
+    "pct_empenhado": 0.9923
+   }
+  },
+  "3200300": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 35779370,
+     "dotacao_atualizada": 39218848.44,
+     "empenhado": 20002238.34,
+     "liquidado": 17159938.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 26947400,
+      "dotacao_atualizada": 23713078.91,
+      "empenhado": 8394146.04,
+      "liquidado": 6916948.49
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 5500,
+      "dotacao_atualizada": 500
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 355200,
+      "dotacao_atualizada": 470828,
+      "empenhado": 470627.52,
+      "liquidado": 260408
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4106100,
+      "dotacao_atualizada": 4970782.71,
+      "empenhado": 2866354.33,
+      "liquidado": 2827086.88
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 36600,
+      "dotacao_atualizada": 106600,
+      "empenhado": 50518.86
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4328570,
+      "dotacao_atualizada": 9957058.82,
+      "empenhado": 8220591.59,
+      "liquidado": 7155494.81
+     }
+    },
+    "pct_liquidado": 0.4375,
+    "pct_empenhado": 0.51
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 28245360,
+     "dotacao_atualizada": 39320891.89,
+     "empenhado": 37444539.99,
+     "liquidado": 35651964.9
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 17358200,
+      "dotacao_atualizada": 25017614.17,
+      "empenhado": 24010258.45,
+      "liquidado": 22508381.75
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 54000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 332000,
+      "dotacao_atualizada": 351474.5,
+      "empenhado": 351074.5,
+      "liquidado": 351074.5
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7377660,
+      "dotacao_atualizada": 5989857.22,
+      "empenhado": 5215608.42,
+      "liquidado": 5208030.86
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 55200,
+      "dotacao_atualizada": 346.34
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3068300,
+      "dotacao_atualizada": 7961599.66,
+      "empenhado": 7867598.62,
+      "liquidado": 7584477.79
+     }
+    },
+    "pct_liquidado": 0.9067,
+    "pct_empenhado": 0.9523
+   }
+  },
+  "3200359": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 22469225.65,
+     "dotacao_atualizada": 22469225.65,
+     "empenhado": 10739797.02,
+     "liquidado": 10501470.82
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 9549400,
+      "dotacao_atualizada": 9119400,
+      "empenhado": 4754018.66,
+      "liquidado": 4754018.66
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3632000.01,
+      "dotacao_atualizada": 3662000.01,
+      "empenhado": 1525757.48,
+      "liquidado": 1525757.48
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 9287825.64,
+      "dotacao_atualizada": 9687825.64,
+      "empenhado": 4460020.88,
+      "liquidado": 4221694.68
+     }
+    },
+    "pct_liquidado": 0.4674,
+    "pct_empenhado": 0.478
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 19769100,
+     "dotacao_atualizada": 20293337.63,
+     "empenhado": 19569490.02,
+     "liquidado": 19544057.3
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 9378000,
+      "dotacao_atualizada": 8954041.59,
+      "empenhado": 8709004.02,
+      "liquidado": 8709004.02
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3512000,
+      "dotacao_atualizada": 3372566.84,
+      "empenhado": 3239208.63,
+      "liquidado": 3239208.63
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 6879100,
+      "dotacao_atualizada": 7966729.2,
+      "empenhado": 7621277.37,
+      "liquidado": 7595844.65
+     }
+    },
+    "pct_liquidado": 0.9631,
+    "pct_empenhado": 0.9643
+   }
+  },
+  "3200409": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 113586866.15,
+     "dotacao_atualizada": 127782172.58,
+     "empenhado": 90558608.03,
+     "liquidado": 79729417.26
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 59324341.51,
+      "dotacao_atualizada": 67940464.33,
+      "empenhado": 41872646.61,
+      "liquidado": 36482936.14
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 701000,
+      "dotacao_atualizada": 654095.97,
+      "empenhado": 550011.32,
+      "liquidado": 346907.2
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1600000,
+      "dotacao_atualizada": 1505454.99,
+      "empenhado": 1359782.5,
+      "liquidado": 1204732.5
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 26996618.9,
+      "dotacao_atualizada": 30585970.67,
+      "empenhado": 22081491.89,
+      "liquidado": 19707385.71
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 1042071.03,
+      "dotacao_atualizada": 1058204.19,
+      "empenhado": 804143.33,
+      "liquidado": 624967.59
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 8847856.13,
+      "dotacao_atualizada": 9872699.38,
+      "empenhado": 8901888.08,
+      "liquidado": 8534569.21
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 7914377.58,
+      "dotacao_atualizada": 8901149.92,
+      "empenhado": 7738504.6,
+      "liquidado": 7227070.74
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 7160601,
+      "dotacao_atualizada": 7264133.13,
+      "empenhado": 7250139.7,
+      "liquidado": 5600848.17
+     }
+    },
+    "pct_liquidado": 0.6239,
+    "pct_empenhado": 0.7087
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 99731864.69,
+     "dotacao_atualizada": 137759375.94,
+     "empenhado": 126340013.4,
+     "liquidado": 123024869.91
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 51112638.37,
+      "dotacao_atualizada": 68467486.4,
+      "empenhado": 57211966.92,
+      "liquidado": 55066235.31
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 651000,
+      "dotacao_atualizada": 649870.61,
+      "empenhado": 649195.6,
+      "liquidado": 627796.08
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1471050,
+      "dotacao_atualizada": 1691176.75,
+      "empenhado": 1691176.75,
+      "liquidado": 1691176.75
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 27576210,
+      "dotacao_atualizada": 35054999.09,
+      "empenhado": 34999695.93,
+      "liquidado": 34624215.31
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 968906,
+      "dotacao_atualizada": 966635.6,
+      "empenhado": 958932.7,
+      "liquidado": 948440.28
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 7587706,
+      "dotacao_atualizada": 11445251.99,
+      "empenhado": 11445017.67,
+      "liquidado": 11362009.24
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 5316342.32,
+      "dotacao_atualizada": 9200314.02,
+      "empenhado": 9113154.09,
+      "liquidado": 8849004.37
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5048012,
+      "dotacao_atualizada": 10283641.48,
+      "empenhado": 10270873.74,
+      "liquidado": 9855992.57
+     }
+    },
+    "pct_liquidado": 0.893,
+    "pct_empenhado": 0.9171
+   }
+  },
+  "3200508": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 13967100,
+     "dotacao_atualizada": 16092650.38,
+     "empenhado": 9472756.98,
+     "liquidado": 8377155.79
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 10344700,
+      "dotacao_atualizada": 11397459.68,
+      "empenhado": 6527970.82,
+      "liquidado": 5769857.81
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1000,
+      "dotacao_atualizada": 1000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 2242800,
+      "dotacao_atualizada": 2256138,
+      "empenhado": 1124948.08,
+      "liquidado": 1081504.19
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 940600,
+      "dotacao_atualizada": 1795620,
+      "empenhado": 1489063.31,
+      "liquidado": 1252571.62
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 438000,
+      "dotacao_atualizada": 642432.7,
+      "empenhado": 330774.77,
+      "liquidado": 273222.17
+     }
+    },
+    "pct_liquidado": 0.5206,
+    "pct_empenhado": 0.5886
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 11641796.54,
+     "dotacao_atualizada": 17808633.92,
+     "empenhado": 17086882.22,
+     "liquidado": 14596682.72
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 8992096.54,
+      "dotacao_atualizada": 11273181.54,
+      "empenhado": 10999684.31,
+      "liquidado": 10875503.05
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 1518200,
+      "dotacao_atualizada": 3453563.59,
+      "empenhado": 3450900.63,
+      "liquidado": 2330415.36
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 751500,
+      "dotacao_atualizada": 2558708.79,
+      "empenhado": 2229357.39,
+      "liquidado": 987598.21
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 379000,
+      "dotacao_atualizada": 523180,
+      "empenhado": 406939.89,
+      "liquidado": 403166.1
+     }
+    },
+    "pct_liquidado": 0.8196,
+    "pct_empenhado": 0.9595
+   }
+  },
+  "3200607": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 236889161,
+     "dotacao_atualizada": 292358668.45,
+     "empenhado": 184050293.31,
+     "liquidado": 139228315.57
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 137356554,
+      "dotacao_atualizada": 175200825.12,
+      "empenhado": 107300970.62,
+      "liquidado": 73069623.47
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 608400,
+      "dotacao_atualizada": 531997.78,
+      "empenhado": 495300.12,
+      "liquidado": 458983.8
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 75821339,
+      "dotacao_atualizada": 88161240.11,
+      "empenhado": 52852269.1,
+      "liquidado": 46418670.97
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 6567000,
+      "dotacao_atualizada": 6024000,
+      "empenhado": 3261211.5,
+      "liquidado": 3261211.5
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 10535868,
+      "dotacao_atualizada": 16434462.33,
+      "empenhado": 14484049.53,
+      "liquidado": 12200092.02
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 6000000,
+      "dotacao_atualizada": 6006143.11,
+      "empenhado": 5656492.44,
+      "liquidado": 3819733.81
+     }
+    },
+    "pct_liquidado": 0.4762,
+    "pct_empenhado": 0.6295
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 186946932.46,
+     "dotacao_atualizada": 272325478.62,
+     "empenhado": 224455343.92,
+     "liquidado": 220877698.5
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 105215060.46,
+      "dotacao_atualizada": 164566002.67,
+      "empenhado": 130263655.96,
+      "liquidado": 127153959.14
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 522882,
+      "dotacao_atualizada": 557230.43,
+      "empenhado": 556775.45,
+      "liquidado": 551771.15
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 71742693,
+      "dotacao_atualizada": 95584675.64,
+      "empenhado": 82424545.59,
+      "liquidado": 81961601.29
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 4256297,
+      "dotacao_atualizada": 4976934.77,
+      "empenhado": 4720125.88,
+      "liquidado": 4720125.88
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5210000,
+      "dotacao_atualizada": 6640635.11,
+      "empenhado": 6490241.04,
+      "liquidado": 6490241.04
+     }
+    },
+    "pct_liquidado": 0.8111,
+    "pct_empenhado": 0.8242
+   }
+  },
+  "3200706": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 32682300,
+     "dotacao_atualizada": 36334915.83,
+     "empenhado": 22788991.19,
+     "liquidado": 19707253.23
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 19638900,
+      "dotacao_atualizada": 21942482.07,
+      "empenhado": 14701483.48,
+      "liquidado": 12641403.83
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 200,
+      "dotacao_atualizada": 200
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13043000,
+      "dotacao_atualizada": 14215033.76,
+      "empenhado": 7910421.16,
+      "liquidado": 6888762.85
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 200,
+      "dotacao_atualizada": 177200,
+      "empenhado": 177086.55,
+      "liquidado": 177086.55
+     }
+    },
+    "pct_liquidado": 0.5424,
+    "pct_empenhado": 0.6272
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 28408032,
+     "dotacao_atualizada": 35387607.08,
+     "empenhado": 33351193.48,
+     "liquidado": 32770072.95
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 18638332,
+      "dotacao_atualizada": 23008016.34,
+      "empenhado": 21380190.92,
+      "liquidado": 21029886.68
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 200,
+      "dotacao_atualizada": 152000,
+      "empenhado": 152000,
+      "liquidado": 97907.7
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9769300,
+      "dotacao_atualizada": 12227590.74,
+      "empenhado": 11819002.56,
+      "liquidado": 11642278.57
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 200
+     }
+    },
+    "pct_liquidado": 0.926,
+    "pct_empenhado": 0.9425
+   }
+  },
+  "3200805": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 54156899,
+     "dotacao_atualizada": 67382185.47,
+     "empenhado": 37525636.39,
+     "liquidado": 27874888.77
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 32621588,
+      "dotacao_atualizada": 42376447.73,
+      "empenhado": 24231788.89,
+      "liquidado": 19380582.73
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3710400,
+      "dotacao_atualizada": 3772471.67,
+      "empenhado": 3161049.01,
+      "liquidado": 1371624.99
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 600,
+      "dotacao_atualizada": 600
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 100800,
+      "dotacao_atualizada": 107926.04,
+      "empenhado": 45611.43,
+      "liquidado": 30532.37
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 12712561,
+      "dotacao_atualizada": 15694333.94,
+      "empenhado": 6224114.8,
+      "liquidado": 4870179.81
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 97200,
+      "dotacao_atualizada": 62628.69
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1096150,
+      "dotacao_atualizada": 1279885.4,
+      "empenhado": 847897.79,
+      "liquidado": 553930.21
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3817600,
+      "dotacao_atualizada": 4087892,
+      "empenhado": 3015174.47,
+      "liquidado": 1668038.66
+     }
+    },
+    "pct_liquidado": 0.4137,
+    "pct_empenhado": 0.5569
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 49096700,
+     "dotacao_atualizada": 68466575.21,
+     "empenhado": 60266878.44,
+     "liquidado": 60203904.11
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 29759400,
+      "dotacao_atualizada": 44453840.42,
+      "empenhado": 39626707.45,
+      "liquidado": 39616161.45
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3088000,
+      "dotacao_atualizada": 3765930.33,
+      "empenhado": 3536781.56,
+      "liquidado": 3536781.56
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 600,
+      "dotacao_atualizada": 400
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 166200,
+      "dotacao_atualizada": 120942.61,
+      "empenhado": 83164.9,
+      "liquidado": 83164.9
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 11216200,
+      "dotacao_atualizada": 14523264.86,
+      "empenhado": 11789668.7,
+      "liquidado": 11743080.7
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 109200,
+      "dotacao_atualizada": 4127.79
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 598000,
+      "dotacao_atualizada": 1347528.11,
+      "empenhado": 1287679.74,
+      "liquidado": 1281839.41
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 4159100,
+      "dotacao_atualizada": 4250541.09,
+      "empenhado": 3942876.09,
+      "liquidado": 3942876.09
+     }
+    },
+    "pct_liquidado": 0.8793,
+    "pct_empenhado": 0.8802
+   }
+  },
+  "3200904": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 66009053,
+     "dotacao_atualizada": 78209721.65,
+     "empenhado": 56520625.76,
+     "liquidado": 36222214.68
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 39030748,
+      "dotacao_atualizada": 45604175.49,
+      "empenhado": 36628197,
+      "liquidado": 23930970.28
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 44300,
+      "dotacao_atualizada": 44300
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 204000,
+      "dotacao_atualizada": 435319.12,
+      "empenhado": 394276.88,
+      "liquidado": 394276.88
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 19678464,
+      "dotacao_atualizada": 24506704.32,
+      "empenhado": 15248829.74,
+      "liquidado": 8477546.16
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 7300,
+      "dotacao_atualizada": 7300
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 7044241,
+      "dotacao_atualizada": 7611922.72,
+      "empenhado": 4249322.14,
+      "liquidado": 3419421.36
+     }
+    },
+    "pct_liquidado": 0.4631,
+    "pct_empenhado": 0.7227
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 55041030,
+     "dotacao_atualizada": 64398829.78,
+     "empenhado": 64212758.96,
+     "liquidado": 63465788.65
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 35305370,
+      "dotacao_atualizada": 43418399.99,
+      "empenhado": 43306896.07,
+      "liquidado": 42858185.22
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 44300
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 140000,
+      "dotacao_atualizada": 395499.29,
+      "empenhado": 391145.89,
+      "liquidado": 385751.89
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13036200,
+      "dotacao_atualizada": 12610730.67,
+      "empenhado": 12585820.72,
+      "liquidado": 12516162.46
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 7300,
+      "dotacao_atualizada": 300
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 6507860,
+      "dotacao_atualizada": 7973899.83,
+      "empenhado": 7928896.28,
+      "liquidado": 7705689.08
+     }
+    },
+    "pct_liquidado": 0.9855,
+    "pct_empenhado": 0.9971
+   }
+  },
+  "3201001": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 35222279.15,
+     "dotacao_atualizada": 36018882.41,
+     "empenhado": 19098772.14,
+     "liquidado": 18039833.46
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 18883779.15,
+      "dotacao_atualizada": 19185328.31,
+      "empenhado": 10716943.98,
+      "liquidado": 10165978.68
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 350000,
+      "dotacao_atualizada": 350000,
+      "empenhado": 59126.19,
+      "liquidado": 58483.87
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1000,
+      "dotacao_atualizada": 1000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 11231000,
+      "dotacao_atualizada": 11626623.99,
+      "empenhado": 5315983.54,
+      "liquidado": 5111564.35
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1000,
+      "dotacao_atualizada": 1000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3424500,
+      "dotacao_atualizada": 3523930.11,
+      "empenhado": 2089716.52,
+      "liquidado": 1840001.73
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1331000,
+      "dotacao_atualizada": 1331000,
+      "empenhado": 917001.91,
+      "liquidado": 863804.83
+     }
+    },
+    "pct_liquidado": 0.5008,
+    "pct_empenhado": 0.5302
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 31971402.93,
+     "dotacao_atualizada": 38539405.9,
+     "empenhado": 37419091.21,
+     "liquidado": 37332829.5
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 20337231.68,
+      "dotacao_atualizada": 25606235.51,
+      "empenhado": 24708888.76,
+      "liquidado": 24643618.37
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 117.12,
+      "dotacao_atualizada": 117.12
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 105408
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9400331.4,
+      "dotacao_atualizada": 10511310.32,
+      "empenhado": 10497104.28,
+      "liquidado": 10481443.94
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 587014.5,
+      "dotacao_atualizada": 1085272.62,
+      "empenhado": 880393.99,
+      "liquidado": 880393.99
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1541300.23,
+      "dotacao_atualizada": 1336470.33,
+      "empenhado": 1332704.18,
+      "liquidado": 1327373.2
+     }
+    },
+    "pct_liquidado": 0.9687,
+    "pct_empenhado": 0.9709
+   }
+  },
+  "3201100": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 15941241.31,
+     "dotacao_atualizada": 18755449.12,
+     "empenhado": 11512590.95,
+     "liquidado": 10674739.32
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 10526741.31,
+      "dotacao_atualizada": 12136255.89,
+      "empenhado": 7995600.15,
+      "liquidado": 7444071.19
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 94500,
+      "dotacao_atualizada": 94500,
+      "empenhado": 49799.6,
+      "liquidado": 49723
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 5311500,
+      "dotacao_atualizada": 6516193.23,
+      "empenhado": 3466731.6,
+      "liquidado": 3180562.13
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 8500,
+      "dotacao_atualizada": 8500,
+      "empenhado": 459.6,
+      "liquidado": 383
+     }
+    },
+    "pct_liquidado": 0.5692,
+    "pct_empenhado": 0.6138
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 12616681.79,
+     "dotacao_atualizada": 24874782.68,
+     "empenhado": 24188963.45,
+     "liquidado": 24138590.45
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 9114681.79,
+      "dotacao_atualizada": 19004195.31,
+      "empenhado": 18554443.72,
+      "liquidado": 18504453.72
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 94500,
+      "dotacao_atualizada": 98320,
+      "empenhado": 98239.2,
+      "liquidado": 98162.6
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3404000,
+      "dotacao_atualizada": 5770727.37,
+      "empenhado": 5535361.33,
+      "liquidado": 5535131.53
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 3500,
+      "dotacao_atualizada": 1540,
+      "empenhado": 919.2,
+      "liquidado": 842.6
+     }
+    },
+    "pct_liquidado": 0.9704,
+    "pct_empenhado": 0.9724
+   }
+  },
+  "3201159": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 37219750,
+     "dotacao_atualizada": 41694882.4,
+     "empenhado": 32843170.2,
+     "liquidado": 26504260.22
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16723050,
+      "dotacao_atualizada": 18746664.53,
+      "empenhado": 14994550.45,
+      "liquidado": 12286695.45
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 4800000,
+      "dotacao_atualizada": 4800000,
+      "empenhado": 4800000,
+      "liquidado": 2991591.53
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1202000,
+      "dotacao_atualizada": 1202000,
+      "empenhado": 1200000,
+      "liquidado": 1005256.72
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 10456000,
+      "dotacao_atualizada": 12119282.06,
+      "empenhado": 8307423.34,
+      "liquidado": 7954492.07
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 5200,
+      "dotacao_atualizada": 5200
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 434000,
+      "dotacao_atualizada": 602355.64,
+      "empenhado": 281544.42,
+      "liquidado": 281544.42
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2719500,
+      "dotacao_atualizada": 3008535.37,
+      "empenhado": 2094396.39,
+      "liquidado": 1242402.09
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 880000,
+      "dotacao_atualizada": 1210844.8,
+      "empenhado": 1165255.6,
+      "liquidado": 742277.94
+     }
+    },
+    "pct_liquidado": 0.6357,
+    "pct_empenhado": 0.7877
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 26669502,
+     "dotacao_atualizada": 41045182.26,
+     "empenhado": 39440241.47,
+     "liquidado": 36393637.05
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 11984034,
+      "dotacao_atualizada": 20627626.8,
+      "empenhado": 19338113.95,
+      "liquidado": 18150713.95
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3800000,
+      "dotacao_atualizada": 5286672.29,
+      "empenhado": 5285373.54,
+      "liquidado": 4961641.38
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1007000,
+      "dotacao_atualizada": 1737430.4,
+      "empenhado": 1735014.36,
+      "liquidado": 1619242.2
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7189168,
+      "dotacao_atualizada": 10288572.62,
+      "empenhado": 10028962.35,
+      "liquidado": 9426288.14
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 3100,
+      "dotacao_atualizada": 3100
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 306600,
+      "dotacao_atualizada": 345311.97,
+      "empenhado": 324658.69,
+      "liquidado": 324658.69
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2379600,
+      "dotacao_atualizada": 2756468.18,
+      "empenhado": 2728118.58,
+      "liquidado": 1911092.69
+     }
+    },
+    "pct_liquidado": 0.8867,
+    "pct_empenhado": 0.9609
+   }
+  },
+  "3201209": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 290456374.54,
+     "dotacao_atualizada": 339337828.97,
+     "empenhado": 222476086.76,
+     "liquidado": 136974192.78
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 123639144.63,
+      "dotacao_atualizada": 146505347.95,
+      "empenhado": 105365043.58,
+      "liquidado": 67761979.48
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 2403000,
+      "dotacao_atualizada": 2403000,
+      "empenhado": 2403000,
+      "liquidado": 497148.21
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1400,
+      "dotacao_atualizada": 1400
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 145886786.46,
+      "dotacao_atualizada": 164535900.48,
+      "empenhado": 101462306.22,
+      "liquidado": 62950134.38
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 20000,
+      "dotacao_atualizada": 20000
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 14610703.93,
+      "dotacao_atualizada": 15525149.32,
+      "empenhado": 5893030.99,
+      "liquidado": 5748913.64
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3895339.52,
+      "dotacao_atualizada": 10347031.22,
+      "empenhado": 7352705.97,
+      "liquidado": 16017.07
+     }
+    },
+    "pct_liquidado": 0.4037,
+    "pct_empenhado": 0.6556
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 282489542.75,
+     "dotacao_atualizada": 337665893.88,
+     "empenhado": 305558410.64,
+     "liquidado": 286074677.72
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 131921009.04,
+      "dotacao_atualizada": 158988986.36,
+      "empenhado": 143638106.26,
+      "liquidado": 133682000.91
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 2280316.33,
+      "dotacao_atualizada": 2280316.33,
+      "empenhado": 580834.33,
+      "liquidado": 580834.33
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1810,
+      "dotacao_atualizada": 610
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 140657521.76,
+      "dotacao_atualizada": 161803628.7,
+      "empenhado": 146763095.01,
+      "liquidado": 137285073.01
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 300,
+      "dotacao_atualizada": 14082.28,
+      "empenhado": 14082.28,
+      "liquidado": 14082.28
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 7628585.62,
+      "dotacao_atualizada": 14578270.21,
+      "empenhado": 14562292.76,
+      "liquidado": 14512687.19
+     }
+    },
+    "pct_liquidado": 0.8472,
+    "pct_empenhado": 0.9049
+   }
+  },
+  "3201308": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 682623892,
+     "dotacao_atualizada": 831372843.01,
+     "empenhado": 515841646.77,
+     "liquidado": 446672759.61
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 410934651,
+      "dotacao_atualizada": 496477295.11,
+      "empenhado": 311485312.59,
+      "liquidado": 279522459.76
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 182923993,
+      "dotacao_atualizada": 227232290.14,
+      "empenhado": 133354624.51,
+      "liquidado": 107730946.26
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 7674680,
+      "dotacao_atualizada": 8100483.34,
+      "empenhado": 5489869.37,
+      "liquidado": 4449760.93
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 44031617,
+      "dotacao_atualizada": 54950649.27,
+      "empenhado": 31198241.37,
+      "liquidado": 29482472.85
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 37038051,
+      "dotacao_atualizada": 44591225.15,
+      "empenhado": 34313598.93,
+      "liquidado": 25487119.81
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 20900,
+      "dotacao_atualizada": 20900
+     }
+    },
+    "pct_liquidado": 0.5373,
+    "pct_empenhado": 0.6205
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 579074992,
+     "dotacao_atualizada": 685342152.01,
+     "empenhado": 615159801.35,
+     "liquidado": 598097859.96
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 334883728,
+      "dotacao_atualizada": 411701886.59,
+      "empenhado": 370272818.15,
+      "liquidado": 359631387.62
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 151375987,
+      "dotacao_atualizada": 180410474.14,
+      "empenhado": 152111043.06,
+      "liquidado": 148093902.18
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 15641795,
+      "dotacao_atualizada": 7681038.63,
+      "empenhado": 7466395.48,
+      "liquidado": 7263818.11
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 47491615,
+      "dotacao_atualizada": 47242239.06,
+      "empenhado": 47124741.57,
+      "liquidado": 46923327.88
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 29681867,
+      "dotacao_atualizada": 38306513.59,
+      "empenhado": 38184803.09,
+      "liquidado": 36185424.17
+     }
+    },
+    "pct_liquidado": 0.8727,
+    "pct_empenhado": 0.8976
+   }
+  },
+  "3201407": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 57522382.24,
+     "dotacao_atualizada": 72895699.29,
+     "empenhado": 59488704.12,
+     "liquidado": 46979755.53
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 36072319.98,
+      "dotacao_atualizada": 40744686.54,
+      "empenhado": 33038871.24,
+      "liquidado": 29456373.81
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 400000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 838021.45,
+      "dotacao_atualizada": 1556712.36,
+      "empenhado": 1540175.79,
+      "liquidado": 739530.88
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 17785025.52,
+      "dotacao_atualizada": 20883762.6,
+      "empenhado": 16492613.75,
+      "liquidado": 14038915.21
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1000,
+      "dotacao_atualizada": 46348.78,
+      "empenhado": 1810
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 455923.74,
+      "dotacao_atualizada": 7113570.85,
+      "empenhado": 6467242.39,
+      "liquidado": 1268790.43
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1970091.55,
+      "dotacao_atualizada": 2550618.16,
+      "empenhado": 1947990.95,
+      "liquidado": 1476145.2
+     }
+    },
+    "pct_liquidado": 0.6445,
+    "pct_empenhado": 0.8161
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 58412822.42,
+     "dotacao_atualizada": 83155128.43,
+     "empenhado": 74017145.76,
+     "liquidado": 74005997.2
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 38398628.88,
+      "dotacao_atualizada": 46435777.31,
+      "empenhado": 42827650.64,
+      "liquidado": 42827650.64
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 837992.89,
+      "dotacao_atualizada": 876472.96,
+      "empenhado": 826046.51,
+      "liquidado": 814897.95
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 15042999.88,
+      "dotacao_atualizada": 31080446.07,
+      "empenhado": 26447675.16,
+      "liquidado": 26447675.16
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2647829.25,
+      "dotacao_atualizada": 3383614.43,
+      "empenhado": 2562379.43,
+      "liquidado": 2562379.43
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1485371.52,
+      "dotacao_atualizada": 1378817.66,
+      "empenhado": 1353394.02,
+      "liquidado": 1353394.02
+     }
+    },
+    "pct_liquidado": 0.89,
+    "pct_empenhado": 0.8901
+   }
+  },
+  "3201506": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 268814603.39,
+     "dotacao_atualizada": 300531974.66,
+     "empenhado": 128396738.91,
+     "liquidado": 88626600.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 149540712.29,
+      "dotacao_atualizada": 172132723.59,
+      "empenhado": 79024353.19,
+      "liquidado": 51583543.44
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 2880570,
+      "dotacao_atualizada": 3202717.95,
+      "empenhado": 2794647.12,
+      "liquidado": 1012569.51
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 50900,
+      "dotacao_atualizada": 150065.25,
+      "empenhado": 133024.64,
+      "liquidado": 130232.61
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 92587264.46,
+      "dotacao_atualizada": 97183594.22,
+      "empenhado": 31160182.16,
+      "liquidado": 26040107.98
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 2712,
+      "dotacao_atualizada": 2712
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1788044.79,
+      "dotacao_atualizada": 1921062.42,
+      "empenhado": 647805.01,
+      "liquidado": 566389.37
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 12830973.85,
+      "dotacao_atualizada": 14858202.51,
+      "empenhado": 6710337.62,
+      "liquidado": 5835018.25
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 9133426,
+      "dotacao_atualizada": 11080896.72,
+      "empenhado": 7926389.17,
+      "liquidado": 3458739.02
+     }
+    },
+    "pct_liquidado": 0.2949,
+    "pct_empenhado": 0.4272
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 271236146.42,
+     "dotacao_atualizada": 282038020.73,
+     "empenhado": 210133675.45,
+     "liquidado": 196025248.87
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 170274452.68,
+      "dotacao_atualizada": 170840313.51,
+      "empenhado": 123183685.3,
+      "liquidado": 114872796
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3049670,
+      "dotacao_atualizada": 3182391.45,
+      "empenhado": 2476263.4,
+      "liquidado": 2060280.8
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 90300,
+      "dotacao_atualizada": 26345.41,
+      "empenhado": 6145.41,
+      "liquidado": 495
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 72593086.74,
+      "dotacao_atualizada": 81327750.5,
+      "empenhado": 61950314.94,
+      "liquidado": 57439442.98
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 2912,
+      "dotacao_atualizada": 2512
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 2395285,
+      "dotacao_atualizada": 2386536.93,
+      "empenhado": 1421224.5,
+      "liquidado": 1395940.05
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 13424716,
+      "dotacao_atualizada": 14709629.54,
+      "empenhado": 12003704.25,
+      "liquidado": 11538004.78
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 9405724,
+      "dotacao_atualizada": 9562541.39,
+      "empenhado": 9092337.65,
+      "liquidado": 8718289.26
+     }
+    },
+    "pct_liquidado": 0.695,
+    "pct_empenhado": 0.7451
+   }
+  },
+  "3201605": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 64582299,
+     "dotacao_atualizada": 72007422.94,
+     "empenhado": 56243837.4,
+     "liquidado": 45244915.29
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 39126851,
+      "dotacao_atualizada": 47872724.66,
+      "empenhado": 41207312.35,
+      "liquidado": 32255420.18
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 300000,
+      "dotacao_atualizada": 132000,
+      "empenhado": 132000,
+      "liquidado": 79800
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 307000,
+      "dotacao_atualizada": 446700,
+      "empenhado": 446700,
+      "liquidado": 281400
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 19764448,
+      "dotacao_atualizada": 17234567.51,
+      "empenhado": 9803009,
+      "liquidado": 8872658.15
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 831000,
+      "dotacao_atualizada": 148730.37,
+      "empenhado": 12391.2,
+      "liquidado": 10237.56
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 280000,
+      "dotacao_atualizada": 274562.5
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 900000,
+      "dotacao_atualizada": 2812557.72,
+      "empenhado": 2538595.28,
+      "liquidado": 2375407.39
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3073000,
+      "dotacao_atualizada": 3085580.18,
+      "empenhado": 2103829.57,
+      "liquidado": 1369992.01
+     }
+    },
+    "pct_liquidado": 0.6283,
+    "pct_empenhado": 0.7811
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 57852703,
+     "dotacao_atualizada": 73216902.17,
+     "empenhado": 72896759.22,
+     "liquidado": 67486257.75
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 30814705,
+      "dotacao_atualizada": 47476703.15,
+      "empenhado": 47345452.99,
+      "liquidado": 43431745.4
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 7000,
+      "dotacao_atualizada": 239100,
+      "empenhado": 239100,
+      "liquidado": 239100
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 18562196,
+      "dotacao_atualizada": 15981345.28,
+      "empenhado": 15980218.63,
+      "liquidado": 15056361.06
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 573000
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 186000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1209878,
+      "dotacao_atualizada": 2729821.03,
+      "empenhado": 2729820.37,
+      "liquidado": 2663344.04
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 6499924,
+      "dotacao_atualizada": 6789932.71,
+      "empenhado": 6602167.23,
+      "liquidado": 6095707.25
+     }
+    },
+    "pct_liquidado": 0.9217,
+    "pct_empenhado": 0.9956
+   }
+  },
+  "3201704": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 27596491.25,
+     "dotacao_atualizada": 34213349.15,
+     "empenhado": 23259578.56,
+     "liquidado": 19554925.77
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 19794660.25,
+      "dotacao_atualizada": 23170039.4,
+      "empenhado": 16424099.55,
+      "liquidado": 13276455.79
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6957775,
+      "dotacao_atualizada": 9082931.18,
+      "empenhado": 5386243.43,
+      "liquidado": 4960545.15
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 5000,
+      "dotacao_atualizada": 5000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 839056,
+      "dotacao_atualizada": 1955378.57,
+      "empenhado": 1449235.58,
+      "liquidado": 1317924.83
+     }
+    },
+    "pct_liquidado": 0.5716,
+    "pct_empenhado": 0.6798
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 25532534.72,
+     "dotacao_atualizada": 34556658.15,
+     "empenhado": 31537776.08,
+     "liquidado": 30491540.38
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 18149034.72,
+      "dotacao_atualizada": 21819544.16,
+      "empenhado": 19875888.07,
+      "liquidado": 19405610.76
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6604500,
+      "dotacao_atualizada": 10887835.49,
+      "empenhado": 9846692.58,
+      "liquidado": 9291383.14
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 5000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 774000,
+      "dotacao_atualizada": 1849278.5,
+      "empenhado": 1815195.43,
+      "liquidado": 1794546.48
+     }
+    },
+    "pct_liquidado": 0.8824,
+    "pct_empenhado": 0.9126
+   }
+  },
+  "3201803": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 7870900,
+     "dotacao_atualizada": 11761297.25,
+     "empenhado": 10291798.3,
+     "liquidado": 9182584.97
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 6799300,
+      "dotacao_atualizada": 10085622.28,
+      "empenhado": 9192291.15,
+      "liquidado": 8207029.92
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 1071600,
+      "dotacao_atualizada": 1675674.97,
+      "empenhado": 1099507.15,
+      "liquidado": 975555.05
+     }
+    },
+    "pct_liquidado": 0.7807,
+    "pct_empenhado": 0.8751
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 7843900,
+     "dotacao_atualizada": 13487659.27,
+     "empenhado": 13273413.41,
+     "liquidado": 13273413.41
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 6776300,
+      "dotacao_atualizada": 11845326.33,
+      "empenhado": 11645278.57,
+      "liquidado": 11645278.57
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 1067600,
+      "dotacao_atualizada": 1642332.94,
+      "empenhado": 1628134.84,
+      "liquidado": 1628134.84
+     }
+    },
+    "pct_liquidado": 0.9841,
+    "pct_empenhado": 0.9841
+   }
+  },
+  "3201902": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 90536680.41,
+     "dotacao_atualizada": 107601487.87,
+     "empenhado": 91725868.46,
+     "liquidado": 54512615.71
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 59764620,
+      "dotacao_atualizada": 64254291.76,
+      "empenhado": 54406014.19,
+      "liquidado": 32283626.37
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 47000,
+      "dotacao_atualizada": 47000,
+      "empenhado": 27709.88,
+      "liquidado": 23574.22
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16042060.41,
+      "dotacao_atualizada": 23690783.89,
+      "empenhado": 22059672.92,
+      "liquidado": 10819317.59
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 2000,
+      "dotacao_atualizada": 2000
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 12000,
+      "dotacao_atualizada": 172124.05,
+      "empenhado": 160124.05,
+      "liquidado": 160124.05
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 11996000,
+      "dotacao_atualizada": 15666855.36,
+      "empenhado": 12537367.14,
+      "liquidado": 9528683.52
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 2673000,
+      "dotacao_atualizada": 2812157.21,
+      "empenhado": 2066939.8,
+      "liquidado": 1229249.48
+     },
+     "Ensino Superior": {
+      "dotacao_atualizada": 956275.6,
+      "empenhado": 468040.48,
+      "liquidado": 468040.48
+     }
+    },
+    "pct_liquidado": 0.5066,
+    "pct_empenhado": 0.8525
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 80344700,
+     "dotacao_atualizada": 97749222.42,
+     "empenhado": 80597395.95,
+     "liquidado": 80226279.77
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 53262000,
+      "dotacao_atualizada": 61662663,
+      "empenhado": 52852878.97,
+      "liquidado": 52592563.98
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 44000,
+      "dotacao_atualizada": 44000,
+      "empenhado": 38003.54,
+      "liquidado": 37863.28
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13971500,
+      "dotacao_atualizada": 21896783.19,
+      "empenhado": 14774117.27,
+      "liquidado": 14725424.7
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 2000
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 10000,
+      "dotacao_atualizada": 8000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 10700000,
+      "dotacao_atualizada": 11119423.54,
+      "empenhado": 10755551.7,
+      "liquidado": 10724485.57
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 2355200,
+      "dotacao_atualizada": 2523352.69,
+      "empenhado": 2003764.15,
+      "liquidado": 1972861.92
+     },
+     "Ensino Superior": {
+      "dotacao_atualizada": 495000,
+      "empenhado": 173080.32,
+      "liquidado": 173080.32
+     }
+    },
+    "pct_liquidado": 0.8207,
+    "pct_empenhado": 0.8245
+   }
+  },
+  "3202009": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 16277520,
+     "dotacao_atualizada": 22232473.28,
+     "empenhado": 14193962.63,
+     "liquidado": 12871762.2
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 12956000,
+      "dotacao_atualizada": 14886649.62,
+      "empenhado": 10922061.9,
+      "liquidado": 10053338.36
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 2096510,
+      "dotacao_atualizada": 5443553.15,
+      "empenhado": 1634933.42,
+      "liquidado": 1408896.26
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 983910,
+      "dotacao_atualizada": 1550459.14,
+      "empenhado": 1444590.97,
+      "liquidado": 1241314.49
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 241100,
+      "dotacao_atualizada": 351811.37,
+      "empenhado": 192376.34,
+      "liquidado": 168213.09
+     }
+    },
+    "pct_liquidado": 0.579,
+    "pct_empenhado": 0.6384
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 13509760,
+     "dotacao_atualizada": 17962319.68,
+     "empenhado": 16358982.68,
+     "liquidado": 16331068.43
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 9922820,
+      "dotacao_atualizada": 14332115.36,
+      "empenhado": 12885028.13,
+      "liquidado": 12880683.86
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 2002300,
+      "dotacao_atualizada": 1806111.93,
+      "empenhado": 1796465.23,
+      "liquidado": 1784952.56
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 906640,
+      "dotacao_atualizada": 1011078.01,
+      "empenhado": 929145.85,
+      "liquidado": 917088.54
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 678000,
+      "dotacao_atualizada": 813014.38,
+      "empenhado": 748343.47,
+      "liquidado": 748343.47
+     }
+    },
+    "pct_liquidado": 0.9092,
+    "pct_empenhado": 0.9107
+   }
+  },
+  "3202108": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 47122000,
+     "dotacao_atualizada": 57708689.07,
+     "empenhado": 48959896.67,
+     "liquidado": 27941740.41
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 27393555.97,
+      "dotacao_atualizada": 36178243.18,
+      "empenhado": 33120610.3,
+      "liquidado": 14829917.56
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 404000,
+      "dotacao_atualizada": 251694.54,
+      "empenhado": 158046.25,
+      "liquidado": 141916.43
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13279989.4,
+      "dotacao_atualizada": 12267049.29,
+      "empenhado": 8603641.84,
+      "liquidado": 7206811.65
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1000,
+      "dotacao_atualizada": 2334736.77,
+      "empenhado": 1764072.02,
+      "liquidado": 1665539.83
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4500261.03,
+      "dotacao_atualizada": 5033044.29,
+      "empenhado": 4063225.23,
+      "liquidado": 3415393.83
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1543193.6,
+      "dotacao_atualizada": 1643921,
+      "empenhado": 1250301.03,
+      "liquidado": 682161.11
+     }
+    },
+    "pct_liquidado": 0.4842,
+    "pct_empenhado": 0.8484
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 33836920,
+     "dotacao_atualizada": 51046287.82,
+     "empenhado": 43078793.86,
+     "liquidado": 41869607.48
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 19276600,
+      "dotacao_atualizada": 30891827.24,
+      "empenhado": 23476259.66,
+      "liquidado": 23194892.8
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 147920,
+      "dotacao_atualizada": 305951.01,
+      "empenhado": 180159.64,
+      "liquidado": 167192.53
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9937300,
+      "dotacao_atualizada": 11476502.62,
+      "empenhado": 11391032.81,
+      "liquidado": 11332868.86
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2747900,
+      "dotacao_atualizada": 5777107.57,
+      "empenhado": 5670900.75,
+      "liquidado": 5253290.35
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1727200,
+      "dotacao_atualizada": 2594899.38,
+      "empenhado": 2360441,
+      "liquidado": 1921362.94
+     }
+    },
+    "pct_liquidado": 0.8202,
+    "pct_empenhado": 0.8439
+   }
+  },
+  "3202207": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 43361639.26,
+     "dotacao_atualizada": 49033875.13,
+     "empenhado": 30333585.13,
+     "liquidado": 20140802.8
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 26931786.98,
+      "dotacao_atualizada": 27866969.59,
+      "empenhado": 15394581.67,
+      "liquidado": 11919008.43
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 12463485.3,
+      "dotacao_atualizada": 8705780.42,
+      "empenhado": 4147049.04,
+      "liquidado": 3005442.8
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 84124,
+      "dotacao_atualizada": 46893.32
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2815973.98,
+      "dotacao_atualizada": 11015038.77,
+      "empenhado": 9773418.74,
+      "liquidado": 4850960.28
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1066269,
+      "dotacao_atualizada": 1399193.03,
+      "empenhado": 1018535.68,
+      "liquidado": 365391.29
+     }
+    },
+    "pct_liquidado": 0.4108,
+    "pct_empenhado": 0.6186
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 41447879.15,
+     "dotacao_atualizada": 43999640.94,
+     "empenhado": 39404906.67,
+     "liquidado": 37848172.68
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 24327654.5,
+      "dotacao_atualizada": 27655775.21,
+      "empenhado": 24017032.23,
+      "liquidado": 22986039.64
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13080478.08,
+      "dotacao_atualizada": 11782956.23,
+      "empenhado": 11117244.94,
+      "liquidado": 10689786.92
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 550
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 63118.16,
+      "dotacao_atualizada": 137324.88,
+      "empenhado": 131701.55,
+      "liquidado": 131701.55
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3943883.21,
+      "dotacao_atualizada": 4422112.79,
+      "empenhado": 4137456.12,
+      "liquidado": 4039172.74
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 32195.2,
+      "dotacao_atualizada": 1471.83,
+      "empenhado": 1471.83,
+      "liquidado": 1471.83
+     }
+    },
+    "pct_liquidado": 0.8602,
+    "pct_empenhado": 0.8956
+   }
+  },
+  "3202256": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 43046870,
+     "dotacao_atualizada": 50245813.27,
+     "empenhado": 21801741.29,
+     "liquidado": 19738201.35
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 18926530,
+      "dotacao_atualizada": 22745419.11,
+      "empenhado": 9242302.27,
+      "liquidado": 8401851.94
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 550000,
+      "dotacao_atualizada": 544500,
+      "empenhado": 544500,
+      "liquidado": 312740
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 19996430,
+      "dotacao_atualizada": 23380252.47,
+      "empenhado": 9330933.48,
+      "liquidado": 8754804.21
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3258910,
+      "dotacao_atualizada": 3237868.69,
+      "empenhado": 2347437.45,
+      "liquidado": 1956473.06
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 315000,
+      "dotacao_atualizada": 337773,
+      "empenhado": 336568.09,
+      "liquidado": 312332.14
+     }
+    },
+    "pct_liquidado": 0.3928,
+    "pct_empenhado": 0.4339
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 25460130,
+     "dotacao_atualizada": 29875672.29,
+     "empenhado": 29345379.56,
+     "liquidado": 28405663.15
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 10566310,
+      "dotacao_atualizada": 12742298.89,
+      "empenhado": 12522935.89,
+      "liquidado": 12107641.92
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 10,
+      "dotacao_atualizada": 10
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 520000,
+      "dotacao_atualizada": 530900,
+      "empenhado": 530900,
+      "liquidado": 530900
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 12035420,
+      "dotacao_atualizada": 13722502.54,
+      "empenhado": 13427701.28,
+      "liquidado": 13050032.41
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2338390,
+      "dotacao_atualizada": 2879960.86,
+      "empenhado": 2863842.39,
+      "liquidado": 2717088.82
+     }
+    },
+    "pct_liquidado": 0.9508,
+    "pct_empenhado": 0.9823
+   }
+  },
+  "3202306": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 60351550,
+     "dotacao_atualizada": 62129729.12,
+     "empenhado": 39648605.6,
+     "liquidado": 28669001.85
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 36146700,
+      "dotacao_atualizada": 31580967.5,
+      "empenhado": 25406680.15,
+      "liquidado": 21282818.67
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 19776450,
+      "dotacao_atualizada": 16402468.36,
+      "empenhado": 10775570.81,
+      "liquidado": 4294854.44
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 231000,
+      "dotacao_atualizada": 132601.08,
+      "empenhado": 7944.14,
+      "liquidado": 7944.14
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2412100,
+      "dotacao_atualizada": 11934042.18,
+      "empenhado": 2221776.39,
+      "liquidado": 1846750.49
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1785300,
+      "dotacao_atualizada": 2079650,
+      "empenhado": 1236634.11,
+      "liquidado": 1236634.11
+     }
+    },
+    "pct_liquidado": 0.4614,
+    "pct_empenhado": 0.6382
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 47778000,
+     "dotacao_atualizada": 73035126.59,
+     "empenhado": 60019725.28,
+     "liquidado": 56709418.12
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 31773800,
+      "dotacao_atualizada": 42264160.93,
+      "empenhado": 37814743.45,
+      "liquidado": 36702896.16
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 60000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 15901200,
+      "dotacao_atualizada": 30709440.84,
+      "empenhado": 22163196.13,
+      "liquidado": 19964736.26
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 43000,
+      "dotacao_atualizada": 61524.82,
+      "empenhado": 41785.7,
+      "liquidado": 41785.7
+     }
+    },
+    "pct_liquidado": 0.7765,
+    "pct_empenhado": 0.8218
+   }
+  },
+  "3202405": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 296515552,
+     "dotacao_atualizada": 287874978.05,
+     "empenhado": 211070551.29,
+     "liquidado": 194380292.81
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 192777734,
+      "dotacao_atualizada": 154064816.04,
+      "empenhado": 121615343.93,
+      "liquidado": 109080354.21
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 88416084,
+      "dotacao_atualizada": 69820884,
+      "empenhado": 42375783.76,
+      "liquidado": 39719444.11
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 5295055,
+      "dotacao_atualizada": 3354566.59,
+      "empenhado": 1649060.28,
+      "liquidado": 1587454.09
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 8491631,
+      "dotacao_atualizada": 17222449.32,
+      "empenhado": 12602473.18,
+      "liquidado": 12224601.2
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1535048,
+      "dotacao_atualizada": 43412262.1,
+      "empenhado": 32827890.14,
+      "liquidado": 31768439.2
+     }
+    },
+    "pct_liquidado": 0.6752,
+    "pct_empenhado": 0.7332
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 224028600,
+     "dotacao_atualizada": 255862958.45,
+     "empenhado": 246288758.68,
+     "liquidado": 245846512.56
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 100597000,
+      "dotacao_atualizada": 107698080.73,
+      "empenhado": 104632250.7,
+      "liquidado": 104505510.79
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 37448900,
+      "dotacao_atualizada": 39686916.78,
+      "empenhado": 37434475.99,
+      "liquidado": 37434475.99
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 671100,
+      "dotacao_atualizada": 580240.36,
+      "empenhado": 465585.09,
+      "liquidado": 465585.09
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 19856100,
+      "dotacao_atualizada": 14856484.86,
+      "empenhado": 13942114.65,
+      "liquidado": 13942114.65
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 56328500,
+      "dotacao_atualizada": 83851076.65,
+      "empenhado": 82530220.34,
+      "liquidado": 82521867.36
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 9127000,
+      "dotacao_atualizada": 9190159.07,
+      "empenhado": 7284111.91,
+      "liquidado": 6976958.68
+     }
+    },
+    "pct_liquidado": 0.9609,
+    "pct_empenhado": 0.9626
+   }
+  },
+  "3202454": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 61393719.74,
+     "dotacao_atualizada": 73032219.65,
+     "empenhado": 49228687.01,
+     "liquidado": 36266737.6
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 48033465,
+      "dotacao_atualizada": 60576778.22,
+      "empenhado": 41317825.31,
+      "liquidado": 29776932.21
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 235002,
+      "dotacao_atualizada": 120002,
+      "empenhado": 120000,
+      "liquidado": 78652.25
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6999524,
+      "dotacao_atualizada": 7259247.29,
+      "empenhado": 4601366.97,
+      "liquidado": 4031646.32
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 545003,
+      "dotacao_atualizada": 3
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 5580725.74,
+      "dotacao_atualizada": 5076189.14,
+      "empenhado": 3189494.73,
+      "liquidado": 2379506.82
+     }
+    },
+    "pct_liquidado": 0.4966,
+    "pct_empenhado": 0.6741
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 46814640,
+     "dotacao_atualizada": 68469489.91,
+     "empenhado": 64089126.09,
+     "liquidado": 56574925.52
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 38694201,
+      "dotacao_atualizada": 56493587.4,
+      "empenhado": 52799490.23,
+      "liquidado": 46582295.57
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 155300,
+      "dotacao_atualizada": 221945.41,
+      "empenhado": 142896.6,
+      "liquidado": 138666.08
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4651500,
+      "dotacao_atualizada": 8345899.62,
+      "empenhado": 8166720.81,
+      "liquidado": 7027216.45
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 400
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3313239,
+      "dotacao_atualizada": 3408057.48,
+      "empenhado": 2980018.45,
+      "liquidado": 2826747.42
+     }
+    },
+    "pct_liquidado": 0.8263,
+    "pct_empenhado": 0.936
+   }
+  },
+  "3202504": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 22745694.26,
+     "dotacao_atualizada": 26197792.34,
+     "empenhado": 20812581.52,
+     "liquidado": 17837318.9
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 8039094.26,
+      "dotacao_atualizada": 8829484.46,
+      "empenhado": 6733836.7,
+      "liquidado": 5878677.85
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 91300,
+      "dotacao_atualizada": 3589.08,
+      "empenhado": 3579.08,
+      "liquidado": 3579.08
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 8011200,
+      "dotacao_atualizada": 8045733.04,
+      "empenhado": 5812963.96,
+      "liquidado": 5724785.91
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1600,
+      "dotacao_atualizada": 500
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4871500,
+      "dotacao_atualizada": 6627515.84,
+      "empenhado": 5571288.11,
+      "liquidado": 4283836.39
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1731000,
+      "dotacao_atualizada": 2690969.92,
+      "empenhado": 2690913.67,
+      "liquidado": 1946439.67
+     }
+    },
+    "pct_liquidado": 0.6809,
+    "pct_empenhado": 0.7944
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 18917800,
+     "dotacao_atualizada": 26403362.38,
+     "empenhado": 24406683.98,
+     "liquidado": 22233432.96
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 8151500,
+      "dotacao_atualizada": 11482820.32,
+      "empenhado": 9617846.75,
+      "liquidado": 7559325.61
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 400,
+      "dotacao_atualizada": 3825.35,
+      "empenhado": 3825.35,
+      "liquidado": 3825.35
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6209800,
+      "dotacao_atualizada": 7283874.04,
+      "empenhado": 7168191.29,
+      "liquidado": 7112862.58
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1600,
+      "dotacao_atualizada": 500
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3523500,
+      "dotacao_atualizada": 5467026.93,
+      "empenhado": 5451536.83,
+      "liquidado": 5392135.66
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1031000,
+      "dotacao_atualizada": 2165315.74,
+      "empenhado": 2165283.76,
+      "liquidado": 2165283.76
+     }
+    },
+    "pct_liquidado": 0.8421,
+    "pct_empenhado": 0.9244
+   }
+  },
+  "3202553": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 29381220,
+     "dotacao_atualizada": 34372773.89,
+     "empenhado": 23790970.11,
+     "liquidado": 21784397.74
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 15206250,
+      "dotacao_atualizada": 18661528.54,
+      "empenhado": 12447862.35,
+      "liquidado": 11651978.18
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 12618700,
+      "dotacao_atualizada": 14023216.2,
+      "empenhado": 9778525.62,
+      "liquidado": 8831846.76
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 400
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1555870,
+      "dotacao_atualizada": 1688029.15,
+      "empenhado": 1564582.14,
+      "liquidado": 1300572.8
+     }
+    },
+    "pct_liquidado": 0.6338,
+    "pct_empenhado": 0.6921
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 25476930,
+     "dotacao_atualizada": 34656437.95,
+     "empenhado": 34515333.59,
+     "liquidado": 34203679.47
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 13039549,
+      "dotacao_atualizada": 22512872.15,
+      "empenhado": 22490548.04,
+      "liquidado": 22406054.86
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 10996031,
+      "dotacao_atualizada": 9967245.09,
+      "empenhado": 9948987.4,
+      "liquidado": 9791719.9
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 400,
+      "dotacao_atualizada": 400
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1440950,
+      "dotacao_atualizada": 2175920.71,
+      "empenhado": 2075798.15,
+      "liquidado": 2005904.71
+     }
+    },
+    "pct_liquidado": 0.9869,
+    "pct_empenhado": 0.9959
+   }
+  },
+  "3202603": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 16734862.99,
+     "dotacao_atualizada": 20536640.54,
+     "empenhado": 17493149.81,
+     "liquidado": 16366124.13
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 10311934.99,
+      "dotacao_atualizada": 13218396.53,
+      "empenhado": 11444522.3,
+      "liquidado": 10718164.79
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4738382,
+      "dotacao_atualizada": 5540900.08,
+      "empenhado": 4502510.57,
+      "liquidado": 4393656.55
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 6600,
+      "dotacao_atualizada": 6600
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 200
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1364746,
+      "dotacao_atualizada": 1235375.08,
+      "empenhado": 1137159.74,
+      "liquidado": 879678.06
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 313000,
+      "dotacao_atualizada": 535368.85,
+      "empenhado": 408957.2,
+      "liquidado": 374624.73
+     }
+    },
+    "pct_liquidado": 0.7969,
+    "pct_empenhado": 0.8518
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 16121629.46,
+     "dotacao_atualizada": 27084152.97,
+     "empenhado": 26714276.08,
+     "liquidado": 26714276.08
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 10612897.01,
+      "dotacao_atualizada": 18278774.53,
+      "empenhado": 18039379.29,
+      "liquidado": 18039379.29
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4024482,
+      "dotacao_atualizada": 7034761.41,
+      "empenhado": 6954792.77,
+      "liquidado": 6954792.77
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 6600,
+      "dotacao_atualizada": 2830
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 200,
+      "dotacao_atualizada": 200
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1209750.45,
+      "dotacao_atualizada": 1295794.49,
+      "empenhado": 1256197.62,
+      "liquidado": 1256197.62
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 267700,
+      "dotacao_atualizada": 471792.54,
+      "empenhado": 463906.4,
+      "liquidado": 463906.4
+     }
+    },
+    "pct_liquidado": 0.9863,
+    "pct_empenhado": 0.9863
+   }
+  },
+  "3202652": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 33982200,
+     "dotacao_atualizada": 44404539.98,
+     "empenhado": 30816055.29,
+     "liquidado": 17107297.35
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 19993340,
+      "dotacao_atualizada": 20888300,
+      "empenhado": 13155728.51,
+      "liquidado": 9989075.07
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3360000,
+      "dotacao_atualizada": 5275000,
+      "empenhado": 4913779.41,
+      "liquidado": 1762904.1
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6732320,
+      "dotacao_atualizada": 13915799.99,
+      "empenhado": 9867653.25,
+      "liquidado": 3093298.37
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 61440,
+      "dotacao_atualizada": 61440,
+      "empenhado": 8153.48,
+      "liquidado": 2153.48
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1026900,
+      "dotacao_atualizada": 1171000,
+      "empenhado": 756154.54,
+      "liquidado": 495282.88
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1540200,
+      "dotacao_atualizada": 1962999.99,
+      "empenhado": 1644170.88,
+      "liquidado": 1338463.05
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1268000,
+      "dotacao_atualizada": 1130000,
+      "empenhado": 470415.22,
+      "liquidado": 426120.4
+     }
+    },
+    "pct_liquidado": 0.3853,
+    "pct_empenhado": 0.694
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 29311482,
+     "dotacao_atualizada": 32705228.38,
+     "empenhado": 31800818.53,
+     "liquidado": 31485185.23
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 18717122,
+      "dotacao_atualizada": 21756694.13,
+      "empenhado": 21322451.01,
+      "liquidado": 21068918.87
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3548000,
+      "dotacao_atualizada": 2839371.26,
+      "empenhado": 2839371.26,
+      "liquidado": 2839371.26
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 380000,
+      "dotacao_atualizada": 380000,
+      "empenhado": 364012.9,
+      "liquidado": 364012.9
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4929220,
+      "dotacao_atualizada": 5905324.14,
+      "empenhado": 5607877.53,
+      "liquidado": 5549370.37
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 70920,
+      "dotacao_atualizada": 2721.2,
+      "empenhado": 2406.2,
+      "liquidado": 2406.2
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 864800,
+      "dotacao_atualizada": 852930,
+      "empenhado": 786783.07,
+      "liquidado": 786783.07
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 159220,
+      "dotacao_atualizada": 184935.83,
+      "empenhado": 142307.09,
+      "liquidado": 140857.99
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 642200,
+      "dotacao_atualizada": 783251.82,
+      "empenhado": 735609.47,
+      "liquidado": 733464.57
+     }
+    },
+    "pct_liquidado": 0.9627,
+    "pct_empenhado": 0.9723
+   }
+  },
+  "3202702": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 34290678.83,
+     "dotacao_atualizada": 35253227.05,
+     "empenhado": 22699202.58,
+     "liquidado": 20599167.77
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 13393713,
+      "dotacao_atualizada": 13890635.62,
+      "empenhado": 9163776.97,
+      "liquidado": 8162778.55
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3144200.33,
+      "dotacao_atualizada": 3429426.64,
+      "empenhado": 2169488.6,
+      "liquidado": 1893126.82
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 315010,
+      "dotacao_atualizada": 315010,
+      "empenhado": 132694.57,
+      "liquidado": 67694.57
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13197425.5,
+      "dotacao_atualizada": 13564133.09,
+      "empenhado": 8762299.02,
+      "liquidado": 8092520.44
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 155070,
+      "dotacao_atualizada": 65070
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1560090,
+      "dotacao_atualizada": 1540710.6,
+      "empenhado": 946835.76,
+      "liquidado": 946835.76
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2525170,
+      "dotacao_atualizada": 2448241.1,
+      "empenhado": 1524107.66,
+      "liquidado": 1436211.63
+     }
+    },
+    "pct_liquidado": 0.5843,
+    "pct_empenhado": 0.6439
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 26310876.3,
+     "dotacao_atualizada": 31555189.13,
+     "empenhado": 30236729.34,
+     "liquidado": 30236729.34
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 11242666.3,
+      "dotacao_atualizada": 12653739.67,
+      "empenhado": 11559948.23,
+      "liquidado": 11559948.23
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 2422990,
+      "dotacao_atualizada": 3319948.65,
+      "empenhado": 3317605.01,
+      "liquidado": 3317605.01
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 190010,
+      "dotacao_atualizada": 316847.21,
+      "empenhado": 292716.69,
+      "liquidado": 292716.69
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9350430,
+      "dotacao_atualizada": 10518033.09,
+      "empenhado": 10319838.9,
+      "liquidado": 10319838.9
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 70
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1057080,
+      "dotacao_atualizada": 1379846.24,
+      "empenhado": 1379846.24,
+      "liquidado": 1379846.24
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2047630,
+      "dotacao_atualizada": 3366774.27,
+      "empenhado": 3366774.27,
+      "liquidado": 3366774.27
+     }
+    },
+    "pct_liquidado": 0.9582,
+    "pct_empenhado": 0.9582
+   }
+  },
+  "3202801": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 127818465.98,
+     "dotacao_atualizada": 174370639.09,
+     "empenhado": 136357518.06,
+     "liquidado": 104448363.31
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 84474870.02,
+      "dotacao_atualizada": 96798741.34,
+      "empenhado": 71866525.58,
+      "liquidado": 60096114.43
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 1810000,
+      "dotacao_atualizada": 7162728,
+      "empenhado": 7162728,
+      "liquidado": 2741954.6
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 5830000,
+      "dotacao_atualizada": 10103574.6,
+      "empenhado": 10092005.7,
+      "liquidado": 3683194.23
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 35412595.96,
+      "dotacao_atualizada": 59674918.5,
+      "empenhado": 46608915.68,
+      "liquidado": 37299756.95
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 75000,
+      "dotacao_atualizada": 627676.65,
+      "empenhado": 627343.1,
+      "liquidado": 627343.1
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 16000,
+      "dotacao_atualizada": 3000
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 200000
+     }
+    },
+    "pct_liquidado": 0.599,
+    "pct_empenhado": 0.782
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 125461000,
+     "dotacao_atualizada": 140913814.36,
+     "empenhado": 138755215.3,
+     "liquidado": 136251063.42
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 85981000,
+      "dotacao_atualizada": 97357189.22,
+      "empenhado": 95486315.13,
+      "liquidado": 93524677.41
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 1710000,
+      "dotacao_atualizada": 1259548.5,
+      "empenhado": 1257986,
+      "liquidado": 1257986
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 5315000,
+      "dotacao_atualizada": 4109426.24,
+      "empenhado": 4108170.48,
+      "liquidado": 4091147.55
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 32303000,
+      "dotacao_atualizada": 38181465.1,
+      "empenhado": 37900338.79,
+      "liquidado": 37376725.01
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 135000,
+      "dotacao_atualizada": 4185.3,
+      "empenhado": 2404.9,
+      "liquidado": 527.45
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 16000,
+      "dotacao_atualizada": 2000
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1000
+     }
+    },
+    "pct_liquidado": 0.9669,
+    "pct_empenhado": 0.9847
+   }
+  },
+  "3202900": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 19903195,
+     "dotacao_atualizada": 26770550.96,
+     "empenhado": 20026934.95,
+     "liquidado": 15321433.58
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 9902695,
+      "dotacao_atualizada": 15304325.34,
+      "empenhado": 11401303.44,
+      "liquidado": 8324719.67
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 251000,
+      "dotacao_atualizada": 2796.1
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7176400,
+      "dotacao_atualizada": 8717870.05,
+      "empenhado": 6354669.61,
+      "liquidado": 5455223.4
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2071100,
+      "dotacao_atualizada": 2211811.52,
+      "empenhado": 1788072.87,
+      "liquidado": 1270336.34
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 502000,
+      "dotacao_atualizada": 533747.95,
+      "empenhado": 482889.03,
+      "liquidado": 271154.17
+     }
+    },
+    "pct_liquidado": 0.5723,
+    "pct_empenhado": 0.7481
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 20138900,
+     "dotacao_atualizada": 29540958.74,
+     "empenhado": 24599267.9,
+     "liquidado": 23375368.22
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 11081850,
+      "dotacao_atualizada": 16063389.35,
+      "empenhado": 12890785.5,
+      "liquidado": 12816129.55
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 170500,
+      "dotacao_atualizada": 707.73
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6848450,
+      "dotacao_atualizada": 8936537.84,
+      "empenhado": 8536550.05,
+      "liquidado": 8464100.46
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1680100,
+      "dotacao_atualizada": 4049366.2,
+      "empenhado": 2709583.24,
+      "liquidado": 1632789.1
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 358000,
+      "dotacao_atualizada": 490957.62,
+      "empenhado": 462349.11,
+      "liquidado": 462349.11
+     }
+    },
+    "pct_liquidado": 0.7913,
+    "pct_empenhado": 0.8327
+   }
+  },
+  "3203007": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 60000000,
+     "dotacao_atualizada": 77246059.93,
+     "empenhado": 53653221.05,
+     "liquidado": 35945647.34
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 34287000,
+      "dotacao_atualizada": 49406386.12,
+      "empenhado": 30286894.93,
+      "liquidado": 18659492.29
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 1242000,
+      "dotacao_atualizada": 1259848.03,
+      "empenhado": 1182280.78,
+      "liquidado": 696636.52
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 2000,
+      "dotacao_atualizada": 2000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 12115000,
+      "dotacao_atualizada": 14186125.78,
+      "empenhado": 11911130.99,
+      "liquidado": 9265091.61
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 631200,
+      "dotacao_atualizada": 631200,
+      "empenhado": 600000,
+      "liquidado": 218181.8
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 6033350,
+      "dotacao_atualizada": 5807050,
+      "empenhado": 4789223.18,
+      "liquidado": 3476203.79
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5689450,
+      "dotacao_atualizada": 5953450,
+      "empenhado": 4883691.17,
+      "liquidado": 3630041.33
+     }
+    },
+    "pct_liquidado": 0.4653,
+    "pct_empenhado": 0.6946
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 50136100,
+     "dotacao_atualizada": 76028060.61,
+     "empenhado": 71137656.12,
+     "liquidado": 58904221.96
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 37639000,
+      "dotacao_atualizada": 45754641.23,
+      "empenhado": 42912979.61,
+      "liquidado": 40783809.2
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 600000,
+      "dotacao_atualizada": 1340600.86,
+      "empenhado": 982423.08,
+      "liquidado": 982423.08
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 38000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9175100,
+      "dotacao_atualizada": 21980741,
+      "empenhado": 20745818.07,
+      "liquidado": 10710010.1
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 320000,
+      "dotacao_atualizada": 620000,
+      "empenhado": 600000,
+      "liquidado": 600000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2364000,
+      "dotacao_atualizada": 6332077.52,
+      "empenhado": 5896435.36,
+      "liquidado": 5827979.58
+     }
+    },
+    "pct_liquidado": 0.7748,
+    "pct_empenhado": 0.9357
+   }
+  },
+  "3203056": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 79575390,
+     "dotacao_atualizada": 98737726.09,
+     "empenhado": 71369291.39,
+     "liquidado": 52847231.08
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 53612240,
+      "dotacao_atualizada": 63591674.5,
+      "empenhado": 45523667.13,
+      "liquidado": 36088786.13
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 4614050,
+      "dotacao_atualizada": 5462138.92,
+      "empenhado": 4715224.41,
+      "liquidado": 2611496.76
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 186100,
+      "dotacao_atualizada": 285295,
+      "empenhado": 285195,
+      "liquidado": 126535
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 413000,
+      "dotacao_atualizada": 463805,
+      "empenhado": 402060.1,
+      "liquidado": 161096.69
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16714500,
+      "dotacao_atualizada": 24424118.78,
+      "empenhado": 16336914.16,
+      "liquidado": 11448032.2
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 69050,
+      "dotacao_atualizada": 92286,
+      "empenhado": 74928.41,
+      "liquidado": 30537.53
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 475000,
+      "dotacao_atualizada": 480000,
+      "empenhado": 480000,
+      "liquidado": 320000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 722450,
+      "dotacao_atualizada": 719368.97,
+      "empenhado": 347349.5,
+      "liquidado": 168541.45
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 2769000,
+      "dotacao_atualizada": 3219038.92,
+      "empenhado": 3203952.68,
+      "liquidado": 1892205.32
+     }
+    },
+    "pct_liquidado": 0.5352,
+    "pct_empenhado": 0.7228
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 72447751,
+     "dotacao_atualizada": 93851352.25,
+     "empenhado": 87758907.16,
+     "liquidado": 85854207.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 48007850,
+      "dotacao_atualizada": 68119569.85,
+      "empenhado": 62701025.8,
+      "liquidado": 61420141.55
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 4792922,
+      "dotacao_atualizada": 4548352.61,
+      "empenhado": 4464495.37,
+      "liquidado": 4216527.94
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 175100,
+      "dotacao_atualizada": 166476.75,
+      "empenhado": 165879,
+      "liquidado": 145047
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 360750,
+      "dotacao_atualizada": 394273.25,
+      "empenhado": 394273.25,
+      "liquidado": 363485.13
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 14310609,
+      "dotacao_atualizada": 16445451.38,
+      "empenhado": 15987501.16,
+      "liquidado": 15688652.2
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 64950,
+      "dotacao_atualizada": 101780.5,
+      "empenhado": 92912.05,
+      "liquidado": 92912.05
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 396000,
+      "dotacao_atualizada": 475000,
+      "empenhado": 475000,
+      "liquidado": 475000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 259570,
+      "dotacao_atualizada": 222085.94,
+      "empenhado": 205872.77,
+      "liquidado": 190521.55
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 4080000,
+      "dotacao_atualizada": 3378361.97,
+      "empenhado": 3271947.76,
+      "liquidado": 3261919.76
+     }
+    },
+    "pct_liquidado": 0.9148,
+    "pct_empenhado": 0.9351
+   }
+  },
+  "3203106": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 25464720,
+     "dotacao_atualizada": 30148252.2,
+     "empenhado": 15357215.56,
+     "liquidado": 12112438.37
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 12376120,
+      "dotacao_atualizada": 14677945.8,
+      "empenhado": 7920253.27,
+      "liquidado": 6335521.81
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 30400,
+      "dotacao_atualizada": 30400
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9218760,
+      "dotacao_atualizada": 10231262.35,
+      "empenhado": 4522038.92,
+      "liquidado": 3917242.03
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3416020,
+      "dotacao_atualizada": 3947305.15,
+      "empenhado": 2600453.4,
+      "liquidado": 1731883.69
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 423420,
+      "dotacao_atualizada": 1261338.9,
+      "empenhado": 314469.97,
+      "liquidado": 127790.84
+     }
+    },
+    "pct_liquidado": 0.4018,
+    "pct_empenhado": 0.5094
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 20543300,
+     "dotacao_atualizada": 28005371.11,
+     "empenhado": 26080204.37,
+     "liquidado": 25148321.56
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 11825700,
+      "dotacao_atualizada": 13913788.51,
+      "empenhado": 12905279.67,
+      "liquidado": 12720830.73
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 300,
+      "dotacao_atualizada": 20980,
+      "empenhado": 20980,
+      "liquidado": 20980
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6192400,
+      "dotacao_atualizada": 8552719.92,
+      "empenhado": 7977588.64,
+      "liquidado": 7976752.64
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1891900,
+      "dotacao_atualizada": 4885390.58,
+      "empenhado": 4614000.74,
+      "liquidado": 3870463.37
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 633000,
+      "dotacao_atualizada": 632492.1,
+      "empenhado": 562355.32,
+      "liquidado": 559294.82
+     }
+    },
+    "pct_liquidado": 0.898,
+    "pct_empenhado": 0.9313
+   }
+  },
+  "3203130": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 29005051.16,
+     "dotacao_atualizada": 35565815.79,
+     "empenhado": 20701445.56,
+     "liquidado": 15680629.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16538219.47,
+      "dotacao_atualizada": 18334037.88,
+      "empenhado": 10149518.32,
+      "liquidado": 8288945.77
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7207052.96,
+      "dotacao_atualizada": 7929642.9,
+      "empenhado": 5446629.14,
+      "liquidado": 5153187.66
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4537244.74,
+      "dotacao_atualizada": 7806429.55,
+      "empenhado": 3697081.67,
+      "liquidado": 1764941.56
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 722533.99,
+      "dotacao_atualizada": 1495705.46,
+      "empenhado": 1408216.43,
+      "liquidado": 473554.19
+     }
+    },
+    "pct_liquidado": 0.4409,
+    "pct_empenhado": 0.5821
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 28498699.6,
+     "dotacao_atualizada": 33216282.3,
+     "empenhado": 27169374.87,
+     "liquidado": 26144670.02
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16328159,
+      "dotacao_atualizada": 17279037.23,
+      "empenhado": 13580110.82,
+      "liquidado": 12952835.78
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6584418.6,
+      "dotacao_atualizada": 9095048.69,
+      "empenhado": 8061280.85,
+      "liquidado": 8022577.76
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4260622,
+      "dotacao_atualizada": 5446907.81,
+      "empenhado": 4647401.04,
+      "liquidado": 4387965.57
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1325500,
+      "dotacao_atualizada": 1395288.57,
+      "empenhado": 880582.16,
+      "liquidado": 781290.91
+     }
+    },
+    "pct_liquidado": 0.7871,
+    "pct_empenhado": 0.818
+   }
+  },
+  "3203163": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 34125274.65,
+     "dotacao_atualizada": 40786434,
+     "empenhado": 29912234.09,
+     "liquidado": 18025629.31
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 26243917.79,
+      "dotacao_atualizada": 29307912.84,
+      "empenhado": 20871648.37,
+      "liquidado": 12153017.33
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3731198.86,
+      "dotacao_atualizada": 5111365.71,
+      "empenhado": 3720676.42,
+      "liquidado": 2435071.03
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 11248,
+      "dotacao_atualizada": 10362.18
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4108310,
+      "dotacao_atualizada": 6322593.27,
+      "empenhado": 5309709.3,
+      "liquidado": 3427340.95
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 30600,
+      "dotacao_atualizada": 34200,
+      "empenhado": 10200,
+      "liquidado": 10200
+     }
+    },
+    "pct_liquidado": 0.442,
+    "pct_empenhado": 0.7334
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 30043786.75,
+     "dotacao_atualizada": 31026515.56,
+     "empenhado": 25961290.79,
+     "liquidado": 21422850.37
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 22391292.03,
+      "dotacao_atualizada": 21272319.01,
+      "empenhado": 17229105.9,
+      "liquidado": 14280341.85
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3645736.72,
+      "dotacao_atualizada": 4746750.81,
+      "empenhado": 3940544.06,
+      "liquidado": 2814172.38
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 11248,
+      "dotacao_atualizada": 11248
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3964910,
+      "dotacao_atualizada": 4960064.94,
+      "empenhado": 4783272.74,
+      "liquidado": 4319968.05
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 30600,
+      "dotacao_atualizada": 36132.8,
+      "empenhado": 8368.09,
+      "liquidado": 8368.09
+     }
+    },
+    "pct_liquidado": 0.6905,
+    "pct_empenhado": 0.8367
+   }
+  },
+  "3203205": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 337157930,
+     "dotacao_atualizada": 376853330.08,
+     "empenhado": 192905174.07,
+     "liquidado": 162831124.24
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 149019710,
+      "dotacao_atualizada": 170054781.41,
+      "empenhado": 83590276.83,
+      "liquidado": 71667030.72
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 11100000,
+      "dotacao_atualizada": 16697158.53,
+      "empenhado": 11064630.49,
+      "liquidado": 5156957.81
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 10438400,
+      "dotacao_atualizada": 10430938.36,
+      "empenhado": 5561149.73,
+      "liquidado": 4752538.03
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 127241500,
+      "dotacao_atualizada": 139402553.71,
+      "empenhado": 63366811.6,
+      "liquidado": 56552374.15
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 7911600,
+      "dotacao_atualizada": 11516954.83,
+      "empenhado": 8121935.72,
+      "liquidado": 7799283.61
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 14663940,
+      "dotacao_atualizada": 14443822.39,
+      "empenhado": 10660630.33,
+      "liquidado": 8536573.78
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 16782780,
+      "dotacao_atualizada": 14307120.85,
+      "empenhado": 10539739.37,
+      "liquidado": 8366366.14
+     }
+    },
+    "pct_liquidado": 0.4321,
+    "pct_empenhado": 0.5119
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 289258179.5,
+     "dotacao_atualizada": 354978259.12,
+     "empenhado": 341825574.98,
+     "liquidado": 332722237.36
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 120386524.75,
+      "dotacao_atualizada": 163258894.97,
+      "empenhado": 152895911.77,
+      "liquidado": 148335538.29
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 9740500,
+      "dotacao_atualizada": 11028436.25,
+      "empenhado": 10462137.19,
+      "liquidado": 10462137.19
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 300
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 8163942,
+      "dotacao_atualizada": 10115482.03,
+      "empenhado": 10013578.5,
+      "liquidado": 9982518.76
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 97648182,
+      "dotacao_atualizada": 112885902.72,
+      "empenhado": 110822236.87,
+      "liquidado": 107667255.85
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 23615716,
+      "dotacao_atualizada": 25661329.06,
+      "empenhado": 25638791.05,
+      "liquidado": 24617438.37
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 15435281.42,
+      "dotacao_atualizada": 15317460.56,
+      "empenhado": 15282374.88,
+      "liquidado": 14946804.18
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 14267733.33,
+      "dotacao_atualizada": 16710753.53,
+      "empenhado": 16710544.72,
+      "liquidado": 16710544.72
+     }
+    },
+    "pct_liquidado": 0.9373,
+    "pct_empenhado": 0.9629
+   }
+  },
+  "3203304": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 29990136.27,
+     "dotacao_atualizada": 30455643.26,
+     "empenhado": 19566780.19,
+     "liquidado": 18948328.57
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 24606662.57,
+      "dotacao_atualizada": 24114934.43,
+      "empenhado": 14901073.58,
+      "liquidado": 14799902.35
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 408000,
+      "dotacao_atualizada": 546100,
+      "empenhado": 539100,
+      "liquidado": 539100
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 2788001,
+      "dotacao_atualizada": 3327277.85,
+      "empenhado": 1857309.95,
+      "liquidado": 1516894.73
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1070000,
+      "dotacao_atualizada": 1436493.38,
+      "empenhado": 1344703.56,
+      "liquidado": 1210526.48
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1117472.7,
+      "dotacao_atualizada": 1030837.6,
+      "empenhado": 924593.1,
+      "liquidado": 881905.01
+     }
+    },
+    "pct_liquidado": 0.6222,
+    "pct_empenhado": 0.6425
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 22548200,
+     "dotacao_atualizada": 27714578.47,
+     "empenhado": 27174998.91,
+     "liquidado": 27119225.15
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 18485200,
+      "dotacao_atualizada": 22541220.8,
+      "empenhado": 22389697.89,
+      "liquidado": 22341708.89
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 408000,
+      "dotacao_atualizada": 365078.42,
+      "empenhado": 364047,
+      "liquidado": 364047
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 1975000,
+      "dotacao_atualizada": 2464190.04,
+      "empenhado": 2207675.3,
+      "liquidado": 2207675.3
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 830000,
+      "dotacao_atualizada": 1240758.12,
+      "empenhado": 1236686.62,
+      "liquidado": 1228901.86
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 850000,
+      "dotacao_atualizada": 1103331.09,
+      "empenhado": 976892.1,
+      "liquidado": 976892.1
+     }
+    },
+    "pct_liquidado": 0.9785,
+    "pct_empenhado": 0.9805
+   }
+  },
+  "3203320": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 154318495.64,
+     "dotacao_atualizada": 161662528.91,
+     "empenhado": 110888439.86,
+     "liquidado": 97298547.4
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 64036943.4,
+      "dotacao_atualizada": 73148340.16,
+      "empenhado": 55861923.63,
+      "liquidado": 53200226.02
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 44894582.82,
+      "dotacao_atualizada": 39680235.54,
+      "empenhado": 26338779.29,
+      "liquidado": 25460656.74
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 649810,
+      "dotacao_atualizada": 908353.45,
+      "empenhado": 373559.74,
+      "liquidado": 373559.74
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 15387964.35,
+      "dotacao_atualizada": 14882266.73,
+      "empenhado": 998021.72,
+      "liquidado": 995157.6
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 13052458,
+      "dotacao_atualizada": 12573957.09,
+      "empenhado": 8671946.16,
+      "liquidado": 8101810.14
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 16296737.07,
+      "dotacao_atualizada": 20469375.94,
+      "empenhado": 18644209.32,
+      "liquidado": 9167137.16
+     }
+    },
+    "pct_liquidado": 0.6019,
+    "pct_empenhado": 0.6859
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 121680141.09,
+     "dotacao_atualizada": 176545625.21,
+     "empenhado": 169747093.99,
+     "liquidado": 169747093.99
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 71947410.17,
+      "dotacao_atualizada": 93264592.35,
+      "empenhado": 89843669.08,
+      "liquidado": 89843669.08
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 35195776.19,
+      "dotacao_atualizada": 52771173,
+      "empenhado": 52499983.08,
+      "liquidado": 52499983.08
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 583264.9,
+      "dotacao_atualizada": 727719.24,
+      "empenhado": 709672.54,
+      "liquidado": 709672.54
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 16700,
+      "dotacao_atualizada": 15589.57,
+      "empenhado": 11382.6,
+      "liquidado": 11382.6
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 6304526,
+      "dotacao_atualizada": 10709252.31,
+      "empenhado": 10612535.54,
+      "liquidado": 10612535.54
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 7632463.83,
+      "dotacao_atualizada": 19057298.74,
+      "empenhado": 16069851.15,
+      "liquidado": 16069851.15
+     }
+    },
+    "pct_liquidado": 0.9615,
+    "pct_empenhado": 0.9615
+   }
+  },
+  "3203346": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 43502475,
+     "dotacao_atualizada": 47542871.19,
+     "empenhado": 22414502.32,
+     "liquidado": 17708896.15
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 29279775,
+      "dotacao_atualizada": 31331340.73,
+      "empenhado": 14108588.29,
+      "liquidado": 11260243.24
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 351100,
+      "dotacao_atualizada": 301100,
+      "empenhado": 291060,
+      "liquidado": 105840
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9384600,
+      "dotacao_atualizada": 9629741.28,
+      "empenhado": 5358125.09,
+      "liquidado": 4465190.26
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 500,
+      "dotacao_atualizada": 500
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1022100,
+      "dotacao_atualizada": 1022100,
+      "empenhado": 100352.42,
+      "liquidado": 38259.42
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3464400,
+      "dotacao_atualizada": 5258089.18,
+      "empenhado": 2556376.52,
+      "liquidado": 1839363.23
+     }
+    },
+    "pct_liquidado": 0.3725,
+    "pct_empenhado": 0.4715
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 34005760,
+     "dotacao_atualizada": 42089168.18,
+     "empenhado": 40133809.74,
+     "liquidado": 36903554.53
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 22618840,
+      "dotacao_atualizada": 24017782.41,
+      "empenhado": 23199183.6,
+      "liquidado": 22386912.5
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 204500,
+      "dotacao_atualizada": 317995,
+      "empenhado": 295260,
+      "liquidado": 268590
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7441800,
+      "dotacao_atualizada": 11325588.69,
+      "empenhado": 10636319.92,
+      "liquidado": 9760398.3
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 5000,
+      "dotacao_atualizada": 2000
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 53480,
+      "dotacao_atualizada": 633000.33,
+      "empenhado": 609935.44,
+      "liquidado": 609935.44
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3682140,
+      "dotacao_atualizada": 5792801.75,
+      "empenhado": 5393110.78,
+      "liquidado": 3877718.29
+     }
+    },
+    "pct_liquidado": 0.8768,
+    "pct_empenhado": 0.9535
+   }
+  },
+  "3203353": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 36674450,
+     "dotacao_atualizada": 45288517.31,
+     "empenhado": 28045749.4,
+     "liquidado": 25880925.72
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 21868250,
+      "dotacao_atualizada": 28605278.51,
+      "empenhado": 19721657.11,
+      "liquidado": 18243177.48
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 220050,
+      "dotacao_atualizada": 350050,
+      "empenhado": 256000,
+      "liquidado": 106000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 150,
+      "dotacao_atualizada": 150
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 12106150,
+      "dotacao_atualizada": 13795661.85,
+      "empenhado": 6434360.49,
+      "liquidado": 5977867.48
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 180000,
+      "dotacao_atualizada": 23600
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2299850,
+      "dotacao_atualizada": 2513776.95,
+      "empenhado": 1633731.8,
+      "liquidado": 1553880.76
+     }
+    },
+    "pct_liquidado": 0.5715,
+    "pct_empenhado": 0.6193
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 31646760,
+     "dotacao_atualizada": 40541109.14,
+     "empenhado": 38176023.77,
+     "liquidado": 35678799.47
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 20874840,
+      "dotacao_atualizada": 27049597.59,
+      "empenhado": 25778241.47,
+      "liquidado": 23443676.08
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 50,
+      "dotacao_atualizada": 50
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 150,
+      "dotacao_atualizada": 150
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 8906810,
+      "dotacao_atualizada": 11301354.71,
+      "empenhado": 10281697.9,
+      "liquidado": 10119038.99
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1864910,
+      "dotacao_atualizada": 2009956.84,
+      "empenhado": 1936084.4,
+      "liquidado": 1936084.4
+     },
+     "Educação Especial": {
+      "dotacao_atualizada": 180000,
+      "empenhado": 180000,
+      "liquidado": 180000
+     }
+    },
+    "pct_liquidado": 0.8801,
+    "pct_empenhado": 0.9417
+   }
+  },
+  "3203403": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 27111787.92,
+     "dotacao_atualizada": 28440556.03,
+     "empenhado": 20856831.53,
+     "liquidado": 18649872.15
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16107218.7,
+      "dotacao_atualizada": 18187626.89,
+      "empenhado": 13690233.89,
+      "liquidado": 12892074.77
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 351400,
+      "dotacao_atualizada": 351400,
+      "empenhado": 127361.13,
+      "liquidado": 124533.73
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 5243300,
+      "dotacao_atualizada": 5484445.01,
+      "empenhado": 3427019.38,
+      "liquidado": 3196730.71
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 700,
+      "dotacao_atualizada": 700
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2252969.22,
+      "dotacao_atualizada": 2368115.09,
+      "empenhado": 2026919.92,
+      "liquidado": 1788604.51
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3156200,
+      "dotacao_atualizada": 2048269.04,
+      "empenhado": 1585297.21,
+      "liquidado": 647928.43
+     }
+    },
+    "pct_liquidado": 0.6557,
+    "pct_empenhado": 0.7333
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 24539513.98,
+     "dotacao_atualizada": 49398198.17,
+     "empenhado": 46084604.74,
+     "liquidado": 45191438.75
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 14776863.98,
+      "dotacao_atualizada": 37938228.13,
+      "empenhado": 34778074.13,
+      "liquidado": 34015899.73
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 361880,
+      "dotacao_atualizada": 394903.84,
+      "empenhado": 380575.54,
+      "liquidado": 380575.54
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6582240,
+      "dotacao_atualizada": 8031254.67,
+      "empenhado": 7936613.14,
+      "liquidado": 7834577.62
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2818490,
+      "dotacao_atualizada": 3033771.53,
+      "empenhado": 2989341.93,
+      "liquidado": 2960385.86
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 40,
+      "dotacao_atualizada": 40
+     }
+    },
+    "pct_liquidado": 0.9148,
+    "pct_empenhado": 0.9329
+   }
+  },
+  "3203502": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 42201500,
+     "dotacao_atualizada": 43426900.13,
+     "empenhado": 35550064.88,
+     "liquidado": 34588219.34
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 26920000,
+      "dotacao_atualizada": 26420010.93,
+      "empenhado": 19845995.61,
+      "liquidado": 19186249.15
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 20000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 437500,
+      "dotacao_atualizada": 391500,
+      "empenhado": 233627.59,
+      "liquidado": 224475.19
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13769000,
+      "dotacao_atualizada": 14679757.19,
+      "empenhado": 13628543.88,
+      "liquidado": 13393992.25
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1055000,
+      "dotacao_atualizada": 1935632.01,
+      "empenhado": 1841897.8,
+      "liquidado": 1783502.75
+     }
+    },
+    "pct_liquidado": 0.7965,
+    "pct_empenhado": 0.8186
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 35699200,
+     "dotacao_atualizada": 50824070.54,
+     "empenhado": 49398890.25,
+     "liquidado": 48112459.46
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 23540700,
+      "dotacao_atualizada": 29446984.38,
+      "empenhado": 29006473.98,
+      "liquidado": 28114819.81
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 10000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 222500,
+      "dotacao_atualizada": 375194.97,
+      "empenhado": 374956.97,
+      "liquidado": 374956.97
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 10822000,
+      "dotacao_atualizada": 19014385.71,
+      "empenhado": 18090044.91,
+      "liquidado": 17695268.29
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1104000,
+      "dotacao_atualizada": 1987505.48,
+      "empenhado": 1927414.39,
+      "liquidado": 1927414.39
+     }
+    },
+    "pct_liquidado": 0.9466,
+    "pct_empenhado": 0.972
+   }
+  },
+  "3203601": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 12041600,
+     "dotacao_atualizada": 12979587.47,
+     "empenhado": 9129776.2,
+     "liquidado": 9022039.83
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 8060600,
+      "dotacao_atualizada": 8773684.79,
+      "empenhado": 6640842.06,
+      "liquidado": 6564426.53
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 5000,
+      "dotacao_atualizada": 5000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 265000,
+      "dotacao_atualizada": 230928.73,
+      "empenhado": 88160,
+      "liquidado": 88160
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3370000,
+      "dotacao_atualizada": 3481788.8,
+      "empenhado": 2138471.26,
+      "liquidado": 2117910.83
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 341000,
+      "dotacao_atualizada": 488185.15,
+      "empenhado": 262302.88,
+      "liquidado": 251542.47
+     }
+    },
+    "pct_liquidado": 0.6951,
+    "pct_empenhado": 0.7034
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 10694000,
+     "dotacao_atualizada": 20163675.9,
+     "empenhado": 19878459.08,
+     "liquidado": 18102411.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 6986500,
+      "dotacao_atualizada": 11901158.7,
+      "empenhado": 11744524.52,
+      "liquidado": 10256527.68
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 20000,
+      "dotacao_atualizada": 900,
+      "empenhado": 900,
+      "liquidado": 900
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 35000,
+      "dotacao_atualizada": 198360,
+      "empenhado": 198360,
+      "liquidado": 198360
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3393500,
+      "dotacao_atualizada": 3870057.27,
+      "empenhado": 3762301.53,
+      "liquidado": 3622871.53
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 259000,
+      "dotacao_atualizada": 4193199.93,
+      "empenhado": 4172373.03,
+      "liquidado": 4023751.97
+     }
+    },
+    "pct_liquidado": 0.8978,
+    "pct_empenhado": 0.9859
+   }
+  },
+  "3203700": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 40796700,
+     "dotacao_atualizada": 44945355.88,
+     "empenhado": 26599146.36,
+     "liquidado": 20666317.8
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 28288800,
+      "dotacao_atualizada": 32651783.58,
+      "empenhado": 16394314.65,
+      "liquidado": 13620242.89
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 250400,
+      "dotacao_atualizada": 242400,
+      "empenhado": 55500,
+      "liquidado": 54300
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7885900,
+      "dotacao_atualizada": 7627172.3,
+      "empenhado": 5954473.05,
+      "liquidado": 4401289.26
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 400,
+      "dotacao_atualizada": 400
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2733000,
+      "dotacao_atualizada": 3948000,
+      "empenhado": 3736527.35,
+      "liquidado": 2359058.65
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1638200,
+      "dotacao_atualizada": 475600,
+      "empenhado": 458331.31,
+      "liquidado": 231427
+     }
+    },
+    "pct_liquidado": 0.4598,
+    "pct_empenhado": 0.5918
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 39031200,
+     "dotacao_atualizada": 60776830.83,
+     "empenhado": 58102358.06,
+     "liquidado": 55738952.74
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 26588400,
+      "dotacao_atualizada": 43266816.91,
+      "empenhado": 42093003.87,
+      "liquidado": 40988659.83
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 285300,
+      "dotacao_atualizada": 385300,
+      "empenhado": 280340,
+      "liquidado": 280340
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 8602400,
+      "dotacao_atualizada": 9965823.54,
+      "empenhado": 9634900.82,
+      "liquidado": 8790177.21
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 400,
+      "dotacao_atualizada": 400
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2596200,
+      "dotacao_atualizada": 4613677.74,
+      "empenhado": 3769326.6,
+      "liquidado": 3649326.76
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 958500,
+      "dotacao_atualizada": 2544812.64,
+      "empenhado": 2324786.77,
+      "liquidado": 2030448.94
+     }
+    },
+    "pct_liquidado": 0.9171,
+    "pct_empenhado": 0.956
+   }
+  },
+  "3203809": {
+   "2026": {
+    "bimestre": 2,
+    "educacao": {
+     "dotacao_inicial": 29457498.73,
+     "dotacao_atualizada": 29906242.71,
+     "empenhado": 10985699.22,
+     "liquidado": 7330943.61
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 17317568.28,
+      "dotacao_atualizada": 17611617.92,
+      "empenhado": 6988732.94,
+      "liquidado": 4231603.79
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 30000,
+      "dotacao_atualizada": 30000,
+      "empenhado": 30000,
+      "liquidado": 9000
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 1000,
+      "dotacao_atualizada": 1000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9959500,
+      "dotacao_atualizada": 9851088.57,
+      "empenhado": 2879972.72,
+      "liquidado": 2234550.16
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 118000,
+      "dotacao_atualizada": 118000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1483615.72,
+      "dotacao_atualizada": 1746721.49,
+      "empenhado": 938714.32,
+      "liquidado": 709135.42
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 547814.73,
+      "dotacao_atualizada": 547814.73,
+      "empenhado": 148279.24,
+      "liquidado": 146654.24
+     }
+    },
+    "pct_liquidado": 0.2451,
+    "pct_empenhado": 0.3673
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 27676602.45,
+     "dotacao_atualizada": 31809169.03,
+     "empenhado": 30494177.5,
+     "liquidado": 30185609.87
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16084300,
+      "dotacao_atualizada": 19609253.01,
+      "empenhado": 19106847.8,
+      "liquidado": 18841811.19
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 30000,
+      "dotacao_atualizada": 30000,
+      "empenhado": 30000,
+      "liquidado": 30000
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 160000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9354600,
+      "dotacao_atualizada": 9735733.78,
+      "empenhado": 9114553.77,
+      "liquidado": 9088701.56
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 118000,
+      "dotacao_atualizada": 8954.01
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1483115.72,
+      "dotacao_atualizada": 1937504.26,
+      "empenhado": 1834014.36,
+      "liquidado": 1816335.55
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 446586.73,
+      "dotacao_atualizada": 487723.97,
+      "empenhado": 408761.57,
+      "liquidado": 408761.57
+     }
+    },
+    "pct_liquidado": 0.949,
+    "pct_empenhado": 0.9587
+   }
+  },
+  "3203908": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 123192597.73,
+     "dotacao_atualizada": 132932192.42,
+     "empenhado": 84830465.65,
+     "liquidado": 67866873.17
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 75065338.73,
+      "dotacao_atualizada": 75168392.99,
+      "empenhado": 46237060.23,
+      "liquidado": 36737878.1
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 32340439,
+      "dotacao_atualizada": 36542087.38,
+      "empenhado": 20987133.88,
+      "liquidado": 17910997.63
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 97750,
+      "dotacao_atualizada": 46383.2,
+      "empenhado": 390,
+      "liquidado": 390
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 3863240,
+      "dotacao_atualizada": 6418218,
+      "empenhado": 5174368.07,
+      "liquidado": 5082125.93
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 6683050,
+      "dotacao_atualizada": 8328093.58,
+      "empenhado": 6925789.52,
+      "liquidado": 5303568.63
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5142780,
+      "dotacao_atualizada": 6429017.27,
+      "empenhado": 5505723.95,
+      "liquidado": 2831912.88
+     }
+    },
+    "pct_liquidado": 0.5105,
+    "pct_empenhado": 0.6381
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 109393931.75,
+     "dotacao_atualizada": 122187342.77,
+     "empenhado": 112710209.06,
+     "liquidado": 95538490.33
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 66546880,
+      "dotacao_atualizada": 70434956.72,
+      "empenhado": 64563979.82,
+      "liquidado": 53863660.53
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 24330032.75,
+      "dotacao_atualizada": 32627551.96,
+      "empenhado": 31139823.82,
+      "liquidado": 25065024.78
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 107750,
+      "dotacao_atualizada": 90850.64,
+      "empenhado": 73699.67,
+      "liquidado": 59080.95
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 8191919,
+      "dotacao_atualizada": 5355356.77,
+      "empenhado": 5222665.92,
+      "liquidado": 4929138.66
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 5972100,
+      "dotacao_atualizada": 7984755.34,
+      "empenhado": 7183921.94,
+      "liquidado": 7095907.52
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 4245250,
+      "dotacao_atualizada": 5693871.34,
+      "empenhado": 4526117.89,
+      "liquidado": 4525677.89
+     }
+    },
+    "pct_liquidado": 0.7819,
+    "pct_empenhado": 0.9224
+   }
+  },
+  "3204005": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 27135544.32,
+     "dotacao_atualizada": 35895702.58,
+     "empenhado": 29031509.04,
+     "liquidado": 26459693.44
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 18963159.94,
+      "dotacao_atualizada": 25226280.66,
+      "empenhado": 20779545.43,
+      "liquidado": 18897118.39
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 507486.16,
+      "dotacao_atualizada": 507486.16,
+      "empenhado": 422012.32,
+      "liquidado": 422012.32
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6150732.01,
+      "dotacao_atualizada": 8486296.28,
+      "empenhado": 6484724.06,
+      "liquidado": 6216527.46
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 209162.73,
+      "dotacao_atualizada": 370636,
+      "empenhado": 370636,
+      "liquidado": 248926
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1305003.48,
+      "dotacao_atualizada": 1305003.48,
+      "empenhado": 974591.23,
+      "liquidado": 675109.27
+     }
+    },
+    "pct_liquidado": 0.7371,
+    "pct_empenhado": 0.8088
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 28833309.78,
+     "dotacao_atualizada": 41926504.24,
+     "empenhado": 40037369.2,
+     "liquidado": 39454373.15
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 17880989.78,
+      "dotacao_atualizada": 26524985.98,
+      "empenhado": 25219123.27,
+      "liquidado": 24697327.69
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 300001,
+      "dotacao_atualizada": 831501,
+      "empenhado": 812229.5,
+      "liquidado": 812229.5
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9208818,
+      "dotacao_atualizada": 13201446.26,
+      "empenhado": 12655722.98,
+      "liquidado": 12594627.13
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 280000,
+      "dotacao_atualizada": 230000,
+      "empenhado": 230000,
+      "liquidado": 230000
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1163501,
+      "dotacao_atualizada": 1138571,
+      "empenhado": 1120293.45,
+      "liquidado": 1120188.83
+     }
+    },
+    "pct_liquidado": 0.941,
+    "pct_empenhado": 0.9549
+   }
+  },
+  "3204054": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 39575015,
+     "dotacao_atualizada": 39541344.02,
+     "empenhado": 21158350.66,
+     "liquidado": 17312207.02
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 19170994,
+      "dotacao_atualizada": 19204850.91,
+      "empenhado": 10488107.35,
+      "liquidado": 8524310.68
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 170001,
+      "dotacao_atualizada": 170001,
+      "empenhado": 66000,
+      "liquidado": 66000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 17642020,
+      "dotacao_atualizada": 16750839.92,
+      "empenhado": 8610000.71,
+      "liquidado": 7018407.23
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 128000,
+      "dotacao_atualizada": 128000
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 579000,
+      "dotacao_atualizada": 1277155.95,
+      "empenhado": 955244.21,
+      "liquidado": 955244.21
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1885000,
+      "dotacao_atualizada": 2010496.24,
+      "empenhado": 1038998.39,
+      "liquidado": 748244.9
+     }
+    },
+    "pct_liquidado": 0.4378,
+    "pct_empenhado": 0.5351
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 33796789.8,
+     "dotacao_atualizada": 52805408.67,
+     "empenhado": 49293219.69,
+     "liquidado": 48684421.42
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16815748.54,
+      "dotacao_atualizada": 25958970.4,
+      "empenhado": 24995488.99,
+      "liquidado": 24503558.39
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 136081.08,
+      "dotacao_atualizada": 228000,
+      "empenhado": 228000,
+      "liquidado": 211000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13760013.1,
+      "dotacao_atualizada": 21237141.5,
+      "empenhado": 18744719.58,
+      "liquidado": 18644852.18
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 79387.08,
+      "dotacao_atualizada": 7.08
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1554660,
+      "dotacao_atualizada": 3626446.61,
+      "empenhado": 3626176.6,
+      "liquidado": 3626176.6
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1450900,
+      "dotacao_atualizada": 1754843.08,
+      "empenhado": 1698834.52,
+      "liquidado": 1698834.25
+     }
+    },
+    "pct_liquidado": 0.922,
+    "pct_empenhado": 0.9335
+   }
+  },
+  "3204104": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 53821861.72,
+     "dotacao_atualizada": 54823077.09,
+     "empenhado": 50581964.43,
+     "liquidado": 48603859.36
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 12937505,
+      "dotacao_atualizada": 24368375.35,
+      "empenhado": 22804711.39,
+      "liquidado": 21572602.53
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3500,
+      "dotacao_atualizada": 203000,
+      "empenhado": 166079.5,
+      "liquidado": 165147.5
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 839030,
+      "dotacao_atualizada": 157201.37,
+      "empenhado": 135579.25,
+      "liquidado": 91186.99
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16378732.67,
+      "dotacao_atualizada": 10207360.66,
+      "empenhado": 10018606.48,
+      "liquidado": 9788113.46
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 182000,
+      "dotacao_atualizada": 114570.25,
+      "empenhado": 37864.56,
+      "liquidado": 35057.46
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 200000,
+      "dotacao_atualizada": 52195.5,
+      "empenhado": 21247.94,
+      "liquidado": 17399.16
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 17481093.33,
+      "dotacao_atualizada": 16180735.22,
+      "empenhado": 15269346.95,
+      "liquidado": 15152619.29
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5800000.72,
+      "dotacao_atualizada": 3539638.74,
+      "empenhado": 2128528.36,
+      "liquidado": 1781732.97
+     }
+    },
+    "pct_liquidado": 0.8866,
+    "pct_empenhado": 0.9226
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 48499886.46,
+     "dotacao_atualizada": 67851847.5,
+     "empenhado": 63737805.21,
+     "liquidado": 63218706.19
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 37847730.02,
+      "dotacao_atualizada": 47124789.42,
+      "empenhado": 44788290.43,
+      "liquidado": 44291699.16
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 3390
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 513140.7,
+      "dotacao_atualizada": 352145.56,
+      "empenhado": 312848.73,
+      "liquidado": 311648.73
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7726685.07,
+      "dotacao_atualizada": 16954306.6,
+      "empenhado": 15504394.82,
+      "liquidado": 15497793.57
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 513898.06,
+      "dotacao_atualizada": 20793.4,
+      "empenhado": 19805.2,
+      "liquidado": 19805.2
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1427811.55,
+      "dotacao_atualizada": 300272.92,
+      "empenhado": 295732.2,
+      "liquidado": 295732.2
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 244121.47,
+      "dotacao_atualizada": 293649.07,
+      "empenhado": 96292.6,
+      "liquidado": 90292.6
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 223109.59,
+      "dotacao_atualizada": 2805890.53,
+      "empenhado": 2720441.23,
+      "liquidado": 2711734.73
+     }
+    },
+    "pct_liquidado": 0.9317,
+    "pct_empenhado": 0.9394
+   }
+  },
+  "3204203": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 61622980.36,
+     "dotacao_atualizada": 70548885.31,
+     "empenhado": 52628554.37,
+     "liquidado": 43692810.26
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 34169980.36,
+      "dotacao_atualizada": 41849410.47,
+      "empenhado": 31455548.65,
+      "liquidado": 26972169.18
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 500000,
+      "dotacao_atualizada": 650008.08,
+      "empenhado": 589901.12,
+      "liquidado": 355282.95
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1000000,
+      "dotacao_atualizada": 964522.07,
+      "empenhado": 941073.85,
+      "liquidado": 701477.49
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 17321000,
+      "dotacao_atualizada": 17638935.45,
+      "empenhado": 13062854.68,
+      "liquidado": 11009930.77
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 20000,
+      "dotacao_atualizada": 20000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 5065000,
+      "dotacao_atualizada": 5524922.99,
+      "empenhado": 3405810.98,
+      "liquidado": 2795892.12
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3547000,
+      "dotacao_atualizada": 3901086.25,
+      "empenhado": 3173365.09,
+      "liquidado": 1858057.75
+     }
+    },
+    "pct_liquidado": 0.6193,
+    "pct_empenhado": 0.746
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 57725000,
+     "dotacao_atualizada": 65171775.64,
+     "empenhado": 61984014.89,
+     "liquidado": 61034415.03
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 31308000,
+      "dotacao_atualizada": 36260002.12,
+      "empenhado": 33729467.99,
+      "liquidado": 33542889.68
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 680000,
+      "dotacao_atualizada": 561634.47,
+      "empenhado": 536145.92,
+      "liquidado": 515978.38
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1100000,
+      "dotacao_atualizada": 934652.07,
+      "empenhado": 934470.41,
+      "liquidado": 934470.41
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 15638000,
+      "dotacao_atualizada": 18364909,
+      "empenhado": 18050090.3,
+      "liquidado": 17989094.41
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 199000,
+      "dotacao_atualizada": 25748.59,
+      "empenhado": 8470.12,
+      "liquidado": 8470.12
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 100000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 5000000,
+      "dotacao_atualizada": 4514057.37,
+      "empenhado": 4242930.85,
+      "liquidado": 3937031.94
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3700000,
+      "dotacao_atualizada": 4510772.02,
+      "empenhado": 4482439.3,
+      "liquidado": 4106480.09
+     }
+    },
+    "pct_liquidado": 0.9365,
+    "pct_empenhado": 0.9511
+   }
+  },
+  "3204252": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 13448500,
+     "dotacao_atualizada": 14504155.95,
+     "empenhado": 8987380.06,
+     "liquidado": 8544108.48
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 9906000,
+      "dotacao_atualizada": 7588816.24,
+      "empenhado": 3727747.31,
+      "liquidado": 3654973.84
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 100000,
+      "dotacao_atualizada": 590000,
+      "empenhado": 553706.15,
+      "liquidado": 553706.15
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 130000,
+      "dotacao_atualizada": 130000,
+      "empenhado": 56000,
+      "liquidado": 56000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 3055000,
+      "dotacao_atualizada": 5745470.05,
+      "empenhado": 4292865.48,
+      "liquidado": 3925383.74
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 257500,
+      "dotacao_atualizada": 449869.66,
+      "empenhado": 357061.12,
+      "liquidado": 354044.75
+     }
+    },
+    "pct_liquidado": 0.5891,
+    "pct_empenhado": 0.6196
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 13312900,
+     "dotacao_atualizada": 15826151.58,
+     "empenhado": 15266316.51,
+     "liquidado": 15266316.51
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 8206400,
+      "dotacao_atualizada": 8156399.02,
+      "empenhado": 7820878.79,
+      "liquidado": 7820878.79
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 16000,
+      "dotacao_atualizada": 1492977.15,
+      "empenhado": 1483904.59,
+      "liquidado": 1483904.59
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 84500,
+      "dotacao_atualizada": 132500,
+      "empenhado": 131428.57,
+      "liquidado": 131428.57
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4334500,
+      "dotacao_atualizada": 4519323.53,
+      "empenhado": 4322096.16,
+      "liquidado": 4322096.16
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 671500,
+      "dotacao_atualizada": 1524951.88,
+      "empenhado": 1508008.4,
+      "liquidado": 1508008.4
+     }
+    },
+    "pct_liquidado": 0.9646,
+    "pct_empenhado": 0.9646
+   }
+  },
+  "3204302": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 114809000,
+     "dotacao_atualizada": 175178016.82,
+     "empenhado": 138798859.33,
+     "liquidado": 104450297.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 51505475,
+      "dotacao_atualizada": 74112609.81,
+      "empenhado": 54523055.64,
+      "liquidado": 43050480.11
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 6000,
+      "dotacao_atualizada": 1179178.64,
+      "empenhado": 1179178.64,
+      "liquidado": 922694.02
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 1000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 11500000,
+      "dotacao_atualizada": 15595919.73,
+      "empenhado": 15595919.73,
+      "liquidado": 7820187.12
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16999525,
+      "dotacao_atualizada": 36686023.93,
+      "empenhado": 31579255.67,
+      "liquidado": 24888189.77
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 3227000,
+      "dotacao_atualizada": 8926857.48,
+      "empenhado": 7431031.08,
+      "liquidado": 5906716.18
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 2269000,
+      "dotacao_atualizada": 2444365.71,
+      "empenhado": 1260332.12,
+      "liquidado": 1260332.12
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 24163000,
+      "dotacao_atualizada": 31009761.52,
+      "empenhado": 22710033.35,
+      "liquidado": 17768591.56
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5138000,
+      "dotacao_atualizada": 5223300,
+      "empenhado": 4520053.1,
+      "liquidado": 2833106.3
+     }
+    },
+    "pct_liquidado": 0.5963,
+    "pct_empenhado": 0.7923
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 121373000,
+     "dotacao_atualizada": 213126422.6,
+     "empenhado": 193613382.59,
+     "liquidado": 192241016.19
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 56855800,
+      "dotacao_atualizada": 92313800.37,
+      "empenhado": 87668090.13,
+      "liquidado": 87174150.1
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 6000,
+      "dotacao_atualizada": 9500000,
+      "empenhado": 4935917.21,
+      "liquidado": 4935917.21
+     },
+     "Ensino Profissional": {
+      "dotacao_inicial": 1000
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 15500000,
+      "dotacao_atualizada": 19489736.4,
+      "empenhado": 16723643.98,
+      "liquidado": 16357264.23
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16196200,
+      "dotacao_atualizada": 38488693.53,
+      "empenhado": 35629082.88,
+      "liquidado": 35384002.83
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 2481000,
+      "dotacao_atualizada": 11116289.23,
+      "empenhado": 10135647.54,
+      "liquidado": 10065411.61
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1974000,
+      "dotacao_atualizada": 3781615.21,
+      "empenhado": 3778533.41,
+      "liquidado": 3778533.41
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 23352000,
+      "dotacao_atualizada": 33715396.41,
+      "empenhado": 30563066.41,
+      "liquidado": 30366335.77
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5007000,
+      "dotacao_atualizada": 4720891.45,
+      "empenhado": 4179401.03,
+      "liquidado": 4179401.03
+     }
+    },
+    "pct_liquidado": 0.902,
+    "pct_empenhado": 0.9084
+   }
+  },
+  "3204351": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 61420910,
+     "dotacao_atualizada": 66342829.66,
+     "empenhado": 30601629.93,
+     "liquidado": 23273336.14
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 28543620,
+      "dotacao_atualizada": 33117602.57,
+      "empenhado": 20272440.31,
+      "liquidado": 16712792.72
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1743070,
+      "dotacao_atualizada": 1743070,
+      "empenhado": 1024998.9,
+      "liquidado": 680293.68
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 26232460,
+      "dotacao_atualizada": 25483821.08,
+      "empenhado": 4918896.54,
+      "liquidado": 4573637.62
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 406000,
+      "dotacao_atualizada": 406000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1345760,
+      "dotacao_atualizada": 1373091.51,
+      "empenhado": 1075539.23,
+      "liquidado": 537205.58
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3150000,
+      "dotacao_atualizada": 4219244.5,
+      "empenhado": 3309754.95,
+      "liquidado": 769406.54
+     }
+    },
+    "pct_liquidado": 0.3508,
+    "pct_empenhado": 0.4613
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 60907190,
+     "dotacao_atualizada": 65707096.45,
+     "empenhado": 54944671.35,
+     "liquidado": 54292649.03
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 43895240,
+      "dotacao_atualizada": 46515559.61,
+      "empenhado": 39366421.03,
+      "liquidado": 38942633.33
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 1810000,
+      "dotacao_atualizada": 2177761.52,
+      "empenhado": 1701323.26,
+      "liquidado": 1701323.26
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 11452450,
+      "dotacao_atualizada": 11572847.32,
+      "empenhado": 10410178.45,
+      "liquidado": 10410178.45
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 406000,
+      "dotacao_atualizada": 406000,
+      "empenhado": 400000,
+      "liquidado": 400000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 985500,
+      "dotacao_atualizada": 1372037.25,
+      "empenhado": 1267754.77,
+      "liquidado": 1186730.23
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 2358000,
+      "dotacao_atualizada": 3662890.75,
+      "empenhado": 1798993.84,
+      "liquidado": 1651783.76
+     }
+    },
+    "pct_liquidado": 0.8263,
+    "pct_empenhado": 0.8362
+   }
+  },
+  "3204401": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 18388650,
+     "dotacao_atualizada": 20943256,
+     "empenhado": 13440234.3,
+     "liquidado": 12896036.69
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 11489800,
+      "dotacao_atualizada": 13023538,
+      "empenhado": 9042505.72,
+      "liquidado": 8789801.57
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 5609050,
+      "dotacao_atualizada": 5340929,
+      "empenhado": 2194664.52,
+      "liquidado": 2143162.26
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 992800,
+      "dotacao_atualizada": 2410289,
+      "empenhado": 2189264.06,
+      "liquidado": 1949272.86
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 297000,
+      "dotacao_atualizada": 168500,
+      "empenhado": 13800,
+      "liquidado": 13800
+     }
+    },
+    "pct_liquidado": 0.6158,
+    "pct_empenhado": 0.6417
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 14983650,
+     "dotacao_atualizada": 24699072.8,
+     "empenhado": 20530265.68,
+     "liquidado": 20421179.11
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 9613800,
+      "dotacao_atualizada": 17651913,
+      "empenhado": 13558155.48,
+      "liquidado": 13502190.48
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4425050,
+      "dotacao_atualizada": 5248174.8,
+      "empenhado": 5187405.37,
+      "liquidado": 5187405.37
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 917800,
+      "dotacao_atualizada": 1761137,
+      "empenhado": 1747747.51,
+      "liquidado": 1694625.94
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 27000,
+      "dotacao_atualizada": 37848,
+      "empenhado": 36957.32,
+      "liquidado": 36957.32
+     }
+    },
+    "pct_liquidado": 0.8268,
+    "pct_empenhado": 0.8312
+   }
+  },
+  "3204500": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 27090297,
+     "dotacao_atualizada": 31681922.57,
+     "empenhado": 21381799.49,
+     "liquidado": 17300220.48
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 20666471.11,
+      "dotacao_atualizada": 24184338.67,
+      "empenhado": 16971931.9,
+      "liquidado": 13252251.95
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 518958.85,
+      "dotacao_atualizada": 830874.05,
+      "empenhado": 732344.49,
+      "liquidado": 409713.72
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4925509.59,
+      "dotacao_atualizada": 5687352.4,
+      "empenhado": 3156048.01,
+      "liquidado": 3150189.33
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 43437,
+      "dotacao_atualizada": 43437
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 935920.45,
+      "dotacao_atualizada": 935920.45,
+      "empenhado": 521475.09,
+      "liquidado": 488065.48
+     }
+    },
+    "pct_liquidado": 0.5461,
+    "pct_empenhado": 0.6749
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 26648584.32,
+     "dotacao_atualizada": 31146583.3,
+     "empenhado": 26600456.37,
+     "liquidado": 24537435.83
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 19419535.82,
+      "dotacao_atualizada": 23984343.12,
+      "empenhado": 21334467.29,
+      "liquidado": 19420113.57
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 528824.01,
+      "dotacao_atualizada": 562336.17,
+      "empenhado": 536265.62,
+      "liquidado": 477678.08
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 5309414.33,
+      "dotacao_atualizada": 5879619.44,
+      "empenhado": 4011591.7,
+      "liquidado": 3921512.42
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 791480.16
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 599330,
+      "dotacao_atualizada": 720284.57,
+      "empenhado": 718131.76,
+      "liquidado": 718131.76
+     }
+    },
+    "pct_liquidado": 0.7878,
+    "pct_empenhado": 0.854
+   }
+  },
+  "3204559": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 89867261.3,
+     "dotacao_atualizada": 94517450.86,
+     "empenhado": 56669142.14,
+     "liquidado": 34884225.77
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 51940597.87,
+      "dotacao_atualizada": 54609957.16,
+      "empenhado": 30972575.47,
+      "liquidado": 17485230.86
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 23600363.43,
+      "dotacao_atualizada": 25391293.7,
+      "empenhado": 13201524.15,
+      "liquidado": 9585129.04
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 14326300,
+      "dotacao_atualizada": 14516200,
+      "empenhado": 12495042.52,
+      "liquidado": 7813865.87
+     }
+    },
+    "pct_liquidado": 0.3691,
+    "pct_empenhado": 0.5996
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 80777262.08,
+     "dotacao_atualizada": 90602927.18,
+     "empenhado": 88512995.55,
+     "liquidado": 84212190.03
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 46117830.36,
+      "dotacao_atualizada": 54084800.36,
+      "empenhado": 53248051.63,
+      "liquidado": 50481024.17
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 20755580.91,
+      "dotacao_atualizada": 23012675.18,
+      "empenhado": 22268543.51,
+      "liquidado": 20845026.09
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 13903850.81,
+      "dotacao_atualizada": 13505451.64,
+      "empenhado": 12996400.41,
+      "liquidado": 12886139.77
+     }
+    },
+    "pct_liquidado": 0.9295,
+    "pct_empenhado": 0.9769
+   }
+  },
+  "3204609": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 47845911.76,
+     "dotacao_atualizada": 56378646.8,
+     "empenhado": 40876452.66,
+     "liquidado": 31786802.18
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 23535140.26,
+      "dotacao_atualizada": 30121980.51,
+      "empenhado": 20981976.21,
+      "liquidado": 17221462.57
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 2690000,
+      "dotacao_atualizada": 3110000,
+      "empenhado": 2810514.23,
+      "liquidado": 1647953.53
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 474069,
+      "dotacao_atualizada": 460905.37,
+      "empenhado": 334854.52,
+      "liquidado": 269059.06
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16419748.5,
+      "dotacao_atualizada": 15915222.4,
+      "empenhado": 11286978.49,
+      "liquidado": 8297406.1
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 500,
+      "dotacao_atualizada": 500
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 2153984,
+      "dotacao_atualizada": 1942947.28,
+      "empenhado": 1268880.76,
+      "liquidado": 1163345.25
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2559370,
+      "dotacao_atualizada": 4782450.12,
+      "empenhado": 4148739.45,
+      "liquidado": 3179312.67
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 13100,
+      "dotacao_atualizada": 44641.12,
+      "empenhado": 44509,
+      "liquidado": 8263
+     }
+    },
+    "pct_liquidado": 0.5638,
+    "pct_empenhado": 0.725
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 45293997.66,
+     "dotacao_atualizada": 50133291.04,
+     "empenhado": 47214832.77,
+     "liquidado": 43797095.67
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 23970519.98,
+      "dotacao_atualizada": 26068797.27,
+      "empenhado": 25271305.1,
+      "liquidado": 23529333.81
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 1900000,
+      "dotacao_atualizada": 2108384.4,
+      "empenhado": 2048788.02,
+      "liquidado": 2048788.02
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 570875,
+      "dotacao_atualizada": 555865,
+      "empenhado": 509370.14,
+      "liquidado": 495843.29
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 13509980.6,
+      "dotacao_atualizada": 15902131.45,
+      "empenhado": 14246600.86,
+      "liquidado": 12621413.05
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 50800,
+      "dotacao_atualizada": 576.74
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 1206100,
+      "dotacao_atualizada": 1411947.68,
+      "empenhado": 1406984.23,
+      "liquidado": 1406984.23
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3055440.08,
+      "dotacao_atualizada": 2923628.13,
+      "empenhado": 2711424.11,
+      "liquidado": 2674372.96
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1030282,
+      "dotacao_atualizada": 1161960.37,
+      "empenhado": 1020360.31,
+      "liquidado": 1020360.31
+     }
+    },
+    "pct_liquidado": 0.8736,
+    "pct_empenhado": 0.9418
+   }
+  },
+  "3204658": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 36170555.6,
+     "dotacao_atualizada": 37393829.16,
+     "empenhado": 20377477.2,
+     "liquidado": 18131932.53
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 26199750,
+      "dotacao_atualizada": 25701591.1,
+      "empenhado": 14529952.08,
+      "liquidado": 12949705.94
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 744200,
+      "dotacao_atualizada": 744200,
+      "empenhado": 270893.01,
+      "liquidado": 251888.37
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7278605.6,
+      "dotacao_atualizada": 7756794.72,
+      "empenhado": 3332419.71,
+      "liquidado": 2929466.05
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 15000,
+      "dotacao_atualizada": 15000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 648000,
+      "dotacao_atualizada": 1891243.34,
+      "empenhado": 1628260.68,
+      "liquidado": 1492631.6
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1285000,
+      "dotacao_atualizada": 1285000,
+      "empenhado": 615951.72,
+      "liquidado": 508240.57
+     }
+    },
+    "pct_liquidado": 0.4849,
+    "pct_empenhado": 0.5449
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 31117154.2,
+     "dotacao_atualizada": 29356634.08,
+     "empenhado": 25765591.78,
+     "liquidado": 25764025.55
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 24332904.2,
+      "dotacao_atualizada": 22482209.39,
+      "empenhado": 20021227.73,
+      "liquidado": 20019661.5
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 659000,
+      "dotacao_atualizada": 445500,
+      "empenhado": 414054,
+      "liquidado": 414054
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4506250,
+      "dotacao_atualizada": 4633924.69,
+      "empenhado": 3830185.01,
+      "liquidado": 3830185.01
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 15000,
+      "dotacao_atualizada": 15000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 753000,
+      "dotacao_atualizada": 927000,
+      "empenhado": 759186.62,
+      "liquidado": 759186.62
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 851000,
+      "dotacao_atualizada": 853000,
+      "empenhado": 740938.42,
+      "liquidado": 740938.42
+     }
+    },
+    "pct_liquidado": 0.8776,
+    "pct_empenhado": 0.8777
+   }
+  },
+  "3204708": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 54936423.78,
+     "dotacao_atualizada": 55680673.52,
+     "empenhado": 26781787.28,
+     "liquidado": 22238775
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 35179184.18,
+      "dotacao_atualizada": 36129889.7,
+      "empenhado": 19304479.14,
+      "liquidado": 15930630.44
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 330000,
+      "dotacao_atualizada": 330000
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 19427239.6,
+      "dotacao_atualizada": 19220783.82,
+      "empenhado": 7477308.14,
+      "liquidado": 6308144.56
+     }
+    },
+    "pct_liquidado": 0.3994,
+    "pct_empenhado": 0.481
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 49093323.4,
+     "dotacao_atualizada": 57528797.01,
+     "empenhado": 54904902.33,
+     "liquidado": 52774257.55
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 34358986.94,
+      "dotacao_atualizada": 42066231.92,
+      "empenhado": 40662816.88,
+      "liquidado": 38591518.63
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 250000,
+      "dotacao_atualizada": 134666.66,
+      "empenhado": 134666.66,
+      "liquidado": 134666.66
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 14484336.46,
+      "dotacao_atualizada": 15327898.43,
+      "empenhado": 14107418.79,
+      "liquidado": 14048072.26
+     }
+    },
+    "pct_liquidado": 0.9174,
+    "pct_empenhado": 0.9544
+   }
+  },
+  "3204807": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 28264050,
+     "dotacao_atualizada": 34294953.18,
+     "empenhado": 18786455.19,
+     "liquidado": 17348061.3
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 19132350,
+      "dotacao_atualizada": 23966042.18,
+      "empenhado": 13336154.08,
+      "liquidado": 12412372.81
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 8560600,
+      "dotacao_atualizada": 9757811,
+      "empenhado": 5290782.3,
+      "liquidado": 4776169.68
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 571100,
+      "dotacao_atualizada": 571100,
+      "empenhado": 159518.81,
+      "liquidado": 159518.81
+     }
+    },
+    "pct_liquidado": 0.5058,
+    "pct_empenhado": 0.5478
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 10431547.41,
+     "dotacao_atualizada": 31606826.19,
+     "empenhado": 29403265.91,
+     "liquidado": 28833850.95
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 6110400,
+      "dotacao_atualizada": 21444654.43,
+      "empenhado": 20076260.12,
+      "liquidado": 19569219.41
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4072047.41,
+      "dotacao_atualizada": 9549450.76,
+      "empenhado": 8731500.95,
+      "liquidado": 8669126.7
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 249100,
+      "dotacao_atualizada": 612721,
+      "empenhado": 595504.84,
+      "liquidado": 595504.84
+     }
+    },
+    "pct_liquidado": 0.9123,
+    "pct_empenhado": 0.9303
+   }
+  },
+  "3204906": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 244825900,
+     "dotacao_atualizada": 258968953.66,
+     "empenhado": 181894460.82,
+     "liquidado": 150875981.85
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 120482840,
+      "dotacao_atualizada": 131521032.05,
+      "empenhado": 102426640.1,
+      "liquidado": 87887939.3
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 85155600,
+      "dotacao_atualizada": 85910547.24,
+      "empenhado": 46200581.37,
+      "liquidado": 40534196.14
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 375660,
+      "dotacao_atualizada": 350660
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 11052800,
+      "dotacao_atualizada": 15962072.08,
+      "empenhado": 12912993.21,
+      "liquidado": 8755323.69
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 27759000,
+      "dotacao_atualizada": 25224642.29,
+      "empenhado": 20354246.14,
+      "liquidado": 13698522.72
+     }
+    },
+    "pct_liquidado": 0.5826,
+    "pct_empenhado": 0.7024
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 211594000,
+     "dotacao_atualizada": 259667581.7,
+     "empenhado": 244194530.57,
+     "liquidado": 215019908.75
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 130759200,
+      "dotacao_atualizada": 153610157.41,
+      "empenhado": 143564022.33,
+      "liquidado": 122394576.78
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 62472200,
+      "dotacao_atualizada": 67218823.59,
+      "empenhado": 64587412.31,
+      "liquidado": 60099850.81
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 106000,
+      "dotacao_atualizada": 100000,
+      "empenhado": 100000,
+      "liquidado": 100000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 8046600,
+      "dotacao_atualizada": 11895830.95,
+      "empenhado": 10754341.53,
+      "liquidado": 9788388.81
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 10210000,
+      "dotacao_atualizada": 26842769.75,
+      "empenhado": 25188754.4,
+      "liquidado": 22637092.35
+     }
+    },
+    "pct_liquidado": 0.8281,
+    "pct_empenhado": 0.9404
+   }
+  },
+  "3204955": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 32059498.4,
+     "dotacao_atualizada": 37738251.59,
+     "empenhado": 27203163.17,
+     "liquidado": 19832671.37
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 16876061,
+      "dotacao_atualizada": 20623927.99,
+      "empenhado": 16824999.15,
+      "liquidado": 12734722.54
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 231400,
+      "dotacao_atualizada": 231400,
+      "empenhado": 145180.42,
+      "liquidado": 145180.42
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 9177220,
+      "dotacao_atualizada": 10540392.29,
+      "empenhado": 4342399.53,
+      "liquidado": 3330180.89
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 539000,
+      "dotacao_atualizada": 624000,
+      "empenhado": 592317.09,
+      "liquidado": 592317.09
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2147375.24,
+      "dotacao_atualizada": 2289875.24,
+      "empenhado": 2122053.8,
+      "liquidado": 1318287.58
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3088442.16,
+      "dotacao_atualizada": 3428656.07,
+      "empenhado": 3176213.18,
+      "liquidado": 1711982.85
+     }
+    },
+    "pct_liquidado": 0.5255,
+    "pct_empenhado": 0.7208
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 22084478.08,
+     "dotacao_atualizada": 30162701.01,
+     "empenhado": 26712359.89,
+     "liquidado": 25580881.82
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 11546848.08,
+      "dotacao_atualizada": 15134659.49,
+      "empenhado": 14524059.89,
+      "liquidado": 14367829.54
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 199710,
+      "dotacao_atualizada": 199810,
+      "empenhado": 190696.6,
+      "liquidado": 190696.6
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 4972050,
+      "dotacao_atualizada": 7564448.77,
+      "empenhado": 7183610.99,
+      "liquidado": 6244158.79
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1629125,
+      "dotacao_atualizada": 2036865.44,
+      "empenhado": 2005370.47,
+      "liquidado": 1969574.95
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3736745,
+      "dotacao_atualizada": 5226917.31,
+      "empenhado": 2808621.94,
+      "liquidado": 2808621.94
+     }
+    },
+    "pct_liquidado": 0.8481,
+    "pct_empenhado": 0.8856
+   }
+  },
+  "3205002": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 869218265,
+     "dotacao_atualizada": 933849503.56,
+     "empenhado": 590570192.95,
+     "liquidado": 436256926.54
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 479995542,
+      "dotacao_atualizada": 512519536.32,
+      "empenhado": 339885074.8,
+      "liquidado": 239895936.01
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 285338662,
+      "dotacao_atualizada": 316916541.74,
+      "empenhado": 194387916.39,
+      "liquidado": 152554320.5
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 103884061,
+      "dotacao_atualizada": 104413425.5,
+      "empenhado": 56297201.76,
+      "liquidado": 43806670.03
+     }
+    },
+    "pct_liquidado": 0.4672,
+    "pct_empenhado": 0.6324
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 869097939,
+     "dotacao_atualizada": 956306258.92,
+     "empenhado": 852138569.98,
+     "liquidado": 804086770.76
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 512484055,
+      "dotacao_atualizada": 589497590.8,
+      "empenhado": 508631783.35,
+      "liquidado": 483935675.58
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 295693281,
+      "dotacao_atualizada": 301599676.33,
+      "empenhado": 279584891.49,
+      "liquidado": 260021408.77
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 100
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 100
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 60920403,
+      "dotacao_atualizada": 65208991.79,
+      "empenhado": 63921895.14,
+      "liquidado": 60129686.41
+     }
+    },
+    "pct_liquidado": 0.8408,
+    "pct_empenhado": 0.8911
+   }
+  },
+  "3205010": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 89612623.71,
+     "dotacao_atualizada": 101771533.47,
+     "empenhado": 77962055.29,
+     "liquidado": 60873600.57
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 34963610.75,
+      "dotacao_atualizada": 43280356.35,
+      "empenhado": 37785255.03,
+      "liquidado": 32753177.52
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 772896,
+      "dotacao_atualizada": 772896,
+      "empenhado": 545000,
+      "liquidado": 370259.56
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 40598188.57,
+      "dotacao_atualizada": 40765523.33,
+      "empenhado": 25258266.41,
+      "liquidado": 17962965.16
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 225111.89,
+      "dotacao_atualizada": 278192.69,
+      "empenhado": 73080.8,
+      "liquidado": 53080.8
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 6312998.46,
+      "dotacao_atualizada": 7683324.47,
+      "empenhado": 6462094.92,
+      "liquidado": 5691979.97
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 6739818.04,
+      "dotacao_atualizada": 8991240.63,
+      "empenhado": 7838358.13,
+      "liquidado": 4042137.56
+     }
+    },
+    "pct_liquidado": 0.5981,
+    "pct_empenhado": 0.766
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 84132750,
+     "dotacao_atualizada": 88589915.63,
+     "empenhado": 78309505.02,
+     "liquidado": 77044252.96
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 46550350,
+      "dotacao_atualizada": 49273051.25,
+      "empenhado": 42940891.79,
+      "liquidado": 42129201.19
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 900000,
+      "dotacao_atualizada": 751794,
+      "empenhado": 751792.45,
+      "liquidado": 751792.45
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 26996400,
+      "dotacao_atualizada": 26432766.18,
+      "empenhado": 22853173.48,
+      "liquidado": 22745228.87
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 271000,
+      "dotacao_atualizada": 187000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 3744000,
+      "dotacao_atualizada": 4385979.41,
+      "empenhado": 4247876.34,
+      "liquidado": 4190985.36
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 5671000,
+      "dotacao_atualizada": 7559324.79,
+      "empenhado": 7515770.96,
+      "liquidado": 7227045.09
+     }
+    },
+    "pct_liquidado": 0.8697,
+    "pct_empenhado": 0.884
+   }
+  },
+  "3205036": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 29688058.6,
+     "dotacao_atualizada": 37919969.49,
+     "empenhado": 30091792.96,
+     "liquidado": 28751574.14
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 22954334,
+      "dotacao_atualizada": 25239168.77,
+      "empenhado": 20207182.07,
+      "liquidado": 19554644.65
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 298870,
+      "dotacao_atualizada": 2001470,
+      "empenhado": 1435507.32,
+      "liquidado": 1435507.32
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 5693484.6,
+      "dotacao_atualizada": 9464572.15,
+      "empenhado": 7502546.82,
+      "liquidado": 7028234.8
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 500,
+      "dotacao_atualizada": 400
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 740870,
+      "dotacao_atualizada": 1214358.57,
+      "empenhado": 946556.75,
+      "liquidado": 733187.37
+     }
+    },
+    "pct_liquidado": 0.7582,
+    "pct_empenhado": 0.7936
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 29042740.6,
+     "dotacao_atualizada": 52297595.39,
+     "empenhado": 49652808.61,
+     "liquidado": 49652808.61
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 22023794.6,
+      "dotacao_atualizada": 36695788.51,
+      "empenhado": 35664482.65,
+      "liquidado": 35664482.65
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 423000,
+      "dotacao_atualizada": 1998036.14,
+      "empenhado": 1905590.48,
+      "liquidado": 1905590.48
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 6588946,
+      "dotacao_atualizada": 13603558.81,
+      "empenhado": 12082523.55,
+      "liquidado": 12082523.55
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 5000
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2000,
+      "dotacao_atualizada": 211.93,
+      "empenhado": 211.93,
+      "liquidado": 211.93
+     }
+    },
+    "pct_liquidado": 0.9494,
+    "pct_empenhado": 0.9494
+   }
+  },
+  "3205069": {
+   "2026": {
+    "bimestre": 4,
+    "educacao": {
+     "dotacao_inicial": 49643451,
+     "dotacao_atualizada": 54998503.23,
+     "empenhado": 31702987.55,
+     "liquidado": 26179521.01
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 21509400,
+      "dotacao_atualizada": 21729456.2,
+      "empenhado": 12132442,
+      "liquidado": 10344500.6
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 316760,
+      "dotacao_atualizada": 282968.34,
+      "empenhado": 32252.51,
+      "liquidado": 17864.85
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 19064600,
+      "dotacao_atualizada": 22788209.96,
+      "empenhado": 10568154.93,
+      "liquidado": 9500874.46
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 800,
+      "dotacao_atualizada": 800
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 7045891,
+      "dotacao_atualizada": 8491068.73,
+      "empenhado": 7525945.36,
+      "liquidado": 5358600.21
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1706000,
+      "dotacao_atualizada": 1706000,
+      "empenhado": 1444192.75,
+      "liquidado": 957680.89
+     }
+    },
+    "pct_liquidado": 0.476,
+    "pct_empenhado": 0.5764
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 41200800,
+     "dotacao_atualizada": 51443504.13,
+     "empenhado": 47180530.84,
+     "liquidado": 47173570.84
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 22466400,
+      "dotacao_atualizada": 30266747.99,
+      "empenhado": 28958272.54,
+      "liquidado": 28951312.54
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 131300,
+      "dotacao_atualizada": 228896.19,
+      "empenhado": 203661.68,
+      "liquidado": 203661.68
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 17102300,
+      "dotacao_atualizada": 19155187.19,
+      "empenhado": 16258556.86,
+      "liquidado": 16258556.86
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 700,
+      "dotacao_atualizada": 700
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 100,
+      "dotacao_atualizada": 100
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 1500000,
+      "dotacao_atualizada": 1791872.76,
+      "empenhado": 1760039.76,
+      "liquidado": 1760039.76
+     }
+    },
+    "pct_liquidado": 0.917,
+    "pct_empenhado": 0.9171
+   }
+  },
+  "3205101": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 151727829.93,
+     "dotacao_atualizada": 156095194.5,
+     "empenhado": 94820376.43,
+     "liquidado": 85240646.32
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 87490575.58,
+      "dotacao_atualizada": 90182715.8,
+      "empenhado": 55739606.28,
+      "liquidado": 51621744.32
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 52718848.06,
+      "dotacao_atualizada": 53796862.32,
+      "empenhado": 29792003.17,
+      "liquidado": 26617142.27
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 8080000,
+      "dotacao_atualizada": 8677210.09,
+      "empenhado": 6437578.81,
+      "liquidado": 5398659.64
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3438406.29,
+      "dotacao_atualizada": 3438406.29,
+      "empenhado": 2851188.17,
+      "liquidado": 1603100.09
+     }
+    },
+    "pct_liquidado": 0.5461,
+    "pct_empenhado": 0.6075
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 145952935.53,
+     "dotacao_atualizada": 174237681.12,
+     "empenhado": 165990101.49,
+     "liquidado": 161912655.1
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 83702660.32,
+      "dotacao_atualizada": 98223642.97,
+      "empenhado": 93179792.02,
+      "liquidado": 92133700.93
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 51695386.01,
+      "dotacao_atualizada": 61683876.68,
+      "empenhado": 59773029.9,
+      "liquidado": 58635686.17
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 7169482.91,
+      "dotacao_atualizada": 10522439.26,
+      "empenhado": 9528286.16,
+      "liquidado": 7643477.74
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 3385406.29,
+      "dotacao_atualizada": 3807722.21,
+      "empenhado": 3508993.41,
+      "liquidado": 3499790.26
+     }
+    },
+    "pct_liquidado": 0.9293,
+    "pct_empenhado": 0.9527
+   }
+  },
+  "3205150": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 23600000,
+     "dotacao_atualizada": 35228100.04,
+     "empenhado": 25780822.91,
+     "liquidado": 12296583.42
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 13463465.57,
+      "dotacao_atualizada": 25188532.9,
+      "empenhado": 19759293.98,
+      "liquidado": 7579256.92
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 7366000,
+      "dotacao_atualizada": 5132338.74,
+      "empenhado": 1676387.97,
+      "liquidado": 1333397.81
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 363000,
+      "dotacao_atualizada": 845416.83,
+      "empenhado": 579553.83,
+      "liquidado": 579553.83
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 1729534.43,
+      "dotacao_atualizada": 2896732.67,
+      "empenhado": 2600521.33,
+      "liquidado": 2141586.26
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 678000,
+      "dotacao_atualizada": 1165078.9,
+      "empenhado": 1165065.8,
+      "liquidado": 662788.6
+     }
+    },
+    "pct_liquidado": 0.3491,
+    "pct_empenhado": 0.7318
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 13135566.91,
+     "dotacao_atualizada": 36269416.49,
+     "empenhado": 28895655.04,
+     "liquidado": 28882550.14
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 10064041.91,
+      "dotacao_atualizada": 29330824.88,
+      "empenhado": 22931228.71,
+      "liquidado": 22920612.92
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 2532875,
+      "dotacao_atualizada": 5464582.71,
+      "empenhado": 4611849.12,
+      "liquidado": 4609360.01
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 127300,
+      "dotacao_atualizada": 264364.04,
+      "empenhado": 241045.74,
+      "liquidado": 241045.74
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 411350,
+      "dotacao_atualizada": 1209644.86,
+      "empenhado": 1111531.47,
+      "liquidado": 1111531.47
+     }
+    },
+    "pct_liquidado": 0.7963,
+    "pct_empenhado": 0.7967
+   }
+  },
+  "3205176": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 67791650,
+     "dotacao_atualizada": 67791650,
+     "empenhado": 26570175.87,
+     "liquidado": 25294308.76
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 39515600,
+      "dotacao_atualizada": 38612600,
+      "empenhado": 16003876.73,
+      "liquidado": 15378246.46
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 700000,
+      "dotacao_atualizada": 700000,
+      "empenhado": 239706,
+      "liquidado": 239706
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 400000,
+      "dotacao_atualizada": 400000,
+      "empenhado": 120603,
+      "liquidado": 120603
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 20052000,
+      "dotacao_atualizada": 20951500,
+      "empenhado": 7060771.85,
+      "liquidado": 6890900.59
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 4489250,
+      "dotacao_atualizada": 4492750,
+      "empenhado": 2079030.28,
+      "liquidado": 1855412.3
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 2634800,
+      "dotacao_atualizada": 2634800,
+      "empenhado": 1066188.01,
+      "liquidado": 809440.41
+     }
+    },
+    "pct_liquidado": 0.3731,
+    "pct_empenhado": 0.3919
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 46212800,
+     "dotacao_atualizada": 51273900,
+     "empenhado": 44258410.1,
+     "liquidado": 43592241.99
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 23905000,
+      "dotacao_atualizada": 25768457.85,
+      "empenhado": 21267911.1,
+      "liquidado": 20758513.46
+     },
+     "Ensino Médio": {
+      "dotacao_inicial": 580000,
+      "dotacao_atualizada": 1064407,
+      "empenhado": 1064406,
+      "liquidado": 1064406
+     },
+     "Ensino Superior": {
+      "dotacao_inicial": 90000,
+      "dotacao_atualizada": 447014.65,
+      "empenhado": 399498,
+      "liquidado": 399498
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 16419000,
+      "dotacao_atualizada": 17119767.44,
+      "empenhado": 15204344.82,
+      "liquidado": 15063741.95
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 9000,
+      "dotacao_atualizada": 415
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 2857800,
+      "dotacao_atualizada": 4243838.06,
+      "empenhado": 4025896.3,
+      "liquidado": 4009728.7
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 2352000,
+      "dotacao_atualizada": 2630000,
+      "empenhado": 2296353.88,
+      "liquidado": 2296353.88
+     }
+    },
+    "pct_liquidado": 0.8502,
+    "pct_empenhado": 0.8632
+   }
+  },
+  "3205200": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 652927985.72,
+     "dotacao_atualizada": 726669940.52,
+     "empenhado": 488911985.75,
+     "liquidado": 386647909.95
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 306925202.94,
+      "dotacao_atualizada": 318156425.08,
+      "empenhado": 206113733.14,
+      "liquidado": 185281712.12
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 150275956.21,
+      "dotacao_atualizada": 161764069.48,
+      "empenhado": 79212277.86,
+      "liquidado": 72305245.98
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 195547826.57,
+      "dotacao_atualizada": 246561445.96,
+      "empenhado": 203445788.39,
+      "liquidado": 128951674.56
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 179000,
+      "dotacao_atualizada": 188000,
+      "empenhado": 140186.36,
+      "liquidado": 109277.29
+     }
+    },
+    "pct_liquidado": 0.5321,
+    "pct_empenhado": 0.6728
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 605839905.79,
+     "dotacao_atualizada": 748542878.32,
+     "empenhado": 727733908.17,
+     "liquidado": 710507709.54
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 303964816.89,
+      "dotacao_atualizada": 371910670.98,
+      "empenhado": 366122891.71,
+      "liquidado": 361818258.18
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 123745098.91,
+      "dotacao_atualizada": 139345523.47,
+      "empenhado": 138766064.64,
+      "liquidado": 138757147.64
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 2002,
+      "dotacao_atualizada": 2
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 177958981.99,
+      "dotacao_atualizada": 237107499.39,
+      "empenhado": 222665775.34,
+      "liquidado": 209753127.24
+     },
+     "Demais Subfunções": {
+      "dotacao_inicial": 169006,
+      "dotacao_atualizada": 179182.48,
+      "empenhado": 179176.48,
+      "liquidado": 179176.48
+     }
+    },
+    "pct_liquidado": 0.9492,
+    "pct_empenhado": 0.9722
+   }
+  },
+  "3205309": {
+   "2026": {
+    "bimestre": 3,
+    "educacao": {
+     "dotacao_inicial": 820935383,
+     "dotacao_atualizada": 845189493.57,
+     "empenhado": 510914019.49,
+     "liquidado": 376369580.1
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 395803060,
+      "dotacao_atualizada": 411094755,
+      "empenhado": 259276239.55,
+      "liquidado": 189356566.81
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 344908131,
+      "dotacao_atualizada": 354618337.45,
+      "empenhado": 204362865.92,
+      "liquidado": 158824526.56
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 582900,
+      "dotacao_atualizada": 665559,
+      "empenhado": 541049.99,
+      "liquidado": 243050.73
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 9888872,
+      "dotacao_atualizada": 7256872,
+      "empenhado": 6993169.6,
+      "liquidado": 2741796.3
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 69752420,
+      "dotacao_atualizada": 71553970.12,
+      "empenhado": 39740694.43,
+      "liquidado": 25203639.7
+     }
+    },
+    "pct_liquidado": 0.4453,
+    "pct_empenhado": 0.6045
+   },
+   "2025": {
+    "bimestre": 6,
+    "educacao": {
+     "dotacao_inicial": 767755941,
+     "dotacao_atualizada": 881716881.49,
+     "empenhado": 855523868.88,
+     "liquidado": 810892059.61
+    },
+    "subfuncoes": {
+     "Ensino Fundamental": {
+      "dotacao_inicial": 372076226,
+      "dotacao_atualizada": 445958855.58,
+      "empenhado": 427757669.63,
+      "liquidado": 404261049.45
+     },
+     "Educação Infantil": {
+      "dotacao_inicial": 328513921,
+      "dotacao_atualizada": 367045407.75,
+      "empenhado": 361212414.9,
+      "liquidado": 345553814.45
+     },
+     "Educação de Jovens e Adultos": {
+      "dotacao_inicial": 383840,
+      "dotacao_atualizada": 780680,
+      "empenhado": 768733.24,
+      "liquidado": 765361.16
+     },
+     "Educação Especial": {
+      "dotacao_inicial": 6833680,
+      "dotacao_atualizada": 7318551,
+      "empenhado": 7185426.37,
+      "liquidado": 6189819.27
+     },
+     "Administração Geral": {
+      "dotacao_inicial": 59948274,
+      "dotacao_atualizada": 60613387.16,
+      "empenhado": 58599624.74,
+      "liquidado": 54122015.28
+     }
+    },
+    "pct_liquidado": 0.9197,
+    "pct_empenhado": 0.9703
+   }
+  }
+ }
+}
