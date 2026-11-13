@@ -17,12 +17,21 @@ import profissionais
 import ideb
 import alfabetizacao
 import financiamento
+import fluencia
+import escolas
 import execucao
+import fontes
 
+# ordem importa: escolas usa a coleta de fluência
 BLOCOS = {'profissionais.json': profissionais.build, 'ideb.json': ideb.build,
           'alfabetizacao.json': alfabetizacao.build, 'financiamento.json': financiamento.build,
-          'execucao.json': execucao.build}
-LOGOS = src('Identidade visual', 'Sapion Design System', 'assets', 'logos')
+          'fluencia.json': fluencia.build, 'escolas.json': escolas.build}
+VERSAO = os.path.join(APP, 'versao.json')
+
+
+def versao():
+    with open(VERSAO, encoding='utf-8') as fh:
+        return json.load(fh)
 
 
 def load(name, full):
@@ -45,7 +54,22 @@ def slim_fin(f):
     return f
 
 
-LOGO_DATA = src('Logo Sapion Data.png')
+def slim_esc(e):
+    """Escolas: só etapas com matrícula e campos usados pela interface."""
+    out = {}
+    for rede in ('municipal', 'estadual'):
+        lista = []
+        for x in e[rede]:
+            y = {k: v for k, v in x.items() if k not in ('mat', 'dif') and v not in (None, [], {})}
+            y['mat'] = {k: v for k, v in x['mat'].items() if v}
+            if x.get('dif'):
+                y['dif'] = x['dif']
+            lista.append(y)
+        out[rede] = lista
+    out['resumo'] = e['resumo']
+    return out
+
+
 INKS = {'preto': (0, 0, 0), 'azul': (0x44, 0x4D, 0xF2)}
 INKS_DARK = {'preto': (0xFF, 0xFF, 0xFF), 'azul': (0x7C, 0x83, 0xFF)}
 
@@ -56,7 +80,7 @@ def logos_sapion_data(altura=96):
     import io
     import numpy as np
     from PIL import Image
-    img = np.asarray(Image.open(LOGO_DATA).convert('RGBA'))
+    img = np.asarray(Image.open(fontes.arquivo('logo-sapion-data')).convert('RGBA'))
     alpha = img[..., 3]
     ys, xs = np.where(alpha > 10)
     y0, y1, x0, x1 = max(ys.min() - 4, 0), ys.max() + 5, max(xs.min() - 4, 0), xs.max() + 5
@@ -85,7 +109,8 @@ ESTADOS = [('ES', 'Espírito Santo', True), ('CE', 'Ceará', False), ('PE', 'Per
 
 def main(full=False):
     mun = load_municipios()
-    prof, idb, alf, fin = (load(n, full) for n in BLOCOS if n != 'execucao.json')
+    prof, idb, alf, fin, flu, esc = (load(n, full) for n in BLOCOS)
+    ver = versao()
     municipios = []
     for _, m in mun.iterrows():
         ib = m['ibge']
@@ -93,15 +118,18 @@ def main(full=False):
             'ibge': ib, 'uf': 'ES', 'siafi': m['siafi'], 'nome': m['nome'],
             'prof': prof['municipios'].get(ib), 'ideb': idb['municipios'].get(ib),
             'ica': alf['municipios'].get(ib), 'fin': slim_fin(fin['municipios'][ib]),
+            'flu': flu['municipios'].get(ib), 'esc': slim_esc(esc['municipios'][ib]),
         })
     municipios.sort(key=lambda x: x['nome'])
     n_por_uf = {uf: sum(1 for m in municipios if m['uf'] == uf) for uf, _, _ in ESTADOS}
     bundle = {
         'gerado_em': dt.datetime.now().strftime('%d/%m/%Y %H:%M'),
-        'versao': 'v1.1',
+        'versao': 'v' + ver['versao'],
+        'versao_info': ver,
         'estados': [{'uf': uf, 'nome': nome, 'ativo': ativo, 'n_municipios': n_por_uf[uf]} for uf, nome, ativo in ESTADOS],
         'meta': {'profissionais': prof['meta'], 'ideb': idb['meta'], 'ideb_stats': idb['estatisticas'],
-                 'ica': alf['meta'], 'fin': fin['meta']},
+                 'ica': alf['meta'], 'fin': fin['meta'], 'flu': flu['meta'], 'esc': esc['meta'],
+                 'fontes': fontes.resumo()},
         'municipios': municipios,
     }
     tpl_path = os.path.join(APP, 'site', 'index.template.html')
@@ -146,10 +174,12 @@ def pasta_github(html):
     open(os.path.join(PUBLICAR, '.nojekyll'), 'w').close()
     sis = os.path.join(PUBLICAR, 'sistema')
     shutil.copytree(os.path.join(APP, 'pipeline'), os.path.join(sis, 'pipeline'),
-                    ignore=shutil.ignore_patterns('.cache', '__pycache__', '.claude', '*.parquet'))
+                    ignore=shutil.ignore_patterns('.cache', '__pycache__', '.claude', '*.parquet', 'execucao.py'))
     shutil.copytree(os.path.join(APP, 'site'), os.path.join(sis, 'site'))
     shutil.copytree(os.path.join(APP, 'data'), os.path.join(sis, 'data'))
     shutil.copy(os.path.join(APP, 'README.md'), os.path.join(sis, 'README.md'))
+    shutil.copy(os.path.join(APP, 'PADRAO-DE-ATUALIZACAO.md'), os.path.join(sis, 'PADRAO-DE-ATUALIZACAO.md'))
+    shutil.copy(os.path.join(APP, 'versao.json'), os.path.join(sis, 'versao.json'))
     shutil.copy(os.path.join(APP, 'README-repositorio.md'), os.path.join(PUBLICAR, 'README.md'))
     n = sum(len(f) for _, _, f in os.walk(PUBLICAR))
     print(f'ok -> {PUBLICAR} ({n} arquivos)')

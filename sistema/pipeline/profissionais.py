@@ -16,10 +16,8 @@ import sys
 import pandas as pd
 from python_calamine import CalamineWorkbook
 
-from common import CACHE, src, norm, key, load_municipios, save_json, rnd
-
-VINC_FILE = src('TCEES', 'vinculo-2026-2.csv')
-SINOPSE = src('Sinopse_Estatistica_Censo Escolar 2025.xlsx')
+from common import CACHE, norm, key, load_municipios, save_json, rnd
+import fontes
 
 UG_EXC = re.compile(r"PREVID|REGIME PROPRIO|FUNDO FINANCEIRO|FUNDO PREVIDENCI|FUNDO DE REPARTICAO|"
                     r"FUNDO EM CAPITALIZACAO|FACELI|FACULDADE|CAMARA|PROCURADORIA|CONTROLADORIA|FAZENDA|"
@@ -173,20 +171,22 @@ def etapa_prof(c):
 
 # ---------------------------------------------------------------------------------------
 def load_vinculos():
-    cache = os.path.join(CACHE, 'vinculo-2026-2.parquet')
-    if os.path.exists(cache) and os.path.getmtime(cache) > os.path.getmtime(VINC_FILE):
+    vinc_file = fontes.arquivo('tcees-vinculo')
+    cache = os.path.join(CACHE, os.path.basename(vinc_file).replace('.csv', '.parquet'))
+    if os.path.exists(cache) and os.path.getmtime(cache) > os.path.getmtime(vinc_file):
         return pd.read_parquet(cache)
-    df = pd.read_csv(VINC_FILE, sep=';', encoding='latin-1', dtype=str)
+    df = pd.read_csv(vinc_file, sep=';', encoding='latin-1', dtype=str)
     df.to_parquet(cache)
     return df
 
 
 def load_censo():
     """Docentes em regência na rede municipal (Censo 2025): total, EI, AI, AF."""
-    cache = os.path.join(CACHE, 'censo_docentes_2025.parquet')
+    sinopse = fontes.arquivo('inep-sinopse-censo')
+    cache = os.path.join(CACHE, f"censo_docentes_{fontes.referencia('inep-sinopse-censo')}.parquet")
     if os.path.exists(cache):
         return pd.read_parquet(cache)
-    wb = CalamineWorkbook.from_path(SINOPSE)
+    wb = CalamineWorkbook.from_path(sinopse)
     tabs = {'total': '2.2', 'EI': 'Educação Infantil 2.7', 'AI': 'Anos Iniciais 2.26', 'AF': 'Anos Finais 2.31'}
     out = {}
     for k, sheet in tabs.items():

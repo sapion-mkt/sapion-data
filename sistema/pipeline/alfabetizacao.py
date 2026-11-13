@@ -3,14 +3,13 @@ import sys
 
 import pandas as pd
 
-from common import src, load_municipios, save_json
-
-FILE = src('Alfabetização', 'resultados_e_metas_municipios_2025_3.xlsx')
+from common import load_municipios, save_json
+import fontes
 
 
 def build():
     mun = load_municipios()
-    df = pd.read_excel(FILE, sheet_name=0, header=1, engine='calamine', dtype={'CO_MUNICIPIO': str})
+    df = pd.read_excel(fontes.arquivo('inep-ica'), sheet_name=0, header=1, engine='calamine', dtype={'CO_MUNICIPIO': str})
     df = df[df['SG_UF'] == 'ES'].copy()
     df['ibge'] = df['CO_MUNICIPIO'].astype(str).str[:7]
     df = df.set_index('ibge')

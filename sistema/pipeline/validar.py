@@ -53,12 +53,51 @@ def main():
     check('IDEB AI 2025 para os 78', all(x['AI']['municipal'] and x['AI']['municipal']['2025']['ideb'] for x in ideb.values()))
     ica = j('alfabetizacao.json')['municipios']
     check('ICA 2025 para os 78', all(x and x['serie']['2025'] is not None for x in ica.values()))
-    ex = j('execucao.json')['municipios']
-    n26 = sum(1 for x in ex.values() if x.get('2026', {}).get('educacao'))
-    n25 = sum(1 for x in ex.values() if x.get('2025', {}).get('educacao'))
-    print(f'     execução: {n26}/78 com 2026, {n25}/78 com 2025')
+    # fluência em leitura
+    flu = j('fluencia.json')
+    ult = flu['meta']['anos'][-1]
+    n = sum(1 for x in flu['municipios'].values() if x['municipal'].get(ult))
+    check(f'Fluência {ult}: 78 municípios na rede municipal', n == 78, f'({n})')
+    tot = flu['meta']['estado']['municipal'].get(ult, {})
+    check(f'Fluência {ult}: total estadual soma ~100%', tot and 98 <= sum(tot.values()) <= 102, f'({tot})')
+    # escolas: confere com a Sinopse do Censo (número de escolas e matrículas municipais)
+    esc = j('escolas.json')
+    sin = sinopse_escolas()
+    dif_esc, dif_mat = [], []
+    for ib, e in esc['municipios'].items():
+        s = sin.get(ib)
+        if not s:
+            continue
+        for rede in ('municipal', 'estadual'):
+            if e['resumo'][rede]['escolas'] != s['esc'][rede]:
+                dif_esc.append((ib, rede, e['resumo'][rede]['escolas'], s['esc'][rede]))
+        if e['resumo']['municipal']['matriculas'] != s['mat']['municipal']:
+            dif_mat.append((ib, e['resumo']['municipal']['matriculas'], s['mat']['municipal']))
+    check('Escolas por rede iguais à Sinopse do Censo (até 3 municípios com diferença)', len(dif_esc) <= 3, f'({len(dif_esc)}: {dif_esc[:5]})')
+    check('Matrículas municipais iguais à Sinopse do Censo (até 3 municípios com diferença)', len(dif_mat) <= 3, f'({len(dif_mat)}: {dif_mat[:5]})')
     print('\nRESULTADO:', 'tudo certo' if ok else 'há falhas')
     return ok
+
+
+def sinopse_escolas():
+    """Escolas (tabela 3.2) e matrículas (tabela 1.2) por rede na Sinopse do Censo, com cache."""
+    import fontes
+    from python_calamine import CalamineWorkbook
+    from common import CACHE
+    path = fontes.arquivo('inep-sinopse-censo')
+    cache = os.path.join(CACHE, f"sinopse_escolas_{fontes.referencia('inep-sinopse-censo')}.json")
+    if os.path.exists(cache):
+        with open(cache, encoding='utf-8') as fh:
+            return json.load(fh)
+    wb = CalamineWorkbook.from_path(path)
+    out = {}
+    for tab, campo in (('3.2', 'esc'), ('1.2', 'mat')):
+        for r in wb.get_sheet_by_name(tab).to_python():
+            if len(r) > 8 and str(r[1]).strip() == 'Espírito Santo' and isinstance(r[3], float):
+                out.setdefault(str(int(r[3])), {})[campo] = {'estadual': int(r[7] or 0), 'municipal': int(r[8] or 0)}
+    with open(cache, 'w', encoding='utf-8') as fh:
+        json.dump(out, fh)
+    return out
 
 
 if __name__ == '__main__':

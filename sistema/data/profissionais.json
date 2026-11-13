@@ -6,6 +6,10 @@
  },
  "municipios": {
   "3200102": {
+   "flags": [
+    "86% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 480,
     "vinculos": 546,
@@ -105,6 +109,10 @@
    "tier": "200 a 500"
   },
   "3200169": {
+   "flags": [
+    "101% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 208,
     "vinculos": 210,
@@ -205,6 +213,10 @@
    "tier": "Menos de 200"
   },
   "3200136": {
+   "flags": [
+    "70% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 237,
     "vinculos": 258,
@@ -304,6 +316,9 @@
    "tier": "200 a 500"
   },
   "3200201": {
+   "flags": [
+    "97% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 313,
     "vinculos": 327,
@@ -404,6 +419,10 @@
    "tier": "200 a 500"
   },
   "3200300": {
+   "flags": [
+    "60% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 380,
     "vinculos": 404,
@@ -503,6 +522,9 @@
    "tier": "200 a 500"
   },
   "3200359": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 144,
     "vinculos": 153,
@@ -602,6 +624,10 @@
    "tier": "Menos de 200"
   },
   "3200409": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 1177,
     "vinculos": 1259,
@@ -701,6 +727,10 @@
    "tier": "Mais de 500"
   },
   "3200508": {
+   "flags": [
+    "O município declara parte do magistério como \"emprego público\" (tratado como efetivo).",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 164,
     "vinculos": 172,
@@ -802,6 +832,7 @@
    "tier": "Menos de 200"
   },
   "3200607": {
+   "flags": [],
    "total": {
     "pessoas": 2037,
     "vinculos": 2249,
@@ -902,6 +933,9 @@
    "tier": "Mais de 500"
   },
   "3200706": {
+   "flags": [
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 251,
     "vinculos": 271,
@@ -1002,6 +1036,9 @@
    "tier": "200 a 500"
   },
   "3200805": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 528,
     "vinculos": 590,
@@ -1101,6 +1138,10 @@
    "tier": "200 a 500"
   },
   "3200904": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 694,
     "vinculos": 735,
@@ -1200,6 +1241,9 @@
    "tier": "Mais de 500"
   },
   "3201001": {
+   "flags": [
+    "84% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 392,
     "vinculos": 443,
@@ -1299,6 +1343,10 @@
    "tier": "200 a 500"
   },
   "3201100": {
+   "flags": [
+    "42% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 140,
     "vinculos": 148,
@@ -1399,6 +1447,10 @@
    "tier": "Menos de 200"
   },
   "3201159": {
+   "flags": [
+    "85% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 221,
     "vinculos": 245,
@@ -1498,6 +1550,10 @@
    "tier": "Menos de 200"
   },
   "3201209": {
+   "flags": [
+    "74% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 3393,
     "vinculos": 3681,
@@ -1597,6 +1653,9 @@
    "tier": "Mais de 500"
   },
   "3201308": {
+   "flags": [
+    "52% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 5166,
     "vinculos": 5604,
@@ -1697,6 +1756,10 @@
    "tier": "Mais de 500"
   },
   "3201407": {
+   "flags": [
+    "73% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 894,
     "vinculos": 989,
@@ -1797,6 +1860,9 @@
    "tier": "Mais de 500"
   },
   "3201506": {
+   "flags": [
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 1799,
     "vinculos": 1920,
@@ -1897,6 +1963,9 @@
    "tier": "Mais de 500"
   },
   "3201605": {
+   "flags": [
+    "96% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 756,
     "vinculos": 774,
@@ -1996,6 +2065,10 @@
    "tier": "Mais de 500"
   },
   "3201704": {
+   "flags": [
+    "83% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 247,
     "vinculos": 249,
@@ -2095,6 +2168,9 @@
    "tier": "Menos de 200"
   },
   "3201803": {
+   "flags": [
+    "61% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 72,
     "vinculos": 78,
@@ -2195,6 +2271,10 @@
    "tier": "Menos de 200"
   },
   "3201902": {
+   "flags": [
+    "70% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 741,
     "vinculos": 772,
@@ -2294,6 +2374,10 @@
    "tier": "Mais de 500"
   },
   "3202009": {
+   "flags": [
+    "72% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 165,
     "vinculos": 174,
@@ -2393,6 +2477,9 @@
    "tier": "Menos de 200"
   },
   "3202108": {
+   "flags": [
+    "88% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 417,
     "vinculos": 452,
@@ -2494,6 +2581,9 @@
    "tier": "200 a 500"
   },
   "3202207": {
+   "flags": [
+    "66% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 430,
     "vinculos": 458,
@@ -2593,6 +2683,10 @@
    "tier": "200 a 500"
   },
   "3202256": {
+   "flags": [
+    "91% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 252,
     "vinculos": 280,
@@ -2693,6 +2787,9 @@
    "tier": "Menos de 200"
   },
   "3202306": {
+   "flags": [
+    "53% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 503,
     "vinculos": 541,
@@ -2793,6 +2890,10 @@
    "tier": "200 a 500"
   },
   "3202405": {
+   "flags": [
+    "68% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 2030,
     "vinculos": 2331,
@@ -2893,6 +2994,10 @@
    "tier": "Mais de 500"
   },
   "3202454": {
+   "flags": [
+    "70% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 544,
     "vinculos": 565,
@@ -2916,20 +3021,20 @@
    },
    "etapas": {
     "EI": {
-     "pessoas": 0.0,
-     "efetivo": 0.0,
-     "dt": 0.0,
+     "pessoas": 93.0,
+     "efetivo": 31.1,
+     "dt": 64.7,
      "outro": 0.0,
      "identificado": 0.0,
-     "estimado": 0.0
+     "estimado": 93.0
     },
     "AI": {
-     "pessoas": 233.0,
-     "efetivo": 78.0,
-     "dt": 162.0,
+     "pessoas": 140.0,
+     "efetivo": 46.9,
+     "dt": 97.3,
      "outro": 0.0,
-     "identificado": 233.0,
-     "estimado": 0.0
+     "identificado": 0.0,
+     "estimado": 140.0
     },
     "AF": {
      "pessoas": 102.0,
@@ -2977,8 +3082,10 @@
      "outro": 0
     }
    },
-   "sem_etapa_pessoas": 0,
-   "sem_etapa_grupos": {},
+   "sem_etapa_pessoas": 233,
+   "sem_etapa_grupos": {
+    "EI_AI": 233
+   },
    "censo": {
     "total": 263,
     "EI": 87,
@@ -2990,6 +3097,10 @@
    "tier": "200 a 500"
   },
   "3202504": {
+   "flags": [
+    "92% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 253,
     "vinculos": 266,
@@ -3090,6 +3201,10 @@
    "tier": "Menos de 200"
   },
   "3202553": {
+   "flags": [
+    "90% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 246,
     "vinculos": 252,
@@ -3190,6 +3305,10 @@
    "tier": "200 a 500"
   },
   "3202603": {
+   "flags": [
+    "79% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 217,
     "vinculos": 227,
@@ -3289,6 +3408,10 @@
    "tier": "Menos de 200"
   },
   "3202652": {
+   "flags": [
+    "89% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 258,
     "vinculos": 294,
@@ -3388,6 +3511,10 @@
    "tier": "200 a 500"
   },
   "3202702": {
+   "flags": [
+    "87% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 218,
     "vinculos": 231,
@@ -3487,6 +3614,10 @@
    "tier": "200 a 500"
   },
   "3202801": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 1031,
     "vinculos": 1233,
@@ -3587,6 +3718,10 @@
    "tier": "Mais de 500"
   },
   "3202900": {
+   "flags": [
+    "94% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 205,
     "vinculos": 207,
@@ -3687,6 +3822,9 @@
    "tier": "Menos de 200"
   },
   "3203007": {
+   "flags": [
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 373,
     "vinculos": 399,
@@ -3787,6 +3925,9 @@
    "tier": "200 a 500"
   },
   "3203056": {
+   "flags": [
+    "66% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 712,
     "vinculos": 753,
@@ -3886,6 +4027,10 @@
    "tier": "Mais de 500"
   },
   "3203106": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 206,
     "vinculos": 240,
@@ -3985,6 +4130,10 @@
    "tier": "Menos de 200"
   },
   "3203130": {
+   "flags": [
+    "78% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 308,
     "vinculos": 326,
@@ -4086,6 +4235,9 @@
    "tier": "200 a 500"
   },
   "3203163": {
+   "flags": [
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 195,
     "vinculos": 206,
@@ -4186,6 +4338,9 @@
    "tier": "Menos de 200"
   },
   "3203205": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 3254,
     "vinculos": 3731,
@@ -4286,6 +4441,10 @@
    "tier": "Mais de 500"
   },
   "3203304": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 223,
     "vinculos": 233,
@@ -4386,6 +4545,10 @@
    "tier": "Menos de 200"
   },
   "3203320": {
+   "flags": [
+    "48% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 1313,
     "vinculos": 1407,
@@ -4486,6 +4649,10 @@
    "tier": "Mais de 500"
   },
   "3203346": {
+   "flags": [
+    "78% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 385,
     "vinculos": 412,
@@ -4586,6 +4753,10 @@
    "tier": "200 a 500"
   },
   "3203353": {
+   "flags": [
+    "82% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 251,
     "vinculos": 260,
@@ -4686,6 +4857,10 @@
    "tier": "200 a 500"
   },
   "3203403": {
+   "flags": [
+    "85% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 377,
     "vinculos": 457,
@@ -4786,6 +4961,10 @@
    "tier": "200 a 500"
   },
   "3203502": {
+   "flags": [
+    "61% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 565,
     "vinculos": 596,
@@ -4886,6 +5065,11 @@
    "tier": "200 a 500"
   },
   "3203601": {
+   "flags": [
+    "76% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "66 vínculos de professor declarados como comissionado/eletivo/outros (fora de efetivo e DT).",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 181,
     "vinculos": 184,
@@ -4987,6 +5171,10 @@
    "tier": "Menos de 200"
   },
   "3203700": {
+   "flags": [
+    "67% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 360,
     "vinculos": 422,
@@ -5087,6 +5275,12 @@
    "tier": "200 a 500"
   },
   "3203809": {
+   "flags": [
+    "88% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "O município declara parte do magistério como \"emprego público\" (tratado como efetivo).",
+    "44 vínculos de professor declarados como comissionado/eletivo/outros (fora de efetivo e DT).",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 210,
     "vinculos": 251,
@@ -5188,6 +5382,10 @@
    "tier": "200 a 500"
   },
   "3203908": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 1020,
     "vinculos": 1116,
@@ -5288,6 +5486,10 @@
    "tier": "Mais de 500"
   },
   "3204005": {
+   "flags": [
+    "54% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 327,
     "vinculos": 342,
@@ -5388,6 +5590,10 @@
    "tier": "200 a 500"
   },
   "3204054": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 423,
     "vinculos": 447,
@@ -5487,6 +5693,10 @@
    "tier": "200 a 500"
   },
   "3204104": {
+   "flags": [
+    "79% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "O município declara parte do magistério como \"emprego público\" (tratado como efetivo)."
+   ],
    "total": {
     "pessoas": 490,
     "vinculos": 540,
@@ -5587,6 +5797,10 @@
    "tier": "200 a 500"
   },
   "3204203": {
+   "flags": [
+    "55% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 464,
     "vinculos": 502,
@@ -5687,6 +5901,9 @@
    "tier": "200 a 500"
   },
   "3204252": {
+   "flags": [
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 129,
     "vinculos": 146,
@@ -5787,6 +6004,9 @@
    "tier": "Menos de 200"
   },
   "3204302": {
+   "flags": [
+    "66% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 453,
     "vinculos": 487,
@@ -5886,6 +6106,10 @@
    "tier": "200 a 500"
   },
   "3204351": {
+   "flags": [
+    "101% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 458,
     "vinculos": 516,
@@ -5986,6 +6210,10 @@
    "tier": "200 a 500"
   },
   "3204401": {
+   "flags": [
+    "90% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 179,
     "vinculos": 185,
@@ -6085,6 +6313,10 @@
    "tier": "Menos de 200"
   },
   "3204500": {
+   "flags": [
+    "78% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 195,
     "vinculos": 224,
@@ -6184,6 +6416,10 @@
    "tier": "Menos de 200"
   },
   "3204559": {
+   "flags": [
+    "84% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 738,
     "vinculos": 821,
@@ -6284,6 +6520,10 @@
    "tier": "Mais de 500"
   },
   "3204609": {
+   "flags": [
+    "68% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 387,
     "vinculos": 427,
@@ -6384,6 +6624,10 @@
    "tier": "200 a 500"
   },
   "3204658": {
+   "flags": [
+    "67% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 193,
     "vinculos": 214,
@@ -6484,6 +6728,9 @@
    "tier": "Menos de 200"
   },
   "3204708": {
+   "flags": [
+    "51% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 484,
     "vinculos": 548,
@@ -6585,6 +6832,10 @@
    "tier": "200 a 500"
   },
   "3204807": {
+   "flags": [
+    "69% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 311,
     "vinculos": 392,
@@ -6684,6 +6935,9 @@
    "tier": "200 a 500"
   },
   "3204906": {
+   "flags": [
+    "80% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 2050,
     "vinculos": 2239,
@@ -6784,6 +7038,10 @@
    "tier": "Mais de 500"
   },
   "3204955": {
+   "flags": [
+    "67% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 179,
     "vinculos": 194,
@@ -6883,6 +7141,7 @@
    "tier": "Menos de 200"
   },
   "3205002": {
+   "flags": [],
    "total": {
     "pessoas": 7853,
     "vinculos": 9504,
@@ -6982,6 +7241,10 @@
    "tier": "Mais de 500"
   },
   "3205010": {
+   "flags": [
+    "99% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 770,
     "vinculos": 840,
@@ -7081,6 +7344,10 @@
    "tier": "Mais de 500"
   },
   "3205036": {
+   "flags": [
+    "100% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 311,
     "vinculos": 330,
@@ -7180,6 +7447,10 @@
    "tier": "200 a 500"
   },
   "3205069": {
+   "flags": [
+    "79% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo.",
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 549,
     "vinculos": 568,
@@ -7280,6 +7551,7 @@
    "tier": "200 a 500"
   },
   "3205101": {
+   "flags": [],
    "total": {
     "pessoas": 2045,
     "vinculos": 2175,
@@ -7381,6 +7653,9 @@
    "tier": "Mais de 500"
   },
   "3205150": {
+   "flags": [
+    "A folha é lançada toda na Prefeitura (sem unidade da Educação): coordenadores e cargos genéricos não podem ser atribuídos à Educação."
+   ],
    "total": {
     "pessoas": 211,
     "vinculos": 217,
@@ -7482,6 +7757,9 @@
    "tier": "Menos de 200"
   },
   "3205176": {
+   "flags": [
+    "80% dos professores têm cargo sem etapa na folha; a divisão por etapa desses é estimada pelo Censo."
+   ],
    "total": {
     "pessoas": 269,
     "vinculos": 286,
@@ -7581,6 +7859,7 @@
    "tier": "200 a 500"
   },
   "3205200": {
+   "flags": [],
    "total": {
     "pessoas": 6121,
     "vinculos": 6892,
@@ -7680,6 +7959,7 @@
    "tier": "Mais de 500"
   },
   "3205309": {
+   "flags": [],
    "total": {
     "pessoas": 5858,
     "vinculos": 6476,

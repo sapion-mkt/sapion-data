@@ -13,10 +13,8 @@ import sys
 import pandas as pd
 import pdfplumber
 
-from common import src, key, brl, load_municipios, save_json, rnd, CACHE
-
-FUNDEB_DIR = src('Financiamento da Educação', 'Complementações do FUNDEB')
-ICMS_DIR = src('Financiamento da Educação', 'ICMS Educacional')
+from common import key, brl, load_municipios, save_json, rnd
+import fontes
 MESES = ['janeiro', 'fevereiro', 'março', 'abril', 'maio', 'junho', 'julho', 'agosto', 'setembro',
          'outubro', 'novembro', 'dezembro']
 ORIGENS = ['FPE', 'FPM', 'ICMS', 'IPI-EXP', 'IPVA', 'ITCMD', 'ITR']
@@ -38,17 +36,21 @@ def read_fundeb_csv(path):
 
 def load_fundeb():
     mensal = {}
+    por_nome = {os.path.splitext(os.path.basename(p))[0].lower(): p for p in fontes.arquivos('tesouro-fundeb-mensal')}
     for i, m in enumerate(MESES, start=1):
-        p = os.path.join(FUNDEB_DIR, '2026', f'{m}.csv')
-        if os.path.exists(p):
-            mensal[i] = read_fundeb_csv(p)
-    ano2025 = read_fundeb_csv(glob.glob(os.path.join(FUNDEB_DIR, '2025', '*.csv'))[0])
-    return mensal, ano2025
+        if m in por_nome:
+            mensal[i] = read_fundeb_csv(por_nome[m])
+    desconhecidos = set(por_nome) - set(MESES)
+    if desconhecidos:
+        raise fontes.FonteError(f'tesouro-fundeb-mensal: arquivos com nome fora do padrão <mês>.csv: {sorted(desconhecidos)}')
+    ano_anterior = read_fundeb_csv(fontes.arquivo('tesouro-fundeb-anual'))
+    return mensal, ano_anterior
 
 
 # ---------------------------------------------------------------- Lista FNDE VAAR + Portaria 11
 def load_vaar_sheet():
-    df = pd.read_excel(os.path.join(FUNDEB_DIR, 'VAAR_ES_2026.xlsx'), sheet_name='VAAR_ES_2026',
+    path = fontes.arquivo('sapion-vaar-condicionalidades')
+    df = pd.read_excel(path, sheet_name=os.path.splitext(os.path.basename(path))[0],
                        engine='calamine', dtype={'Código IBGE': str})
     df['ibge'] = df['Código IBGE'].str[:7]
     return df.set_index('ibge')
@@ -60,13 +62,7 @@ VAAT_URL = ('https://www.gov.br/fnde/pt-br/acesso-a-informacao/acoes-e-programas
 
 def load_vaat_habilitacao():
     """Lista final FNDE de entes habilitados/inabilitados ao cálculo do VAAT 2026 (cache local)."""
-    path = os.path.join(CACHE, 'vaat_habilitacao_2026.csv')
-    if not os.path.exists(path):
-        import httpx
-        r = httpx.get(VAAT_URL, timeout=90, follow_redirects=True, headers={'User-Agent': 'Mozilla/5.0'})
-        r.raise_for_status()
-        with open(path, 'wb') as fh:
-            fh.write(r.content)
+    path = fontes.arquivo('fnde-vaat-habilitacao')
     raw = open(path, 'rb').read()
     try:
         txt = raw.decode('utf-8')
@@ -110,7 +106,7 @@ def parse_icms_pdf(path):
 
 def load_icms():
     out = {}
-    for f in glob.glob(os.path.join(ICMS_DIR, 'DISTRIBUI*', '*.pdf')):
+    for f in fontes.arquivos('sefaz-icms-repasses'):
         mes = next(i for i, m in enumerate(MESES, start=1) if m.upper() in f.upper())
         rows, total = parse_icms_pdf(f)
         out[mes] = (rows, total)
@@ -118,14 +114,14 @@ def load_icms():
 
 
 def load_ipm():
-    df = pd.read_excel(os.path.join(ICMS_DIR, 'IPM_2026_municipios_ES.xlsx'), engine='calamine')
+    df = pd.read_excel(fontes.arquivo('sefaz-ipm'), engine='calamine')
     df = df[pd.to_numeric(df['Posição'], errors='coerce').notna()]
     return {key(r['Município']): {'ipm': float(r['IPM 2026 (%)']), 'cod_sefaz': str(r['Código']),
                                   'posicao': int(r['Posição'])} for _, r in df.iterrows()}
 
 
 def load_iqe():
-    df = pd.read_excel(os.path.join(ICMS_DIR, 'IQE_municipios_ES_reconstruido.xlsx'), sheet_name='IQE',
+    df = pd.read_excel(fontes.arquivo('sapion-iqe-reconstruido'), sheet_name='IQE',
                        engine='calamine')
     df = df[pd.to_numeric(df['Código IBGE'], errors='coerce').notna()]
     df['ibge'] = df['Código IBGE'].astype(int).astype(str)

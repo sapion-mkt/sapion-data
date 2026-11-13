@@ -23,6 +23,9 @@
   --series-a: #444DF2;
   --series-b: #009E72;
   --series-c: #B2B7C5;
+  --lv1: #D9DCFD; --lv1-ink: #22256F;
+  --lv2: #9298F7; --lv2-ink: #22256F;
+  --lv3: #444DF2; --lv3-ink: #FFFFFF;
   --est-bg: #ECDFFF;
   --est-ink: #6A2CC9;
   --ok: #00825C;
@@ -41,7 +44,7 @@
   :root:not([data-theme="light"]) {
     --bg: #0D0F2B; --surface: #151838; --sunken: #1C1F48; --ink: #EEF0FF; --ink-2: #BBC0E6; --muted: #8E94C4;
     --line: #262A5C; --line-strong: #353A74; --brand: #7C83FF; --brand-ink: #9CA2FF; --brand-tint: #232873;
-    --series-a: #7C83FF; --series-b: #14AD7E; --series-c: #3A3F78; --est-bg: #34225C; --est-ink: #D2B6FF;
+    --series-a: #7C83FF; --series-b: #14AD7E; --series-c: #3A3F78; --lv1: #2C3070; --lv1-ink: #EEF0FF; --lv2: #5A61C9; --lv2-ink: #FFFFFF; --lv3: #9CA2FF; --lv3-ink: #0D0F2B; --est-bg: #34225C; --est-ink: #D2B6FF;
     --ok: #3DD6A0; --ok-bg: #0F3A2E; --warn: #FFD95C; --warn-bg: #3D3200; --bad: #FF8288; --bad-bg: #45161C;
     --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25); color-scheme: dark;
   }
@@ -49,7 +52,7 @@
 :root[data-theme="dark"] {
   --bg: #0D0F2B; --surface: #151838; --sunken: #1C1F48; --ink: #EEF0FF; --ink-2: #BBC0E6; --muted: #8E94C4;
   --line: #262A5C; --line-strong: #353A74; --brand: #7C83FF; --brand-ink: #9CA2FF; --brand-tint: #232873;
-  --series-a: #7C83FF; --series-b: #14AD7E; --series-c: #3A3F78; --est-bg: #34225C; --est-ink: #D2B6FF;
+  --series-a: #7C83FF; --series-b: #14AD7E; --series-c: #3A3F78; --lv1: #2C3070; --lv1-ink: #EEF0FF; --lv2: #5A61C9; --lv2-ink: #FFFFFF; --lv3: #9CA2FF; --lv3-ink: #0D0F2B; --est-bg: #34225C; --est-ink: #D2B6FF;
   --ok: #3DD6A0; --ok-bg: #0F3A2E; --warn: #FFD95C; --warn-bg: #3D3200; --bad: #FF8288; --bad-bg: #45161C;
   --shadow: 0 1px 2px rgba(0,0,0,.3), 0 4px 16px rgba(0,0,0,.25); color-scheme: dark;
 }
@@ -69,7 +72,56 @@ a { color: var(--brand-ink); }
 .topbar { position: sticky; top: env(safe-area-inset-top, 0px); z-index: 20; background: var(--surface); border-bottom: 1px solid var(--line); }
 .topbar-in { max-width: 1180px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; gap: 16px; flex-wrap: wrap; }
 .brand { display: flex; align-items: center; gap: 12px; }
+.brand { flex-direction: column; align-items: flex-start; gap: 4px; }
 .brand img { height: 32px; width: auto; }
+.ver-btn { border: 0; background: none; padding: 0 0 0 2px; font: 600 11.5px/1.2 var(--font-body); color: var(--muted); cursor: pointer; letter-spacing: .01em; }
+.ver-btn:hover { color: var(--brand-ink); text-decoration: underline; }
+.ver-btn b { color: var(--brand-ink); font-weight: 700; }
+#ver-dlg { border: 0; border-radius: var(--radius-lg); padding: 0; max-width: min(560px, calc(100vw - 32px)); width: 100%; background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+#ver-dlg::backdrop { background: rgba(13, 15, 43, .45); }
+#ver-dlg .dlg-in { padding: 22px 24px; display: grid; gap: 14px; max-height: 80vh; overflow: auto; }
+#ver-dlg h2 { font-size: 20px; }
+#ver-dlg .rel { border-top: 1px solid var(--line); padding-top: 12px; }
+#ver-dlg .rel h3 { font-size: 15px; display: flex; gap: 8px; align-items: baseline; }
+#ver-dlg .rel h3 span { font: 400 13px/1 var(--font-body); color: var(--muted); }
+#ver-dlg ul { margin: 8px 0 0; padding-left: 18px; display: grid; gap: 6px; color: var(--ink-2); font-size: 14px; }
+#ver-dlg .close { justify-self: end; }
+
+/* fluência: níveis ordenados em um só tom */
+.lvlegend { display: flex; gap: 14px; flex-wrap: wrap; font-size: 13px; color: var(--ink-2); margin-bottom: 8px; }
+.lvrow { display: grid; grid-template-columns: 150px minmax(0, 1fr); gap: 10px; align-items: center; padding: 5px 0; }
+.lvrow .lvlab { font-size: 13.5px; font-weight: 600; }
+.lvrow .lvlab small { display: block; font-weight: 400; color: var(--muted); font-size: 12px; }
+.lvrow.ref .lvlab { color: var(--ink-2); font-weight: 400; }
+.lvbar { display: flex; height: 24px; gap: 2px; }
+.lvbar span { display: grid; place-items: center; font: 700 11.5px/1 var(--font-body); border-radius: 3px; min-width: 2px; overflow: hidden; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.lvbar .l1 { background: var(--lv1); color: var(--lv1-ink); }
+.lvbar .l2 { background: var(--lv2); color: var(--lv2-ink); }
+.lvbar .l3 { background: var(--lv3); color: var(--lv3-ink); }
+.lvrow.ref .lvbar { height: 16px; opacity: .85; }
+@media (max-width: 560px) { .lvrow { grid-template-columns: 1fr; gap: 4px; } }
+
+/* escolas */
+.esc-sum { display: flex; gap: 10px 24px; flex-wrap: wrap; margin-bottom: 14px; font-size: 14px; color: var(--ink-2); }
+.esc-sum b { font: 700 20px/1.1 var(--font-display); color: var(--ink); margin-right: 4px; font-variant-numeric: tabular-nums; }
+.esc-ctrl { display: flex; gap: 10px; flex-wrap: wrap; align-items: center; margin-bottom: 10px; }
+.seg { display: inline-flex; background: var(--sunken); border-radius: 999px; padding: 3px; gap: 2px; }
+.seg button { border: 0; background: none; padding: 6px 12px; border-radius: 999px; font-weight: 600; font-size: 13.5px; cursor: pointer; color: var(--ink-2); }
+.seg button[aria-pressed="true"] { background: var(--surface); color: var(--ink); box-shadow: var(--shadow); }
+.esc-ctrl input { padding: 8px 12px; border: 1px solid var(--line-strong); border-radius: 999px; background: var(--surface); color: var(--ink); font-size: 14px; min-width: 0; flex: 1 1 200px; max-width: 320px; }
+.esc-ctrl .btn { margin-left: auto; padding: 7px 12px; font-size: 13px; }
+.rede-title { display: none; font: 600 15px/1.2 var(--font-display); margin: 12px 0 8px; }
+.tbl-escolas { font-size: 13.5px; }
+.tbl-escolas th, .tbl-escolas td { padding: 7px 10px; }
+.tbl-escolas td.nome { white-space: normal; min-width: 220px; max-width: 360px; }
+.tbl-escolas td.nome small { display: block; color: var(--muted); font-size: 12px; margin-top: 2px; }
+.tbl-escolas .et { display: inline-block; font: 600 11px/1 var(--font-body); padding: 3px 5px; border-radius: 5px; background: var(--sunken); color: var(--ink-2); margin: 1px 2px 1px 0; }
+.trend { font-size: 11px; margin-left: 3px; }
+.trend.up { color: var(--ok); } .trend.down { color: var(--bad); }
+.tbl-escolas .sinal { display: inline-block; font: 600 11px/1.2 var(--font-body); padding: 2px 6px; border-radius: 999px; margin: 1px 0; white-space: nowrap; }
+.sinal.bad { background: var(--bad-bg); color: var(--bad); } .sinal.warn { background: var(--warn-bg); color: var(--warn); }
+.tbl-escolas .na { color: var(--muted); }
+.esc-note { font-size: 12.5px; color: var(--muted); margin-top: 8px; }
 .uf { font-weight: 600; color: var(--muted); }
 
 /* tela inicial: seleção de estado e município */
@@ -279,6 +331,7 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px;
     <div class="brand">
       <img class="logo-light" src="__LOGO_LIGHT__" alt="Sapion Data">
       <img class="logo-dark" src="__LOGO_DARK__" alt="Sapion Data">
+      <button class="ver-btn" id="ver-btn" type="button" aria-haspopup="dialog"></button>
     </div>
     <nav class="tabs" role="tablist" aria-label="Seções">
       <button class="tab" role="tab" id="t-ficha" data-view="ficha" aria-selected="true">Ficha do município</button>
@@ -293,7 +346,7 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px;
     <div id="landing" class="landing">
       <p class="eyebrow">Sapion Data</p>
       <h1>Selecione o estado e o município</h1>
-      <p class="lead">Para abrir a ficha, escolha primeiro o estado e depois o município. A ficha reúne profissionais da educação, IDEB, alfabetização e financiamento da rede municipal.</p>
+      <p class="lead">Para abrir a ficha, escolha primeiro o estado e depois o município. A ficha reúne profissionais da educação, IDEB, alfabetização e fluência em leitura, financiamento e a lista de escolas com o IDEB de cada uma.</p>
     </div>
     <div class="picker" id="picker">
       <div class="field uf-field">
@@ -342,9 +395,11 @@ footer { border-top: 1px solid var(--line); margin-top: 48px; padding-top: 16px;
 <div id="pop" role="tooltip" hidden></div>
 <div id="tip" hidden></div>
 <div id="toast" role="status" hidden></div>
+<dialog id="ver-dlg" aria-labelledby="ver-title"><div class="dlg-in" id="ver-body"></div></dialog>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/xlsx/0.18.5/xlsx.full.min.js"></script>
 <script>
 const DATA = /*__DATA__*/null;
 const M = DATA.municipios;
@@ -417,6 +472,13 @@ const HELP = {
   coef: ['Coeficiente do IQE', 'Fatia estimada do município nos 12% do ICMS distribuídos pela educação. A regra oficial de conversão não é publicada; usamos IQE do município ÷ soma dos IQE de todos os municípios do estado (hipótese proporcional, coerente com o IPM oficial).'],
   icms_educ: ['ICMS Educacional recebido', 'Estimativa da parte do ICMS do município que vem do critério educacional: total bruto do mês × 12% × coeficiente do IQE.'],
   dep: ['Peso do ICMS Educacional', 'Quanto do ICMS total do município vem do critério educacional. Em municípios pequenos pode passar de 50%; em grandes fica perto de 1%.'],
+  flu: ['Avaliação da Fluência em Leitura', 'Avaliação estadual do Espírito Santo (Sedu, com o CAEd/UFJF, dentro do PAES), aplicada individualmente aos alunos do 2º ano: cada aluno lê palavras, pseudopalavras e um texto em voz alta, e o áudio é avaliado. Mede se a criança já lê com fluência, um passo anterior à compreensão. Dados por município e escola compilados pelo TCE-ES.'],
+  flu_niveis: ['Pré-leitor, iniciante e fluente', 'Pré-leitor: ainda não consegue ler o texto (pode ler sílabas ou palavras isoladas). Leitor iniciante: lê o texto, mas sem a velocidade e a precisão esperadas. Leitor fluente: lê o texto com velocidade e precisão adequadas ao 2º ano. Os três somam cerca de 100% (há arredondamento).'],
+  flu_rank: ['Posição no estado', 'Posição do município entre os 78 do ES pelo percentual de leitores fluentes da rede municipal na edição (1º = maior percentual).'],
+  escolas: ['Escolas da rede', 'Escolas municipais e estaduais em funcionamento no município pelo Censo Escolar, com matrículas por etapa. Escolas federais e privadas ficam de fora. Dados do Inep compilados no painel do TCE-ES.'],
+  esc_ideb: ['IDEB da escola', 'IDEB de 2025 da escola em cada etapa, com a seta comparando com 2023. Passe o mouse para ver 2021, 2023 e 2025. Escola sem IDEB: não atende a etapa avaliada (creches e pré-escolas nunca têm IDEB) ou não teve alunos suficientes no Saeb.'],
+  esc_flu: ['Fluência da escola', 'Percentual de leitores fluentes no 2º ano da escola na Avaliação da Fluência em Leitura de 2025 (só ES). Passe o mouse para ver a distribuição completa.'],
+  esc_sinais: ['Sinais da escola', '"IDEB caiu": o IDEB de 2025 ficou abaixo do de 2023 em alguma etapa. "Abaixo da mediana": o IDEB de 2025 ficou abaixo da mediana das escolas da mesma rede no município. Servem para priorizar visitas e propostas.'],
   icms_med: ['Diferença para a mediana', 'Comparamos o ICMS Educacional do município com o que ele receberia se tivesse o IQE do município mediano do estado (o do meio do ranking). Valor negativo: o município recebe menos por ter desempenho educacional abaixo da mediana.'],
   saldo: ['Saldo e perda', 'Recebeu: o que entrou no caixa do município em 2026 pelos mecanismos ligados à educação (VAAR, VAAT e ICMS Educacional). Deixou na mesa: o que ele deixou de receber por não cumprir as condicionalidades do VAAR e por ter IQE abaixo da mediana do estado. As perdas são estimativas da Sapion; a conta aparece logo abaixo, passo a passo.'],
   estimado: ['Estimativa Sapion', 'Valor calculado pela Sapion a partir de dados oficiais, com premissas descritas na aba Metodologia. Não é dado oficial e não deve ser apresentado ao cliente como tal.'],
@@ -528,7 +590,49 @@ function signals(m) {
   if (ai && ai['2025'].ideb != null && ai['2023'].ideb != null && ai['2025'].ideb < ai['2023'].ideb) s.push(['warn', 'IDEB anos iniciais caiu em 2025']);
   if (af && af['2025'] && af['2025'].ideb != null && af['2023'].ideb != null && af['2025'].ideb < af['2023'].ideb) s.push(['warn', 'IDEB anos finais caiu em 2025']);
   if (pr && pr.professores.pessoas && pr.professores.dt / pr.professores.pessoas >= 0.5) s.push(['info', `${P(pr.professores.dt / pr.professores.pessoas)} dos professores são DTs`]);
+  const fl = m.flu?.municipal, ultF = META.flu?.anos.at(-1), antF = META.flu?.anos.at(-2);
+  if (fl?.[ultF]) {
+    const esF = META.flu.estado.municipal[ultF];
+    if (esF && fl[ultF].flu < esF.flu) s.push(['warn', `Leitores fluentes abaixo das redes municipais do ES (${fl[ultF].flu}% × ${esF.flu}% em ${ultF})`]);
+    if (fl[antF] && fl[ultF].flu < fl[antF].flu) s.push(['warn', `Fluência em leitura caiu de ${antF} para ${ultF}`]);
+  }
+  const caiu = m.esc?.resumo?.municipal?.ideb_caiu || 0;
+  if (caiu >= 3) s.push(['info', `${caiu} escolas municipais com IDEB em queda em 2025`]);
   return s;
+}
+
+/* ---------------- fluência em leitura (avaliação estadual do ES) ---------------- */
+function lvBar(d, label, cls = '') {
+  if (!d) return '';
+  const seg = (v, c, nome) => v > 0 ? `<span class="${c}" style="flex:${v} 1 0" data-tip="${nome}: ${v}%">${v >= 7 ? v + '%' : ''}</span>` : '';
+  return `<div class="lvrow ${cls}"><div class="lvlab">${label}</div><div class="lvbar">${seg(d.pre, 'l1', 'Pré-leitor')}${seg(d.ini, 'l2', 'Leitor iniciante')}${seg(d.flu, 'l3', 'Leitor fluente')}</div></div>`;
+}
+function fluenciaCard(m) {
+  const F = m.flu, MF = META.flu;
+  if (!F || !MF) return '';
+  const anos = MF.anos, ult = anos.at(-1), ant = anos.at(-2), mu = F.municipal, es = F.estadual, E = MF.estado;
+  if (!mu?.[ult]) return '';
+  const dif = mu[ant] ? mu[ult].flu - mu[ant].flu : null;
+  const rows = anos.filter(a => mu[a]).map(a => lvBar(mu[a], a)).join('');
+  return `<div class="card span-12" data-fonte="${esc(MF.fonte)}"><div class="card-top"><h3>Fluência em Leitura – 2º ano, rede municipal ${help('flu')}</h3>${TAG_OF}</div>
+    <div class="grid">
+      <div class="span-8">
+        <div class="lvlegend"><span><i class="sw" style="background:var(--lv1)"></i>Pré-leitor</span><span><i class="sw" style="background:var(--lv2)"></i>Leitor iniciante</span><span><i class="sw" style="background:var(--lv3)"></i>Leitor fluente</span>${help('flu_niveis')}</div>
+        ${rows}
+        ${lvBar(E.municipal[ult], `Redes municipais do ES<small>${ult}</small>`, 'ref')}
+        ${es?.[ult] ? lvBar(es[ult], `Rede estadual no município<small>${ult}</small>`, 'ref') : ''}
+        <p class="small muted" style="margin-top:6px">${esc(MF.nota)}</p>
+      </div>
+      <div class="span-4"><dl class="dl">
+        <dt>Leitores fluentes ${ult}</dt><dd>${mu[ult].flu}%</dd>
+        <dt>Variação desde ${ant}</dt><dd style="color:${dif == null ? 'inherit' : dif >= 0 ? 'var(--ok)' : 'var(--bad)'}">${dif == null ? '—' : (dif > 0 ? '+' : '') + dif + ' p.p.'}</dd>
+        <dt>Pré-leitores ${ult}</dt><dd>${mu[ult].pre}%</dd>
+        <dt>Posição no ${m.uf} (${ult}) ${help('flu_rank')}</dt><dd>${ord(F.ranking[ult])} de ${F.n_ranking[ult]}</dd>
+        <div class="sep"></div>
+        <dt>Redes municipais do ES (${ult})</dt><dd>${E.municipal[ult].flu}% fluentes</dd>
+        <dt>Desde ${anos[0]}</dt><dd>${mu[anos[0]] ? mu[anos[0]].flu + '% → ' + mu[ult].flu + '%' : '—'}</dd>
+      </dl></div>
+    </div></div>`;
 }
 
 /* ---------------- ficha ---------------- */
@@ -618,7 +722,7 @@ function fichaHTML(m) {
     const it = ['2023', '2024', '2025'].map(a => ({ x: a, v: ica.serie[a], fmt: N(ica.serie[a]) + '%', tip: `<b>${a}: ${N(ica.serie[a])}% alfabetizados</b>` + (ica.metas[a] != null ? `<br>meta ${N(ica.metas[a])}%` : '') }));
     const fut = ['2026', '2027', '2028', '2029', '2030'].map(a => ({ x: a, v: ica.metas[a], fmt: N(ica.metas[a]) + '%', color: 'var(--series-c)', tip: `Meta ${a}: ${N(ica.metas[a])}%` }));
     const ref = META.ica.referencias;
-    h += `<section class="block"><div class="block-h"><span class="idx">3</span><h2>Alfabetização</h2><span class="src">Inep/MEC · Indicador Criança Alfabetizada</span></div>
+    h += `<section class="block"><div class="block-h"><span class="idx">3</span><h2>Alfabetização</h2><span class="src">Inep/MEC · Indicador Criança Alfabetizada${m.flu ? ' · Fluência: Sedu/CAEd via TCE-ES' : ''}</span></div>
     <div class="grid"><div class="card span-8"><div class="card-top"><h3>Alunos alfabetizados no 2º ano ${help('ica')}</h3>${TAG_OF}</div>
       ${columns([...it, ...fut], { w: 560, h: 190, max: 100, bw: 38, label: 'ICA e metas até 2030', ref: [{ v: 80, label: 'meta nacional 2030: 80%' }] })}
       <p class="small muted" style="margin-top:6px">Barras azuis: resultado medido. Barras cinza: metas do município de 2026 a 2030.</p></div>
@@ -632,7 +736,7 @@ function fichaHTML(m) {
       <div class="sep"></div>
       <dt>Média dos municípios do ${uf}</dt><dd>${N(META.ica.media_municipios_es_2025, 1)}%</dd>
       <dt>${esc(EST().nome)} · Brasil (2025)</dt><dd>${ref.es['2025']}% · ${ref.brasil['2025']}%</dd>
-    </dl></div></div></section>`;
+    </dl></div>${fluenciaCard(m)}</div></section>`;
   }
 
   /* ===== 4. Financiamento ===== */
@@ -707,8 +811,132 @@ function fichaHTML(m) {
     <p class="flag">O repasse de ICMS de 2026 reflete o Paebes de 2024. Uma formação de alfabetizadores feita em 2026 aparece no caixa do município em 2028. O 2º ano responde por 42% do IQE, e metade disso é evolução de um ano para o outro.</p>
   </div>`;
   h += `</div></section>`;
+  h += escolasSection(m);
   return h;
 }
+
+/* ---------------- escolas ---------------- */
+const ETAPAS_ESC = [['creche', 'Creche'], ['pre', 'Pré'], ['ai', 'AI'], ['af', 'AF'], ['em', 'EM'], ['eja', 'EJA']];
+const IDEB_ET = [['ai', 'IDEB AI', 'anos iniciais'], ['af', 'IDEB AF', 'anos finais'], ['em', 'IDEB EM', 'ensino médio']];
+const escState = { rede: 'municipal', q: '', sort: 'total', dir: -1 };  // maiores escolas primeiro
+const idebUlt = () => META.esc.anos_ideb.at(-1), idebAnt = () => META.esc.anos_ideb.at(-2), fluUlt = () => META.flu?.anos.at(-1);
+
+function escolasSection(m) {
+  const E = m.esc;
+  if (!E) return '';
+  const R_ = E.resumo, ME = META.esc;
+  const sumRede = (r, nome) => R_[r] ? `<span><b>${N(R_[r].escolas)}</b>escolas ${nome} · ${N(R_[r].matriculas)} matrículas · ${N(R_[r].com_ideb)} com IDEB</span>` : '';
+  const btns = [['municipal', 'Municipais'], ['estadual', 'Estaduais']].map(([r, nome]) =>
+    `<button type="button" data-rede="${r}" aria-pressed="${escState.rede === r}">${nome} (${N(E[r].length)})</button>`).join('');
+  const panels = [['municipal', 'Escolas municipais'], ['estadual', 'Escolas estaduais']].map(([r, nome]) =>
+    `<div class="rede-panel" data-rede="${r}"${escState.rede === r ? '' : ' hidden'}><h4 class="rede-title">${nome}</h4><div class="tbl-wrap"><table class="tbl-escolas" data-rede="${r}"></table></div></div>`).join('');
+  const med = R_.municipal?.mediana_ideb || {};
+  return `<section class="block"><div class="block-h"><span class="idx">5</span><h2>Escolas</h2><span class="src">Inep · Censo Escolar ${ME.ano_censo} e Ideb por escola, via TCE-ES</span></div>
+    <div class="grid"><div class="card span-12" id="q-escolas" data-titulo="Escolas" data-fonte="${esc(ME.fonte_censo)}; ${esc(ME.fonte_ideb)}">
+      <div class="card-top"><h3>Escolas municipais e estaduais ${help('escolas')}</h3>${TAG_OF}</div>
+      <div class="esc-sum">${sumRede('municipal', 'municipais')}${sumRede('estadual', 'estaduais')}</div>
+      <div class="esc-ctrl no-export">
+        <div class="seg" role="group" aria-label="Rede">${btns}</div>
+        <input type="search" id="esc-busca" placeholder="Buscar escola pelo nome" value="${esc(escState.q)}">
+        <button class="btn" id="xlsx-btn" type="button">${ICON_DL}Baixar lista em Excel</button>
+      </div>
+      ${panels}
+      <p class="esc-note">Mediana do IDEB ${idebUlt()} das escolas municipais: ${['ai', 'af'].map(e => `${e === 'ai' ? 'anos iniciais' : 'anos finais'} ${med[e] == null ? '—' : N(med[e], 1)}`).join(' · ')}. "Sem IDEB" (—): escola que não atende a etapa avaliada (creches e pré-escolas) ou sem resultado divulgado. ${esc(ME.nota)}</p>
+    </div></div></section>`;
+}
+
+function escRow(x, temEM, temFlu) {
+  const ult = idebUlt(), ant = idebAnt(), fu = fluUlt();
+  const etapas = ETAPAS_ESC.filter(([k]) => x.mat[k]).map(([k, n]) => `<span class="et" data-tip="${n}: ${N(x.mat[k])} matrículas">${n}</span>`).join('');
+  const sub = [x.inep, x.loc, x.dif].filter(Boolean).map(esc).join(' · ');
+  const ideb = ([et]) => {
+    const s = x.ideb?.[et];
+    if (!s || s[ult] == null) return `<td class="r na">—</td>`;
+    const d = s[ant] != null ? s[ult] - s[ant] : null;
+    const tr = d == null ? '' : d > 0 ? '<span class="trend up">▲</span>' : d < 0 ? '<span class="trend down">▼</span>' : '';
+    const tip = META.esc.anos_ideb.map(a => `${a}: ${s[a] != null ? N(s[a], 1) : '—'}`).join(' · ');
+    return `<td class="r" data-tip="${tip}">${N(s[ult], 1)}${tr}</td>`;
+  };
+  const flu = () => {
+    const f = x.flu?.[fu];
+    if (!f) return `<td class="r na">—</td>`;
+    return `<td class="r" data-tip="${fu}: pré-leitor ${f[0]}% · iniciante ${f[1]}% · fluente ${f[2]}%">${f[2]}%</td>`;
+  };
+  const sinais = [];
+  if ((x.sinais || []).some(s => s.startsWith('caiu'))) sinais.push('<span class="sinal bad">IDEB caiu</span>');
+  if ((x.sinais || []).some(s => s.startsWith('abaixo'))) sinais.push('<span class="sinal warn">Abaixo da mediana</span>');
+  return `<tr data-nome="${esc(norm(x.nome))}"><td class="nome"><b>${esc(x.nome)}</b><small>${sub}</small></td><td>${etapas || '<span class="na">—</span>'}</td>
+    <td class="r">${N(x.total)}</td>${IDEB_ET.filter(([e]) => e !== 'em' || temEM).map(ideb).join('')}${temFlu ? flu() : ''}<td>${sinais.join(' ')}</td></tr>`;
+}
+
+const ESC_SORT = {
+  nome: x => norm(x.nome), total: x => x.total,
+  ai: x => x.ideb?.ai?.[idebUlt()] ?? -1, af: x => x.ideb?.af?.[idebUlt()] ?? -1, em: x => x.ideb?.em?.[idebUlt()] ?? -1,
+  flu: x => x.flu?.[fluUlt()]?.[2] ?? -1,
+};
+function renderEscolas() {
+  const m = cur; if (!m?.esc) return;
+  document.querySelectorAll('table.tbl-escolas').forEach(t => {
+    const rede = t.dataset.rede, lista = [...m.esc[rede]];
+    const temEM = lista.some(x => x.ideb?.em), temFlu = !!META.flu && lista.some(x => x.flu);
+    const { sort, dir } = escState;
+    lista.sort((a, b) => { const x = ESC_SORT[sort](a), y = ESC_SORT[sort](b); return (typeof x === 'string' ? x.localeCompare(y, 'pt') : x - y) * dir; });
+    const th = (k, txt, cls = '', hk = '') => `<th class="${cls}"><button type="button" data-esort="${k}" ${sort === k ? `data-dir="${dir > 0 ? '↑' : '↓'}"` : ''}>${txt}</button>${hk ? ' ' + help(hk) : ''}</th>`;
+    t.innerHTML = `<thead><tr>${th('nome', 'Escola')}<th>Etapas</th>${th('total', 'Matrículas', 'r')}
+      ${IDEB_ET.filter(([e]) => e !== 'em' || temEM).map(([e, txt], i) => th(e, `${txt} ${idebUlt()}`, 'r', i === 0 ? 'esc_ideb' : '')).join('')}
+      ${temFlu ? th('flu', `Fluentes ${fluUlt()}`, 'r', 'esc_flu') : ''}<th>Sinais ${help('esc_sinais')}</th></tr></thead>
+      <tbody>${lista.length ? lista.map(x => escRow(x, temEM, temFlu)).join('') : `<tr><td colspan="8" class="na">Nenhuma escola ${rede} no município.</td></tr>`}</tbody>`;
+  });
+  filtrarEscolas();
+}
+function filtrarEscolas() {
+  const q = norm(escState.q || '');
+  document.querySelectorAll('table.tbl-escolas tbody tr[data-nome]').forEach(tr => { tr.hidden = !!q && !tr.dataset.nome.includes(q); });
+}
+document.addEventListener('click', e => {
+  const r = e.target.closest('.seg [data-rede]');
+  if (r) {
+    escState.rede = r.dataset.rede;
+    document.querySelectorAll('.seg [data-rede]').forEach(b => b.setAttribute('aria-pressed', String(b === r)));
+    document.querySelectorAll('.rede-panel').forEach(p => p.hidden = p.dataset.rede !== escState.rede);
+    return;
+  }
+  const so = e.target.closest('[data-esort]');
+  if (so) { const k = so.dataset.esort; escState.dir = escState.sort === k ? -escState.dir : (k === 'nome' ? 1 : -1); escState.sort = k; renderEscolas(); return; }
+  if (e.target.closest('#xlsx-btn')) exportXLSX(e.target.closest('#xlsx-btn'));
+});
+document.addEventListener('input', e => { if (e.target.id === 'esc-busca') { escState.q = e.target.value; filtrarEscolas(); } });
+
+/* lista de escolas em Excel: uma aba por rede, com município, estado e data no topo */
+async function exportXLSX(btn) {
+  const m = cur;
+  if (!m?.esc || typeof XLSX === 'undefined') { toast('A exportação ainda está carregando. Tente de novo em instantes.'); return; }
+  btn.disabled = true;
+  try {
+    const anosI = META.esc.anos_ideb, anosF = META.flu?.anos || [];
+    const wb = XLSX.utils.book_new();
+    for (const [rede, nome] of [['municipal', 'Escolas municipais'], ['estadual', 'Escolas estaduais']]) {
+      const head = ['Código INEP', 'Escola', 'Localização', 'Localização diferenciada', 'Matrículas', 'Creche', 'Pré-escola', 'Anos iniciais',
+        'Anos finais', 'Ensino médio', 'EJA', 'Educação especial', 'Tempo integral',
+        ...anosI.map(a => `IDEB AI ${a}`), ...anosI.map(a => `IDEB AF ${a}`), ...anosI.map(a => `IDEB EM ${a}`),
+        ...anosF.map(a => `Leitores fluentes ${a} (%)`), 'Sinais'];
+      const rows = m.esc[rede].map(x => [x.inep, x.nome, x.loc || '', x.dif || '', x.total,
+        ...['creche', 'pre', 'ai', 'af', 'em', 'eja', 'ee'].map(k => x.mat[k] || 0), x.integral || 0,
+        ...['ai', 'af', 'em'].flatMap(et => anosI.map(a => x.ideb?.[et]?.[a] ?? '')),
+        ...anosF.map(a => x.flu?.[a]?.[2] ?? ''),
+        [(x.sinais || []).some(s => s.startsWith('caiu')) ? 'IDEB caiu' : '', (x.sinais || []).some(s => s.startsWith('abaixo')) ? 'Abaixo da mediana' : ''].filter(Boolean).join('; ')]);
+      const aoa = [[`Sapion Data ${DATA.versao} – ${nome} – ${nomeUF(m)} (${EST().nome})`], [`Exportado em ${agora()}`],
+        [`Fontes: ${META.esc.fonte_censo}; ${META.esc.fonte_ideb}${anosF.length ? '; ' + META.flu.fonte : ''}`], [], head, ...rows];
+      const ws = XLSX.utils.aoa_to_sheet(aoa);
+      ws['!cols'] = head.map((h, i) => ({ wch: i === 1 ? 52 : Math.max(10, Math.min(24, h.length + 2)) }));
+      XLSX.utils.book_append_sheet(wb, ws, nome);
+    }
+    const buf = XLSX.write(wb, { bookType: 'xlsx', type: 'array' });
+    await saveFile(arquivo(m, 'Escolas', 'xlsx'), new Blob([buf]));
+  } catch (e) { console.error(e); toast('Não foi possível gerar o Excel.'); }
+  finally { btn.disabled = false; }
+}
+
 
 /* ---------------- "como calculamos" do quadro Saldo e perda ---------------- */
 function howTo(m, perV, perI) {
@@ -813,6 +1041,7 @@ async function exportPNG(btn) {
         c.style.background = '#FFFFFF'; c.style.padding = '20px 22px'; c.style.border = '0'; c.style.borderRadius = '0';
         c.insertAdjacentHTML('afterbegin', exportHead(m, titulo));
         c.insertAdjacentHTML('beforeend', exportFoot(fonte));
+        c.querySelectorAll('.rede-panel:not([hidden]) .rede-title').forEach(t => { t.style.display = 'block'; });
       },
     });
     const blob = await new Promise(r => canvas.toBlob(r, 'image/png'));
@@ -841,14 +1070,24 @@ async function exportPDF(btn) {
       scale: 2, backgroundColor: BG_LIGHT, windowWidth: EXPORT_W, logging: false, ignoreElements: ignorar,
       onclone: doc => {
         prepClone(doc);
-        const root = doc.getElementById('ficha'), r0 = root.getBoundingClientRect();
+        const root = doc.getElementById('ficha');
+        // no PDF a lista de escolas sai completa: as duas redes e todas as linhas
+        root.querySelectorAll('.rede-panel').forEach(p => { p.hidden = false; });
+        root.querySelectorAll('.rede-title').forEach(t => { t.style.display = 'block'; });
+        root.querySelectorAll('.tbl-escolas tr[hidden]').forEach(t => { t.hidden = false; });
+        const r0 = root.getBoundingClientRect();
         const add = rs => bands.push({ top: Math.min(...rs.map(r => r.top)) - r0.top, bottom: Math.max(...rs.map(r => r.bottom)) - r0.top });
         root.querySelectorAll('.head, #q-resumo').forEach(u => add([u.getBoundingClientRect()]));
         root.querySelectorAll('.block-h').forEach(u => { add([u.getBoundingClientRect()]); bands[bands.length - 1].title = true; });
         root.querySelectorAll('.block > .grid').forEach(g => {
           const rows = {};
-          [...g.children].forEach(c => { const r = c.getBoundingClientRect(); (rows[Math.round(r.top)] ||= []).push(r); });
-          Object.values(rows).forEach(add);
+          [...g.children].forEach(c => { const r = c.getBoundingClientRect(); (rows[Math.round(r.top)] ||= []).push({ r, el: c }); });
+          Object.values(rows).forEach(rs => {
+            add(rs.map(x => x.r));
+            // quadros com tabela longa podem ser cortados entre as linhas
+            const br = rs.flatMap(x => [...x.el.querySelectorAll('.tbl-escolas tr, .rede-title, .esc-note')].map(t => t.getBoundingClientRect().bottom - r0.top));
+            if (br.length) bands[bands.length - 1].breaks = br;
+          });
         });
       },
     });
@@ -888,9 +1127,26 @@ async function exportPDF(btn) {
     const mm = b => { const [t, u] = px(b); return Math.min((u - t) * k, yMax - y0) + 2; };
     bands.forEach((b, i) => {
       // título de seção nunca fica sozinho no fim da página: vai junto com o primeiro quadro da seção
-      if (b.title && bands[i + 1] && y + mm(b) + mm(bands[i + 1]) > yMax) y = newPage();
+      const nx = bands[i + 1], nxH = nx ? (nx.breaks ? Math.min(mm(nx), 60) : mm(nx)) : 0;
+      if (b.title && nx && y + mm(b) + nxH > yMax) y = newPage();
       const [top, bot] = px(b);
-      if (bot > top) place(ficha, top, bot - top);
+      if (bot <= top) return;
+      if (!b.breaks || (bot - top) * k <= yMax - y) { place(ficha, top, bot - top); return; }
+      // tabela longa: preenche a página até a última linha que cabe e continua na seguinte
+      const cuts = b.breaks.map(v => Math.round(v * S)).filter(c => c > top && c < bot).sort((p, q) => p - q);
+      let start = top;
+      while (start < bot) {
+        const room = (yMax - y) / k;
+        let end = bot - start <= room ? bot : start;
+        if (end === start) for (const c of cuts) { if (c <= start) continue; if (c - start <= room) end = c; else break; }
+        if (end === start) {
+          if (y > y0 + 1) { y = newPage(); continue; }
+          end = cuts.find(c => c > start) || bot;
+        }
+        place(ficha, start, end - start);
+        start = end;
+        if (start < bot) y = newPage();
+      }
     });
     place(notas, 0, notas.height);
     const n = pdf.getNumberOfPages();
@@ -954,7 +1210,7 @@ function select(ib) {
   cur = m; inp.value = nomeUF(m); closeList(); inp.blur();
   const f = document.getElementById('ficha');
   f.innerHTML = fichaHTML(m);
-  numberSteps(f); addPngButtons(f);
+  numberSteps(f); addPngButtons(f); renderEscolas();
   document.getElementById('landing').hidden = true;
   document.getElementById('v-ficha').classList.remove('is-landing');
   show('ficha');
@@ -986,10 +1242,14 @@ const COLS = [
   ['nome', 'Município', m => m.nome, m => `<b>${nomeUFh(m)}</b>`],
   ['tier', 'Porte', m => ({ 'Mais de 500': 3, '200 a 500': 2, 'Menos de 200': 1 })[m.prof.tier], m => esc(m.prof.tier)],
   ['prof', 'Profissionais', m => m.prof.total.pessoas, m => N(m.prof.total.pessoas), 'r'],
+  ['esc', 'Escolas mun.', m => m.esc?.resumo?.municipal?.escolas || 0, m => N(m.esc?.resumo?.municipal?.escolas), 'r'],
   ['pdt', '% DT prof.', m => m.prof.professores.dt / (m.prof.professores.pessoas || 1), m => P(m.prof.professores.dt / (m.prof.professores.pessoas || 1)), 'r'],
   ['ai', 'IDEB AI 25', m => m.ideb.AI.municipal?.['2025']?.ideb ?? -1, m => N(m.ideb.AI.municipal?.['2025']?.ideb, 1), 'r'],
   ['af', 'IDEB AF 25', m => m.ideb.AF.municipal?.['2025']?.ideb ?? -1, m => N(m.ideb.AF.municipal?.['2025']?.ideb, 1), 'r'],
   ['ica', 'ICA 25', m => m.ica?.serie['2025'] ?? -1, m => m.ica ? `<span class="dot ${m.ica.bateu_meta_2025 ? 'ok' : 'bad'}"></span>${N(m.ica.serie['2025'])}%` : '—', 'r'],
+  ['flu', `Fluentes ${META.flu?.anos.at(-1) || ''}`, m => m.flu?.municipal?.[META.flu?.anos.at(-1)]?.flu ?? -1,
+    m => { const v = m.flu?.municipal?.[META.flu?.anos.at(-1)]?.flu, e = META.flu?.estado.municipal[META.flu?.anos.at(-1)]?.flu;
+      return v == null ? '—' : `<span class="dot ${v >= e ? 'ok' : 'bad'}"></span>${v}%`; }, 'r'],
   ['vaar', 'VAAR 2026', m => m.fin.vaar.situacao === 'Recebe' ? 1 : 0, m => `<span class="dot ${m.fin.vaar.situacao === 'Recebe' ? 'ok' : 'bad'}"></span>${esc(m.fin.vaar.situacao)}${m.fin.vaar.descumpridas ? ' <span class="muted">(' + esc(m.fin.vaar.descumpridas) + ')</span>' : ''}`],
   ['perda', 'Deixado na mesa (VAAR/ano)*', m => m.fin.vaar.perda_estimada_anual || 0, m => m.fin.vaar.perda_estimada_anual ? RE(m.fin.vaar.perda_estimada_anual) : '—', 'r'],
   ['vaat', 'VAAT 26 (jan–ago)', m => m.fin.vaat.recebido_2026 || 0, m => m.fin.vaat.recebido_2026 ? R(m.fin.vaat.recebido_2026) : '—', 'r'],
@@ -1059,6 +1319,9 @@ function renderMetodo() {
   <h2>3. Alfabetização</h2>
   <p><b>Fonte:</b> Inep/MEC, Indicador Criança Alfabetizada (resultados e metas por município, rede municipal). ICA = percentual de alunos do 2º ano com pelo menos 743 pontos na escala Saeb. Metas pactuadas por município até 2030. O Paebes Alfa (avaliação estadual) é outra régua: ele alimenta o IQE do ICMS e aparece no bloco de financiamento, nunca misturado ao ICA.</p>
 
+  <h3>Avaliação da Fluência em Leitura (ES)</h3>
+  <p><b>Fonte:</b> ${esc(META.flu?.fonte || '')}, coletado em ${esc(META.flu?.coletado_em || '')}. Avaliação estadual aplicada pela Sedu com o CAEd/UFJF aos alunos do 2º ano das redes municipais e estadual. A Sedu divulga os resultados por município e escola numa plataforma restrita; o TCE-ES publica esses resultados no Painel de Controle, de onde o Sapion Data os coleta automaticamente. Mostramos o percentual de pré-leitores, leitores iniciantes e leitores fluentes de ${esc((META.flu?.anos || []).join(', '))}. O painel não informa o número de alunos avaliados nem a taxa de participação.</p>
+
   <h2>4. Financiamento</h2>
   <h3>Fundeb, VAAF e VAAT</h3>
   <p><b>Fonte:</b> Tesouro Nacional/FNDE, Consultas Fundeb (transferências por município e origem), arquivos mensais de 2026 e o ano de 2025. Previstos 2026: Portaria Interministerial MEC/MF nº 11/2026. Habilitação ao VAAT: lista final do FNDE para 2026 (<a href="${esc(mf.vaat.url_habilitacao)}" target="_blank" rel="noopener">CSV oficial</a>). Os 78 municípios estão habilitados; quem não recebe VAAT está acima do mínimo por aluno e não tem perda.</p>
@@ -1090,20 +1353,21 @@ function renderMetodo() {
   </ol>
   <p class="small muted">Para a equipe técnica: VAAR anual deixado na mesa = Fundeb (7 origens, jan–ago) × k, com k = soma do VAAR previsto ÷ soma do Fundeb dos beneficiários do mesmo grupo de evolução (${nf(4).format(mf.vaar.k_2_indicadores)} e ${nf(4).format(mf.vaar.k_1_indicador)}). ICMS: (coeficiente mediano − coeficiente do município) × ${P(mf.icms.peso_iqe)} × ICMS bruto total do período. Como o bolo nacional do VAAR é fixo, se todos entrassem cada um receberia cerca de 2% menos. Versões: ${esc(mf.vaar.versao_metodo)}; ${esc(mf.icms.versao_metodo)}.</p>
 
-  <h2>Calendário de atualização</h2>
-  <ul>
-    <li><b>Mensal:</b> transferências do Fundeb (Tesouro) e PDFs de repasse de ICMS (Sefaz-ES).</li>
-    <li><b>Trimestral:</b> arquivo Vínculo do TCE-ES (profissionais).</li>
-    <li><b>Março:</b> ICA do ano anterior (Inep/MEC).</li>
-    <li><b>Abril e agosto:</b> portarias de revisão do Fundeb (VAAR e VAAT previstos).</li>
-    <li><b>Agosto a dezembro:</b> IPM provisório (agosto) e definitivo (dezembro) do ano seguinte; listas de habilitação VAAT e VAAR do ciclo seguinte.</li>
-    <li><b>Anos pares:</b> IDEB do ciclo anterior (o próximo, IDEB 2027, sai em 2028).</li>
-  </ul>
+  <h2>5. Escolas</h2>
+  <p><b>Fonte:</b> ${esc(META.esc?.fonte_censo || '')} e ${esc(META.esc?.fonte_ideb || '')}, coletados em ${esc(META.esc?.coletado_em || '')}. Entram as escolas municipais e estaduais com matrícula no Censo; escolas federais e privadas ficam de fora. Matrículas por etapa: creche, pré-escola, anos iniciais, anos finais, ensino médio e EJA; a educação especial já está dentro das etapas e não é somada de novo. Conferimos o número de escolas e as matrículas municipais com a Sinopse do Censo do Inep (iguais nos 78 municípios). As matrículas estaduais podem ficar um pouco abaixo da Sinopse porque o painel não traz cursos técnicos de educação profissional.</p>
+  <p>IDEB por escola: ${esc((META.esc?.anos_ideb || []).join(', '))}, anos iniciais, anos finais e ensino médio. "IDEB caiu" compara ${esc(META.esc?.anos_ideb.at(-1) || '')} com ${esc(META.esc?.anos_ideb.at(-2) || '')}. "Abaixo da mediana" compara com a mediana das escolas da mesma rede no município.</p>
+
+  <h2>Fontes e atualização</h2>
+  <p>Todas as fontes ficam registradas no catálogo de fontes do Sapion Data, com a referência em uso e a próxima publicação esperada. As fontes automáticas são coletadas pelo sistema a cada atualização; as manuais são baixadas e colocadas na pasta de fontes.</p>
+  <div class="tbl-wrap" style="margin-top:10px"><table><thead><tr><th>Fonte</th><th>Órgão</th><th>Tipo</th><th>Referência em uso</th><th>Próxima atualização</th></tr></thead><tbody>
+  ${Object.values(META.fontes || {}).filter(f => !/Logo/.test(f.descricao)).map(f => `<tr><td style="white-space:normal">${esc(f.descricao)}</td><td>${esc(f.orgao)}</td><td>${esc(f.tipo)}</td><td>${esc(f.referencia)}</td><td style="white-space:normal">${esc(f.proxima_atualizacao)}</td></tr>`).join('')}
+  </tbody></table></div>
   <h2>Pendências conhecidas</h2>
   <ul>
     <li>Coeficiente oficial do IQE por município: não publicado; quando a Sefaz/Sedu fornecer, substitui a estimativa.</li>
     <li>Significado da rubrica "FTI" no demonstrativo do Tesouro.</li>
-    <li>Execução da despesa em educação (Siconfi/SIOPE) fica para a próxima versão.</li>
+    <li>Execução da despesa em educação (Siconfi/SIOPE) fica para uma próxima versão.</li>
+    <li>Fluência em Leitura: o painel do TCE-ES não traz o número de alunos avaliados; a edição 2026 entra quando o TCE-ES publicar.</li>
     <li>Dicionário de cargos: revisar com as secretarias os cargos genéricos dos municípios com mais professores sem etapa.</li>
   </ul>`;
 }
@@ -1118,8 +1382,19 @@ function show(view) {
 }
 document.querySelectorAll('.tab').forEach(t => t.addEventListener('click', () => show(t.dataset.view)));
 
-document.getElementById('stamp').textContent = `Folha ${META.profissionais.competencia} · IDEB 2025 · ICA 2025 · Fundeb até ${MESES[META.fin.fundeb.ultimo_mes_complementacao - 1]}/2026 · ICMS até ${MESES[META.fin.icms.meses.at(-1) - 1]}/2026`;
-document.getElementById('foot-gen').textContent = `Sapion Data ${DATA.versao} · dados processados em ${DATA.gerado_em}`;
+document.getElementById('stamp').textContent = `Folha ${META.profissionais.competencia} · IDEB 2025 · ICA 2025 · Fluência ${META.flu?.anos.at(-1) || ''} · Escolas: Censo ${META.esc?.ano_censo || ''} · Fundeb até ${MESES[META.fin.fundeb.ultimo_mes_complementacao - 1]}/2026 · ICMS até ${MESES[META.fin.icms.meses.at(-1) - 1]}/2026`;
+document.getElementById('foot-gen').textContent = `Sapion Data ${DATA.versao} · dados atualizados em ${DATA.versao_info.dados_atualizados_em}`;
+
+/* indicador de versão (abaixo do logo) e janela de novidades */
+const verBtn = document.getElementById('ver-btn'), verDlg = document.getElementById('ver-dlg');
+verBtn.innerHTML = `<b>Versão ${esc(DATA.versao_info.versao)}</b> · dados de ${esc(DATA.versao_info.dados_atualizados_em)}`;
+verBtn.title = 'Ver novidades da versão';
+document.getElementById('ver-body').innerHTML = `<h2 id="ver-title">Novidades do Sapion Data</h2>
+  <p class="small muted">Versão em uso: ${esc(DATA.versao_info.versao)} · dados atualizados em ${esc(DATA.versao_info.dados_atualizados_em)}</p>
+  ${DATA.versao_info.historico.map(r => `<div class="rel"><h3>Versão ${esc(r.versao)} <span>${esc(r.data)}</span></h3><ul>${r.itens.map(i => `<li>${esc(i)}</li>`).join('')}</ul></div>`).join('')}
+  <button class="btn close" type="button" id="ver-close">Fechar</button>`;
+verBtn.addEventListener('click', () => { try { verDlg.showModal(); } catch (e) { verDlg.setAttribute('open', ''); } });
+verDlg.addEventListener('click', e => { if (e.target === verDlg || e.target.id === 'ver-close') verDlg.close(); });
 
 /* seletores de estado (tela inicial e panorama): só estados com dados ficam habilitados; os demais indicam a expansão */
 const ufSel = document.getElementById('uf-select'), fUf = document.getElementById('f-uf');

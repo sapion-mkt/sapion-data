@@ -3,14 +3,10 @@ import sys
 
 from python_calamine import CalamineWorkbook
 
-from common import src, load_municipios, save_json, rnd
+from common import load_municipios, save_json, rnd
+import fontes
 
-FILES = {
-    'AI': src('IDEB', 'divulgacao_anos_iniciais_municipios_2025', 'divulgacao_anos_iniciais_municipios_2025',
-              'divulgacao_anos_iniciais_municipios_2025.xlsx'),
-    'AF': src('IDEB', 'divulgacao_anos_finais_municipios_2025', 'divulgacao_anos_finais_municipios_2025',
-              'divulgacao_anos_finais_municipios_2025.xlsx'),
-}
+FILES = {'AI': 'anos_iniciais', 'AF': 'anos_finais'}  # trecho do nome do arquivo na fonte inep-ideb-municipios
 ANOS = [2021, 2023, 2025]
 # códigos de coluna do cabeçalho técnico da planilha do Inep
 CODES = {'ideb': 'VL_OBSERVADO_{}', 'saeb': 'VL_NOTA_MEDIA_{}', 'mat': 'VL_NOTA_MATEMATICA_{}',
@@ -31,7 +27,7 @@ def num(v):
 
 
 def read(etapa):
-    wb = CalamineWorkbook.from_path(FILES[etapa])
+    wb = CalamineWorkbook.from_path(fontes.arquivo('inep-ideb-municipios', FILES[etapa]))
     rows = wb.get_sheet_by_name(wb.sheet_names[0]).to_python()
     header = next(r for r in rows if r and r[0] == 'SG_UF')
     idx = {h: i for i, h in enumerate(header)}

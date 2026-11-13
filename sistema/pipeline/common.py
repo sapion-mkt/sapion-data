@@ -69,7 +69,8 @@ def brl(v):
 
 def load_municipios():
     """Tabela-dimensão: 78 municípios do ES com IBGE (texto), SIAFI e nome."""
-    df = pd.read_csv(src('Financiamento da Educação', 'Complementações do FUNDEB', '2026', 'janeiro.csv'),
+    import fontes  # tabela de municípios: IBGE, SIAFI e nome padronizados vêm do CSV do Tesouro
+    df = pd.read_csv(fontes.arquivos('tesouro-fundeb-mensal')[0],
                      sep=';', encoding='latin-1', dtype=str)
     d = (df[['Código IBGE', 'Código SIAFI', 'Município']].drop_duplicates()
          .rename(columns={'Código IBGE': 'ibge', 'Código SIAFI': 'siafi', 'Município': 'nome'}))

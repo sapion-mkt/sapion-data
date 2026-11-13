@@ -1,0 +1,25 @@
+{
+ "versao": "1.1",
+ "dados_atualizados_em": "13/11/2026",
+ "historico": [
+  {
+   "versao": "1.1",
+   "data": "13/11/2026",
+   "itens": [
+    "Indicador de versão abaixo do logo, com o histórico de novidades.",
+    "Novo bloco Escolas: escolas municipais e estaduais de cada município, com matrículas por etapa, IDEB por escola (2021, 2023 e 2025) e Fluência em Leitura por escola. A lista pode ser baixada em Excel.",
+    "Avaliação da Fluência em Leitura (ES) no bloco de Alfabetização: pré-leitores, leitores iniciantes e leitores fluentes de 2022 a 2025, por rede.",
+    "Novo padrão de atualização: catálogo de fontes, pasta de fontes padronizada, conferência automática dos dados e relatório do que mudou a cada atualização."
+   ]
+  },
+  {
+   "versao": "1.0",
+   "data": "30/09/2026",
+   "itens": [
+    "Primeira versão: profissionais da educação, IDEB, alfabetização e financiamento da educação (Fundeb, VAAR, VAAT e ICMS Educacional) dos 78 municípios do ES.",
+    "Saldo e perda estimados por município, com a conta explicada passo a passo.",
+    "Panorama do estado, metodologia e fontes, exportação do relatório em PDF e dos quadros em PNG."
+   ]
+  }
+ ]
+}
